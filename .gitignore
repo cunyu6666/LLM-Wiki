@@ -1,0 +1,14 @@
+# Temporary scripts
+classify_and_ingest.py
+dedup_wiki.py
+enhance_wiki.py
+extract_content.py
+
+# Extracted data
+_extracted/
+
+# macOS
+.DS_Store
+
+# Cubox cache
+Cubox/

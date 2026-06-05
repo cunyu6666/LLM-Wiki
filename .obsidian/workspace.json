@@ -1,0 +1,227 @@
+{
+  "main": {
+    "id": "2fe293d13a08d9ee",
+    "type": "split",
+    "children": [
+      {
+        "id": "cbff0d4cedc9bc8e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7b5151469d781020",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wiki/design/动效与加载.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "动效与加载"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d1494969110c8eea",
+    "type": "split",
+    "children": [
+      {
+        "id": "dac12714fc8d7022",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b264edf6b447c59b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "43cc2d0b0e57dc01",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "57813d4234fb33df",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "4ceea56ac7f702e8",
+    "type": "split",
+    "children": [
+      {
+        "id": "d22b7c0f1f385479",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4d4d9774101f21bf",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "wiki/design/动效与加载.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "动效与加载 的反向链接列表"
+            }
+          },
+          {
+            "id": "ae97f9f0638d581d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "skills/karpathy-llm-wiki/examples/log-sample.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "log-sample 的出链列表"
+            }
+          },
+          {
+            "id": "d7b65b2fa0dc7dc1",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "e54c21d23f130c67",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "5c7ea6f95fa570ff",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "wiki/design/动效与加载.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "动效与加载 的大纲"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false,
+      "cubox-sync:Cubox": false
+    }
+  },
+  "active": "7b5151469d781020",
+  "lastOpenFiles": [
+    "wiki/design/背景与渐变.md",
+    "wiki/design/UX与交互研究.md",
+    "wiki/design/设计师成长.md",
+    "wiki/design/设计系统.md",
+    "wiki/design/图标.md",
+    "wiki/design/AI编程与Vibe Coding.md",
+    "wiki/design/数据与可视化.md",
+    "wiki/design/样机.md",
+    "wiki/design/3D模型.md",
+    "dedup_wiki.py",
+    "enhance_wiki.py",
+    "_extracted/all_articles.json",
+    "_extracted",
+    "extract_content.py",
+    "wiki/design/前端实现.md",
+    "wiki/design/作品集.md",
+    "wiki/design/其他资源.md",
+    "wiki/design/材质与拟物.md",
+    "wiki/design/教程与复刻.md",
+    "wiki/design/硬件项目.md",
+    "wiki/design/AI应用.md",
+    "wiki/design/Figma技巧与插件.md",
+    "wiki/design/SVG素材.md",
+    "wiki/design/图库与配色.md",
+    "wiki/design/免费资源.md",
+    "wiki/design/灵感网站.md",
+    "wiki/design/动效与加载.md",
+    "wiki/design/UI模板与设计系统.md",
+    "wiki/design/字体.md",
+    "wiki/design/插画.md",
+    "wiki/design/作品集-背景与渐变.md",
+    "classify_and_ingest.py",
+    "Cubox",
+    "raw/design",
+    "raw/产品介绍",
+    "raw/AI实操"
+  ]
+}
