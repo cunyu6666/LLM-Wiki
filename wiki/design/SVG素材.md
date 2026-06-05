@@ -1,4 +1,4 @@
-# 作品集-SVG素材
+# SVG素材
 
 > 48 moonvy 设计素材周刊条目
 
@@ -13,7 +13,6 @@
 整合自 [Moonvy 月维](https://moonvy.com)「设计素材周刊」共 48 个「SVG素材」类条目，覆盖周刊 #005-#212 期间。排序按周报期数倒序（最新在前）。
 
 ## 条目
-
 ### SVG 矢量形状集合
 
 > 来源：周刊 #212 · 2026/05/25 · [https://moonvy.com/blog/post/%E8%AE%BE%E8%AE%A1%E7%B4%A0%E6%9D%90%E5%91%A8%E5%88%8A/212/](https://moonvy.com/blog/post/%E8%AE%BE%E8%AE%A1%E7%B4%A0%E6%9D%90%E5%91%A8%E5%88%8A/212/)

@@ -30,8 +30,8 @@
   "contentTemplate": "# {{{title}}}\n\n{{{description}}}\n\n[Read in Cubox]({{{cubox_url}}})  \n[Read Original]({{{url}}})  \n\n---\n\n{{#highlights.length}}\n## Annotations  \n\n{{#highlights}}\n> {{{text}}}  \n\n{{{content}}}\n\n{{#note}}\n{{{note}}}\n{{/note}}\n[Link️]({{{cubox_url}}})  \n\n{{/highlights}}\n{{/highlights.length}}",
   "highlightInContent": true,
   "dateFormat": "yyyy-MM-dd",
-  "lastSyncTime": 1780674827472,
-  "lastSyncCardId": "7462582248080934077",
-  "lastCardUpdateTime": "2026-06-05T22:30:41.014+0800",
+  "lastSyncTime": 1780687427403,
+  "lastSyncCardId": "7462514249252735443",
+  "lastCardUpdateTime": "2026-06-06T00:45:09.487+0800",
   "syncing": false
 }

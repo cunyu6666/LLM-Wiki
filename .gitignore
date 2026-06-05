@@ -12,3 +12,6 @@ _extracted/
 
 # Cubox cache
 Cubox/
+
+# Large video files
+*.mp4

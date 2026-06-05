@@ -4,58 +4,52 @@
 
 设计师日常工作场景知识库，涵盖工具、方法论、案例与行业洞察。
 
+### 知识洞察
+
+编译型文章，从多源素材提炼观点与趋势。
 
 | Article | Summary | Sources |
 |---------|---------|---------|
-| [AI Agent 开发](design/AI Agent 开发.md) | Karpathy："未来十年没有 AGI，只有 Agent。"从 MCP/A2A 协议到 Agent Skills 生态，从 OpenClaw 起落到 Harness 托管式部署，Agent 开发正从概念验证走向产业落地。 | 57 |
-| [AI实操与工具](design/AI实操与工具.md) | Prompt 之神李继刚的方法论、谷歌 Prompt 指南 101、Manus 工作流揭秘。从 AI 内容生成到知识管理，日常工作中直接可用的 AI 实战技能。 | 28 |
-| [AI编程与Vibe Coding](design/AI编程与Vibe Coding.md) | "设计师将开始写代码，工程师将开始做设计，我们的共同语言就是代码。"——Cursor 华人设计负责人 Ryo Lu 的这句话精准概括了这个领域正在发生的变化。A | 146 |
-| [AI设计工具](design/AI设计工具.md) | AI 正在重塑设计师的工具链。从 2024 年底开始，一波 AI 原生设计工具集中爆发：Claude Design 让"一句话出界面"成为现实，Lovart/A | 647 |
-| [LLM与大模型](design/LLM与大模型.md) | DeepSeek 黑马搅局、Gemini 全面登顶、Ilya 宣判预训练终结——模型格局剧变。5 万字讲透 Transformer，Karpathy 年终清单，多模态模型快速扩展。 | 50 |
-| [UI设计与组件](design/UI设计与组件.md) | UI 设计正在经历一场"风格回归"与"AI 重塑"的双重变革。一方面，Bento UI（便当盒式布局）从 2024 年开始持续流行，苹果 Widget、Wind | 39 |
-| [UX与交互研究](design/UX与交互研究.md) | UX 设计正在经历从"UX"到"AX"（Agent Experience）的范式革命。2026 年的设计报告指出：AI Agent 可以跳过层层界面，直接将用户 | 65 |
-| [作品集](design/作品集.md) | 作品集是设计师的"产品"，也是 AI 时代变化最大的设计交付物之一。Behance 和 Dribbble 依然是灵感和案例的主要来源，但作品集的形态正在从"静态 | 1517 |
-| [图标](design/图标.md) | 图标库、icon 集合 | 272 |
-| [插画](design/插画.md) | 插画、插画师、头像 | 126 |
-| [3D模型](design/3D模型.md) | 3D 模型、立体资产 | 86 |
-| [字体](design/字体.md) | 字体、字库、Typography | 97 |
-| [背景与渐变](design/背景与渐变.md) | 背景、渐变、纹理、壁纸 | 67 |
-| [UI模板与设计系统](design/UI模板与设计系统.md) | UI 模板、组件库、设计系统、Apple 资源 | 185 |
-| [动效与加载](design/动效与加载.md) | 动效、加载动画、交互 Demo | 63 |
-| [样机](design/样机.md) | MOC 索引页：Moonvy 月维 30 条样机资源聚合 | 30 |
-| [灵感网站](design/灵感网站.md) | 灵感站、Behance/Dribbble、网站案例、订阅 | 81 |
-| [免费资源](design/免费资源.md) | 免费、开源、下载 | 58 |
-| [图库与配色](design/图库与配色.md) | 图库、配色工具 | 15 |
-| [SVG素材](design/SVG素材.md) | SVG 矢量、形状、花纹 | 48 |
-| [数据与可视化](design/数据与可视化.md) | 数据可视化、图表、年度报告 | 16 |
-| [Figma技巧与插件](design/Figma技巧与插件.md) | Figma 技巧、Chrome/Sketch 插件 | 18 |
-| [AI应用](design/AI应用.md) | AI 应用、提示词、vibe coding | 23 |
-| [硬件项目](design/硬件项目.md) | 硬件、Arduino、ESP32 | 4 |
-| [教程与复刻](design/教程与复刻.md) | 教程、设计师技能、复刻作品 | 19 |
-| [材质与拟物](design/材质与拟物.md) | 金属/玻璃/拟物/材质素材 | 15 |
-| [其他资源](design/其他资源.md) | 其他（不易归类的资源） | 285 |
-| [作品集-图标](design/作品集-图标.md) | 图标库、icon 集合 | 272 |
-| [作品集-插画](design/作品集-插画.md) | 插画、插画师、头像 | 126 |
-| [作品集-3D模型](design/作品集-3D模型.md) | 3D 模型、立体资产 | 87 |
-| [作品集-字体](design/作品集-字体.md) | 字体、字库、Typography | 97 |
-| [作品集-背景与渐变](design/作品集-背景与渐变.md) | 背景、渐变、纹理、壁纸 | 67 |
-| [作品集-UI模板与设计系统](design/作品集-UI模板与设计系统.md) | UI 模板、组件库、设计系统、Apple 资源 | 185 |
-| [作品集-动效与加载](design/作品集-动效与加载.md) | 动效、加载动画、交互 Demo | 63 |
-| [作品集-灵感网站](design/作品集-灵感网站.md) | 灵感站、Behance/Dribbble、网站案例、订阅 | 81 |
-| [作品集-免费资源](design/作品集-免费资源.md) | 免费、开源、下载 | 58 |
-| [作品集-图库与配色](design/作品集-图库与配色.md) | 图库、配色工具 | 15 |
-| [作品集-SVG素材](design/作品集-SVG素材.md) | SVG 矢量、形状、花纹 | 48 |
-| [作品集-数据与可视化](design/作品集-数据与可视化.md) | 数据可视化、图表、年度报告 | 16 |
-| [作品集-Figma技巧与插件](design/作品集-Figma技巧与插件.md) | Figma 技巧、Chrome/Sketch 插件 | 18 |
-| [作品集-AI应用](design/作品集-AI应用.md) | AI 应用、提示词、vibe coding | 23 |
-| [作品集-硬件项目](design/作品集-硬件项目.md) | 硬件、Arduino、ESP32 | 3 |
-| [作品集-教程与复刻](design/作品集-教程与复刻.md) | 教程、设计师技能、复刻作品 | 19 |
-| [作品集-材质与拟物](design/作品集-材质与拟物.md) | 金属/玻璃/拟物/材质素材 | 15 |
-| [作品集-其他资源](design/作品集-其他资源.md) | 其他（不易归类的资源） | 285 |
-| [前端实现](design/前端实现.md) | 前端实现是设计师将创意落地的最后一步。2024-2025 年间，技术栈发生了显著迁移：Tailwind CSS + shadcn/ui 的组合正在取代 Elem | 76 |
-| [动效与动画](design/动效与动画.md) | 动效设计在 2025 年迎来工具民主化阶段。Uiverse.io 提供"复制粘贴就能用"的前端动画库，Phase 让非专业设计师也能创建专业级动画，Lottie | 51 |
-| [品牌与视觉](design/品牌与视觉.md) | 品牌视觉设计在 AI 时代面临双重挑战：既要保持品牌识别的一致性，又要适应 AI 生成内容带来的新可能性。本章收录的案例覆盖了从传统品牌标志设计到 AI 辅助品 | 27 |
-| [行业案例与趋势](design/行业案例与趋势.md) | 设计知识库的最大板块，收录企业设计案例、行业报告、设计趋势分析和产品体验。覆盖从阿里云设计中心年鉴到全球 AI 产品榜单的广泛内容。 | 1125 |
-| [设计师成长](design/设计师成长.md) | AI 时代设计师的角色正在发生根本性转变。"设计师的圣诞树"（技能树不断膨胀但收入不涨）引发了广泛共鸣，但更深层的变化是：设计师的核心能力从"执行"转向"判断" | 17 |
-| [设计方法论](design/设计方法论.md) | 设计方法论在 AI 时代正在被重新定义。三个方向值得关注：**设计原则的 AI 化**（钉钉 AI 设计指南展示了行业智能化实践）、**Prompt 作为新的设 | 52 |
-| [设计系统](design/设计系统.md) | 设计系统正在从"组件库管理"进化为"AI 时代的协作基础设施"。传统的设计系统治理（组件文档化、信息架构、评估基准、术语规范）依然是基石，但 AI 带来了两个根 | 20 |
+| [行业案例与趋势](design/行业案例与趋势.md) | 企业设计案例、行业报告、设计趋势与产品体验分析 | 1130 |
+| [AI设计工具](design/AI设计工具.md) | AI 原生设计工具：Claude Design、Lovart、Figma AI 等；与 AI应用 分工明确 | 647 |
+| [AI编程与Vibe Coding](design/AI编程与Vibe Coding.md) | Cursor、Vibe Coding 与 AI 辅助开发范式 | 146 |
+| [AI Agent 开发](design/AI Agent 开发.md) | MCP/A2A、Agent Skills、Harness 托管式部署 | 57 |
+| [LLM与大模型](design/LLM与大模型.md) | DeepSeek、Gemini、预训练终结、多模态扩展 | 50 |
+| [UX与交互研究](design/UX与交互研究.md) | 从 UX 到 AX（Agent Experience） | 65 |
+| [UI设计与组件](design/UI设计与组件.md) | Bento UI、AI 重塑组件设计 | 39 |
+| [前端实现](design/前端实现.md) | Tailwind + shadcn/ui；含 CSS writing-mode 编译 | 77 |
+| [动效与动画](design/动效与动画.md) | Uiverse.io、Phase、Lottie 动效工具民主化 | 51 |
+| [3D模型](design/3D模型.md) | **Spline 轻量 3D 工具编译** + Moonvy 3D 素材目录 | 87+7 |
+| [设计方法论](design/设计方法论.md) | AI 时代设计方法论重定义 | 52 |
+| [设计系统](design/设计系统.md) | AI 时代协作基础设施 | 20 |
+| [品牌与视觉](design/品牌与视觉.md) | 品牌识别与 AI 生成内容 | 27 |
+| [设计师成长](design/设计师成长.md) | 从"执行"转向"判断" | 17 |
+| [AI实操与工具](design/AI实操与工具.md) | Prompt 方法论、Manus 工作流 | 28 |
+| [抖音设计短视频](design/抖音设计短视频.md) | 425 条设计类抖音文字稿索引 | 425 |
+
+### 设计资源
+
+[MOC 总索引 → 设计资源](design/设计资源.md)
+
+| Article | Summary | Entries |
+|---------|---------|---------|
+| [图标](design/图标.md) | 图标库、动态图标 | 282 |
+| [UI模板与设计系统](design/UI模板与设计系统.md) | Figma 组件库、设计系统文件 | 235 |
+| [灵感网站](design/灵感网站.md) | 灵感站、网站案例、微交互灵感 | 136 |
+| [插画](design/插画.md) | 插画师、头像、手绘素材 | 136 |
+| [其他资源](design/其他资源.md) | 剩余实验性/杂项条目 | 81 |
+| [字体](design/字体.md) | 字库、Typography | 101 |
+| [3D模型](design/3D模型.md) | 含 Spline 编译 + 3D 素材目录 | 87 |
+| [背景与渐变](design/背景与渐变.md) | 背景、渐变、纹理 | 67 |
+| [动效灵感](design/动效灵感.md) | 加载动画、微交互 Demo | 62 |
+| [免费资源](design/免费资源.md) | 免费、开源素材 | 60 |
+| [SVG素材](design/SVG素材.md) | SVG 矢量、形状 | 48 |
+| [AI应用](design/AI应用.md) | AI 原生产品案例（非设计工具链） | 46 |
+| [作品集](design/作品集.md) | Behance/Dribbble 作品集 | 0 |
+| [教程与复刻](design/教程与复刻.md) | 教程、技能、复刻 | 25 |
+| [Figma技巧与插件](design/Figma技巧与插件.md) | Figma 技巧与插件 | 23 |
+| [数据与可视化](design/数据与可视化.md) | 数据可视化、大屏 | 16 |
+| [图库与配色](design/图库与配色.md) | 图库、配色工具 | 17 |
+| [材质与拟物](design/材质与拟物.md) | 金属/玻璃/拟物材质 | 16 |
+| [样机](design/样机.md) | MOC：30 条样机跨文索引 | 30 |
+| [硬件项目](design/硬件项目.md) | Arduino、ESP32 DIY | 4 |
