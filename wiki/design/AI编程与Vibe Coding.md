@@ -97,7 +97,6 @@
 - [AI编程黑马Lovable员工写了份AI设计师手册](../../raw/design/2025-08-18-AI编程黑马Lovable员工写了份AI设计师手册.md)
 
 > AI编程赛道跑出今年吸金的黑马，45人团队，8个月做到1亿美金年收入，Lovable的员工今天写了一份【新设计师手册】，AI时代，10倍设计师人才的原则！
-> ﻿#AIGC\[话题\]#﻿ ﻿#AI\[话题\]#﻿ ﻿#黑科技\[话题\]#﻿ ﻿#设计师\[话题\]#﻿ ﻿#AI设计\[话题\]#﻿ ﻿#科技\[话题\]#﻿ ﻿#科普\[话题\]#﻿ ﻿#AI绘画\[话题\]#﻿ ﻿#ai绘画\[话题\]#﻿ ﻿#设计\[话题\]#﻿
 ![](http://sns-webpic-qc.xhscdn.com/202508182007/b1dff6762d06899b9af47936696aec94/spectrum/1040g34o31lai6i6u4u0g5oot9pm8v9431vrovc0!nd_dft_wlteh_jpg_3&valid=false)
 
 - [喝点VCYC对谈Anthropic联创MCP和Claude Code的成功有相似之处都在于以模型为核心的研发思路](../../raw/design/2025-09-12-喝点VCYC对谈Anthropic联创MCP和Claude-Code的成功有相似之处都在于以模型为核心的研发思路.md)
@@ -114,7 +113,6 @@
 
 - [Cursor 设计总监 Ryo Lu 亲荐12条Cursor实战技巧15分钟上手指南](../../raw/design/2025-12-24-Cursor-设计总监-Ryo-Lu-亲荐12条Cursor实战技巧15分钟上手指南.md)
 
-> 因公众号更改推送规则，请将 程序视点设为星标,精品文章第一时间阅读
 > 这段时间，有不少新来的读者朋友，在买Cursor Pro的时候，是不是都会问"有没有Cursor的使用教程或经验技巧？"
 ![](https://mmbiz.qpic.cn/sz_mmbiz_gif/NRibOHYeicUbc8gpuBuTWbHy9bGLtRIEvrusUicAoQXPLfhRicUPcibcqHnPWu3vg42VH5Q1iboNJicicIib9RO9icwsSOaQ/640?wx_fmt=gif&from=appmsg&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=0)
 
@@ -256,149 +254,11 @@ Cursor 是当前 AI 编程工具中设计师渗透率最高的产品。Ryo Lu（
 
 技术层面，MCP（Model Context Protocol）让 Cursor 打通了 Figma——通过 Magic MCP 插件，设计师可以直接在 Cursor 中调用 Figma 设计稿生成 UI 代码。CopyCoder、Devbox 等工具进一步降低了"零代码开发上线"的门槛。Kiro 曾被视为 Cursor 的有力竞争者，但"深度体验一周后劝大家卸载"的评价说明 Cursor 的生态壁垒已经很高。
 
-- [Cursor出彩的背后Prompt设计好比网页设计](../../raw/design/2024-09-04-Cursor出彩的背后Prompt设计好比网页设计.md)
-
-> AI IDE------Cursor近日爆火，网络上有关cursor使用技巧的文章和视频一下子多了起来，之前笔者也有介绍。（大胆问，别尴尬，AI IDE（Cursor）可能比你想的强大（中外实际体验对比差距大【有视频】））。
-> 今天，带大家从另一个角度认识Cursor。Cursor除了产品交互设计充分考虑开发者习惯，将AI有机的融入到开发过程外，作为一款大模型驱动的应用，其核心壁垒便是如何利用大模型实现其功能，这时候prompt工程水平高低就变成了壁垒。那么，Cursor的prompt是什么样的呢？这就引起了很多人的好奇心，有这么一段prompt，据说是Cursor的prompt。
-![](https://mmbiz.qpic.cn/mmbiz_png/aaN2xdFqa4Gs5QuxCvMGUsUMaBfibics7gqmcj65HRV8CSPxUOXibXAtIWxeMh7AmwF8IXusXsASiag4pmV6bejFWA/640?wx_fmt=png&from=appmsg)
-
-- [一行代码不写搞定开发和上线Cursor DevboxAI写代码全栈开发DockerK8S_哔哩哔哩_bilibili](../../raw/design/2024-11-25-一行代码不写搞定开发和上线Cursor-DevboxAI写代码全栈开发DockerK8S_哔哩哔哩_bilibili.md)
-
-> Devbox 地址：https://cloud.sealos.run/?uid=Kt1gH3_BTa 提示词文档：https://square-raver-97d.notion.site/cursor-12f9f3b8b57980fbbb52f5106d3a6a00 更换镜像源命令：npm config set registry https://registry.npmmirror.com qq交...
-![](https://s1.hdslb.com/bfs/static/player/img/h5.png)
-
-- [CopyCoder AI让Cursor进一步提效的神器](../../raw/design/2024-12-03-CopyCoder-AI让Cursor进一步提效的神器.md)
-
-> 大家好，今天想跟大家聊聊一款挺有趣的开发工具------CopyCoder AI 。它的核心功能就是把UI设计图 （比如 Figma 截图或者其他界面的草图）转成AI开发工具的提示词（Prompts） 。听起来是不是有点像开发界的"翻译官"？
-> 的确如此，他可以解决我们在使用 AI 工具如 Cursor 高效开发时的一个非常关键的问题，生成高质量的提示词 。想象一下，你是否因为提示词不专业，导致生成的界面不及预期，进而后面频繁调整而浪费了大量的时间。提示词如果配合 UI 设计图能够都做到比较高质量的话，后面的模块化开发将会非常省事，如果在开头就跌倒了，基本上就输在了起跑线上了。
-![](https://mmbiz.qpic.cn/mmbiz_png/oXqG8ETvAekic58asEuG1l4qoC6bvYS2LzmbjD8753svDpwDRmDMSIbl79ZWfIVjWpOhHhBiau6ia3Gr8icpCAWTHA/640?wx_fmt=png&from=appmsg)
-
-- [Onlook 设计师的光标     Onlook Cursor for Designers](../../raw/design/2025-02-17-Onlook-设计师的光标-----Onlook-Cursor-for-Designers.md)
-
-> Onlook writes reliable code you can trust, exactly where it needs to go
-> When this is clicked, make the map card appear and have an active background
-![](https://framerusercontent.com/images/lnBhQ9rLMPEkAFvAjHNPBJcAVh0.png&valid=true)
-
-- [Cursor 新版本提前预览 UI 大变更](../../raw/design/2025-02-22-Cursor-新版本提前预览-UI-大变更.md)
-
-> 提前拿到了 0.46 版本，我这里只是简单体验了不到一天。更多变动可能没注意到，或者和最终的版本还有差别，难免有遗漏和错误的地方。
-> Cursor 即将发布的大版本更新是 0.46，这次提前拿到了新版本，也简单体验了一下，简单记录下新版本都有什么变化。
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/hGFJYrPZQhI3icR0khV1BK7IHU0a6ZP6wZd7ibc3Sib5jQE96GxjhuASBfG1GMRuLtnDTyAUgicicE4rohUkicYRlceQ/640?wx_fmt=png&from=appmsg)
-
-- [如何在Cursor中使用Magic MCP生成好看的UI](../../raw/design/2025-03-23-如何在Cursor中使用Magic-MCP生成好看的UI.md)
-
-> 21st.dev发布的Magic Component Platform (MCP) 是一个强大的AI驱动工具，帮助开发者通过自然语言描述即时创建美观、现代的UI组件。它与流行的IDE无缝集成，为UI开发提供流畅的工作流程。
-> - 现代组件库 ：访问大量受21st.dev启发的预构建、可定制组件
-![](https://mmbiz.qpic.cn/mmbiz_png/xFbsATlObBIeMyPOnfMy7HX0zdvHhnhicr2OiaibWxUmKAzKLXkL7TUZtiaDdEBJnKic3ibdFWibqcZZvcuRrNtfxicL2w/640?wx_fmt=png&from=appmsg)
-
-- [好家伙MCP 和 Cursor AI 联手打通了 Figma 的任督二脉](../../raw/design/2025-03-24-好家伙MCP-和-Cursor-AI-联手打通了-Figma-的任督二脉.md)
-
-> 哈喽大家好，我是老码小张！一个喜欢琢磨技术背后的原理，还老想着怎么用技术搞点事情的家伙。
-> 最近我发现了一个超酷的玩意儿，能让 Cursor AI 直接跟 Figma 沟通！Cursor 你们知道吧？就是那个号称能帮你写代码、改 bug 的 AI 编程助手。Figma 呢，就是设计师们最爱的那个设计神器。
-![](https://mmbiz.qpic.cn/mmbiz_png/oXqG8ETvAemMfCoAdQJtAxY3hVSu4DybnbbUGDsKOQnb9ib55Czc3GFb0TuvuF0cK4ux9KxZGW1Vh1rjKxsaEEw/640?wx_fmt=png&from=appmsg)
-
-- [如何在Cursor中使用Magic MCP生成好看的UI第二期](../../raw/design/2025-03-28-如何在Cursor中使用Magic-MCP生成好看的UI第二期.md)
-
-> 大家好，上一期关于Magic MCP的教程大家反响十分强烈，这一期分享一下我在使用Magic MCP的小技巧。
-> 1、首先，先对上一期文章做个勘误，在测试在Cursor中调用Magic MCP时提示调用出错了，打开里面的调用结果提示502的服务器错误。
-![](https://mmbiz.qpic.cn/mmbiz_png/xFbsATlObBIeMyPOnfMy7HX0zdvHhnhicr2OiaibWxUmKAzKLXkL7TUZtiaDdEBJnKic3ibdFWibqcZZvcuRrNtfxicL2w/640?wx_fmt=png&from=appmsg)
-
-- [Cursor首席设计师谈 AI 应用的 UI 和 Cursor 的 UX 经验](../../raw/design/2025-07-19-Cursor首席设计师谈-AI-应用的-UI-和-Cursor-的-UX-经验.md)
-
-> 最近，我看了很多遍 Cursor 首席设计师 Ryo Lu 的访谈。Ryo 曾是 Notion 的首席设计师，今年跳槽到了 Cursor。
-> Ryo 不是那种传统意义上只关注界面设计的设计师，尤其是加入 Cursor 之后，他已经开始通过 Vibe Coding 写代码，参与产品原型的开发。
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vHicVZXtcAzACawm7Wc5OZ4ZLYl9viaiawZ2keSu5pRTE7Xj2fsCrDlk8O9YjW5SKa8DgoduXCDQ9tQUFohvjiboYg/640?wx_fmt=png&from=appmsg)
-
-- [深度体验 Kiro 一周我劝大家卸载 Cursor](../../raw/design/2025-07-21-深度体验-Kiro-一周我劝大家卸载-Cursor.md)
-
-> Kiro（音标：英式 \[ˈkaɪroʊ\] 美式 \[ˈkɪərəʊ\]），在 7.14 公布预览版后，由于开发者过于热情，官网已经关闭了下载入口，需要加入候补名单，但其实并没有硬性限制，只要有安装包就能够注册体验。 > 如需获取最新安装包，可向本公众号发送关键词：kiro
-> 预览版期间可以免费体验 Kiro 的全部功能，目前提供 2 款前沿的编程领域模型： Claude Sonnet 4.0 与 Claude Sonnet 3.7。
-![](https://mmbiz.qpic.cn/mmbiz_png/lotkgsB9Y3HxrJ5ZyfYAp3pYCW7QYvGzZorGq9YoJ4fia3FJZTBaC9OD5LzYOMdRSubia4BiaicKRV75USWtMYrkibQ/640?wx_fmt=png&from=appmsg&randomid=io2qvwge)
-
-- [从设计到编码设计不再困在 Figma 里来自Cursor设计负责人 Ryo Lu](../../raw/design/2025-12-18-从设计到编码设计不再困在-Figma-里来自Cursor设计负责人-Ryo-Lu.md)
-
-> 如果你是设计师，大概经历过这样的日常： 工程师好不容易把页面做出来了；你打开一看：
-> 然后开始截图、红线、写备注："这里偏了 50 像素，这里字号不对，这里不该有阴影......"
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/j0vJExfUpoONKklibDCyu9SRdRoBibPylR7a9aNzGJ63nDwLJXI6FOtoM6txhs0jE4PAMAhtSkZJKSEIQqAqLvOw/640?wx_fmt=jpeg&from=appmsg&watermark=1#imgIndex=0)
-
-- [Cursor 设计总监 Ryo Lu 亲荐12条Cursor实战技巧15分钟上手指南](../../raw/design/2025-12-24-Cursor-设计总监-Ryo-Lu-亲荐12条Cursor实战技巧15分钟上手指南.md)
-
-> 因公众号更改推送规则，请将 程序视点设为星标,精品文章第一时间阅读
-> 这段时间，有不少新来的读者朋友，在买Cursor Pro的时候，是不是都会问"有没有Cursor的使用教程或经验技巧？"
-![](https://mmbiz.qpic.cn/sz_mmbiz_gif/NRibOHYeicUbc8gpuBuTWbHy9bGLtRIEvrusUicAoQXPLfhRicUPcibcqHnPWu3vg42VH5Q1iboNJicicIib9RO9icwsSOaQ/640?wx_fmt=gif&from=appmsg&wxfrom=5&wx_lazy=1&tp=webp#imgIndex=0)
-
-- [喝点VCYC对话Cursor华人设计负责人设计师将开始写代码工程师将开始做设计我们的共同语言就是代码](../../raw/design/2025-12-28-喝点VCYC对话Cursor华人设计负责人设计师将开始写代码工程师将开始做设计我们的共同语言就是代码.md)
-
-> - 我真正的学习方式就是通过动手做东西。在不知道自己到底在干什么的情况下构建东西。我不懂那些概念和词汇。我想做这个。我就去搞清楚怎么做。用手头现有的任何工具，然后通过实践来学习。
-> - 角色将开始模糊。设计师将开始写代码。工程师将开始做设计。然后我们共同的语言就是代码。它不仅仅是图片框，不是像素值，而是代码。你不是从把每一点细节都弄得完美开始。你实际上是从构建开始。你带着一个模糊的想法开始。你把它放进Agent里。
-![](https://image.cubox.pro/cardImg/27zbwi1d1jlsvwa2t0p5loxkjoy5hpdzd3ovvbzx1zcpkcxcm4?imageMogr2/quality/90/ignore-error/1)
-
 ## Claude Code 与可视化
 
 Claude Code 最初是纯命令行工具，对设计师极不友好。2026 年初开始，一波可视化工具涌现：ZCode（智谱 AI 发布）、Trickle（云端带界面）、Claude Cowork（协作模式）让 Claude Code 从"盲开"变成了"可视化驾驶"。Anthropic 联创在访谈中透露"MCP 和 Claude Code 的成功有相似之处，都在于以模型为核心的研发思路"。
 
 Claude Cowork 的发布引发热议——有人感叹"杀死了我的创业公司"，因为一个人用 Claude Code 就能做到以前整个团队的事。Claude Code Game Studios 更是展示了一个极端案例：AI 会话直接变成游戏工作室，"一人顶 48 人游戏开发团队"。Huashu Design（149K Star）则让 Claude Code 直接变身"大厂设计团队"，一句话就能出设计。
-
-- [喝点VCYC对谈Anthropic联创MCP和Claude Code的成功有相似之处都在于以模型为核心的研发思路](../../raw/design/2025-09-12-喝点VCYC对谈Anthropic联创MCP和Claude-Code的成功有相似之处都在于以模型为核心的研发思路.md)
-
-> - 尤其是"Scaling Laws"的曲线------跨越12个数量级，还能保持几乎直线的增长。我不是物理学家，但看到这个结果，我完全被说服了，决定把所有工作重心转向规模化训练。 很多研究人员也觉得这不够优雅，就是"堆层数"。不过我们后来也形成了一种心态------"用最笨的方法做成事"。 Scaling Laws就是最典型的例子：看似简单粗暴，但它真的有效。
-> - 我们都觉得这项技术会是颠覆性的：未来某个时刻，人类会把控制权交到更强大的AI手中 ，我们希望它们能与人类目标一致，顺利完成这个过渡。但这是高风险的，因此必须有一个机构能承担起这样的使命。 这也是为什么我们后来选择离开，创立Anthropic。
-![](https://image.cubox.pro/cardImg/27zbwi1d1jlsvwa2t0p5loxkjoy5hpdzd3ovvbzx1zcpkcxcm4?imageMogr2/quality/90/ignore-error/1)
-
-- [Claude Code终于有了可视化界面](../../raw/design/2026-01-07-Claude-Code终于有了可视化界面.md)
-
-> > Claude Code、Gemini CLI、CodeX终于有了可视化
-> 如果你最近在用AI写代码，你可能面临这样的问题：Claude Code的推理能力很强，但它只支持Claude模型；Codex编码速度快，但那又是另一套命令行工具；Gemini有自己的优势，比如它写前端代码比较牛，但要单独配置。
-![](https://mmbiz.qpic.cn/mmbiz_png/v7pShf5NmVXTRGro1COGzUkMOEJVg5wCvWtGBrKu7VJEpmjHJszCz9rojZnGahPfUmuwb8OicQ387lggRfaNolQ/640?wx_fmt=png&from=appmsg#imgIndex=0)
-
-- [智谱 AI 秘密发布ZCode 给 Claude Code 装上图形界面](../../raw/design/2026-01-12-智谱-AI-秘密发布ZCode-给-Claude-Code-装上图形界面.md)
-
-> 智谱昨天推出了ZCode 这个轻量级的编程工具，它的核心优势，它不仅集成了 Claude Code CLI、OpenAI Codex CLI、Google Gemini CLI 三大主流编程 Agent 工具，而且原生、完整地保留了它们的超强 Agent 能力。 感兴趣的可以直接去官网下载体验，官网地址：https://zcode-ai.com
-> 现在开发圈最火的 AI 编程工具是Claude Code CLI，他的Agent能力很强，但是它的这个配置很复杂，很多人想尝试使用Claude Code CLI，但是都卡在这个第一步的配置上。
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/5EZ1TshXkh6cP0ZeOWMJkXe9ZUQ2s6xmILnokMic56XYGfuBoPZex4XGXIrcC5TlD3SAZVEUic9bPb6DfxUjNgvQ/640?wx_fmt=jpeg&from=appmsg&watermark=1#imgIndex=0)
-
-- [给Claude Code装个仪表盘一个让盲开变透明的插件](../../raw/design/2026-01-12-给Claude-Code装个仪表盘一个让盲开变透明的插件.md)
-
-> 用Claude Code有段时间了，不得不吐槽一个问题：它的交互体验真的很盲盒。
-> 上周让它重构一个模块，我就盯着终端看了20分钟，黑底白字，代码刷屏，然后就是等。
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/5EZ1TshXkh6XhjZVNwibPAIRqlndwDeA147ic9kmnkBcsaVqfRvGzia0s920RH5bEnFLfG56NHeibqrjcNunRDZ0ibw/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=0)
-
-- [Claude Cowork 杀死了我的创业公司](../../raw/design/2026-01-14-Claude-Cowork-杀死了我的创业公司.md)
-
-> > AI 不再仅仅是操作和交互的对象，它开始成为 Coworker。
-> 在 AI 领域，其实有一种大家都心照不宣的恐惧，叫 「被 Sherlocked」。
-![](https://mmbiz.qpic.cn/mmbiz_jpg/FFcNSoQ3Kicu9N5g3FSR7LopEGdtibBHbOOXz1rTnlfCtSJHcYqV9VdQpnPeiaJBdCHHicboFvWp3WVIibiazBWibH5TA/640?wx_fmt=other&from=appmsg#imgIndex=0)
-
-- [Claude Cowork 前脚刚发布Eigent 后脚就被推上了台面](../../raw/design/2026-01-17-Claude-Cowork-前脚刚发布Eigent-后脚就被推上了台面.md)
-
-> 在 Claude 推出 Cowork 功能后，一个明显的信号 ------ Agent 不仅仅是辅助工具，而是一种可以被设计、被组织、被反复调用的协作单元。
-> 几乎在同一时间，一条创始人的推文在 X 上流传开来，内容很直接：如果你想要一个 Cowork，但不想被绑在云端、不想被模型和权限限制，其实已经有一个开源替代方案存在 。这条推文很快拿到了 8000+ 点赞、超 150 万次浏览 ，讨论点也逐渐收敛到同一个名字------Eigent。
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/wqO5B9doEHfpLmI5MibCVKPa7bw396N24PpDAAOOtc3VBhhHzkZI3cYXTefB8ThIIibMvjQj9WT321nz6IYym3qg/640?wx_fmt=other&tp=webp&wxfrom=5&wx_lazy=1#imgIndex=0)
-
-- [一人顶 48 人游戏开发团队这款开源神器让 AI 会话直接变游戏工作室 Claude Code Game Studios](../../raw/design/2026-03-23-一人顶-48-人游戏开发团队这款开源神器让-AI-会话直接变游戏工作室-Claude-Code-Game-Studios.md)
-
-> GitHub 上开源的 Claude Code Game Studios 项目，以 Anthropic 官方推出的 Claude Code 代理式编程工具为基础，将单次 AI 会话打造成了结构完整、分工明确的专业游戏开发工作室。
-> 它让独立开发者仅凭一己之力，就能拥有48个 AI 智能体组成的开发团队，为游戏开发尤其是独立游戏开发领域开辟了全新可能。
-![](https://mmbiz.qpic.cn/mmbiz_png/ZdrSHaq5Gr1uXuaAG1Jgibd5DC6ibtVhrX4ff5eQib3ZApns6BEqpPxkBUXQ2PHQMsO6E9djzk54CbcU4MPx8Zibicg/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&randomid=u1uwjimf#imgIndex=0)
-
-- [Trickle 发了云端带界面的 Claude Code](../../raw/design/2026-03-25-Trickle-发了云端带界面的-Claude-Code.md)
-- [Claude Code 长任务为什么不容易跑偏从压缩记忆到续写的 Runtime 设计](../../raw/design/2026-04-07-Claude-Code-长任务为什么不容易跑偏从压缩记忆到续写的-Runtime-设计.md)
-
-> 专业架构师，专注高质量架构干货分享。三高架构（高可用、高性能、高稳定）、大数据、机器学习、Java架构、系统架构、分布式架构、人工智能等的架构讨论交流，以及结合互联网技术的架构调整，大规模架构实战分享。欢迎有想法、乐于分享的架构师交流学习。
-> 用 Claude Code 跑过长任务的人大概都有这个经历：前半段很顺，到了某个节点突然开始重复读文件、忘了前面做到哪了、甚至把已经改过的东西又改回去。
-![](https://image.cubox.pro/cardImg/2e5qapdplhtb36pkfe4nw7io8tvhaapel2p4rpys2d7i53470r?imageMogr2/quality/90/ignore-error/1)
-
-- [UX設計師用claude code手蹉作品集](../../raw/design/2026-04-09-UX設計師用claude-code手蹉作品集.md)
-
-> 又是一年一度哄自己改作品集的时候了🥲 不知道是不是因为自己是个喜新厌旧的人呢，感觉今年的审美已经和去年的审美不一样了，作品集越看越不顺眼，所以打算大改特改。 之前一直都是用 Webflow 做设计作品集，看了一眼 Framer 感觉学习曲线太高了，也不喜欢过于模板式的设计。最近上手 Claude Code 就决定用 AI 自己设计一个。
-> 后端： 后端用的是 Notion，建了一个 table database 把内容写进去，再把 API 连接到网页的 .env 文件，这样不用把文字 hard code 进代码里，随时想改就改，非常方便。缺点是 layout 比较死板，想加设计元素都要自己 define 或用 workaround。
-![](http://sns-webpic-qc.xhscdn.com/202604090248/15296cc7a8f49f48f05e3c4f242ece7c/1040g00831un03ffvio004a5lnjtqlqm26esu380!nd_dft_wgth_webp_3&valid=false)
-
-- [一句话出设计149K Star 的开源神器Huashu Design让 Claude Code 变身大厂设计团队](../../raw/design/2026-05-25-一句话出设计149K-Star-的开源神器Huashu-Design让-Claude-Code-变身大厂设计团队.md)
-
-> Huashu Design 是一款专为 Claude Code 等智能体打造的开源设计 Skill，目前在GitHub已收获14.9Kstar！
-> Huashu Design将大厂设计逻辑蒸馏为智能体可直接调用的能力。区别于普通 AI 生成的廉价设计，Huashu Design 主打大厂级 高保真 设计 ，所有输出均为可直接交付的成品，无需二次修改，彻底告别 AI 设计的土味感。
-![](https://mmbiz.qpic.cn/mmbiz_png/ZdrSHaq5Gr1uXuaAG1Jgibd5DC6ibtVhrX4ff5eQib3ZApns6BEqpPxkBUXQ2PHQMsO6E9djzk54CbcU4MPx8Zibicg/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&randomid=u1uwjimf#imgIndex=0)
 
 ## Codex 与前沿编程工具
 
@@ -406,112 +266,13 @@ Codex 代表了 OpenAI 在 AI 编程领域的布局。其负责人公开表示"O
 
 Devin 作为"AI 软件工程师"的先驱，Lovable 作为"AI 编程黑马"，都在探索设计师直接参与编程的可能性。MiniMax M3 的首发体验则展示了国产大模型接入 Codex 生态后的潜力。
 
-- [Devin](../../raw/design/2025-01-02-Devin.md)
-
-> engineering time efficiency gain
-> One of Nubank's most critical, company-wide projects for 2023-2024 was a migration of their core ETL --- an 8 year old, multi-million lines of code monolith --- to sub-modules.
-![](https://image.cubox.pro/cardImg/3pmi086te20msg44dnu4y8s14xcqrotd2pkh1zs7tgquwppd0p.jpg?imageMogr2/quality/90/ignore-error/1)
-
-- [AI编程黑马Lovable员工写了份AI设计师手册](../../raw/design/2025-08-18-AI编程黑马Lovable员工写了份AI设计师手册.md)
-
-> AI编程赛道跑出今年吸金的黑马，45人团队，8个月做到1亿美金年收入，Lovable的员工今天写了一份【新设计师手册】，AI时代，10倍设计师人才的原则！
-> ﻿#AIGC\[话题\]#﻿ ﻿#AI\[话题\]#﻿ ﻿#黑科技\[话题\]#﻿ ﻿#设计师\[话题\]#﻿ ﻿#AI设计\[话题\]#﻿ ﻿#科技\[话题\]#﻿ ﻿#科普\[话题\]#﻿ ﻿#AI绘画\[话题\]#﻿ ﻿#ai绘画\[话题\]#﻿ ﻿#设计\[话题\]#﻿
-![](http://sns-webpic-qc.xhscdn.com/202508182007/b1dff6762d06899b9af47936696aec94/spectrum/1040g34o31lai6i6u4u0g5oot9pm8v9431vrovc0!nd_dft_wlteh_jpg_3&valid=false)
-
-- [CLI AnythingAI负责思考CLI负责执行](../../raw/design/2026-03-10-CLI-AnythingAI负责思考CLI负责执行.md)
-- [OpenAI几乎不做中期项目PM也不大需要了Codex负责人OpenClaw很大程度上是Codex开发的设计师写的代码比](../../raw/design/2026-04-11-OpenAI几乎不做中期项目PM也不大需要了Codex负责人OpenClaw很大程度上是Codex开发的设计师写的代码比.md)
-
-> 近日，OpenAI Codex 产品负责人Alexander Embiricos和OpenAI 的开发者体验（Developer Experience）负责人Romain Huet 一起做客播客，聊了不少 Codex 背后的故事。
-> 很难想象，Codex团队在去年5月时总人数才只有8人左右，那时候Alexander是团队中唯一的PM（产品经理），到现在团队人数已增长到50人以上，增长速度惊人。
-![](https://mmbiz.qpic.cn/mmbiz_gif/MOwlO0INfQoIDJ0nx1IhNibpIpYLrpUE0kIP9qbF1iaY7EoZpaic6IojvbXibd5ZGiatxmjtibQRcVbGAPM9Ijvp66yQ/640?wx_fmt=gif&from=appmsg#imgIndex=0)
-
-- [figmamcpcodex目前我用在工作中实际提效最多的流程](../../raw/design/2026-05-11-figmamcpcodex目前我用在工作中实际提效最多的流程.md)
-
-> 不知道有多少设计师同学，每天都在公司被老板的AI提效要求弄得很心累，反正我群里有很多设计师都在说这个事。
-> 我之前其实写过很多篇文章讲了这个事，很多老板们现在看多了AI营销号发的文章，会误以为AI无所不能，所以隔三差五就给设计leader们或设计师们push一件事，能不能把AI工作流建立的更好？真的有一些不同公司的设计负责人电话我咨询这个事，说老板的目的是希望裁掉更多的设计师，提高人效。这个东西，很多人不敢说，但现在行业事实就是这样。
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/vocxaww2l4EyzQSX21KCwh6BMHwqiaHF1GL2lbGqpKOgBt8CWfibW34QLczdXygz4JmU399cqCjpp7z1RIYmXu7cwEECIsIAPG2HaCFrUGmBQ/640?wx_fmt=png&from=appmsg#imgIndex=0)
-
-- [OpenAI大神教你如何榨干Codex](../../raw/design/2026-05-23-OpenAI大神教你如何榨干Codex.md)
-
-> Jason Liu ，13k星开源库Instructor的作者，刚被OpenAI招进Codex团队没多久，不仅在社交平台大方发API额度；
-> 还写了篇Codex-maxxing ，把自己的Codex玩法全抖出来了。
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/A6fTew8FFGFYKLRnhKLiaguiaj9GEGPbeNv7bIDkgiavbvlI8PgSjricgeEotCPnjD0Ff5dRrTItGcZnicSp2zCicicftrtncGstq0A7ZPJ1KzyASo/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=0)
-
-- [Codex 这次更新直接把设计最后一公里也补上了  Annotation](../../raw/design/2026-05-27-Codex-这次更新直接把设计最后一公里也补上了--Annotation.md)
-
-> 这两天 OpenAI 又给 Codex 更新了一波能力，大家应该也都被刷屏了，现在更新 Codex 的内容越来越多，各种保姆级教程，足以说明它现在强到什么程度。以至于我最早我准备写的网页 0-1 上线的流程教程烂尾了，因为这些更新后，比我几个月前用的更简单了，会说话表达自己的诉求就行，根本不需要什么教程，所以还没动手的同学，不要想太多，玩两次你就上手了。
-> 每次更新基本都是里面解决上一次更新的遗留问题，上次还在说生成的设计最后优化效果不行，这不就来了......
-![](https://mmbiz.qpic.cn/mmbiz_jpg/tAlIKXfSZiax24ia3Zic2KIfsrNyA8ib9MXHOTAH4G19DsYtefzgj0oPK386TrrL64oLra4Zia8icMRhlAIEBYBLxsByN10DpYGdYv0ADWicsrXsAY/640?wx_fmt=other&from=appmsg#imgIndex=0)
-
-- [MiniMax M3 首发体验被挤崩被惊艳接入 Codex 后也真香](../../raw/design/2026-06-03-MiniMax-M3-首发体验被挤崩被惊艳接入-Codex-后也真香.md)
-
-> 昨天 MiniMax M3 正式发布，我第一时间上手跑了一圈。
-> 国产大模型新版本我基本都第一时间体验，大部分时候的感受是"嗯，又进步了"，很少有让我停下来认真想想"这东西到底能干嘛"的时刻。
-![](https://mmbiz.qpic.cn/mmbiz_png/thoHNWXYDzRYoyYw8A4ch0oJO4C01ylISic3JJM1ONArmPibgO8ax7Z5ibVvwSYcTib5FoKseibib39sKpFjVjGKGdlRIMTEEwxrtp49Dz2oJFZKU/640?wx_fmt=png&from=appmsg#imgIndex=0)
-
 ## Prompt 设计与工作流
 
 随着 AI 编程工具的普及，Prompt 设计正在成为设计师的核心新技能。"figma → mcp → codex"的工作流被验证为"目前用在工作中实际提效最多的流程"。Cline x MCP x MasterGo 的组合实现了设计稿到代码的全链路自动化。codeflow 项目则提供了代码架构可视化能力——用一个 HTML 文件就能透视整个项目架构，自动计算代码变更的"爆炸半径"。
 
-- [Cline x MCP x MasterGo 设计稿转代码](../../raw/design/2025-04-13-Cline-x-MCP-x-MasterGo-设计稿转代码.md)
-
-> MCP（Model Context Protocol，模型上下文协议） ，由 Anthropic 在2024年11月底推出的一种开放标准，旨在统一大型语言模型（LLM）与外部数据源和工具之间的通信协议。与Function Calling不同的是，MCP不依赖特定模型实现，开发复杂度低且复用度高。
-> 在Manus火的时候，MCP也出现在大众视野且逐渐被接受。大家可以自己实现MCP Server，也可以使用公开发布的MCP Server来扩展Agent的能力。
-![](https://mmbiz.qpic.cn/mmbiz_gif/6aVaON9Kibf7U8kyccAm9c63gM1MwibJqsoiaDzHicA9VFaQN95UIFPewWV4vMIvxpll56HDh5uE9ictyzbeTU2JtKg/640?wx_fmt=gif)
-
-- [figma claude weavy AI 从会用到用好](../../raw/design/2026-03-15-figma-claude-weavy-AI-从会用到用好.md)
-
-> Google ai studio + figma + claude.ai + cosmos + Design with Weavy AI 这套头脑风暴工具看完后，你一定可从其中悟出独特、见解，并为之惊讶。我们不需要自己动手去建房子，我们可以借助不同的工具，去找找灵感，为自己创造东西，自然而然的知道自己的感受，和想要的感受。
-> GoogleAIStudio非常好，因为它能端到端完成。然后我发现Gemini在界面设计上真的很厉害！（本次以开发一款音乐日记讲述全流程）。
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/lYcZk6ac2jfYTDbWZkhqmmw8CMwnsib1lm8hJmZghW0MWEsZ8nHNib2qVsJ0b3Np8TO6qVz2Jv5WRIQA4vuNKZNlzMkfYA1SI4vvpgdulWjMk/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=0)
-
-- [codeflow github上最被低估的黑科技仅用一个html文件浏览器直接透视整个项目架构自动计算代码变更的爆炸半径](../../raw/design/2026-04-16-codeflow-github上最被低估的黑科技仅用一个html文件浏览器直接透视整个项目架构自动计算代码变更的爆炸半径.md)
-
-> 今天发现了一个神奇的项目 codeflow ， 仅仅一个 html 文件 可以在浏览器中分析你的仓库代码架构，只需要粘贴 GitHub 链接（支持本地文件夹） → 生成交互式架构图。
-> codeflow 是一款真正实用的开发者工具，它解决了每个程序员都会遇到的问题：如何快速理解陌生代码库的架构。
-![](https://mmbiz.qpic.cn/sz_mmbiz_png/F1MjIPU9X0OotlFLWrt5EDbHCWkmqjkwOA2JSQZib0t3tsPosCKyvQ8U9DSlHXUPQT7UkOZuSo4FvOwqXqoB0qfluc5yeT4ynj49WFUTWiayE/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=0)
-
-- [AIGC开源推荐 代码审核图谱项目codeflow](../../raw/design/2026-04-20-AIGC开源推荐-代码审核图谱项目codeflow.md)
-
 ## 其他
 
 bolt 被评为"目前最好用的全栈 AI 编程软件"；Agent View 让你在一个界面管理多个 AI 编程助手；HTML in Canvas 技术"引爆前端 AI 时代"，让互联网视觉效果完全不一样。OpenAI 设计师的判断是："不写代码的设计师将成为团队瓶颈"。
-
-- [bolt目前最好用的全栈AI编程软件](../../raw/design/2024-10-08-bolt目前最好用的全栈AI编程软件.md)
-
-> 目前在体验市面上几款AI编程软件，最好用的就是最近国庆🔥起来的bolt.new 开源+coding+部署，易用的界面、快捷响应、与GitHub无缝衔接 如图所示的功能不到5s时间搞定，甚至是国内不可用的API也可以替换为可用的 特别适合产出可交互的原型demo 感觉这种形式可能会改变未来产品研发的流程 产品交互UI前端...等工种融合指日可待...
-![](https://sns-webpic-qc.xhscdn.com/202410081217/6e247b9729110fe0fb8ac4bcfd7f4036/1040g008318llgghpk6005oka86dod8lptkh7nhg!nd_dft_wgth_webp_3)
-
-- [Claude刚刚出了桌面版本体验了下贼爽](../../raw/design/2024-11-11-Claude刚刚出了桌面版本体验了下贼爽.md)
-
-> 感觉国外的产品都是优先出 web 版本的，等市场做得足够大之后，才陆续考虑移动端，随后才是桌面端，不知道你是否还在用网页版的 Claude？那你可有点落伍了！Anthropic 近期宣布了多个新功能，让 Claude 的用户体验更上一层楼。无论是 Mac、Windows 还是移动设备，都有令人惊喜的更新，简直是为现代办公的"卷王"们量身定做。
-> 想象一个场景：你正准备写一份报告，但 Chrome 已经被你打开了几十个标签页，Claude 的网页窗口被淹没在其中。每次要用 Claude，都得在浏览器里一通搜索，十分繁琐。好消息是，Claude 的 Mac 和 Windows 桌面应用程序现已正式上线！直接在桌面点击 Claude 图标，你可以立刻进入 Claude 的界面，免去繁琐的操作。
-![](https://mmbiz.qpic.cn/mmbiz_png/oXqG8ETvAeleicnXIbI2rzLgy7wibHCPgtYr5NIaV1loExYDTWGeos7N3mwmSjmAUDWqpIzlcz95fdYVCo3FiaWicw/640?wx_fmt=png&from=appmsg)
-
-- [分享两个 figma mcp 服务自动设计 UI 自动生成代码](../../raw/design/2025-04-11-分享两个-figma-mcp-服务自动设计-UI-自动生成代码.md)
-
-> hi，我是枫哥～十年互联网程序员，擅长 js 逆向，python 爬虫，各种前后端技术。热衷于分享各种好玩、实用的技术和软件工具。
-> - • cursor-talk-to-figma-mcp，直接写提示词就可以在 figma上生成设计稿 - • Figma-Context-MCP, 可以根据设计稿生成前端代码
-![](https://mmbiz.qpic.cn/mmbiz_png/bAz5IvF9nicic4odDFUECRT00unQ79au9TT8EtpSiaYY8Q8xDicoxkLCHyf2mfrlWgmcxjNktAxhia207oic9hzsJplw/640?wx_fmt=png)
-
-- [Agent View 开源工具一个界面搞定多个 AI 编程助手管理](../../raw/design/2026-03-07-Agent-View-开源工具一个界面搞定多个-AI-编程助手管理.md)
-
-> 同时开着好几个 AI 编程助手， 一个终端跑 Claude Code，另一个塞了 Gemini CLI，旁边还挂着个 OpenCode...... 结果人变成「调度中心」，窗口切来切去，看谁在跑、谁在等输入，稍微一走神，哪边卡住了都不知道。
-> 这种「人肉 Agent 调度」，说实话，挺折磨人的。 我前段时间也受不了这种混乱状态，开始到处找有没有「统一控制面板」， 结果就翻出来了今天这位主角------Agent View。
-![](https://mmbiz.qpic.cn/mmbiz_png/3rHuKstI89WqHTiaW06tr5zGiawRmRY0Tyibqf3UtCtKiaCKVz4mmzfsG1rKzB2I5xAxReiav0p91RY5aj3Cjs5yibSMjDPHoc0z4qfq5JsZbFaJw/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=0)
-
-- [Skills过时了我给龙虾配了一台手机直接接管所有APP](../../raw/design/2026-03-15-Skills过时了我给龙虾配了一台手机直接接管所有APP.md)
-
-> 基本所有龙虾都是标配一键启动、零门槛。现在这已经不能成为新龙虾的卖点了。
-> 给你一个openclaw的环境，你可以用原生的controlui，或者他们套了一层前端，下指令，让龙虾去执行任务。
-![](https://mmbiz.qpic.cn/mmbiz_jpg/durt1819APoiadrcLynIFeu93OnWDMdEp7aCEPLy68hJPQHLUMhdnFyGQ5rB1CMib9ibQiavUUAohgDXJm28zy6wZ8G1AJK3StorMnfdMHX1AMU/640?wx_fmt=webp&from=appmsg&watermark=1#imgIndex=0)
-
-- [HTML in Canvas引爆前端AI时代互联网视觉效果完全不一样了](../../raw/design/2026-04-12-HTML-in-Canvas引爆前端AI时代互联网视觉效果完全不一样了.md)
-- [OpenAI 设计师不写代码的设计师将成为团队瓶颈](../../raw/design/2026-04-20-OpenAI-设计师不写代码的设计师将成为团队瓶颈.md)
-
-> OpenAI Codex 团队的设计主管 Ed Bayes，现在 70-80% 的时间在写代码。
-> 最近，产品增长博主 Aakash Gupta 请来了 OpenAI 的 Ed Bayes 和 Figma AI 设计总监 Gui Seiz，做了一期将近一小时的深度对谈。
-![](https://image.cubox.pro/cardImg/213xuppok88n42vmc9gyisa9l3li9j44mw0f2j58xo8x5h5gfc?imageMogr2/quality/90/ignore-error/1)
 
 - [Cursor强敌来了](../../raw/IDE/2025-04-04-Cursor强敌来了.md)
 

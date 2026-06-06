@@ -21,8 +21,6 @@
 
 - [Figma账号](../../raw/design/2024-10-14-Figma账号.md)
 
-> Figma账号 zzzminghua@alumini.sjtu.edu.cn FM18326003271
-
 - [Figma is not forever And inVision is now gone by Michal Male](../../raw/design/2025-01-09-Figma-is-not-forever-And-inVision-is-now-gone-by-Michal-Male.md)
 
 > [](https://medium.com/plans?dimension=post_audio_button&postId=cb8c103f64eb&source=upgrade_membership---post_audio_button----------------------------------)
@@ -336,8 +334,6 @@ Figma 自身也在适应 AI 时代：提出四条 AI 时代设计准则，发布
 ![](https://sns-webpic-qc.xhscdn.com/202409091229/409ea11205f3ff8b2a9c752559629c77/spectrum/1040g34o317d5mv6b0o0g5os0cb8nqvjq4bhot3g!nd_dft_wlteh_webp_3)
 
 - [Figma账号](../../raw/design/2024-10-14-Figma账号.md)
-
-> Figma账号 zzzminghua@alumini.sjtu.edu.cn FM18326003271
 
 - [Figma is not forever And inVision is now gone by Michal Male](../../raw/design/2025-01-09-Figma-is-not-forever-And-inVision-is-now-gone-by-Michal-Male.md)
 
@@ -5965,7 +5961,7 @@ Midjourney 是一个独立的研究实验室，生产专有的人工智能程序
 
 在 Illustrator 中遇到需要整体换色调的情况（对象很多、牵一发而动全身），可以：全选所有对象 → 在控制窗口点击"重新着色图稿" → 选择"编辑" → 勾下面的"链接"按钮 → 就可以随意更改整体颜色，快速又实用。
 
-> 来源：[抖音](https://www.douyin.com/video/6850788668282621192)
+> 来源：[Ai配色的一个偷懒小妙招学浪计划 ai 配色 ps 抖音小助手](../../raw/来自抖音/Ai配色的一个偷懒小妙招学浪计划 ai 配色 ps 抖音小助手_6850788668282621192.md)
 
 ## See Also
 

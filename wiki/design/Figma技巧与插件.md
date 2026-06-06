@@ -60,33 +60,6 @@ Google 开始在 Chrome中上线**垂直标签（Vertical Tabs）**功能。
 
 ![](https://moonvy.com/blog/_assets/6bdba8408ab7e9bc.png)
 
-### 周刊抽奖活动
-
-> 来源：周刊 #200 · 2026/01/25 · [https://moonvy.com/blog/post/%E8%AE%BE%E8%AE%A1%E7%B4%A0%E6%9D%90%E5%91%A8%E5%88%8A/200/](https://moonvy.com/blog/post/%E8%AE%BE%E8%AE%A1%E7%B4%A0%E6%9D%90%E5%91%A8%E5%88%8A/200/)
-
-🎉感谢大家一路陪伴，**设计素材周刊迎来了第 200 期** 🎊
-
-👉 **参与方式**
-在 **微信公众号评论区回复「200」**，即可参与本次抽奖
-
-🎁 **奖品设置**
-
-- **[[月维](https://moonvy.com/)】个人大会员** × 1
-
-- **[[月维](https://moonvy.com/)】 2GB 容量包** × 4
-
-- **Figma 插件【[Quick Hues 一键换色相](https://www.figma.com/community/plugin/1263499522548831546/quick-hues)】 激活码** × 5
-
-- **Figma 插件【[Quick Trace 位图转矢量](https://www.figma.com/community/plugin/1553583157548016946/quick-trace)】 激活码** × 5
-
-- **Figma 插件【[Simple 3D 矢量转2.5D~3D图形](https://www.figma.com/community/plugin/1260632020336566834/simple-3d-2-5d3d)】 激活码** × 5
-
-⏰ **截止时间**
-本周五截止
-中奖名单将通过 **公众号回复通知** 感谢大家一路陪伴
-
-**🎉 感谢 [Rancho](https://www.figma.com/@ranchooo) 的大力赞助**
-
 ### Figma 快捷小技巧 1
 
 > 来源：周刊 #199 · 2026/01/18 · [https://moonvy.com/blog/post/%E8%AE%BE%E8%AE%A1%E7%B4%A0%E6%9D%90%E5%91%A8%E5%88%8A/199/](https://moonvy.com/blog/post/%E8%AE%BE%E8%AE%A1%E7%B4%A0%E6%9D%90%E5%91%A8%E5%88%8A/199/)

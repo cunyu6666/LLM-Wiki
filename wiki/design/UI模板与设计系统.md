@@ -352,13 +352,6 @@ Nuxt UI v4 是 Nuxt UI 和 Nuxt UI Pro 的合并版本，拥有 **100+ 组件和
 
 ![](https://moonvy.com/blog/_assets/5330127e1a62e6f.png)
 
-### Apple iOS 26 Beta 安装方式
-
-> 来源：周刊 #181 · 2025/09/07 · [https://moonvy.com/blog/post/%E8%AE%BE%E8%AE%A1%E7%B4%A0%E6%9D%90%E5%91%A8%E5%88%8A/181/](https://moonvy.com/blog/post/%E8%AE%BE%E8%AE%A1%E7%B4%A0%E6%9D%90%E5%91%A8%E5%88%8A/181/)
-
-马上要开 iPhone 17 发布会了，最近不少来问我怎么把现在手机升级到新 Beta 系统的，这里简单分享一下方法，需要在 Apple 官方开启 Beta 权限就会在系统设置中选择 Beta 版本
-
-[https://developer.apple.com/cn/support/install-beta/](https://developer.apple.com/cn/support/install-beta/)
 
 ### Synapse Design System
 
@@ -409,19 +402,6 @@ Nuxt UI v4 是 Nuxt UI 和 Nuxt UI Pro 的合并版本，拥有 **100+ 组件和
 
 ![](https://moonvy.com/blog/_assets/89695307cc363b2f.png)
 
-### 谷歌 Pixel 10 即将发布
-
-> 来源：周刊 #177 · 2025/08/10 · [https://moonvy.com/blog/post/%E8%AE%BE%E8%AE%A1%E7%B4%A0%E6%9D%90%E5%91%A8%E5%88%8A/177/](https://moonvy.com/blog/post/%E8%AE%BE%E8%AE%A1%E7%B4%A0%E6%9D%90%E5%91%A8%E5%88%8A/177/)
-
-谷歌刚刚推出了 Pixel 10 的广告，展示了迄今为止的 10 代 Pixel 手机！10天后发布
-
-[https://x.com/madebygoogle/status/1954573135920894354](https://x.com/madebygoogle/status/1954573135920894354)
-
-![](https://moonvy.com/blog/_assets/6a571201f1faed4b.png)
-
-不过有一说一手机的背面元素越来越多，因为摄像头高出的部分越来越夸张，这真的是好的吗？
-
-![](https://moonvy.com/blog/_assets/860815ce7abfb2c3.png)
 
 ### iOS 26 Figma 设计文件
 

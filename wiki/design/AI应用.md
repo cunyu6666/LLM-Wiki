@@ -146,8 +146,6 @@ https://github.com/PicoTrex/Awesome-Nano-Banana-images/tree/main
 
 推荐一下朋友 Viggo 最新推出的 AI 教程，这是作者去年独立开发上线了十几个产品的总结和经验。使用 AI 快速开发网站并通过产品有盈利，课程从前期准备来说，到 AI 工具的使用，项目部署营销增长等全流程。工具包括 Cursor 的高级使用，以及 Figma 设计教程。
 
-现在预售 $99，给读者和群友申请 20% 的折扣，购买时输入 **SXCC** 即可，数量有限先到先得！
-
 [https://aimaker.dev/](https://aimaker.dev/)
 
 ![](https://moonvy.com/blog/_assets/cf8a03e7d598e8f6.png)
