@@ -156,3 +156,12 @@
 - compile | 前端实现.md：新增「CSS 文字方向属性」章节（writing-mode / inline-size / block-size）
 - refactor | AI应用 ↔ AI设计工具：明确分工（工具链 vs 产品案例），双向 See Also
 - index.md / 设计资源.md 同步更新
+
+## [2026-06-06] lint | P3 去重 + 排版 + 抖音编译
+- 修复 10 篇 See Also 断链：`作品集与灵感` → `作品集`
+- Moonvy 目录去重：3D模型 −3（Vector to 3D 促销重复）、图标 −2、免费资源 −2；泛化标题加「周刊 #N」后缀
+- 行业案例与趋势：删除 134 个重复 raw 块；作品集：删除 16 个重复 raw 块
+- 排版：资源文章去除多余 `---`、压缩空行；抖音设计短视频改为短 ### + 完整标题 blockquote
+- compile | UI设计与组件 / 动效与动画 / 品牌与视觉：各新增「抖音短视频补充」5 条洞察
+- index.md：3D模型 知识/资源分工说明；同步条目计数（图标 280、3D 84、字体 101、免费 58 等）
+- 新增脚本 `scripts/optimize-wiki-design-p3.py`；更新 `ingest-douyin-design.py` 标题格式

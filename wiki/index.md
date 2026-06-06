@@ -16,10 +16,10 @@
 | [AI Agent 开发](design/AI Agent 开发.md) | MCP/A2A、Agent Skills、Harness 托管式部署 | 57 |
 | [LLM与大模型](design/LLM与大模型.md) | DeepSeek、Gemini、预训练终结、多模态扩展 | 50 |
 | [UX与交互研究](design/UX与交互研究.md) | 从 UX 到 AX（Agent Experience） | 65 |
-| [UI设计与组件](design/UI设计与组件.md) | Bento UI、AI 重塑组件设计 | 39 |
+| [UI设计与组件](design/UI设计与组件.md) | Bento UI、B 端规范、抖音 UI 趋势补充 | 39 |
 | [前端实现](design/前端实现.md) | Tailwind + shadcn/ui；含 CSS writing-mode 编译 | 77 |
-| [动效与动画](design/动效与动画.md) | Uiverse.io、Phase、Lottie 动效工具民主化 | 51 |
-| [3D模型](design/3D模型.md) | **Spline 轻量 3D 工具编译** + Moonvy 3D 素材目录 | 87+7 |
+| [动效与动画](design/动效与动画.md) | Uiverse/Phase/Lottie + 抖音动效实践补充 | 51 |
+| [3D模型](design/3D模型.md) | Spline 轻量 3D 编译（知识页，含素材目录链接） | 84+7 |
 | [设计方法论](design/设计方法论.md) | AI 时代设计方法论重定义 | 52 |
 | [设计系统](design/设计系统.md) | AI 时代协作基础设施 | 20 |
 | [品牌与视觉](design/品牌与视觉.md) | 品牌识别与 AI 生成内容 | 27 |
@@ -33,19 +33,19 @@
 
 | Article | Summary | Entries |
 |---------|---------|---------|
-| [图标](design/图标.md) | 图标库、动态图标 | 282 |
+| [图标](design/图标.md) | 图标库、动态图标 | 280 |
 | [UI模板与设计系统](design/UI模板与设计系统.md) | Figma 组件库、设计系统文件 | 235 |
 | [灵感网站](design/灵感网站.md) | 灵感站、网站案例、微交互灵感 | 136 |
 | [插画](design/插画.md) | 插画师、头像、手绘素材 | 136 |
 | [其他资源](design/其他资源.md) | 剩余实验性/杂项条目 | 81 |
 | [字体](design/字体.md) | 字库、Typography | 101 |
-| [3D模型](design/3D模型.md) | 含 Spline 编译 + 3D 素材目录 | 87 |
+| [3D模型](design/3D模型.md) | Moonvy 3D 素材目录（Spline 编译见知识洞察同名页） | 84 |
 | [背景与渐变](design/背景与渐变.md) | 背景、渐变、纹理 | 67 |
 | [动效灵感](design/动效灵感.md) | 加载动画、微交互 Demo | 62 |
-| [免费资源](design/免费资源.md) | 免费、开源素材 | 60 |
+| [免费资源](design/免费资源.md) | 免费、开源素材 | 58 |
 | [SVG素材](design/SVG素材.md) | SVG 矢量、形状 | 48 |
 | [AI应用](design/AI应用.md) | AI 原生产品案例（非设计工具链） | 46 |
-| [作品集](design/作品集.md) | Behance/Dribbble 作品集 | 0 |
+| [作品集](design/作品集.md) | Behance/Dribbble 作品集 | 21 |
 | [教程与复刻](design/教程与复刻.md) | 教程、技能、复刻 | 25 |
 | [Figma技巧与插件](design/Figma技巧与插件.md) | Figma 技巧与插件 | 23 |
 | [数据与可视化](design/数据与可视化.md) | 数据可视化、大屏 | 16 |
