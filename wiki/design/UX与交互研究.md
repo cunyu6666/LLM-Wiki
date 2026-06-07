@@ -9,6 +9,8 @@ updated: 2026-06-07
 
 ![](https://miro.medium.com/v2/resize:fit:1400/1*FVEOwI_4GUe0nGYMtHIpIQ.png)
 
+## Overview
+
 UX 设计正在经历从"UX"到"AX"（Agent Experience）的范式革命。2026 年的设计报告指出：AI Agent 可以跳过层层界面，直接将用户送达目标——设计师不再只为用户设计，还要为智能体设计。设计师的角色从"执行者"变为"评估者"，品味成为 AI 学不会的壁垒。
 
 两条主线贯穿本章：**AI 产品 UX 方法论**（如何为 AI 产品设计用户体验、如何处理 AI 输出的不确定性、如何建立用户对 AI 的信任）和**传统 UX 研究的 AI 化**（9 个 AI 工具增强 UX 体验、UX Pilot 等 AI 设计辅助工具）。HAX（Human-AI Experience）人机交互指南和 Agentic UX 研究为这个新领域提供了理论框架。
