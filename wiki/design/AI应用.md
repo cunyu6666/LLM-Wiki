@@ -99,7 +99,7 @@ Prompt
 
 [https://aistudio.google.com/models/gemini-2-5-flash-image](https://aistudio.google.com/models/gemini-2-5-flash-image)
 
-[https://moonvy.com/](https://moonvy.com/pricing/)
+[https://moonvy.com/pricing/](https://moonvy.com/pricing/)
 
 ![](https://moonvy.com/blog/_assets/82579ec05b08b2bc.png)
 

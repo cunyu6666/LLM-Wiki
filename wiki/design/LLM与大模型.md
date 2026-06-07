@@ -8,7 +8,6 @@ updated: 2026-06-07
 # LLM与大模型
 
 > 50 sources
-> Ollama 命令 brew services start ollama
 
 ## Overview
 
