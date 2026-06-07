@@ -78,3 +78,11 @@
 - 问题: 26 个文件中 Sources 出现在 Overview 之前，不符合模板规范
 - 修复: 使用 /tmp/fix_heading_order.py 重新排列 26 个文件的 section 顺序
 - 模板: `# 标题` → `> N sources` → `## Overview` → `## 主题分区` → `## Sources` → `## See Also`
+
+## [2026-06-06] verify | 最终验证通过
+- 37/37 文件有 YAML frontmatter ✓
+- 36/37 文件有 Overview（设计资源.md 使用"概览"作为 MOC 索引页）✓
+- 37/37 文件有 See Also 区域 ✓
+- 27/27 有 Overview+Sources 的文件正确排序 ✓
+- 0 个断链 wikilinks ✓
+- wiki 作为第二大脑知识库验证通过
