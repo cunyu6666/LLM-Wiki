@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "cbff0d4cedc9bc8e",
+        "id": "64d68d1a23f4a205",
         "type": "tabs",
         "children": [
           {
-            "id": "7b5151469d781020",
+            "id": "78b6e5187d7479cc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/design/品牌与视觉.md",
-                "mode": "preview",
+                "file": "wiki/design/AI实操与工具.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "品牌与视觉"
+              "title": "AI实操与工具"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "wiki/design/品牌与视觉.md",
+                "file": "wiki/design/AI实操与工具.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "品牌与视觉 的反向链接列表"
+              "title": "AI实操与工具 的反向链接列表"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "wiki/design/品牌与视觉.md",
+                "file": "wiki/design/AI实操与工具.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "品牌与视觉 的大纲"
+              "title": "AI实操与工具 的大纲"
             }
           }
         ],
@@ -170,8 +170,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -185,43 +184,53 @@
       "cubox-sync:Cubox": false
     }
   },
-  "active": "7b5151469d781020",
+  "active": "78b6e5187d7479cc",
   "lastOpenFiles": [
+    "wiki/design/设计系统.md",
+    "wiki/design/设计方法论.md",
+    "抖音视频入库流程.md",
+    "wiki/design/设计师成长.md",
+    "wiki/design/免费资源.md",
+    "raw/来自抖音/平面插画设计 插画 插画网站 素材 插画师都在用的几个插画网站必收藏DOU小助手 抖_6988462868559580448.md",
+    "wiki/design/教程与复刻.md",
+    "wiki/design/抖音设计短视频.md",
+    "wiki/design/动效与动画.md",
+    "wiki/design/品牌与视觉.md",
+    "raw/来自抖音/gifs/黄色配什么颜色最好看品牌设计 包装设计 大东设计_6993265521110060329.gif",
+    "raw/来自抖音/gifs/黄仁勋通用机器人时代已来 英伟达官宣机器人大模型正式开源 机器人小蓝可爱互动展示科技 机器_7483339820933188927.gif",
+    "raw/来自抖音/gifs/高颜值又轻量的动效工具ui设计 设计师 视觉设计 设计分享 动效设计 动效 ae_7066315981236358408.gif",
+    "raw/来自抖音/gifs/高级Hulu动态片头已完全解析马上发教程hulu 动态设计 ae教程 科技感_7066104103558057229.gif",
+    "raw/来自抖音/gifs/高田唯为什么被称为日本设计界的耻辱设计 设计师 思维 创意 干货 人物 故事 平面_7005129088105041182.gif",
+    "raw/来自抖音/gifs/高斯模糊各种模糊谁看着不迷糊ae 教程 每一帧都是热爱 设计  DOU小助手_7000338461106392353.gif",
+    "raw/来自抖音/gifs/高中生 学生时代 抄作业 人工智能 朋友 我先笑了哈_7433630630983912704.gif",
+    "raw/来自抖音/gifs/飞书品牌全新升级宣传视频你觉得这个改版怎么样ui设计飞书 品牌设计 品牌 设计_7031498266135104776.gif",
+    "raw/来自抖音/gifs/颜值超高的rising chair变形椅 居然真被我做出来了内附图纸装修diy 动手能力 手_7198097363255250237.gif",
+    "raw/来自抖音/gifs/难以置信的效果OpenAI公布使用Sora生成的剧情片 OpenAI 玩儿个很新的东西 ai_7350404094617521417.gif",
+    "raw/来自抖音/gifs",
+    "wiki/design/设计资源.md",
+    "raw/来自抖音/国外设计师作品集参考平台作品集 找工作 设计师 干货分享 插画 灵感创作 热门_7070447634367909152.md",
+    "raw/来自抖音/PS制作超炫的3D炸裂背景封面PS初学者教程ui设计 ps教学 ps教程 ps小技巧_7021795326310763790.md",
+    "raw/来自抖音/3dmax 室内设计 3dmax建模 效果图 分享一款3d画笔插件_7008773290458123523.md",
+    "wiki/design/UI模板与设计系统.md",
+    "3dmax.md",
+    "raw/时事评论/2024-09-25-任意论文一键变播客谷歌正式发布Illuminate它能重构研究者的学习方式吗-机器之心.md",
+    "raw/时事评论/2024-08-28-李沐重返母校上交大秒变追星现场大模型趋势无保留分享.md",
+    "raw/产品介绍/2024-08-27-突破界限解锁8个神秘AI工具让你在人群中脱颖而出.md",
+    "raw/来自抖音/5种平面设计中的背景-做出层次配合风格诠释平面设计设计教程海报设计_7079031563811376399.md",
+    "raw/来自抖音/4小时场景速涂未来科幻题材概念设计 绘画步骤 板绘 场景原画 游戏原画_7014299362863992098.mp4",
+    "raw/来自抖音/3dmax 室内设计 3dmax建模 效果图 分享一款3d画笔插件_7008773290458123523.mp4",
+    "raw/来自抖音/3d数据可视化大屏设计 3d数据可视化设计组态设计大屏设计数据看板设计物联网设计自动化工控_7337138945223953718.md",
+    "raw/design/2025-02-18-Day514房产类Ai智能对话动效设计---小红书.md",
+    "wiki/design/行业案例与趋势.md",
+    "wiki/design/图库与配色.md",
+    "wiki/design/图标.md",
+    "wiki/design/数据与可视化.md",
+    "fix_douyin_links.py",
     "scripts/__pycache__/optimize-wiki-design-p3.cpython-311.pyc",
     "scripts/__pycache__",
     "scripts/optimize-wiki-design-p3.py",
-    "wiki/design/免费资源.md",
-    "wiki/design/灵感网站.md",
-    "wiki/design/动效灵感.md",
-    "wiki/design/材质与拟物.md",
-    "wiki/design/LLM与大模型.md",
     "scripts/cleanup-other-resources-r2.py",
-    "wiki/design/前端开发技巧.md",
-    "wiki/design/抖音设计短视频.md",
     "scripts/ingest-douyin-design.py",
-    "scripts/fix-linggan-append.py",
-    "wiki/design/SVG素材.md",
-    "wiki/design/AI应用.md",
-    "wiki/design/AI设计工具.md",
-    "wiki/design/AI实操与工具.md",
-    "wiki/design/AI编程与Vibe Coding.md",
-    "wiki/design/教程与复刻.md",
-    "wiki/design/数据与可视化.md",
-    "wiki/design/动效与加载.md",
-    "scripts/rename-motion-inspiration.py",
-    "scripts/cleanup-other-resources.py",
-    "scripts",
-    "wiki/design/设计资源.md",
-    "Cubox/PawBench：给通用智能体一把可度量的尺-2026-06-05.md",
-    "wiki/design/设计师成长.md",
-    "wiki/design/设计方法论.md",
-    "wiki/design/其他资源.md",
-    "wiki/design/插画.md",
-    "wiki/design/动效与动画.md",
-    "wiki/design/3D模型.md",
-    "wiki/index.md",
-    "raw/文章汇总/2024-08-28-1分钟带你了解Bento-box设计趋势.md",
-    "raw/来自抖音/4小时场景速涂未来科幻题材概念设计 绘画步骤 板绘 场景原画 游戏原画_7014299362863992098.mp4",
-    "raw/来自抖音/高级Hulu动态片头已完全解析马上发教程hulu 动态设计 ae教程 科技感_7066104103558057229.mp4"
+    "scripts/fix-linggan-append.py"
   ]
 }

@@ -1,12 +1,8 @@
 # SVG素材
 
 > 48 moonvy 设计素材周刊条目
-
 ## Sources
 - Moonvy 月维 设计素材周刊 213 期 (2022-2026)
-
-## Raw Sources
-- [Moonvy 月维 213 期原文目录](../../raw/moonvy-weekly/)
 
 ## Overview
 
@@ -94,16 +90,6 @@ SVG 过滤器提供了一个基本的照明系统，可以将其与少量 JavaSc
 [https://x.com/jh3yy/status/1936212860893364635](https://x.com/jh3yy/status/1936212860893364635)
 
 ![](https://moonvy.com/blog/_assets/a11b6764324e2f38.png)
-
-### 矢量图形资源
-
-> 来源：周刊 #165 · 2025/05/16 · [https://moonvy.com/blog/post/%E8%AE%BE%E8%AE%A1%E7%B4%A0%E6%9D%90%E5%91%A8%E5%88%8A/165/](https://moonvy.com/blog/post/%E8%AE%BE%E8%AE%A1%E7%B4%A0%E6%9D%90%E5%91%A8%E5%88%8A/165/)
-
-作者使用的 Framer 创建的资源网站，网站中的形状资源点击即可复制SVG代码，在设计工具中可以粘贴使用
-
-[https://spectrums.framer.website/](https://spectrums.framer.website/)
-
-![](https://moonvy.com/blog/_assets/835e92012d31ff8a.png)
 
 ### Figma Draw + iPad 使用技巧
 

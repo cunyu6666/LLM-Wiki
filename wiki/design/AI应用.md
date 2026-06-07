@@ -1,12 +1,8 @@
 # AI应用
 
 > 46 moonvy 设计素材周刊条目
-
 ## Sources
 - Moonvy 月维 设计素材周刊 213 期 (2022-2026)
-
-## Raw Sources
-- [Moonvy 月维 213 期原文目录](../../raw/moonvy-weekly/)
 
 ## Overview
 
