@@ -138,7 +138,7 @@ Prompt
 
 **作者收集了 Nano-banana 在各个任务场景下生成的令人惊艳的图片和提示词**，目前采集了 68个实例，全方位展示 Google 在图像生成与编辑的无限可能。很多小🍠上的特色实例都有详细提示词和来源
 
-https://github.com/PicoTrex/Awesome-Nano-Banana-images/tree/main
+[https://github.com/PicoTrex/Awesome-Nano-Banana-images/tree/main](https://github.com/PicoTrex/Awesome-Nano-Banana-images/tree/main)
 
 ![](https://moonvy.com/blog/_assets/96a5c3478df0cc15.png)
 
@@ -265,12 +265,6 @@ Prompt：Create a [TYPE OF VIEW] image of a [OBJECT/SUBJECT] going over the surf
 [https://p9ngzmlet4.feishu.cn/wiki/IiogwK3Nji1fiskOI6LcVuOmnFe](https://p9ngzmlet4.feishu.cn/wiki/IiogwK3Nji1fiskOI6LcVuOmnFe)
 
 ![](https://moonvy.com/blog/_assets/9dab0f233852ed49.png)
-
-另外群里 Stable Diffusion 大佬忠忠（Bdicon模型的作者）出了一套在线课程，关于SD 0基础应用和训练自己的模型课程。
-
-[https://sd-1258045456.cos.ap-guangzhou.myqcloud.com/chachasd.html](https://sd-1258045456.cos.ap-guangzhou.myqcloud.com/chachasd.html)
-
-![](https://moonvy.com/blog/_assets/f465ce3648f26fcf.png)
 
 ### Adobe 推出全新文字 LOGO
 
