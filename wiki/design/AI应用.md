@@ -1,3 +1,10 @@
+---
+title: "AI应用"
+summary: "AI 原生产品案例：AI 海报、AI 音乐、AI 搜索等消费级应用"
+tags: [AI应用, AI产品, 消费级AI]
+created: 2026-06-07
+updated: 2026-06-07
+---
 # AI应用
 
 > 46 moonvy 设计素材周刊条目

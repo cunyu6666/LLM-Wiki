@@ -1,0 +1,39 @@
+{
+  "audit_id": "2026-06-06T00:00:00Z",
+  "scope": "full",
+  "summary": {
+    "files_scanned": 37,
+    "critical": 3,
+    "warning": 3,
+    "suggestion": 2,
+    "files_with_frontmatter": 0,
+    "files_with_see_also": 8,
+    "files_with_relative_paths": 16,
+    "largest_file_kb": 697
+  },
+  "wiki": {
+    "corrupted_lines": [
+      {"file": "行业案例与趋势.md", "line": 3, "issue": "blockquote fused with ## Sources heading", "status": "fixed"}
+    ],
+    "missing_frontmatter": 37,
+    "missing_see_also": 29,
+    "relative_path_files": [
+      "品牌与视觉.md", "动效与动画.md", "设计师成长.md", "AI设计工具.md",
+      "设计系统.md", "前端实现.md", "LLM与大模型.md", "UX与交互研究.md",
+      "UI设计与组件.md", "AI编程与Vibe Coding.md", "AI实操与工具.md",
+      "AI Agent 开发.md", "抖音设计短视频.md", "作品集.md", "设计方法论.md",
+      "行业案例与趋势.md"
+    ],
+    "oversized_files": [
+      {"file": "行业案例与趋势.md", "size_kb": 697},
+      {"file": "AI设计工具.md", "size_kb": 405},
+      {"file": "抖音设计短视频.md", "size_kb": 365}
+    ]
+  },
+  "provenance": {
+    "state": "partial",
+    "event_log": false,
+    "session_checkpoint": false,
+    "frontmatter_dates": false
+  }
+}

@@ -1,3 +1,10 @@
+---
+title: "SVG素材"
+summary: "48 条 SVG 资源：矢量形状、花纹"
+tags: [SVG, 矢量, 形状, 素材]
+created: 2026-06-07
+updated: 2026-06-07
+---
 # SVG素材
 
 > 48 moonvy 设计素材周刊条目
