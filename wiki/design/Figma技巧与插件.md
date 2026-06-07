@@ -8,14 +8,17 @@ updated: 2026-06-07
 # Figma技巧与插件
 
 > 23 moonvy 设计素材周刊条目
-## Sources
-- Moonvy 月维 设计素材周刊 213 期 (2022-2026)
 
 ## Overview
 
 Figma 技巧与浏览器插件 23 条。Figma 生态正在从"设计工具"扩展为"设计平台"——FigmaEX 客户端支持 CSS 皮肤自定义，让设计师的工作环境也能个性化。
 
 浏览器插件方面，实用工具集中在**效率提升**（视频倍速播放、历史记录快速查看、Chrome 垂直标签页）和**开发辅助**（FigmaEX 版客户端集成 Moonvy 周刊推荐功能）。与 [AI设计工具](AI设计工具.md) 中的 Figma MCP 集成有生态关联。
+
+## Sources
+- Moonvy 月维 设计素材周刊 213 期 (2022-2026)
+
+
 
 ## See Also
 

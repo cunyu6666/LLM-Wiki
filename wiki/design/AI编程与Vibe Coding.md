@@ -11,10 +11,6 @@ updated: 2026-06-07
 
 > 146 sources
 
-## Sources
-- Moonvy 月维 设计素材周刊 213 期 (2022-2026)：5 个条目
-- Cubox 收藏 (141 篇)
-
 ## Overview
 
 "设计师将开始写代码，工程师将开始做设计，我们的共同语言就是代码。"——Cursor 华人设计负责人 Ryo Lu 的这句话精准概括了这个领域正在发生的变化。AI 编程工具（Cursor、Claude Code、Codex）正在成为设计师的新"画笔"，Vibe Coding 从开发者圈蔓延到设计领域。
@@ -22,6 +18,13 @@ updated: 2026-06-07
 三条主线并行演进：**Cursor 生态**持续进化，从 Prompt 设计到 MCP 集成再到与 Figma 打通，设计稿转代码的工作流逐渐成熟；**Claude Code** 从命令行工具扩展出可视化界面（ZCode、Trickle、Claude Cowork），让设计师不再"盲开"；**Codex** 代表 OpenAI 的路线，负责人公开表示"设计师写的代码比 PM 多"，Annotation 功能直接补上了设计到代码的最后一公里。
 
 核心趋势是**设计师与工程师的边界正在溶解**。Onlook 定位"设计师的光标"，Lovable 员工写了"AI 设计师手册"，Huashu Design 让 Claude Code 变身大厂设计团队。Prompt 设计本身也在成为一种新的设计能力——"Cursor 出彩的背后，Prompt 设计好比网页设计"。
+
+## Sources
+- Moonvy 月维 设计素材周刊 213 期 (2022-2026)：5 个条目
+- Cubox 收藏 (141 篇)
+
+
+
 
 ## Cursor 生态
 
