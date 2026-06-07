@@ -66,3 +66,10 @@
 - 15 个文件，696 个链接
 - 符合 oh-my-mind 原则 4：Obsidian wikilink + Claude markdown link 同行
 - Tools: /tmp/convert_dual_links.py
+
+## [2026-06-06] fix | 优化 See Also 区域添加上下文交叉引用
+- 修复: 抖音设计短视频.md 添加 See Also 区域（9 个相关文章链接）
+- 优化: 17 个综合文章的 See Also 区域从通用链接列表改为上下文交叉引用
+- 每个链接添加 "—" 说明为什么相关（如："设计师学编程是成长的重要方向"）
+- 格式: 统一使用 wikilink `[[file.md|text]]` 便于 Obsidian 图谱视图
+- 修复: AI实操与工具.md 移除指向不存在的 Prompt工程.md 的断链
