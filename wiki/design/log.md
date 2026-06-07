@@ -73,3 +73,8 @@
 - 每个链接添加 "—" 说明为什么相关（如："设计师学编程是成长的重要方向"）
 - 格式: 统一使用 wikilink `[[file.md|text]]` 便于 Obsidian 图谱视图
 - 修复: AI实操与工具.md 移除指向不存在的 Prompt工程.md 的断链
+
+## [2026-06-06] fix | 统一 heading 顺序：Overview 在 Sources 之前
+- 问题: 26 个文件中 Sources 出现在 Overview 之前，不符合模板规范
+- 修复: 使用 /tmp/fix_heading_order.py 重新排列 26 个文件的 section 顺序
+- 模板: `# 标题` → `> N sources` → `## Overview` → `## 主题分区` → `## Sources` → `## See Also`
