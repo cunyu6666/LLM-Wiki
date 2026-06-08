@@ -165,3 +165,17 @@
 - compile | UI设计与组件 / 动效与动画 / 品牌与视觉：各新增「抖音短视频补充」5 条洞察
 - index.md：3D模型 知识/资源分工说明；同步条目计数（图标 280、3D 84、字体 101、免费 58 等）
 - 新增脚本 `scripts/optimize-wiki-design-p3.py`；更新 `ingest-douyin-design.py` 标题格式
+
+## [2026-06-09] ingest | Cubox API sync (31 new articles)
+- Source: Cubox API direct fetch via `cubox-cli` API endpoints
+- New articles saved to `Cubox/` directory (2026-05-20 to 2026-06-08)
+- Key topics:
+  - Anthropic Skill 方法论、上下文工程（Context Engineering）
+  - Agentic Workflow、设计走查 AI 全自动
+  - Cursor Composer 2.5、Codex Annotation、MiniMax M3
+  - DeepSeek DeliAutoResearch SKILL、Reasonix 缓存优化
+  - HTML 版剪映、Quarkdown、Presenton、Lovart、Tolaria
+  - 2026 科技中的设计报告（UX→AX）、Vercel 设计团队、Claude Design
+  - 8 个 AI 时代产品设计模式、Agent 时代 UI 设计
+- Wiki pages updated: AI实操与工具, AI编程与Vibe Coding, 设计师成长, 设计方法论, 行业案例与趋势, AI Agent 开发, LLM与大模型
+- Tools used: Cubox API (curl), Python batch script
