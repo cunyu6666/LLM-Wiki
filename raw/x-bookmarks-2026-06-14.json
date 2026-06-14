@@ -1,0 +1,883 @@
+[
+  {
+    "id": "2046880812814176590",
+    "username": "ericzakariasson",
+    "displayName": "eric zakariasson",
+    "text": "try the shadcn plugin in cursor!",
+    "links": [],
+    "tweetUrl": "https://x.com/ericzakariasson/status/2046880812814176590",
+    "timestamp": "2026-04-22T09:16:29.000Z",
+    "timeText": "Apr 22",
+    "images": [
+      "https://pbs.twimg.com/media/HGfmWh8a0AAr0kz?format=jpg&name=360x360"
+    ],
+    "videos": true
+  },
+  {
+    "id": "2040072995235102786",
+    "username": "MengTo",
+    "displayName": "Meng To",
+    "text": "I made a tool that generates UIs with a design system that's copyable as prompts.\n\nEverything is a prompt: font pairings, color system, spacing, icon sets, buttons and even webgl & threejs with full code samples.\n\nThis made explorations with Gemini 3.1 Pro so precise and fun.",
+    "links": [],
+    "tweetUrl": "https://x.com/MengTo/status/2040072995235102786",
+    "timestamp": "2026-04-03T14:24:39.000Z",
+    "timeText": "Apr 3",
+    "images": [],
+    "videos": true
+  },
+  {
+    "id": "2030501832745984349",
+    "username": "kail_designs",
+    "displayName": "Kailash",
+    "text": "Hero section designed to calm you. Grab the background from the link below",
+    "links": [],
+    "tweetUrl": "https://x.com/kail_designs/status/2030501832745984349",
+    "timestamp": "2026-03-08T04:32:16.000Z",
+    "timeText": "Mar 8",
+    "images": [],
+    "videos": true
+  },
+  {
+    "id": "2029127846254510468",
+    "username": "leon7hao",
+    "displayName": "leon7hao",
+    "text": "如果你在 vibe coding，一定要来试一下 Lody，尤其是需要多端丝滑同步体验的，用过的都说好。\n\n过年偷懒了一直没有整理 Lody 更新日志",
+    "links": [],
+    "tweetUrl": "https://x.com/leon7hao/status/2029127846254510468",
+    "timestamp": "2026-03-04T09:32:32.000Z",
+    "timeText": "Mar 4",
+    "images": [],
+    "videos": true
+  },
+  {
+    "id": "2029277782077841817",
+    "username": "daniel_z1909",
+    "displayName": "Daniel",
+    "text": "AI-generated visualization of an async e-motor — created only with prompts\n\nNo manual modeling.\nJust ideas ➝ prompts ➝ physics visualization\nAI turning words into engineering visuals\n\n#AI #PromptEngineering #ElectricMotor #Engineering #Simulation #Tech",
+    "links": [],
+    "tweetUrl": "https://x.com/daniel_z1909/status/2029277782077841817",
+    "timestamp": "2026-03-04T19:28:20.000Z",
+    "timeText": "Mar 5",
+    "images": [],
+    "videos": true
+  },
+  {
+    "id": "2029195302805323988",
+    "username": "tldraw",
+    "displayName": "tldraw",
+    "text": "coming soon, provisional mermaidjs support",
+    "links": [],
+    "tweetUrl": "https://x.com/tldraw/status/2029195302805323988",
+    "timestamp": "2026-03-04T14:00:35.000Z",
+    "timeText": "Mar 4",
+    "images": [],
+    "videos": true
+  },
+  {
+    "id": "2029182297652531645",
+    "username": "bedesqui",
+    "displayName": "Igor bedesqui",
+    "text": "i shit you not, it's an IDE AND has browser embeds, so I can localhost multiple pages at once in the same canvas\n\nobsidian's canvas being able to embed ANYTHING, and the\n@obsdmd\neditor being literally just code-mirror, makes it the perfect worspace\n(\n@tldraw\nis also cool)",
+    "links": [],
+    "tweetUrl": "https://x.com/bedesqui/status/2029182297652531645",
+    "timestamp": "2026-03-04T13:08:54.000Z",
+    "timeText": "Mar 4",
+    "images": [],
+    "videos": true
+  },
+  {
+    "id": "2029031830855532627",
+    "username": "rileybrown",
+    "displayName": "Riley Brown",
+    "text": "I spent 5 hours today making OpenClaw even better at Motion Graphics\n\nI created the video below in 2 prompts with no asset uploads. It scraped or generated everything from a text prompt.\n\nI've added:\n- better brand scraping\n- image generation\n- video generation\n- music generation",
+    "links": [],
+    "tweetUrl": "https://x.com/rileybrown/status/2029031830855532627",
+    "timestamp": "2026-03-04T03:11:00.000Z",
+    "timeText": "Mar 4",
+    "images": [],
+    "videos": true
+  },
+  {
+    "id": "2029187893470871754",
+    "username": "remixdesigner",
+    "displayName": "Jimmy Cheung",
+    "text": "Raycast team's new product Glaze, an Agent specifically for building desktop APPs, looks pretty good from the examples, still in testing, and I'm really looking forward to it!\n\nhttp://\nglazeapp.com",
+    "links": [
+      "https://t.co/WrBPF1dU7t"
+    ],
+    "tweetUrl": "https://x.com/remixdesigner/status/2029187893470871754",
+    "timestamp": "2026-03-04T13:31:08.000Z",
+    "timeText": "Mar 4",
+    "images": [],
+    "videos": true
+  },
+  {
+    "id": "2029245807497515098",
+    "username": "bbssppllvv",
+    "displayName": "Mike Bespalov",
+    "text": "Imagine your AI doing design research before generating UI. Studying real screens and user flows instead of guessing\n\nThat's Refero MCP\nhttps://\nrefero.design/mcp",
+    "links": [
+      "https://t.co/uuZ6XLwIXa"
+    ],
+    "tweetUrl": "https://x.com/bbssppllvv/status/2029245807497515098",
+    "timestamp": "2026-03-04T17:21:16.000Z",
+    "timeText": "Mar 5",
+    "images": [],
+    "videos": true
+  },
+  {
+    "id": "2029180822838759703",
+    "username": "raycast",
+    "displayName": "Raycast",
+    "text": "Today we're launching Glaze\n\nCreate any desktop app in minutes by chatting with AI.\nBeautiful, powerful, and truly personal.\n\nLearn more on\nhttps://\nglazeapp.com\nFollow\n@glazeapp\nfor updates.",
+    "links": [
+      "https://t.co/tTL644I574"
+    ],
+    "tweetUrl": "https://x.com/raycast/status/2029180822838759703",
+    "timestamp": "2026-03-04T13:03:03.000Z",
+    "timeText": "Mar 4",
+    "images": [
+      "https://pbs.twimg.com/media/HCkLlEHWkAAJpny.png"
+    ],
+    "videos": true
+  },
+  {
+    "id": "2028724796230635684",
+    "username": "0xAllen",
+    "displayName": "0xAllen",
+    "text": "这个 Skill 一出，Logo设计师可以下岗了！\n\n小米当时花了几百万请日本设计师改Logo，最后大家评价改了个寂寞。设计的玄学就是这么强。\n\n最近在重构灯塔时需要新Logo，作为 AI 的重度用户就拉着AI一起来设计新Logo，前后30分钟从哲学思想到视觉设计一个Skill搞的明明白白的，最关键设计我很喜欢！\n\n这个",
+    "links": [],
+    "tweetUrl": "https://x.com/0xAllen/status/2028724796230635684",
+    "timestamp": "2026-03-03T06:50:57.000Z",
+    "timeText": "Mar 3",
+    "images": [
+      "https://pbs.twimg.com/media/HCd38o3XUAAWXuh?format=jpg&name=medium"
+    ],
+    "videos": false
+  },
+  {
+    "id": "2028907900672877051",
+    "username": "mlg27_",
+    "displayName": "Michael Goldstein",
+    "text": "The way we design hasn't changed in 20 years.\n\nWe think it's time it did.\n\nIntroducing Kodo.\nFully editable designs, generated by chatting.",
+    "links": [],
+    "tweetUrl": "https://x.com/mlg27_/status/2028907900672877051",
+    "timestamp": "2026-03-03T18:58:33.000Z",
+    "timeText": "Mar 4",
+    "images": [],
+    "videos": true
+  },
+  {
+    "id": "2023434814892695875",
+    "username": "Magnific_AI",
+    "displayName": "Magnific.ai",
+    "text": "Magnific Video Upscaler is here!\n\nSharp resolution in every style, in every video. We're giving you back those details\n\nSpecial GIFT:\nIf Javi's tweet gets 5K likes\nWe'll give VIP access to 100 creators\n\nGo crazy!",
+    "links": [],
+    "tweetUrl": "https://x.com/Magnific_AI/status/2023434814892695875",
+    "timestamp": "2026-02-16T16:30:28.000Z",
+    "timeText": "Feb 17",
+    "images": [],
+    "videos": true
+  },
+  {
+    "id": "2024108396467650767",
+    "username": "raul_dronca",
+    "displayName": "Raul",
+    "text": "Animated\n@nucleoicons",
+    "links": [],
+    "tweetUrl": "https://x.com/raul_dronca/status/2024108396467650767",
+    "timestamp": "2026-02-18T13:07:02.000Z",
+    "timeText": "Feb 18",
+    "images": [],
+    "videos": true
+  },
+  {
+    "id": "2023951196965245003",
+    "username": "mathemagic1an",
+    "displayName": "Jay Hack",
+    "text": "Goddamnit lol\n\nNow there are \"plugins\", which are combos of \"skills\" and \"mcps\"\n\nGuys, please",
+    "links": [],
+    "tweetUrl": "https://x.com/mathemagic1an/status/2023951196965245003",
+    "timestamp": "2026-02-18T02:42:23.000Z",
+    "timeText": "Feb 18",
+    "images": [],
+    "videos": true
+  },
+  {
+    "id": "2008584593222652057",
+    "username": "DilumSanjaya",
+    "displayName": "Dilum Sanjaya",
+    "text": "Vibe coded a game character selection screen\n\nEverything here was made with AI tools\nNano Banana: character design + UI\nTencent Hunyuan3D: image to 3D\nGemini Pro: UI\n\nMore details ↓",
+    "links": [],
+    "tweetUrl": "https://x.com/DilumSanjaya/status/2008584593222652057",
+    "timestamp": "2026-01-06T17:00:59.000Z",
+    "timeText": "Jan 7",
+    "images": [],
+    "videos": true
+  },
+  {
+    "id": "2003182527209759031",
+    "username": "martin_casado",
+    "displayName": "martin_casado",
+    "text": "Sparkjs streaming+LoD is now stable(ish).\n\nThis flythrough is over 100m splats rendered in browser. The splats are chunked into ~900 pages with a working set of around 16million splats.\n\nI think it can handle arbitrary size worlds now. Anyone have a 1 billion splat I can try?",
+    "links": [],
+    "tweetUrl": "https://x.com/martin_casado/status/2003182527209759031",
+    "timestamp": "2025-12-22T19:15:06.000Z",
+    "timeText": "Dec 23, 2025",
+    "images": [],
+    "videos": true
+  },
+  {
+    "id": "2003453052276343161",
+    "username": "M5Stack",
+    "displayName": "M5Stack",
+    "text": "StackChans, controlled by EspNow",
+    "links": [],
+    "tweetUrl": "https://x.com/M5Stack/status/2003453052276343161",
+    "timestamp": "2025-12-23T13:10:04.000Z",
+    "timeText": "Dec 23, 2025",
+    "images": [],
+    "videos": true
+  },
+  {
+    "id": "1994898351662231560",
+    "username": "RileyRalmuto",
+    "displayName": "Riley Coyote",
+    "text": "alright here is a pretty cool demo that shows just about everything you can do at a glance:\n\n> start a multi-model chat\n> speak to the whole, address individual models, ask for unique perspectives\n> have specific models discuss the differences they see in the other models present",
+    "links": [],
+    "tweetUrl": "https://x.com/RileyRalmuto/status/1994898351662231560",
+    "timestamp": "2025-11-29T22:36:45.000Z",
+    "timeText": "Nov 30, 2025",
+    "images": [
+      "https://pbs.twimg.com/media/G681BDcWwAABpm-?format=jpg&name=360x360",
+      "https://pbs.twimg.com/media/G685ZxVWMAA0cA2?format=jpg&name=360x360"
+    ],
+    "videos": true
+  },
+  {
+    "id": "1995015576859939203",
+    "username": "vedu_boi",
+    "displayName": "VeduBoi",
+    "text": "Recent SaaS promo I wrapped up\n\nComment how much was it priced at\n\nWant your brand to have a premium finish like this one\n\nDrop a DM ",
+    "links": [],
+    "tweetUrl": "https://x.com/vedu_boi/status/1995015576859939203",
+    "timestamp": "2025-11-30T06:22:33.000Z",
+    "timeText": "Nov 30, 2025",
+    "images": [],
+    "videos": true
+  },
+  {
+    "id": "1994873514579697830",
+    "username": "odysseyml",
+    "displayName": "Odyssey",
+    "text": "Meet Odyssey-2. It's not like any other AI video model you've used before.\n\nType anything and instantly watch a personalized stream of beautiful AI video.\n\nNo more waiting minutes for 5-10 second clips, and you can interact with the video in real-time.",
+    "links": [],
+    "tweetUrl": "https://x.com/odysseyml/status/1994873514579697830",
+    "timestamp": "2025-11-29T20:58:03.000Z",
+    "timeText": "Nov 30, 2025",
+    "images": [],
+    "videos": true
+  },
+  {
+    "id": "1994734966224425018",
+    "username": "hasantoxr",
+    "displayName": "Hasan Toor",
+    "text": "A brand just developed a comprehensive content plan, built a complete calendar, and published automatically with a single AI tool in one hour.\n\nPippit AI enables you to generate high-converting videos, images, and social content seamlessly.\n\nHere's how it works:",
+    "links": [],
+    "tweetUrl": "https://x.com/hasantoxr/status/1994734966224425018",
+    "timestamp": "2025-11-29T11:47:30.000Z",
+    "timeText": "Nov 29, 2025",
+    "images": [],
+    "videos": true
+  },
+  {
+    "id": "1994943408415412547",
+    "username": "ronitwtss",
+    "displayName": "Roni",
+    "text": "JSON is quietly costing you 30–50% more tokens than necessary. ZON-FORMAT ends the waste.\n\nhttp://\nzonformat.org\n\n58% fewer tokens on average. Zero parsing overhead. Strictly typed. Streaming-native. Lossless round-trip. Built for the era of reasoning models.\nLess noise. More",
+    "links": [
+      "https://t.co/C1NOQnMpDx"
+    ],
+    "tweetUrl": "https://x.com/ronitwtss/status/1994943408415412547",
+    "timestamp": "2025-11-30T01:35:47.000Z",
+    "timeText": "Nov 30, 2025",
+    "images": [],
+    "videos": true
+  },
+  {
+    "id": "1994877915201405258",
+    "username": "markoilico",
+    "displayName": "Marko Ilic",
+    "text": "Clean UI cards for a SaaS client project ",
+    "links": [],
+    "tweetUrl": "https://x.com/markoilico/status/1994877915201405258",
+    "timestamp": "2025-11-29T21:15:32.000Z",
+    "timeText": "Nov 30, 2025",
+    "images": [],
+    "videos": true
+  },
+  {
+    "id": "1994405408128287146",
+    "username": "viktoroddy",
+    "displayName": "Viktor Oddy",
+    "text": "Just Recorded a 51 min Tutorial how to use\n@Lovable\nto build Build High-end Motion Websites (step-by-step)\n\nAnyone can now build High-end sites fully with AI",
+    "links": [],
+    "tweetUrl": "https://x.com/viktoroddy/status/1994405408128287146",
+    "timestamp": "2025-11-28T13:57:58.000Z",
+    "timeText": "Nov 28, 2025",
+    "images": [],
+    "videos": true
+  },
+  {
+    "id": "1994393493331153136",
+    "username": "ItsPeterDesign",
+    "displayName": "Peter Design",
+    "text": "Preview",
+    "links": [],
+    "tweetUrl": "https://x.com/ItsPeterDesign/status/1994393493331153136",
+    "timestamp": "2025-11-28T13:10:37.000Z",
+    "timeText": "Nov 28, 2025",
+    "images": [
+      "https://pbs.twimg.com/media/G6wZFcoW4AAoils?format=jpg&name=360x360"
+    ],
+    "videos": true
+  },
+  {
+    "id": "1994842349097422937",
+    "username": "flowstated",
+    "displayName": "erik",
+    "text": "flow state with parallel agents",
+    "links": [],
+    "tweetUrl": "https://x.com/flowstated/status/1994842349097422937",
+    "timestamp": "2025-11-29T18:54:13.000Z",
+    "timeText": "Nov 30, 2025",
+    "images": [],
+    "videos": true
+  },
+  {
+    "id": "1994726394597908907",
+    "username": "marcelkargul",
+    "displayName": "Marcel",
+    "text": "Project kicked off on Friday.\n\nBranding + website concept delivered on Saturday.\n\nNo one is moving faster than us.",
+    "links": [],
+    "tweetUrl": "https://x.com/marcelkargul/status/1994726394597908907",
+    "timestamp": "2025-11-29T11:13:27.000Z",
+    "timeText": "Nov 29, 2025",
+    "images": [
+      "https://pbs.twimg.com/media/G66w78WWUAAtoGa?format=png&name=medium"
+    ],
+    "videos": false
+  },
+  {
+    "id": "1990814468041826637",
+    "username": "rowancheung",
+    "displayName": "Rowan Cheung",
+    "text": "With Gemini 3, Google also is releasing Antigravity -- an AI coding platform that operates across the editor, terminal, and browser.\n\nThe differentiation from other AI coding tools is they're \"reimagining the IDE from an agent-first perspective\", not just another plugin",
+    "links": [],
+    "tweetUrl": "https://x.com/rowancheung/status/1990814468041826637",
+    "timestamp": "2025-11-18T16:08:51.000Z",
+    "timeText": "Nov 19, 2025",
+    "images": [],
+    "videos": true
+  },
+  {
+    "id": "1990884032620712410",
+    "username": "svpino",
+    "displayName": "Santiago",
+    "text": "I've tried a ton of AI coding tools, and \"The Real AI Engineer\" (TRAE) is the latest one (and it's pretty awesome!)\n\nYou can build in two different modes:\n\n• IDE Mode - For developers who want to keep control\n• SOLO Mode - For people who want AI to take the lead\n\nThe coding",
+    "links": [],
+    "tweetUrl": "https://x.com/svpino/status/1990884032620712410",
+    "timestamp": "2025-11-18T20:45:16.000Z",
+    "timeText": "Nov 19, 2025",
+    "images": [],
+    "videos": true
+  },
+  {
+    "id": "1943447809690341874",
+    "username": "ryolu_",
+    "displayName": "Ryo Lu",
+    "text": "idea:\nwhat if\n@cursor_ai\nstarts as simple as chatting with one smart Agent, and when you need more power, blooms into a full-blown IDE?\n\nsimple up front, limitless when it counts",
+    "links": [],
+    "tweetUrl": "https://x.com/ryolu_/status/1943447809690341874",
+    "timestamp": "2025-07-10T23:10:40.000Z",
+    "timeText": "Jul 11, 2025",
+    "images": [
+      "https://pbs.twimg.com/media/GviCZDzbkAAvg_a?format=jpg&name=medium"
+    ],
+    "videos": false
+  },
+  {
+    "id": "1991907716865069378",
+    "username": "ai_for_success",
+    "displayName": "AshutoshShrivastava",
+    "text": "This is next level vibe coding.\n\nGoogle new IDE Antigravity is incredible when you combine Nano Banana Pro for layout and Gemini 3.0 Pro for coding.\nProcess:\n- Antigravity creates the layout design and plan\n- You review it and provide feedback\n- Antigravity builds the webpage",
+    "links": [],
+    "tweetUrl": "https://x.com/ai_for_success/status/1991907716865069378",
+    "timestamp": "2025-11-21T16:33:02.000Z",
+    "timeText": "Nov 22, 2025",
+    "images": [],
+    "videos": true
+  },
+  {
+    "id": "1991858338020372834",
+    "username": "rajanikethreddy",
+    "displayName": "Raja Niketh Reddy",
+    "text": "just tried google's new AI IDE called Anti-Gravity (yes, google finally made one)\n\nbeen coding with it for 2 days now. some parts are actually really good. some... not so much.\n\nit's free right now if you wanna try it before they start charging\n\nmade a quick video breaking down",
+    "links": [],
+    "tweetUrl": "https://x.com/rajanikethreddy/status/1991858338020372834",
+    "timestamp": "2025-11-21T13:16:49.000Z",
+    "timeText": "Nov 21, 2025",
+    "images": [
+      "https://pbs.twimg.com/media/G6SAVaJbYAAq2xN?format=jpg&name=medium"
+    ],
+    "videos": false
+  },
+  {
+    "id": "1994411777195377063",
+    "username": "DataChaz",
+    "displayName": "Charly Wargnier",
+    "text": "it's over and you know it",
+    "links": [],
+    "tweetUrl": "https://x.com/DataChaz/status/1994411777195377063",
+    "timestamp": "2025-11-28T14:23:16.000Z",
+    "timeText": "Nov 28, 2025",
+    "images": [],
+    "videos": true
+  },
+  {
+    "id": "1994120106310287793",
+    "username": "ElevenLabs",
+    "displayName": "ElevenLabs",
+    "text": "LTX-2 and its latest feature, Retake, are now available in ElevenLabs Image & Video.\n\nRetake lets you edit specific sections of a shot, with timecodes, while maintaining full visual consistency.\n\nChange the action. Adjust the phrasing. Shift the camera angle.",
+    "links": [],
+    "tweetUrl": "https://x.com/ElevenLabs/status/1994120106310287793",
+    "timestamp": "2025-11-27T19:04:16.000Z",
+    "timeText": "Nov 28, 2025",
+    "images": [],
+    "videos": true
+  },
+  {
+    "id": "1994059253754061240",
+    "username": "benjaminnathan",
+    "displayName": "benjamin",
+    "text": "Masonry Grids. Now in\n@framer\n.",
+    "links": [],
+    "tweetUrl": "https://x.com/benjaminnathan/status/1994059253754061240",
+    "timestamp": "2025-11-27T15:02:28.000Z",
+    "timeText": "Nov 27, 2025",
+    "images": [],
+    "videos": true
+  },
+  {
+    "id": "1994490181064253731",
+    "username": "itsanwarraza",
+    "displayName": "Anwar Raza",
+    "text": "Giveaway\n\nMy second animated template just got accepted to framer marketplace, the template is priced at $79 and I am giving it away for free for limited time. Its about 120 hours of work.\n\nIn order to grab, all you have to do is..\n01. Repost\n02. Comment \"Synk\"",
+    "links": [],
+    "tweetUrl": "https://x.com/itsanwarraza/status/1994490181064253731",
+    "timestamp": "2025-11-28T19:34:49.000Z",
+    "timeText": "Nov 29, 2025",
+    "images": [],
+    "videos": true
+  },
+  {
+    "id": "1959999699299275111",
+    "username": "frame0app",
+    "displayName": "Frame0",
+    "text": "A sleek Balsamiq alternative low-fi wireframing tool for modern apps.\n\n- Hand-drawn style\n- Rich components and icons\n- Frame mirroring\n- PDF/HTML prototypes\n- Presentation mode\n- AI assist via MCP server\n- Libraries and templates\n\nStart with free trial without time limit.",
+    "links": [],
+    "tweetUrl": "https://x.com/frame0app/status/1959999699299275111",
+    "timestamp": "2025-08-25T15:21:58.000Z",
+    "timeText": "Aug 25, 2025",
+    "images": [],
+    "videos": true
+  },
+  {
+    "id": "1970491232611901478",
+    "username": "colmtuite",
+    "displayName": "Colm Tuite",
+    "text": "35 components powered by Base UI, with styles and an additional API surface",
+    "links": [],
+    "tweetUrl": "https://x.com/colmtuite/status/1970491232611901478",
+    "timestamp": "2025-09-23T14:11:34.000Z",
+    "timeText": "Sep 23, 2025",
+    "images": [],
+    "videos": true
+  },
+  {
+    "id": "1970473706355892583",
+    "username": "reui_io",
+    "displayName": "ReUI",
+    "text": "Just shipped the biggest update with 30+\n@base_ui\ncomponents & 200+ advanced examples. Free and\n@shadcn\ndefaults ready!",
+    "links": [],
+    "tweetUrl": "https://x.com/reui_io/status/1970473706355892583",
+    "timestamp": "2025-09-23T13:01:55.000Z",
+    "timeText": "Sep 23, 2025",
+    "images": [],
+    "videos": true
+  },
+  {
+    "id": "1970478020826964450",
+    "username": "CloudflareDev",
+    "displayName": "Cloudflare Developers",
+    "text": "Today, we're excited to open-source an AI vibe coding platform, VibeSDK, to enable anyone to run an entire vibe coding platform themselves, end-to-end, with just one click",
+    "links": [],
+    "tweetUrl": "https://x.com/CloudflareDev/status/1970478020826964450",
+    "timestamp": "2025-09-23T13:19:04.000Z",
+    "timeText": "Sep 23, 2025",
+    "images": [],
+    "videos": false
+  },
+  {
+    "id": "1970676086037176375",
+    "username": "fal",
+    "displayName": "fal",
+    "text": "Wan 2.5 is now available at fal.\n\nAnother day 0 launch, this time with sound on Links below ",
+    "links": [],
+    "tweetUrl": "https://x.com/fal/status/1970676086037176375",
+    "timestamp": "2025-09-24T02:26:06.000Z",
+    "timeText": "Sep 24, 2025",
+    "images": [],
+    "videos": true
+  },
+  {
+    "id": "1970850710779543640",
+    "username": "krea_ai",
+    "displayName": "Krea",
+    "text": "introducing Kling 2.5.\n\nthis new frontier video model is capable of producing incredibly complex motions in a hyper-realistic way.\n\ntry it now!",
+    "links": [],
+    "tweetUrl": "https://x.com/krea_ai/status/1970850710779543640",
+    "timestamp": "2025-09-24T14:00:00.000Z",
+    "timeText": "Sep 24, 2025",
+    "images": [],
+    "videos": true
+  },
+  {
+    "id": "1970430456719122893",
+    "username": "basit_designs",
+    "displayName": "Basit A. Khan",
+    "text": "When the colors blend with motion, then this happens ",
+    "links": [],
+    "tweetUrl": "https://x.com/basit_designs/status/1970430456719122893",
+    "timestamp": "2025-09-23T10:10:04.000Z",
+    "timeText": "Sep 23, 2025",
+    "images": [],
+    "videos": true
+  },
+  {
+    "id": "1970789847934910487",
+    "username": "marijanajdova",
+    "displayName": "Marija Najdova",
+    "text": "Building comboboxes has never been this easy. I've build this in less than half an hour using\n@base_ui\n's Combobox component +\n@tailwindcss\n\nCheck the Base UI's docs to see more examples like this one.",
+    "links": [],
+    "tweetUrl": "https://x.com/marijanajdova/status/1970789847934910487",
+    "timestamp": "2025-09-24T09:58:09.000Z",
+    "timeText": "Sep 24, 2025",
+    "images": [],
+    "videos": true
+  },
+  {
+    "id": "1970626357307871591",
+    "username": "ayushsoni_io",
+    "displayName": "Ayush Soni",
+    "text": "snapshots from recent projects...",
+    "links": [],
+    "tweetUrl": "https://x.com/ayushsoni_io/status/1970626357307871591",
+    "timestamp": "2025-09-23T23:08:30.000Z",
+    "timeText": "Sep 24, 2025",
+    "images": [],
+    "videos": true
+  },
+  {
+    "id": "1970526500811350397",
+    "username": "npm_i_shaders",
+    "displayName": "shaders",
+    "text": "Introducing Shaders\n\nA first-of-it's-kind component library for jaw-dropping effects and frontend magic, shipping soon for\n@vuejs\n,\n@reactjs\n&\n@sveltejs\n.",
+    "links": [],
+    "tweetUrl": "https://x.com/npm_i_shaders/status/1970526500811350397",
+    "timestamp": "2025-09-23T16:31:43.000Z",
+    "timeText": "Sep 24, 2025",
+    "images": [],
+    "videos": true
+  },
+  {
+    "id": "1970896602064945623",
+    "username": "hiunicornstudio",
+    "displayName": "Unicorn Studio",
+    "text": "Video export is getting a facelift soon",
+    "links": [],
+    "tweetUrl": "https://x.com/hiunicornstudio/status/1970896602064945623",
+    "timestamp": "2025-09-24T17:02:22.000Z",
+    "timeText": "Sep 25, 2025",
+    "images": [],
+    "videos": true
+  },
+  {
+    "id": "1971000426993746137",
+    "username": "Fateen_Anam",
+    "displayName": "Fateen Anam Rafid",
+    "text": "last year, we sold our first 1000 ai talking toys.\n\nand kids loved them.\n\nthis year, we're going to sell 100,000.\n\nintroducing bondu.",
+    "links": [],
+    "tweetUrl": "https://x.com/Fateen_Anam/status/1971000426993746137",
+    "timestamp": "2025-09-24T23:54:55.000Z",
+    "timeText": "Sep 25, 2025",
+    "images": [],
+    "videos": true
+  },
+  {
+    "id": "1970614805120913842",
+    "username": "ryolu_",
+    "displayName": "Ryo Lu",
+    "text": "we turned the lights back on\n\ntry the new Cursor Light theme made by\n@rikcreation\n\n\ncleaner, simpler agent coming soon",
+    "links": [],
+    "tweetUrl": "https://x.com/ryolu_/status/1970614805120913842",
+    "timestamp": "2025-09-23T22:22:36.000Z",
+    "timeText": "Sep 24, 2025",
+    "images": [],
+    "videos": true
+  },
+  {
+    "id": "1965778863386223002",
+    "username": "Tanjim38",
+    "displayName": "Tanjim | AI Product Designer",
+    "text": "You need us for this level of quality.\n\nWe are offering $2500 for 3 more founders for landing page design, Framer development, and get micro animations like this.\n\nThe next price will be $4000.",
+    "links": [],
+    "tweetUrl": "https://x.com/Tanjim38/status/1965778863386223002",
+    "timestamp": "2025-09-10T14:06:18.000Z",
+    "timeText": "Sep 10, 2025",
+    "images": [],
+    "videos": true
+  },
+  {
+    "id": "1965754138387710080",
+    "username": "basit_designs",
+    "displayName": "Basit A. Khan",
+    "text": "Whispers of AI, wrapped in glass.",
+    "links": [],
+    "tweetUrl": "https://x.com/basit_designs/status/1965754138387710080",
+    "timestamp": "2025-09-10T12:28:03.000Z",
+    "timeText": "Sep 10, 2025",
+    "images": [],
+    "videos": true
+  },
+  {
+    "id": "1965434306173829197",
+    "username": "EHuanglu",
+    "displayName": "el.cine",
+    "text": "wow.. Freepik brings nano banana to next level..\n\nwe can use sketches to control actor's pose accurately and then use keyframe to make her dance.. change bg, direct actor and camera..\n\nthis is a great way to do film composition\n\nstep by step tutorial:",
+    "links": [],
+    "tweetUrl": "https://x.com/EHuanglu/status/1965434306173829197",
+    "timestamp": "2025-09-09T15:17:09.000Z",
+    "timeText": "Sep 9, 2025",
+    "images": [],
+    "videos": true
+  },
+  {
+    "id": "1965703356288323880",
+    "username": "usewonder",
+    "displayName": "Wonder",
+    "text": "Who wants some wonderful stickers?",
+    "links": [],
+    "tweetUrl": "https://x.com/usewonder/status/1965703356288323880",
+    "timestamp": "2025-09-10T09:06:15.000Z",
+    "timeText": "Sep 10, 2025",
+    "images": [
+      "https://pbs.twimg.com/media/G0eUSTiWUAAeNjX?format=jpg&name=medium"
+    ],
+    "videos": false
+  },
+  {
+    "id": "1965393328087900243",
+    "username": "PrajwalTomar_",
+    "displayName": "Prajwal Tomar",
+    "text": "You can now build stunning hero sections inside Lovable\n\nI recorded a full video showing how to use Unicorn Studio + Lovable to create landing pages that look premium.\n\nComment \"HERO\" and follow. I'll DM you the full video.",
+    "links": [],
+    "tweetUrl": "https://x.com/PrajwalTomar_/status/1965393328087900243",
+    "timestamp": "2025-09-09T12:34:19.000Z",
+    "timeText": "Sep 9, 2025",
+    "images": [
+      "https://pbs.twimg.com/media/G0Z60CgaQAAqywR?format=jpg&name=medium"
+    ],
+    "videos": false
+  },
+  {
+    "id": "1965716186764878095",
+    "username": "viktoroddy",
+    "displayName": "Viktor Oddy",
+    "text": "Just Recorded a 17 min Tutorial on How to How To use Lovable to Build a High-end Motion Websites (step-by-step)\n\nYou can now build stunning marketing sites fully with AI\n\nComment \"AI\" and follow to get a FULL Guide.",
+    "links": [],
+    "tweetUrl": "https://x.com/viktoroddy/status/1965716186764878095",
+    "timestamp": "2025-09-10T09:57:14.000Z",
+    "timeText": "Sep 10, 2025",
+    "images": [
+      "https://pbs.twimg.com/media/G0egaOtacAAdOlE?format=jpg&name=medium"
+    ],
+    "videos": false
+  },
+  {
+    "id": "1964305080556847194",
+    "username": "krocits",
+    "displayName": "Aditya Verma",
+    "text": "It's been over 7 months at\n@elevenlabs\n, and I'm grateful to have contributed to some of my favorite launches so far!",
+    "links": [],
+    "tweetUrl": "https://x.com/krocits/status/1964305080556847194",
+    "timestamp": "2025-09-06T12:30:00.000Z",
+    "timeText": "Sep 6, 2025",
+    "images": [],
+    "videos": true
+  },
+  {
+    "id": "1963987992051425789",
+    "username": "proskuaaa",
+    "displayName": "prosku.a",
+    "text": "artist peek / preview",
+    "links": [],
+    "tweetUrl": "https://x.com/proskuaaa/status/1963987992051425789",
+    "timestamp": "2025-09-05T15:30:01.000Z",
+    "timeText": "Sep 5, 2025",
+    "images": [],
+    "videos": true
+  },
+  {
+    "id": "1964428927159382261",
+    "username": "samhenrigold",
+    "displayName": "sam henri gold",
+    "text": "Did you know your MacBook has a sensor that knows the exact angle of the screen hinge?\n\nIt's not exposed as a public API, but I figured out a way to read it and make it sound like an old wooden door.",
+    "links": [],
+    "tweetUrl": "https://x.com/samhenrigold/status/1964428927159382261",
+    "timestamp": "2025-09-06T20:42:08.000Z",
+    "timeText": "Sep 7, 2025",
+    "images": [],
+    "videos": true
+  },
+  {
+    "id": "1963513003086655900",
+    "username": "blurrhaus",
+    "displayName": "Blurr",
+    "text": "Hero section concept for a photo editor.",
+    "links": [],
+    "tweetUrl": "https://x.com/blurrhaus/status/1963513003086655900",
+    "timestamp": "2025-09-04T08:02:34.000Z",
+    "timeText": "Sep 4, 2025",
+    "images": [],
+    "videos": true
+  },
+  {
+    "id": "1963052333102706823",
+    "username": "MarkKnd",
+    "displayName": "Mark Vassilevskiy",
+    "text": "Can't stop animating this",
+    "links": [],
+    "tweetUrl": "https://x.com/MarkKnd/status/1963052333102706823",
+    "timestamp": "2025-09-03T01:32:02.000Z",
+    "timeText": "Sep 3, 2025",
+    "images": [],
+    "videos": true
+  },
+  {
+    "id": "1962915975105528210",
+    "username": "markoilico",
+    "displayName": "Marko Ilic",
+    "text": "",
+    "links": [],
+    "tweetUrl": "https://x.com/markoilico/status/1962915975105528210",
+    "timestamp": "2025-09-02T16:30:12.000Z",
+    "timeText": "Sep 3, 2025",
+    "images": [
+      "https://pbs.twimg.com/media/Gz2trPIbAAUeoUj?format=jpg&name=medium"
+    ],
+    "videos": false
+  },
+  {
+    "id": "1963247679435059528",
+    "username": "animify",
+    "displayName": "Stefan",
+    "text": "One of the tiny details showing you where your new generations end up in Sound Effects",
+    "links": [],
+    "tweetUrl": "https://x.com/animify/status/1963247679435059528",
+    "timestamp": "2025-09-03T14:28:16.000Z",
+    "timeText": "Sep 3, 2025",
+    "images": [],
+    "videos": true
+  },
+  {
+    "id": "1963242136213623193",
+    "username": "linear",
+    "displayName": "Linear",
+    "text": "We built Product Intelligence around a few core principles:\n\n① Trust (AI suggestions need to be accurate)\n② Transparency (make the model's reasoning visible)\n③ Native (should feel like a natural extension of Linear)\n\nHere's how we did it:\n\nhttps://\nlinear.app/now/how-we-bui\nlt-product-intelligence\n…",
+    "links": [
+      "https://t.co/wPhDyohFN7"
+    ],
+    "tweetUrl": "https://x.com/linear/status/1963242136213623193",
+    "timestamp": "2025-09-03T14:06:15.000Z",
+    "timeText": "Sep 3, 2025",
+    "images": [
+      "https://pbs.twimg.com/media/Gz7WQluXYAEFehR?format=jpg&name=medium"
+    ],
+    "videos": false
+  },
+  {
+    "id": "1963245117990412724",
+    "username": "guerriero_se",
+    "displayName": "Sebastiano Guerriero",
+    "text": "Love adding a little depth\n\nIcons →\n@nucleoicons",
+    "links": [],
+    "tweetUrl": "https://x.com/guerriero_se/status/1963245117990412724",
+    "timestamp": "2025-09-03T14:18:06.000Z",
+    "timeText": "Sep 3, 2025",
+    "images": [
+      "https://pbs.twimg.com/media/Gz7YWrjXMAElLP3?format=jpg&name=medium"
+    ],
+    "videos": false
+  },
+  {
+    "id": "1963244427687891217",
+    "username": "damienghader",
+    "displayName": "damien",
+    "text": "Shipped a HUGE feature to my library for\n@lovable\n.\n\nCopy an entire design system in just one click.\n\nThen paste straight into your project.\n\nComment \"Lovable \" below – I'll DM you the private beta link.",
+    "links": [],
+    "tweetUrl": "https://x.com/damienghader/status/1963244427687891217",
+    "timestamp": "2025-09-03T14:15:21.000Z",
+    "timeText": "Sep 3, 2025",
+    "images": [],
+    "videos": true
+  },
+  {
+    "id": "1962584491198976008",
+    "username": "flornkm",
+    "displayName": "Florian",
+    "text": "You can animate handwriting by clipping an SVG path over a font",
+    "links": [],
+    "tweetUrl": "https://x.com/flornkm/status/1962584491198976008",
+    "timestamp": "2025-09-01T18:33:00.000Z",
+    "timeText": "Sep 2, 2025",
+    "images": [],
+    "videos": true
+  },
+  {
+    "id": "1962543056152145928",
+    "username": "timolins",
+    "displayName": "Timo Lins",
+    "text": "Missing that `Copy as markdown` button?\n\nI was, so I shipped a fix this weekend:\n\nJust type i n t o . m d / in front of any URL.\n\nGet clean, LLM-friendly markdown for any website or docs page.",
+    "links": [],
+    "tweetUrl": "https://x.com/timolins/status/1962543056152145928",
+    "timestamp": "2025-09-01T15:48:21.000Z",
+    "timeText": "Sep 1, 2025",
+    "images": [
+      "https://pbs.twimg.com/media/Gzxagj0bwAAkbFB?format=jpg&name=medium"
+    ],
+    "videos": false
+  },
+  {
+    "id": "1962959980442648669",
+    "username": "pranathiperii",
+    "displayName": "Pran",
+    "text": "a couple of the little custom loaders\n@henryheffernan\nand i shipped in v0 recently\n\nwatch the agent work in the corner while you continue to interact with your generation ",
+    "links": [],
+    "tweetUrl": "https://x.com/pranathiperii/status/1962959980442648669",
+    "timestamp": "2025-09-02T19:25:04.000Z",
+    "timeText": "Sep 3, 2025",
+    "images": [],
+    "videos": true
+  }
+]

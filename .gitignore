@@ -15,3 +15,12 @@ Cubox/
 
 # Large video files
 *.mp4
+
+# Obsidian workspace state
+.obsidian/workspace.json
+.obsidian/plugins/
+
+# Temp editor/tool files
+.nanopencil/
+.transcript-polish-progress.json
+.claude/scheduled_tasks.lock

@@ -31,6 +31,16 @@
 
 [MOC 总索引 → 设计资源](design/设计资源.md)
 
+## guides
+
+工具使用教程、工作流指南、实践经验。
+
+| Article | Summary |
+|---------|---------|
+| [X 书签导出指南](guides/x-bookmarks-export.md) | 从 X (Twitter) 导出书签并转换为 wiki 格式的完整流程 |
+
+[更多指南 →](guides/_index.md)
+
 | Article | Summary | Entries |
 |---------|---------|---------|
 | [图标](design/图标.md) | 图标库、动态图标 | 280 |
