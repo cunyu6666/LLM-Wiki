@@ -5726,6 +5726,25 @@ Midjourney 是一个独立的研究实验室，生产专有的人工智能程序
 - ![[Ai配色的一个偷懒小妙招学浪计划 ai 配色 ps 抖音小助手_6850788668282621192.gif]]
 [[Ai配色的一个偷懒小妙招学浪计划 ai 配色 ps 抖音小助手_6850788668282621192.md|Ai配色的一个偷懒小妙招学浪计划 ai 配色 ps 抖音小助手]]
 
+### X (Twitter) 书签
+
+> 从 X 书签导入，共 14 条相关条目
+
+- **Meng To 的 UI Prompt 工具** — 生成带设计系统的 UI，所有内容都是可复制的 prompt：字体配对、色彩系统、间距、图标集、按钮，甚至 WebGL/Three.js 都有完整代码示例 ([原文](https://x.com/MengTo/status/2040072995235102786))
+- **Refero MCP** — AI 做设计前先做设计研究，分析真实界面和用户流程，而不是猜测 ([原文](https://x.com/bbssppllvv/status/2029245807497515098))
+- **0xAllen 的 Logo 设计 Skill** — "小米花几百万请日本设计师改 Logo，最后改了个寂寞"——用 Skill 30 分钟完成从哲学思想到视觉设计的 Logo 设计 ([原文](https://x.com/0xAllen/status/2028724796230635684))
+- **TRAE (The Real AI Engineer)** — 两种模式：IDE Mode（开发者保持控制）和 SOLO Mode（AI 主导） ([原文](https://x.com/svpino/status/1990884032620712410))
+- **Google Antigravity + Nano Banana Pro** — 用 Antigravity 做布局设计，Nano Banana Pro 做排版，Gemini 3.0 Pro 写代码，"next level vibe coding" ([原文](https://x.com/ai_for_success/status/1991907716865069378))
+- **Linear Product Intelligence** — Linear 构建 AI 功能的三个核心原则：① 信任（AI 建议要准确）② 透明（让模型推理可见）③ 原生（像 Linear 的自然延伸） ([原文](https://x.com/linear/status/1963242136213623193))
+- **Lovable 设计系统一键复制** — damien 为 Lovable 开发的功能，一键复制整套设计系统并粘贴到项目中 ([原文](https://x.com/damienghader/status/1963244427687891217))
+- **shadcn plugin in Cursor** — eric zakariasson 推荐在 Cursor 中试用 shadcn 插件 ([原文](https://x.com/ericzakariasson/status/2046880812814176590))
+- **Framer Masonry Grids** — Framer 新增瀑布流布局组件 ([原文](https://x.com/benjaminnathan/status/1994059253754061240))
+- **Framer 动画模板** — 120 小时工作量的动画模板，Framer Marketplace 售价 $79 ([原文](https://x.com/itsanwarraza/status/1994490181064253731))
+- **Unicorn Studio + Lovable** — 用 Unicorn Studio 在 Lovable 中构建高端 hero section 和 landing page ([原文](https://x.com/PrajwalTomar_/status/1965393328087900243))
+- **v0 自定义 Loader** — v0 团队 shipped 的自定义加载动画，Agent 在角落工作 while 你继续交互 ([原文](https://x.com/pranathiperii/status/1962959980442648669))
+- **Frame0** — 手绘风格低保真线框工具，支持 AI assist via MCP server、PDF/HTML 原型 ([原文](https://x.com/frame0app/status/1959999699299275111))
+- **Basit A. Khan 玻璃 AI 概念** — "Whispers of AI, wrapped in glass" 视觉概念设计 ([原文](https://x.com/basit_designs/status/1965754138387710080))
+
 ## See Also
 
 - [[AI编程与Vibe Coding.md|AI编程与Vibe Coding]] — 设计工具与编程工具的融合趋势
