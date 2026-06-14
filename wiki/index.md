@@ -31,6 +31,24 @@
 
 [MOC 总索引 → 设计资源](design/设计资源.md)
 
+## x-bookmarks
+
+X (Twitter) 书签精选，按主题分类整理。
+
+| Article | Summary | Sources |
+|---------|---------|---------|
+| [AI 工具](x-bookmarks/ai-工具.md) | 通用 AI 工具和平台 | 12 |
+| [AI 视频与动画](x-bookmarks/ai-视频与动画.md) | AI 视频生成、动画工具 | 10 |
+| [AI 设计工具](x-bookmarks/ai-设计工具.md) | AI 图像生成、设计辅助 | 8 |
+| [设计工具](x-bookmarks/设计工具.md) | Framer、Figma 等设计工具 | 5 |
+| [AI 编程工具](x-bookmarks/ai-编程工具.md) | AI IDE、编程助手 | 4 |
+| [开发工具](x-bookmarks/开发工具.md) | IDE、效率工具、协作平台 | 4 |
+| [设计灵感](x-bookmarks/设计灵感.md) | Hero section、动画示例 | 4 |
+| [UI 组件库](x-bookmarks/ui-组件库.md) | shadcn、Base UI 等组件库 | 3 |
+| [硬件与 IoT](x-bookmarks/硬件与-iot.md) | 硬件项目、IoT 设备 | 1 |
+
+[完整索引 →](x-bookmarks/_index.md)
+
 ## guides
 
 工具使用教程、工作流指南、实践经验。
