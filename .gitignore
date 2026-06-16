@@ -27,3 +27,4 @@ Cubox/
 .nanopencil/
 .transcript-polish-progress.json
 .claude/scheduled_tasks.lock
+.catui/token-save/

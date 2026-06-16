@@ -13,15 +13,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/design/AI实操与工具.md",
+                "file": "wiki/design/AI编程与Vibe Coding.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AI实操与工具"
+              "title": "AI编程与Vibe Coding"
+            }
+          },
+          {
+            "id": "1c276a45883f42f8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wiki/Agent/Claude Code 系统提示词.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Claude Code 系统提示词"
+            }
+          },
+          {
+            "id": "4c452ea8fd2fb083",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wiki/Agent/Codex 系统提示词.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Codex 系统提示词"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -94,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "wiki/design/AI实操与工具.md",
+                "file": "wiki/design/设计师成长.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +133,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "AI实操与工具 的反向链接列表"
+              "title": "设计师成长 的反向链接列表"
             }
           },
           {
@@ -156,13 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "wiki/design/AI实操与工具.md",
+                "file": "wiki/Agent/Codex 系统提示词.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "AI实操与工具 的大纲"
+              "title": "Codex 系统提示词 的大纲"
             }
           }
         ],
@@ -184,18 +213,39 @@
       "cubox-sync:Cubox": false
     }
   },
-  "active": "78b6e5187d7479cc",
+  "active": "b264edf6b447c59b",
   "lastOpenFiles": [
-    "wiki/design/设计系统.md",
-    "wiki/design/设计方法论.md",
+    "wiki/Agent/Open Design 系统提示词.md",
+    "wiki/Agent/Claude Design 系统提示词.md",
+    "wiki/Agent/Catui 提示词.md",
+    "wiki/Agent/Codex 系统提示词.md",
+    "wiki/Agent/Claude Code 系统提示词.md",
+    "wiki/speech/outline-v2.md",
+    "wiki/speech/idea-fragments.md",
+    "scripts/fix-moonvy-source-links.py",
+    "catui.md",
+    "wiki/design/AI编程与Vibe Coding.md",
+    "wiki/Agent",
     "抖音视频入库流程.md",
+    "wiki/guides/抖音视频入库流程.md",
+    "wiki/guides/抖音视频下载指南.md",
+    "wiki/guides/x-api-setup.md",
+    "Cubox/啥？Fable 5一出，Skill和Prompt都白学了？-2026-06-14.md",
+    "Cubox/本周开源爆款盘点：shadcn新作、Apple端侧AI、AI PPT神器来了-2026-06-14.md",
+    "Cubox/设计系统从零搭太累？Better Design：29套开箱即用的shadcn-ui组件库，让产品一夜拥有大厂颜值-2026-06-14.md",
+    "Cubox/一文读懂什么是Loop，Claude Fable 5是Loop最严厉的父亲-2026-06-13.md",
+    "Cubox/终于有人跳出了 Codex 的魔咒。-2026-06-12.md",
+    "Cubox/什么样的代码仓库是 Agent-Friendly 的？-2026-06-12.md",
+    "raw/x-bookmarks/twitter-search-designer-build.md",
+    "抖音视频下载指南.md",
     "wiki/design/设计师成长.md",
-    "wiki/design/免费资源.md",
-    "raw/来自抖音/平面插画设计 插画 插画网站 素材 插画师都在用的几个插画网站必收藏DOU小助手 抖_6988462868559580448.md",
     "wiki/design/教程与复刻.md",
     "wiki/design/抖音设计短视频.md",
     "wiki/design/动效与动画.md",
-    "wiki/design/品牌与视觉.md",
+    "wiki/design/灵感网站.md",
+    "raw/xiaohongshu_favorites.json",
+    "scripts/polish-transcripts.py",
+    "wiki/design/插画.md.tmp.19840.1780823386003",
     "raw/来自抖音/gifs/黄色配什么颜色最好看品牌设计 包装设计 大东设计_6993265521110060329.gif",
     "raw/来自抖音/gifs/黄仁勋通用机器人时代已来 英伟达官宣机器人大模型正式开源 机器人小蓝可爱互动展示科技 机器_7483339820933188927.gif",
     "raw/来自抖音/gifs/高颜值又轻量的动效工具ui设计 设计师 视觉设计 设计分享 动效设计 动效 ae_7066315981236358408.gif",
@@ -207,30 +257,9 @@
     "raw/来自抖音/gifs/颜值超高的rising chair变形椅 居然真被我做出来了内附图纸装修diy 动手能力 手_7198097363255250237.gif",
     "raw/来自抖音/gifs/难以置信的效果OpenAI公布使用Sora生成的剧情片 OpenAI 玩儿个很新的东西 ai_7350404094617521417.gif",
     "raw/来自抖音/gifs",
-    "wiki/design/设计资源.md",
-    "raw/来自抖音/国外设计师作品集参考平台作品集 找工作 设计师 干货分享 插画 灵感创作 热门_7070447634367909152.md",
-    "raw/来自抖音/PS制作超炫的3D炸裂背景封面PS初学者教程ui设计 ps教学 ps教程 ps小技巧_7021795326310763790.md",
-    "raw/来自抖音/3dmax 室内设计 3dmax建模 效果图 分享一款3d画笔插件_7008773290458123523.md",
-    "wiki/design/UI模板与设计系统.md",
-    "3dmax.md",
-    "raw/时事评论/2024-09-25-任意论文一键变播客谷歌正式发布Illuminate它能重构研究者的学习方式吗-机器之心.md",
-    "raw/时事评论/2024-08-28-李沐重返母校上交大秒变追星现场大模型趋势无保留分享.md",
-    "raw/产品介绍/2024-08-27-突破界限解锁8个神秘AI工具让你在人群中脱颖而出.md",
-    "raw/来自抖音/5种平面设计中的背景-做出层次配合风格诠释平面设计设计教程海报设计_7079031563811376399.md",
     "raw/来自抖音/4小时场景速涂未来科幻题材概念设计 绘画步骤 板绘 场景原画 游戏原画_7014299362863992098.mp4",
     "raw/来自抖音/3dmax 室内设计 3dmax建模 效果图 分享一款3d画笔插件_7008773290458123523.mp4",
-    "raw/来自抖音/3d数据可视化大屏设计 3d数据可视化设计组态设计大屏设计数据看板设计物联网设计自动化工控_7337138945223953718.md",
-    "raw/design/2025-02-18-Day514房产类Ai智能对话动效设计---小红书.md",
-    "wiki/design/行业案例与趋势.md",
-    "wiki/design/图库与配色.md",
-    "wiki/design/图标.md",
-    "wiki/design/数据与可视化.md",
     "fix_douyin_links.py",
-    "scripts/__pycache__/optimize-wiki-design-p3.cpython-311.pyc",
-    "scripts/__pycache__",
-    "scripts/optimize-wiki-design-p3.py",
-    "scripts/cleanup-other-resources-r2.py",
-    "scripts/ingest-douyin-design.py",
-    "scripts/fix-linggan-append.py"
+    "scripts/__pycache__/optimize-wiki-design-p3.cpython-311.pyc"
   ]
 }
