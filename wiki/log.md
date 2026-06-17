@@ -179,3 +179,25 @@
   - 8 个 AI 时代产品设计模式、Agent 时代 UI 设计
 - Wiki pages updated: AI实操与工具, AI编程与Vibe Coding, 设计师成长, 设计方法论, 行业案例与趋势, AI Agent 开发, LLM与大模型
 - Tools used: Cubox API (curl), Python batch script
+
+## [2026-06-09 → 2026-06-14] 拉取远端增量
+- 提交 a1bd9a7：原始素材入仓（raw/x-audio/、raw/x-transcripts/、raw/x-bookmarks/gifs/）
+- 提交 965cce7：Agent 系统提示词合集（Claude Code / Claude Design / Codex / Catui / Open Design）→ wiki/Agent/
+- 提交 81eaf32：演讲素材与计划更新
+- 抖音下载/入库流程从根目录并入 wiki/guides/
+
+## [2026-06-17] cleanup | P0 显性错误与索引归一
+- 删除 3dmax.md（0 字节空文件，6-10 残留）
+- 删除 raw/xiaohongshu_favorites.json（空数组）
+- 同步 config.md：design 37→40、speech 4→6、新增 x-bookmarks/Agent/guides 三个模块
+- 在 config.md 增补"Skill 配置"小节，注明 .agents/skills/ 与 skills/ 双份关系
+- wiki/index.md：合并 3D模型 知识/资源双条目（84+7 与 84），补 speech 和 Agent 板块，扩 guides 至 4 条
+- wiki/design/_index.md 改为重定向页（指向 wiki/index.md#design），保留 67 行历史快照供回溯
+- wiki/scan_progress.md（531 行 6-08 停止）归档为 wiki/guides/lint-history.md；wiki/ 根留重定向
+- inventory/_index.md 增"重审"批注，标记 10 条待抓取 Cubox 链接已 8 天未处理
+
+## [2026-06-17] 待办
+- inventory 10 条 Cubox 待抓取未处理，建议逐条确认后清理
+- 3 条"待入库素材"的 raw 来源路径缺失，需要补
+- skills/ 与 .agents/skills/ 内容仍漂移（前者 392 行扩展版，后者 187 行上游版），建议下次 Lint 时统一
+- moonvy.com 3066 张外链未做存活率验证
