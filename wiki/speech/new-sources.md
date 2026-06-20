@@ -1,3 +1,8 @@
+---
+type: speech-meta
+description: "扫描 Cubox + raw 后筛选出的、当前 wiki 尚未充分收录的强观点素材"
+timestamp: 2026-06-20
+---
 # 新发现素材：待入库 & 演讲可用
 
 > 扫描 Cubox + raw 后筛选出的、当前 wiki 尚未充分收录的强观点素材

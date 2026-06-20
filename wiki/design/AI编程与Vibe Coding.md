@@ -6,6 +6,7 @@ tags:
   - Cursor
 created: 2026-06-07
 updated: 2026-06-07
+type: index
 ---
 # AI编程与Vibe Coding
 

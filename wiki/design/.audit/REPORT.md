@@ -1,3 +1,8 @@
+---
+type: note
+description: "Audit ID: 2026-06-06T00:00:00Z"
+timestamp: 2026-06-20
+---
 # Audit Report: wiki/design
 
 **Audit ID**: 2026-06-06T00:00:00Z

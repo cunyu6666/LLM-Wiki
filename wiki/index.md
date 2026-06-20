@@ -1,6 +1,11 @@
+---
+type: index
+description: "设计师 AI 时代知识库 · 2026-06-17 更新 · wiki 状态：[GitHubhttps://github.com/cunyu6666/LLM-Wiki)"
+timestamp: 2026-06-20
+---
 # Knowledge Base Index
 
-> 设计师 AI 时代知识库 · 2026-06-17 更新 · wiki 状态：[GitHub](https://github.com/cunyu6666/LLM-Wiki)
+> 设计师 AI 时代知识库 · 2026-06-20 更新 · wiki 状态：[GitHub](https://github.com/cunyu6666/LLM-Wiki)
 
 ## design
 
@@ -13,9 +18,9 @@
 | Article | Summary | Sources |
 |---------|---------|---------|
 | [行业案例与趋势](design/行业案例与趋势.md) | 企业设计案例、行业报告、设计趋势与产品体验分析 | 1130 |
-| [AI设计工具](design/AI设计工具.md) | AI 原生设计工具：Claude Design、Lovart、Figma AI 等；与 AI应用 分工明确 | 647 |
+| [AI设计工具](design/AI设计工具.md) | AI 原生设计工具：Claude Design、Claude Code 设计流、Framer Agents、Lovart、Figma AI 等 | 649 |
 | [AI编程与Vibe Coding](design/AI编程与Vibe Coding.md) | Cursor、Vibe Coding 与 AI 辅助开发范式 | 146 |
-| [AI Agent 开发](design/AI Agent 开发.md) | MCP/A2A、Agent Skills、Harness 托管式部署 | 57 |
+| [AI Agent 开发](design/AI Agent 开发.md) | MCP/A2A、Agent Skills、Harness 托管式部署、Claude Architect 多智能体编排 | 58 |
 | [LLM与大模型](design/LLM与大模型.md) | DeepSeek、Gemini、预训练终结、多模态扩展 | 50 |
 | [UX与交互研究](design/UX与交互研究.md) | 从 UX 到 AX（Agent Experience） | 65 |
 | [UI设计与组件](design/UI设计与组件.md) | Bento UI、B 端规范、抖音 UI 趋势补充 | 39 |
@@ -25,7 +30,7 @@
 | [设计方法论](design/设计方法论.md) | AI 时代设计方法论重定义 | 52 |
 | [设计系统](design/设计系统.md) | AI 时代协作基础设施 | 20 |
 | [品牌与视觉](design/品牌与视觉.md) | 品牌识别与 AI 生成内容 | 27 |
-| [设计师成长](design/设计师成长.md) | 从"执行"转向"判断" | 17 |
+| [设计师成长](design/设计师成长.md) | 从"执行"转向"判断"；Ryo Lu 谈设计师与开发者融合 | 19 |
 | [AI实操与工具](design/AI实操与工具.md) | Prompt 方法论、Manus 工作流 | 28 |
 | [抖音设计短视频](design/抖音设计短视频.md) | 425 条设计类抖音文字稿索引 | 425 |
 

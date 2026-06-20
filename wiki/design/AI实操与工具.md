@@ -4,6 +4,7 @@ summary: "Prompt 工程实战、工作流自动化、AI 内容生成工具使用
 tags: [AI实操, Prompt工程, 工作流, ChatGPT]
 created: 2026-06-07
 updated: 2026-06-07
+type: index
 ---
 # AI实操与工具
 

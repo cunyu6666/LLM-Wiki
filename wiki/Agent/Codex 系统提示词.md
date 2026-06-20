@@ -1,3 +1,8 @@
+---
+type: agent-prompt
+description: "来源：/Users/cunyu666/Dev/codex/codex-rs/（Rust 实现）"
+timestamp: 2026-06-20
+---
 # Codex 系统提示词 — 逐字完整中文版
 
 > 来源：`/Users/cunyu666/Dev/codex/codex-rs/`（Rust 实现）

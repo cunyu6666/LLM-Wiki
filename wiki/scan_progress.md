@@ -1,3 +1,8 @@
+---
+type: scan-progress
+description: "⚠️ 本文件已于 2026-06-17 归档为 [wiki/guides/lint-history.mdguides/lint-history.md)。"
+timestamp: 2026-06-20
+---
 # scan_progress.md
 
 > **⚠️ 本文件已于 2026-06-17 归档为 [`wiki/guides/lint-history.md`](guides/lint-history.md)。**

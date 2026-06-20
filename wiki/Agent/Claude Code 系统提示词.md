@@ -1,3 +1,8 @@
+---
+type: agent-prompt
+description: "来源：/Users/cunyu666/Dev/Claude-Code/src/constants/prompts.ts（915 行）"
+timestamp: 2026-06-20
+---
 # Claude Code 系统提示词 — 逐字完整中文版
 
 > 来源：`/Users/cunyu666/Dev/Claude-Code/src/constants/prompts.ts`（915 行）

@@ -1,4 +1,108 @@
+---
+type: log
+description: "## ingest | xhs mega batch #1 (10 articles, 47 images)"
+timestamp: 2026-06-20
+---
 # Wiki Log
+
+## [2026-06-20] compile | 5 篇 Youtube raw 编译入 wiki
+- AI Agent 开发.md：新增「Claude Architect 多智能体编排」章节（层级式任务分解 + 异构子 Agent + 沙箱隔离）
+- AI设计工具.md：新增「Claude Code 作为设计工具」章节（Griffin Wooldridge 设计工作流）+ 「Framer Agents 与协作式 AI 设计」章节（Canvas Agent、分支、上下文感知编辑）
+- 设计师成长.md：新增「Ryo Lu 谈设计师与开发者的融合」章节（a16z 播客：角色融合、品味本质、设计师变为开发者）
+- Raw sources: Claude-Architect多智能体编排、把Claude-Code变成设计天才、Framer发布会介绍Agents与分支、Cursor的Ryo-Lu谈设计活工具与编程未来、Ryo-Lu谈AI将设计师变为开发者
+
+## [2026-06-20] ingest | xhs mega batch #2 (19 URLs, 18 success, 85 images)
+- Source: 用户一次提供 19 条小红书 URL
+- Failure: `6a1e5af4...` (23KB，被反爬，仅 18 条成功)
+- Method: 复用 mega batch #1 流程（curl 并发抓 + Vision API 并发 OCR）
+- 18 条笔记（按主题）:
+  - **AI Agent 开发 (4)**: Continual Harness / SkillOpt / ECC / Anthropic设计负责人 / 孙立超团队 Agent 自进化
+  - **AI 编程 (5)**: AI Coding Agent / /teach / Claude Code 首席设计师 / OpenSpec / 野生AI产品
+  - **AI 设计工具 (5)**: 设计跟开发不用打架 / Claude设计负责人播客 / AI in Design Report / 资讯简报×2
+  - **AI 应用 (3)**: AnySearch / 硅谷脑电波 / (空标题)
+  - **亮点**: SkillOpt (13k字) — Agent Skills 自进化；Continual Harness (5k字) — Agent 自进化；ECC (1.2k字) — everything-claude-code
+- Files:
+  - `raw/小红书/<title>_<note_id>.md` × 18
+  - `raw/小红书/imgs/<note_id>/{1..N}.jpg` × 85
+  - `wiki/design/<title>.md` × 18 索引版（OKF frontmatter）
+- Stats: 总 OCR 字数 50,150（自适应分位数阈值修复后提升 10×）
+- **关键修复**：OCR 重建阈值从 `h * 1.3` 改为基于 y 间距分布的 30% 分位数（自适应密度）
+- **可读性后处理**：批量正则替换 Vision API 常见误识（Al→AI / Github→GitHub / scndle→schedule / Lollm→LLM 等）；按 zh_ratio 分 4 级（good/mixed/english/multicol），每条加可读性说明 frontmatter
+- **空标题处理**：`6a16bc57...` 标题为空但 desc 完整，自动用 desc 替换 OCR 主体
+- **失败处理**：`6a1e5af4...` xsec_source 是 `pc_search` 而非 `pc_collect`，触发反爬；以后仅保留 `pc_collect` 来源
+
+## [2026-06-20] ingest | xhs mega batch #1 (10 articles, 47 images)
+- Source: 用户一次提供 10 条小红书 URL 批量入库
+- Method: xargs + curl 并发抓 HTML（避开 Python urllib SSL 限制）→ 批量 JSON 解析 → curl 批量下载图 → Vision API 并发 OCR → 按 y 降序 + x 升序重建阅读顺序（自适应行高阈值）
+- 10 条笔记:
+  1. AI没有护城河_这是Anthropic最不想承认的事 (5图) → AI编程与Vibe Coding
+  2. Cursor工程师说了大实话_全栈通才是伪命题 (6图) → AI编程与Vibe Coding
+  3. figma设计负责人对AI coding的看法 (2图) → AI设计工具
+  4. Anthropic Deep Research_ 多智能体架构 (7图) → AI Agent 开发
+  5. webclaw将html清洗成AI友好的数据格式 (1图) → AI应用
+  6. Loop Engineering 是什么｜8 张图讲透 (8图) → AI Agent 开发
+  7. Claude Code 30万行代码的核心 (4图) → AI Agent 开发
+  8. 我理解的 AI 设计工作台_三层就够了 (5图) → AI Agent 开发
+  9. Shopify内部AI必须全员公开_让私聊变群聊 (8图) → AI应用
+  10. 谷歌发布的开放知识格式（OKF） (1图) → AI应用
+- Files:
+  - `raw/小红书/<title>_<note_id>.md` × 10
+  - `raw/小红书/imgs/<note_id>/{1..N}.jpg` × 47
+  - `wiki/design/<title>.md` × 10 索引版
+- Stats: 总 OCR 字数 20,746
+- **关键修复**：OCR 重建阈值改用自适应行高（`h*1.3`），原固定 0.012 导致小字段落全被判为换段 → 标题以外全部丢失
+- **最关键笔记**：`谷歌发布的开放知识格式（OKF）` — 跟本 wiki 架构（Obsidian wikilink + frontmatter）直接相关，OKF v0.1 就是 LLM-wiki pattern 的形式化规范
+
+## [2026-06-20] ingest | xhs third batch (1 article, 12 images)
+- Source: 小红书 `https://www.xiaohongshu.com/explore/6a31046d0000000011010e16`
+- Title: Zynga 创始人：先抄对，再创新
+- Author: 小红书号「奇点日记」转载自 Lenny 播客 · Mark Pincus
+- Method: 复用 xhs first batch 流程
+- Files:
+  - `raw/小红书/Zynga 创始人先抄对再创新_6a31046d0000000011010e16.md`
+  - `raw/小红书/imgs/6a31046d0000000011010e16/{1..12}.jpg`（已按 note_id 命名空间隔离）
+  - `wiki/speech/Zynga 创始人先抄对再创新.md`
+- Back-links: `wiki/speech/0620 计划与进展.md` 已收录
+- Stats: 181 赞 / 253 收藏 / 1 评论 / ~4625 字 OCR
+- Core: Proven-Better-New 三段框架 + 6 大洞察
+
+## [2026-06-20] ingest | xhs user-pasted image (1 article, IDE OCR)
+- Source: 用户在 Claude Code IDE 内贴入的 PNG 截图（非真实小红书笔记）
+- Title: High-Performance Teams in the Age of AI: Learnings from Lovable
+- Author: Felix Haas (Lovable 创始人, designplusai.com)
+- Method: IDE 内置 OCR → 人工归档（无 curl/无 imgs/，纯文本）
+- Files:
+  - `raw/小红书/High-Performance Teams in the Age of AI_ felix-haas-ai-teams.md` — 含 note 字段注明非真实 xhs
+  - `wiki/design/High-Performance Teams in the Age of AI.md` — 7 条原则速查表
+- Back-links: `wiki/design/AI Agent 开发.md` See Also 区追加
+- 用途：Lovable / AI Teams / Leadership 主题入库；与 `Dan Koe 人生就四件事` 互为镜像（DanKoe 强调"Build in Public"，Felix 强调"Ship then improve"）
+
+## [2026-06-20] ingest | xhs second batch (1 article, 11 images)
+- Source: 小红书 `https://www.xiaohongshu.com/explore/6a17099700000000070210da`
+- Title: Dan Koe：人生就四件事，其余全是噪音
+- Author: 小红书号 `DanKoe行动指南`（从图片 OCR 识别）
+- Method: 复用 xhs first batch 流程（见 `wiki/guides/小红书入库流程.md`）
+- Files:
+  - `raw/小红书/Dan Koe 人生就四件事_6a17099700000000070210da.md`
+  - `raw/小红书/imgs/6a17099700000000070210da/{1..11}.jpg`
+  - `wiki/speech/Dan Koe 人生就四件事.md` — 演讲素材落点
+- Back-links: `wiki/speech/0620 计划与进展.md` 已收录
+- Stats: 1,271 赞 / 1,610 收藏 / 10 评论 / ~2394 字 OCR
+- **Bug 修复 + 流程补强**：
+  - 第 1 轮 `imgs/1.jpg` 被第 2 轮覆盖 → 立即从 `/tmp/xhs/imgs/` 恢复 A 的图 1-9
+  - 改用 `imgs/<note_id>/N.jpg` 命名空间隔离（已写入 `wiki/guides/小红书入库流程.md` 强制约定）
+
+## [2026-06-20] ingest | xhs first batch (1 article, 9 images)
+- Source: 小红书 `https://www.xiaohongshu.com/explore/6a2bf71e000000002100a7d2`
+- Title: 一文读懂 Agent、harness、Loop 等概念：AI 的边界在哪？
+- Method: `curl` + iPhone UA + Referer 抓 HTML → `__INITIAL_STATE__` JSON 解析 → urllib 下载 9 张原图 → macOS Vision API (`VNRecognizeTextRequest`) OCR → 视觉坐标重建阅读顺序
+- Files:
+  - `raw/小红书/一文读懂 Agent、harness、Loop 等概念_6a2bf71e000000002100a7d2.md` — 主文档 + 完整 OCR 文字稿
+  - `raw/小红书/imgs/1-9.jpg` — 9 张原图（按抖音 `gifs/` 约定对齐，命名用 `imgs/`）
+  - `wiki/Agent/一文读懂 Agent、harness、Loop 等概念.md` — 索引版，含摘要 / 三段大纲 / 核心金句 / 关联链接
+- Back-links: `wiki/design/AI Agent 开发.md` See Also 区追加反向链接
+- Stats: 719 赞 / 717 收藏 / 10 评论 / ~3442 字 OCR 全文
+- Note: 首次接入小红书数据源；建立 `raw/小红书/` 目录；未登录态下作者昵称无法解析（仅 author_id）
 
 ## [2026-06-05] ingest | design full build (386 articles with full text)
 - Source: Cubox CLI batch fetch — 386 design-related articles with full Markdown content

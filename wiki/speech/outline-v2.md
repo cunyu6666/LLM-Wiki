@@ -1,3 +1,8 @@
+---
+type: speech-meta
+description: "状态：重写稿 · 待 review"
+timestamp: 2026-06-20
+---
 # 演讲大纲 v2：从 Design 到 Build
 
 > 状态：重写稿 · 待 review

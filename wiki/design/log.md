@@ -1,3 +1,8 @@
+---
+type: log
+description: "## compile | 动效与动画专题编译（96 个抖音视频）"
+timestamp: 2026-06-20
+---
 # Design Wiki Log
 
 ## [2026-06-06] compile | 动效与动画专题编译（96 个抖音视频）

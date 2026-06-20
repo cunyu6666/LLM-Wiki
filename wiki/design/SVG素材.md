@@ -4,6 +4,7 @@ summary: "48 条 SVG 资源：矢量形状、花纹"
 tags: [SVG, 矢量, 形状, 素材]
 created: 2026-06-07
 updated: 2026-06-07
+type: index
 ---
 # SVG素材
 

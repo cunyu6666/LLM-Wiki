@@ -4,6 +4,7 @@ summary: "235 条 Figma 组件库、设计系统文件、UI Kit"
 tags: [UI模板, 设计系统, Figma, 组件库]
 created: 2026-06-07
 updated: 2026-06-07
+type: index
 ---
 # UI模板与设计系统
 

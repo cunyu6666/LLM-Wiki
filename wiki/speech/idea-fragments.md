@@ -1,3 +1,8 @@
+---
+type: speech-meta
+description: "用途：暂存还没决定要不要进 outline-v2 / 怎么进的素材碎片。"
+timestamp: 2026-06-20
+---
 # 演讲碎片素材池（idea-fragments）
 
 > 用途：暂存还没决定要不要进 outline-v2 / 怎么进的素材碎片。
@@ -99,3 +104,7 @@
 
 ---
 -->
+
+
+----
+设计从来都是规划事情的角色，从为人&界面到为Agent&人

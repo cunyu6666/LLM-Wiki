@@ -1,3 +1,8 @@
+---
+type: speech-meta
+description: "状态：讨论稿 · 待打磨"
+timestamp: 2026-06-20
+---
 # 演讲大纲 v1：从 Design 到 Build
 
 > 状态：讨论稿 · 待打磨

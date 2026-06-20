@@ -4,6 +4,7 @@ summary: "23 条 Figma 技巧：Chrome/Sketch 插件"
 tags: [Figma, 插件, Chrome, Sketch]
 created: 2026-06-07
 updated: 2026-06-07
+type: index
 ---
 # Figma技巧与插件
 

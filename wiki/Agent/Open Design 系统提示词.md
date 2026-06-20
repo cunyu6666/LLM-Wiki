@@ -1,3 +1,8 @@
+---
+type: agent-prompt
+description: "来源：nexu-io/open-design (GitHub 65.9k stars)"
+timestamp: 2026-06-20
+---
 # Open Design 系统提示词 — 逐字完整中文版
 
 > 来源：`nexu-io/open-design` (GitHub 65.9k stars)

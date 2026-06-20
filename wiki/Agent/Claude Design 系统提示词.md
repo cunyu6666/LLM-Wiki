@@ -1,3 +1,8 @@
+---
+type: agent-prompt
+description: "来源：asgeirtj/system_prompts_leaks (GitHub)"
+timestamp: 2026-06-20
+---
 # Claude Design 系统提示词 — 逐字完整中文版
 
 > 来源：`asgeirtj/system_prompts_leaks` (GitHub)

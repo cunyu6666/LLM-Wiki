@@ -4,6 +4,7 @@ summary: "Bento UI 流行、拟物化回归、AI 时代交互模式定义"
 tags: [UI设计, 组件, Bento UI, 拟物化]
 created: 2026-06-07
 updated: 2026-06-07
+type: index
 ---
 # UI设计与组件
 
