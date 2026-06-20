@@ -1,3 +1,8 @@
+---
+type: speech-meta
+description: "用途：为 outline-v1 的每个论点提供 wiki 中的具体观点、案例和金句支撑"
+timestamp: 2026-06-20
+---
 # 演讲素材库：wiki 观点弹药
 
 > 用途：为 outline-v1 的每个论点提供 wiki 中的具体观点、案例和金句支撑
@@ -257,6 +262,94 @@
 50. **"设计的本质是解决问题"**
     — wiki: 设计师成长（抖音视频）
     → 用法：回归设计本质
+
+51. **"代码并不廉价。烂代码是有史以来最贵的。"**
+    — Matt Pocock，AI Engineer 大会演讲（[yt-talks/v4F1gFy-hqg](yt-talks/软件基础比以往更重要_Software-Fundamentals-Matter-More-Than-Ever-Matt-Pocock_v4F1gFy-hqg.md)）
+    → 用法：呼应"基本功 vs AI"的张力，反驳"代码是廉价商品"的论调
+
+52. **"以为可以不管代码、让代码自己管自己，说白了就是 vibe coding 的另一种说法。"**
+    — Matt Pocock（同上）
+    → 用法：给"vibe coding"下个清晰定义，作为批判的钩子
+
+53. **"把 AI 当成地面部队的士官，头上还需要有人做战略思考。那个人,是你。"**
+    — Matt Pocock（同上）
+    → 用法：论证"设计师 = 战略层"，与"AI Builder"角色论述共振
+
+54. **"好代码库就是好测的代码库。"**
+    — Matt Pocock（同上）
+    → 用法：把"代码质量"翻译为"反馈速度"，支持"设计师写代码"的论点
+
+55. **"feedback 的速度就是你的速度上限"（outrunning your headlights）**
+    — Matt Pocock（同上，转述 The Pragmatic Programmer）
+    → 用法：说明"小步快跑"在 Agent 时代更关键
+
+56. **"这个（AI）行业最重要的特质就是靠谱"**
+    — 姚顺宇（Anthropic / DeepMind 研究员），小珺播客（[yt-talks/ttkd0t5qTD4](yt-talks/姚顺宇在Anthropic和Gemini训练模型_Yao-Shunyu-Training-Models-at-Anthropic-Gemini_ttkd0t5qTD4.md)）
+    → 用法：在"靠不靠谱"段落引用，权威背书"AI 时代的人的价值"
+
+57. **"在 Gemini / OpenAI / Anthropic 这三家里，没有哪一家会真的担心自己追不上对手。难的是想明白要做什么。"**
+    — 姚顺宇（同上）
+    → 用法：论证"AI 时代瓶颈不是技术，是判断力/方向感"，与"设计师的洞察力"论述共振
+
+58. **"如果一个东西要长久生存，还是需要考虑一些壁垒的。壁垒目前是模型侧，但未来会不会产生产品侧的壁垒，是说不定的。"**
+    — 姚顺宇（同上）
+    → 用法：呼应"产品壁垒 vs 模型壁垒"之辩，引出"产品/设计可能是新的护城河"
+
+59. **"这个（Agent）事情让大家意识到：你可以让模型做很多不一样的事情，然后汇总之后做一个很长 long horizon 的工作。"**
+    — 姚顺宇（同上，评 Manus→OpenClaw 现象）
+    → 用法：说明 Agent 范式打开了"长程任务"的可能性，支持"AI Builder"角色重定义
+
+60. **"For pure visual and UI work, Claude Code tends to win. Its first pass is often closer to shippable, and it preserves more of the original design structure when converting a Figma design."**
+    — Griffin Wooldridge，[yt-talks/GOtHFZnagO0](yt-talks/设计师如何使用Codex_How-to-Use-Codex-as-a-Designer_GOtHFZnagO0.md)
+    → 用法：作为"Claude Code vs Codex"工具对比的实测证据，权威设计师视角
+
+61. **"If you want the prettiest first draft with the least setup, go for Claude Code. I think for that reason alone, Claude Code is used by more designers than Codex at this point."**
+    — Griffin Wooldridge（同上）
+    → 用法：呼应"Claude 是设计师首选"的判断，与 Anthropic 官方视频 Uvl-tRga98g 形成对照
+
+62. **"Designers are now one of the fastest-growing groups on Codex"**
+    — Griffin Wooldridge（同上，引述 OpenAI 数据）
+    → 用法：数据点——"设计师是 Codex 上增长最快的群体之一"，支持"设计师涌入 AI 工具"的论点
+
+63. **"信息差是一个很有用的东西。但是我觉得每个人都应该平等地拥有这个信息。"**
+    — 翁家翌（OpenAI 研究员），WhynotTV Podcast #4（[yt-talks/I0DrcsDf3Os](yt-talks/翁家翌谈OpenAI强化学习与后训练基础设施_Weng-Jiayi-OpenAI-RL-Post-Training-Infra_I0DrcsDf3Os.md)）
+    → 用法：作为"开源/共享"价值观的论据，呼应"知识普惠"主张
+
+64. **"做天授、做退学 online，都是做慈善。"**
+    — 翁家翌（同上）
+    → 用法：把"开源"重新定义为"慈善"——非履历装饰，而是对世界的投入方式
+
+65. **"为什么我觉得工程能力比研究能力更重要？因为现在前沿探索拼的是 infra 的正确性。如果你 infra 正确，单位时间内能迭代多少次才是关键。"**
+    — 翁家翌（同上）
+    → 用法：呼应"infra 是 AI 时代护城河"，与姚顺宇"产品侧壁垒是说不定的"形成同框
+
+66. **"AGI 是板上钉钉的事了。"**
+    — 翁家翌（同上，谈"为什么现在反而迷茫"）
+    → 用法：在演讲结尾用"过来人的判断"权威背书"AGI 临近"的紧迫感，引出"设计师在 AGI 时代做什么"的开放问题
+
+67. **"OpenAI 的 'open' 不是对其他大模型公司的 open，而是对普通人的 open。"**
+    — 翁家翌（同上）
+    → 用法：定义"open"的真正含义——服务大众，而非服务竞品；与"工具普及化"论点共振
+
+68. **"Claude Design 的开发全程只有 3 个人。靠 Claude 是个不错的'队员'。"**
+    — Dan Carey（Anthropic Lab 产品经理），官方 YouTube（[yt-talks/Uvl-tRga98g](../yt-talks/Uvl-tRga98g_Designing-with-Claude-from-Prompt-to-Production.md)，STT 路线转写）
+    → 用法：直接对应第 4 条（"3 人 10 周做 Claude Design"）的官方版本，更详细的过程数据
+
+69. **"工程、PM、设计师——所有角色都在写代码、见用户、做数据分析。角色之间的界限在 Claude 时代几乎消失了。"**
+    — Dan Carey（同上）
+    → 用法：D20 核心论断"设计师 = Build 的人"的官方背书
+
+70. **"Cloud Design 上线那个周五到下周一，我们已经发了 62 个改进。3 个人的团队。"**
+    — Dan Carey（同上）
+    → 用法：把"小团队高产出"量化为可引用的数据
+
+71. **"我们的 loop 很简单：跟用户聊 → 设计 → 写代码 → 看反馈 → 循环。这个 loop 跑了 50 到 100 次。"**
+    — Dan Carey（同上）
+    → 用法：给出"产品迭代节奏"的可复用框架，呼应"高 cadence 创新"
+
+72. **"如果你要做 AI 工具，don't write a PRD——和 Claude、和同事口头聊一遍，把转录稿喂给 Claude，让它给你三个原型方案。"**
+    — Dan Carey（同上）
+    → 用法：挑战"先写文档再开发"的传统流程，给"对话式工作流"正名
 
 ---
 
