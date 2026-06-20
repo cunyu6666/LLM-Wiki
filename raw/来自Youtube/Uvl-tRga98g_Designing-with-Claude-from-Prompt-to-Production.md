@@ -1,6 +1,11 @@
+---
+type: note
+description: "演讲者：Dan Carey（Anthropic Labs 产品经理）；STT 路线：Groq Whisper"
+timestamp: 2026-06-20
+---
 # Designing with Claude: From prompt to production
 
-> **演讲者**：Dan Carey（Anthropic Lab 产品经理）  
+> **演讲者**：Dan Carey（Anthropic Labs 产品经理）  
 > **频道**：Claude (@claude)  
 > **链接**：[https://www.youtube.com/watch?v=Uvl-tRga98g](https://www.youtube.com/watch?v=Uvl-tRga98g)  
 > **时长**：28 分 0 秒  
@@ -2651,7 +2656,7 @@ Claude Design lets you describe what you want in plain language and get producti
 > 欢什么也好,我都欢迎。谢谢大家。
 
 
-## 英文原文（带时间戳）
+## 完整文字稿（英文原文）
 
 > 段落格式：`[时:分:秒] 文字内容`
 
