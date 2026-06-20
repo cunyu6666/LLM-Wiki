@@ -4,6 +4,7 @@ description: "X 书签精选 - AI 视频与动画"
 tags: [x-bookmarks, ai-视频与动画]
 date: 2026-06-14
 sources: 10
+type: note
 ---
 
 # AI 视频与动画

@@ -3,6 +3,7 @@ title: "X 书签"
 description: "从 X (Twitter) 导入的书签合集"
 tags: [x-bookmarks, index]
 date: 2026-06-14
+type: index
 ---
 
 # X 书签

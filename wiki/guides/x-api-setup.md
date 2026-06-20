@@ -1,3 +1,8 @@
+---
+type: guide
+description: "记录从 0 到 1 调通 twitter-cli 的完整流程，包括代理配置、Cookie 导出、环境变量设置。"
+timestamp: 2026-06-20
+---
 # X (Twitter) API 调通指南
 
 > 记录从 0 到 1 调通 twitter-cli 的完整流程，包括代理配置、Cookie 导出、环境变量设置。

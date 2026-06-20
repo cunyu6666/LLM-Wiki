@@ -4,6 +4,7 @@ description: "X 书签精选 - 硬件与 IoT"
 tags: [x-bookmarks, 硬件与-iot]
 date: 2026-06-14
 sources: 1
+type: note
 ---
 
 # 硬件与 IoT

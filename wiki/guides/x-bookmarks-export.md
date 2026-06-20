@@ -3,6 +3,7 @@ title: "X (Twitter) 书签导出指南"
 description: "从 X 导出书签并转换为 wiki 格式的完整流程"
 tags: [x-bookmarks, 导出, 工具, 教程]
 date: 2026-06-14
+type: guide
 ---
 
 # X (Twitter) 书签导出指南

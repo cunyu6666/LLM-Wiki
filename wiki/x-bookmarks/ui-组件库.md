@@ -4,6 +4,7 @@ description: "X 书签精选 - UI 组件库"
 tags: [x-bookmarks, ui-组件库]
 date: 2026-06-14
 sources: 3
+type: note
 ---
 
 # UI 组件库

@@ -4,6 +4,7 @@ description: "X 书签精选 - AI 编程工具"
 tags: [x-bookmarks, ai-编程工具]
 date: 2026-06-14
 sources: 4
+type: note
 ---
 
 # AI 编程工具
