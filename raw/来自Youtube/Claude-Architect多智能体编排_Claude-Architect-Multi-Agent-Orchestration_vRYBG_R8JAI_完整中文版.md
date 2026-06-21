@@ -49,7 +49,7 @@ timestamp: 2026-06-20
 > 📌 演示：research agent 不能直接和 review agent 通信，必须经过 coordinator。
 
 **[00:00:44] [内容]** And so, that is pretty clear. And the coordinator is going to own the routing.
-> 📌 中文翻译：这很清楚了。coordinator 负责 routing（路由）。
+> 📌 1:1 翻译：所以这很清楚。Coordinator 来负责 routing（路由）。
 
 **[00:00:49] [演示]** So, it's going to decide how to route things. Context sharing, so what will be shared? So, the research agent is not going to be aware of what everyone's doing unless the coordinator passes that information along and it gets injected.
 > 📌 演示：coordinator 决定路由和上下文共享，research agent 本身不知道其他 agent 在做什么。
@@ -67,7 +67,7 @@ timestamp: 2026-06-20
 > 📌 演示：prompt 里定义 coordinator 角色——分解任务给各工具，自己不干活。
 
 **[00:02:13] [内容]** And then here it's like you're a coordinator and use your judgment.
-> 📌 中文翻译：然后这里说"你是 coordinator，用你的判断力"。
+> 📌 1:1 翻译：然后这里写道：『你是 coordinator，用你的判断力。』
 
 **[00:02:15] [演示]** Simple factual questions, use a single agent. Multi-step task, delegate out to a sequential passing the results forward. Independent subtask, delegate in parallel. So, we're basically defining, okay, what does the routing look like? So, it's not just like static routing. Like it's, you know, use the routing you need to route based on the use case, right?
 > 📌 演示：routing 策略——简单问题单 agent，多步任务串行传递结果，独立子任务并行执行。路由是动态的，取决于用例。
@@ -100,22 +100,22 @@ timestamp: 2026-06-20
 > 📌 演示：检查生成的代码——先看 tool 实现部分。
 
 **[00:05:05] [内容]** Um task status. And so, it's talking about how it has to manage the tasks generically.
-> 📌 中文翻译：task status。它在讲如何通用地管理任务。
+> 📌 1:1 翻译：Task status。它在讲如何通用地管理任务。
 
 **[00:05:13] [演示]** Right? Um then down below here, yep, so we have that.
 > 📌 演示：确认代码结构存在。
 
 **[00:05:17] [内容]** Create a task with an optional list of task IDs.
-> 📌 中文翻译：创建一个任务，可带可选的 task ID 列表。
+> 📌 1:1 翻译：创建一个任务，可选地附带一个 task ID 列表。
 
 **[00:05:20] [内容]** Um get the current status of the specific task, mark it as complete, list all tasks as completed.
-> 📌 中文翻译：获取特定任务的当前状态，标记为完成，列出所有已完成任务。
+> 📌 1:1 翻译：获取指定任务的当前状态，标记为完成，列出所有已完成的任务。
 
 **[00:05:26] [内容]** Um so, it seems like it's pretty simple.
-> 📌 中文翻译：看起来相当简单。
+> 📌 1:1 翻译：看起来相当简单。
 
 **[00:05:28] [内容]** Your role is to manage and coordinate tasks.
-> 📌 中文翻译：你的角色是管理和协调任务。
+> 📌 1:1 翻译：你的角色是管理和协调任务。
 
 **[00:05:32] [演示]** Well, a coordinator does that in general, but I guess the thing is like this is literally it sounds like it's managing tasks. Create tasks as needed for the workflow, check the task status and dependencies, complete tasks when appropriate. So, what I'm trying to figure out here is what is the use case?
 > 📌 演示：coordinator 确实管任务，但这段代码听起来太通用了——用例是什么？不够具体。
@@ -145,7 +145,7 @@ timestamp: 2026-06-20
 > 📌 演示：模型说 assess complexity，但我们还需要 routing。
 
 **[00:07:28] [内容]** Um We'll say assess complexity complexity and routing and aggregate results. The use case here is um too generic.
-> 📌 中文翻译：补上 assess complexity、routing 和 aggregate results。这里的问题是用例太通用了。
+> 📌 1:1 翻译：我们会说：assess complexity、routing，再 aggregate results。这里的问题是用例太通用了。
 
 **[00:07:47] [演示]** Need a better use case. Okay. And so, we'll go ahead and we'll see if it can improve that code. And if not, I might have to write even more detailed prompt. I'm just kind of low on our usage unless the window has rolled over.
 > 📌 演示：需要更好的用例。让模型改进代码，不行的话就得写更详细的 prompt。额度可能不够了，除非计费窗口已滚动。
@@ -160,16 +160,16 @@ timestamp: 2026-06-20
 > 📌 演示：期望看到 routing 组件的 prompt，但代码里没有。
 
 **[00:08:32] [内容]** It does say set up a workflow. So, technically that is that that right there.
-> 📌 中文翻译：代码里确实有 "set up a workflow"，严格来说那就是 routing 的实现。
+> 📌 1:1 翻译：代码里确实写了 「set up a workflow」，从技术上来讲那部分就是 routing 的实现。
 
 **[00:08:38] [内容]** So, maybe maybe it is kind of being implemented, but we'll give it a second here. Now, I'll rewrite a concrete use case. Technical due diligence, decompose the complex software review.
-> 📌 中文翻译：也许它确实实现了，再看看。现在重写一个具体用例——技术尽职调查，分解复杂的软件评审。
+> 📌 1:1 翻译：所以也许它确实实现了 routing，再让它跑一下看看。现在我来重写一个具体的用例——技术尽职调查，分解复杂的软件评审。
 
 **[00:08:45] [演示]** Oh, I don't like that. No, I'm going to stop this for a second here. Stop stop stop stop. I I don't like the use case.
 > 📌 演示：不喜欢这个用例，立刻停掉。
 
 **[00:08:55] [内容]** Oh, it already stopped, basically.
-> 📌 中文翻译：已经停了。
+> 📌 1:1 翻译：基本上它已经停了。
 
 **[00:09:00] [演示]** So, it says breaks the request into five fixed areas. Well, I already got the code, I guess. Let's just take a look here.
 > 📌 演示：模型把请求拆成 5 个固定领域。代码已经生成了，看看再说。
@@ -178,16 +178,16 @@ timestamp: 2026-06-20
 > 📌 演示：用例——用户提交一个软件系统进行技术评审。
 
 **[00:09:19] [内容]** The coordinator has a decomposed the requests assesses the complexity per area, routes and and does that, runs an appropriate handler, aggregates all findings into a single report. So, that sounds good.
-> 📌 中文翻译：coordinator 分解请求、评估每个领域的复杂度、路由到对应的 handler、把所有发现聚合成一份报告。听起来不错。
+> 📌 1:1 翻译：Coordinator 把请求做 decomposition，按领域评估 complexity，做 routing，运行对应的 handler，把所有发现聚合成一份报告。听起来不错。
 
 **[00:09:31] [内容]** Uh we have tool decompose request, tool assess complexity.
-> 📌 中文翻译：有 decompose request 工具、assess complexity 工具。
+> 📌 1:1 翻译：我们有两个 tool：decompose request 和 assess complexity。
 
 **[00:09:36] [内容]** Um I don't really like the use case because I want something that's going to be easy for us to validate and test and this will be too complicated. I don't like the use case.
-> 📌 中文翻译：但我真的不喜欢这个用例——我想要一个容易验证和测试的场景，这个太复杂了。
+> 📌 1:1 翻译：但我不太喜欢这个用例——我想要一个容易验证和测试的场景，这个太复杂了。我不喜欢这个用例。
 
 **[00:09:50] [内容]** Can you propose to me uh 10 possible use cases.
-> 📌 中文翻译：让 Claude 提出 10 个候选用例。
+> 📌 1:1 翻译：能给我提 10 个候选用例吗？
 
 **[00:09:56] [演示]** I want something that, uh, is not super complex that will be like super computational but would need complex routing and choices.
 > 📌 演示：要求——计算量不大，但 routing 和决策逻辑要复杂。
@@ -196,13 +196,13 @@ timestamp: 2026-06-20
 > 📌 演示：只建议不实现。看看能不能选出更好的用例，不行就自己定。候选：job application screener。
 
 **[00:10:26] [内容]** Um, event planning coordinator, bug triage, restaurant order customizer.
-> 📌 中文翻译：event planning coordinator、bug triage、restaurant order customizer。
+> 📌 1:1 翻译：Event planning coordinator、bug triage、restaurant order customizer。
 
 **[00:10:33] [演示]** I mean, I like the travel one that might have to go through the internet. I don't necessarily want to do that.
 > 📌 演示：travel 用例不错但需要联网，不太想那么做。
 
 **[00:10:43] [内容]** Mm. Okay. So, like with number what would be the subtasks?
-> 📌 中文翻译：那用 job application screener 的话，subtask 会是什么？
+> 📌 1:1 翻译：嗯，好。那用 job application screener 的话，subtask 会怎么拆？
 
 **[00:10:58] [演示]** The subagents used. Because this is what I'm trying to figure out. And this comes back to, you know, this idea where we have an idea and it's doing a bunch of stuff, right?
 > 📌 演示：需要确定用哪些 subagent——这正是核心问题。
@@ -211,31 +211,31 @@ timestamp: 2026-06-20
 > 📌 演示：候选 subagent 类型——coder、writer、researcher、planner、data。
 
 **[00:11:15] [内容]** And so, we go over to here. And so, we have request to composer. So, takes the job posting resume extracts it out.
-> 📌 中文翻译：看 request composer——接收 job posting 和 resume，提取关键信息。
+> 📌 1:1 翻译：我们翻到这里，看 request composer——接收 job posting 和 resume，提取关键信息。
 
 **[00:11:24] [内容]** Looks at each criteria and decides the routing.
-> 📌 中文翻译：逐项检查 criteria，决定 routing。
+> 📌 1:1 翻译：逐项检查 criteria，决定 routing。
 
 **[00:11:30] [内容]** Okay. Executing execution phase.
-> 📌 中文翻译：执行阶段。
+> 📌 1:1 翻译：好。Execution phase（执行阶段）。
 
 **[00:11:32] [内容]** Um, the actual routing targets.
-> 📌 中文翻译：实际的路由目标。
+> 📌 1:1 翻译：实际的 routing 目标。
 
 **[00:11:36] [内容]** Aggregation phase. And so, it has two different ones here.
-> 📌 中文翻译：聚合阶段，这里有两个不同版本。
+> 📌 1:1 翻译：Aggregation phase（聚合阶段）。这里它列出了两个不同的版本。
 
 **[00:11:43] [演示]** So, I guess my question is like, is the ownership I mean, like, should the coordinator be routing to a decomposer and uh, router routing because I thought the composer is supposed to own it in a hub and spoke architecture. And so, that's the only thing I'm I'm just making sure like maybe these are just tools and it's calling out to them and so, it still has ownership. So, you're right. In a proper hub and spoke architecture, the coordinator is the hub. It owns it. The decomposer isn't a sub subagent. That's why the coordinator owns its responsibility. So, we have that. Sure.
 > 📌 演示：Andrew 质疑 ownership——decomposer 是 subagent 还是 tool？Claude 确认：在 Hub-and-Spoke 中 coordinator 就是 hub，decomposer 不是 subagent，coordinator 自己承担 decomposition 职责。
 
 **[00:12:30] [内容]** That looks like something. So, the coordinator decomposes, assess complexity, decides routing, aggregates.
-> 📌 中文翻译：这像样了。coordinator 负责 decompose、assess complexity、decide routing、aggregate。
+> 📌 1:1 翻译：这像样了。Coordinator 负责 decompose、assess complexity、decide routing、aggregate。
 
 **[00:12:35] [内容]** The spokes just execute. This smells like something belongs to the coordinator versus subagent. Does it need a full picture?
-> 📌 中文翻译：spoke 只负责执行。关键问题是：哪些职责属于 coordinator，哪些属于 subagent？spoke 需要看到全图吗？
+> 📌 1:1 翻译：Spoke 只负责执行。这里有一个关键问题需要厘清——哪些职责属于 coordinator，哪些属于 subagent？Spoke 需要看到全图（full picture）吗？
 
 **[00:12:43] [内容]** Does it need the full picture to do the its job? Decomposer is always routing, always needs the full picture.
-> 📌 中文翻译：spoke 需要全图才能工作吗？Decomposer 总是要做 routing 的，所以它总是需要全图。
+> 📌 1:1 翻译：Spoke 需要看到全图才能工作吗？Decomposer 总是要做 routing 的，所以它总是需要全图。
 
 **[00:12:50] [演示]** Uh, I don't I don't I don't know what you mean by full picture.
 > 📌 演示：Claude 不太理解 "full picture" 的意思。
@@ -244,16 +244,16 @@ timestamp: 2026-06-20
 > 📌 演示：Claude 最终确认——coordinator 接收请求、调用 spoke、聚合结果。Andrew 开了句玩笑。
 
 **[00:13:24] [内容]** Independent workers, each job does one, no knowledge of each other. That's right. Okay. So, for job app application screener, now we have keyword scanner, deep evaluation, red flag detector, score aggregator.
-> 📌 中文翻译：每个 spoke 独立工作，只做一件事，彼此互不知情。对 job application screener 来说，spoke 包括：keyword scanner、deep evaluation、red flag detector、score aggregator。
+> 📌 1:1 翻译：对，每个 spoke 独立工作，只做一件事，彼此互不知情。对 job application screener 来说，spoke 包括：keyword scanner、deep evaluation、red flag detector、score aggregator。
 
 **[00:13:34] [内容]** Takes all the spoke spoke outputs.
-> 📌 中文翻译：收集所有 spoke 的输出。
+> 📌 1:1 翻译：收集所有 spoke 的输出。
 
 **[00:13:36] [内容]** The coordinator owns calling each spoke with the right input deciding which spoke to call collecting and combining their outputs.
-> 📌 中文翻译：coordinator 负责：决定调哪个 spoke、传入正确的 input、收集并合并它们的输出。
+> 📌 1:1 翻译：Coordinator 负责：决定调哪个 spoke、给每个 spoke 传入正确的 input、收集并合并它们的输出。
 
 **[00:13:46] [内容]** Yes. Okay. And so, now we're getting something there.
-> 📌 中文翻译：对，现在架构清晰了。
+> 📌 1:1 翻译：对，现在架构清晰了。
 
 **[00:13:50] [演示]** Just because it said it did it, does not mean it did. And this is me looking at it going, "Uh, that doesn't seem right." Right?
 > 📌 演示：模型说做了不代表真做对了——Andrew 保持怀疑。
@@ -262,10 +262,10 @@ timestamp: 2026-06-20
 > 📌 演示：让模型继续。收到提示——已开始消耗额外额度。
 
 **[00:14:03] [内容]** So, I'm over my usage. >> [laughter] >> But I should be okay.
-> 📌 中文翻译：额度超了。不过应该没问题。
+> 📌 1:1 翻译：我的额度超了。但应该没事。
 
 **[00:14:08] [内容]** This is You'd be surprised how long or how far five five dollars will take you here.
-> 📌 中文翻译：五美元能跑多远，你会惊讶的。
+> 📌 1:1 翻译：你会惊讶的——五美元在这能跑多远。
 
 **[00:14:15] [演示]** Okay. So, it says it's completed the architecture here.
 > 📌 演示：架构代码生成完毕。
@@ -277,7 +277,7 @@ timestamp: 2026-06-20
 > 📌 演示：代码内容不少。
 
 **[00:14:23] [内容]** Okay. So, keyword scanner prompt. You are a resume keywords scanner. Check whether it required skills from the job posting, uh, appear explicitly in the resume.
-> 📌 中文翻译：keyword scanner prompt——"你是简历关键词扫描器，检查 job posting 中要求的技能是否明确出现在简历中。"
+> 📌 1:1 翻译：好，看 keyword scanner 的 prompt——「你是简历关键词扫描器，检查 job posting 中要求的技能是否明确出现在简历中。」
 
 **[00:14:33] [演示]** For each required skill, output one line. Be literal. Do not infer or extrapolate. Report only what is explicitly stated. Okay. And so, then we basically have all the ones here and they're fine. Of course, if we're doing this for real, we would be tweaking this all by hand, of course. And then here we have the actual, um, I guess they're saying the spokes. We could say subagents, if you would, or they have them called the spokes.
 > 📌 演示：每个技能输出一行，不做推断。prompt 质量还行，但真正用的话还得手工调。下面就是 spoke（也叫 subagent）的定义。
@@ -289,58 +289,58 @@ timestamp: 2026-06-20
 > 📌 演示：spoke aggregator 稍有不同，这部分还行。
 
 **[00:15:22] [内容]** Then we have our dispatch tool.
-> 📌 中文翻译：然后是 dispatch tool。
+> 📌 1:1 翻译：然后是我们的 dispatch tool。
 
 **[00:15:24] [内容]** Okay. So, basically like where should it go? We have And yeah, whether it should go there or not. Tool schema. So, what the coordinator hub sees.
-> 📌 中文翻译：tool schema——定义 coordinator hub 看到的工具接口。
+> 📌 1:1 翻译：好。基本上就是决定请求应该路由到哪里、是否真的该路由到那里。Tool schema 定义了 coordinator hub 看到的工具接口。
 
 **[00:15:33] [演示]** Mhm. So, we have run keyword scanner.
 > 📌 演示：run keyword scanner 工具定义。
 
 **[00:15:39] [内容]** Oh, like these are the actual tools deciding whether they should get triggered or not. That's fine.
-> 📌 中文翻译：这些是实际的 tool 定义，决定是否被触发。没问题。
+> 📌 1:1 翻译：哦，这些是实际的 tool 定义，负责决定它们是否应该被触发。没问题。
 
 **[00:15:45] [内容]** Then we have our coordinator prompt. So, you are a job application screening coordinator. That's fine. Your job is to orchestrate three independent screening agents.
-> 📌 中文翻译：coordinator prompt——"你是 job application screening coordinator，负责编排三个独立的 screening agent。"
+> 📌 1:1 翻译：再看 coordinator 的 prompt——「你是 job application screening coordinator，负责编排三个独立的 screening agent。」
 
 **[00:15:53] [演示]** Mhm. Uh, your job is to orchestrate the three independent screening agents and then aggregate the results.
 > 📌 演示：coordinator 的职责——编排三个 screening agent，然后聚合结果。
 
 **[00:16:01] [内容]** You may run three screening agents in order. Do not skip any of them. And so, here it's defining that saying you have a explicit order. And so, obviously there could be more complex routing than this, but this is all there is.
-> 📌 中文翻译：按顺序运行三个 screening agent，不能跳过。这里定义了显式执行顺序。当然可以有更复杂的 routing，但当前就这么简单。
+> 📌 1:1 翻译：按顺序运行三个 screening agent，不能跳过。这里定义了一个显式的执行顺序。当然可以有更复杂的 routing，但当前就是这么简单。
 
 **[00:16:14] [内容]** Then we'll go down to here. And so, here we have our job postings. I was going to wonder where this data was.
-> 📌 中文翻译：往下看，job postings 数据在这里。正想问数据从哪来。
+> 📌 1:1 翻译：继续往下看，job postings 数据就在这里。我刚才还正想问这些数据是从哪来的。
 
 **[00:16:20] [演示]** Cuz I was going to be like, is there, are the resumes generated here? And they do. So, our we have our job posting, then we have our our resume. We only have we only have a single resume, which is fine.
 > 📌 演示：简历数据也在这里——一个 job posting 和一份简历（只有一份，够用了）。
 
 **[00:16:31] [内容]** Alex Chen, that's interesting. Okay. So, we go down here and we're passing that data in. It's going through that loop.
-> 📌 中文翻译：简历是 Alex Chen 的。数据传入循环处理。
+> 📌 1:1 翻译：简历是 Alex Chen 的，有意思。往下看，我们把数据传进去，进入循环处理。
 
 **[00:16:37] [内容]** Again, we have this while true. So, I'm not sure if that's the best idea to have that while true like there, but I will run it and uh, take the risk.
-> 📌 中文翻译：又有 while true。不确定这是不是好主意，但还是跑一下试试。
+> 📌 1:1 翻译：又看到 while true 了。不确定在那种地方用 while true 是不是好主意，但还是跑一下试试，冒个险。
 
 **[00:16:50] [演示]** I think it's fine. Uh, you know what? I I do want a max iteration. So, I'm going to go here and just say like uh, the while loop is true. Do you think we should have a max iteration or any other suggestions so it doesn't go on forever.
 > 📌 演示：还是加上 max iteration 比较安全，让模型给建议。
 
 **[00:17:19] [内容]** Okay. And so, that's what I want it to answer there. We have the max We might just do the max iteration cuz now I've basically told it to do that.
-> 📌 中文翻译：等模型回答。可能会直接用 max iteration 方案，因为已经让模型去做了。
+> 📌 1:1 翻译：好。我要的就是它回答这个。max……我们直接用 max iteration 方案吧，反正我已经明确让它这么做了。
 
 **[00:17:28] [演示]** So, here it says, um, a while true loop with no exit condition. I mean, there is an exit condition. It's the break right here.
 > 📌 演示：模型说 while true 没有退出条件——其实有的，break 就是退出条件。
 
 **[00:17:37] [内容]** Um, And then we have a timeout for this use case.
-> 📌 中文翻译：然后针对这个用例有一个 timeout。
+> 📌 1:1 翻译：然后针对这个用例有一个 timeout。
 
 **[00:17:41] [内容]** So, a max steps caps is is the right fit. That's what it's suggesting.
-> 📌 中文翻译：模型建议用 max steps cap，认为这是最合适的方案。
+> 📌 1:1 翻译：模型建议用 max steps cap，认为这是最合适的方案。
 
 **[00:17:46] [演示]** Fair enough. Mhm. How's it uh, counting the max steps?
 > 📌 演示：可以。但怎么计数 max steps 的？
 
 **[00:17:57] [内容]** So, the loop executes only when the condition becomes false, max steps, and not when and not when the break is hit.
-> 📌 中文翻译：循环在条件变为 false 时计数，而不是在 break 触发时计数。
+> 📌 1:1 翻译：循环只在条件变成 false（达到 max steps）时才会计数，而不是在 break 触发时计数。
 
 **[00:18:06] [演示]** So, it cleanly catches runaway loops without needing extra flag. Okay, that's fine. The cap is 10, double the expected five steps, give the model room to retry. I just don't see where it's counting them. Oh, I guess it's right here.
 > 📌 演示：能干净地捕获死循环，不需要额外 flag。上限 10，是预期 5 步的两倍，给模型重试空间。
@@ -349,7 +349,7 @@ timestamp: 2026-06-20
 > 📌 演示：max steps 和 max iteration 本质一样。
 
 **[00:18:26] [内容]** Um, so, max steps is the same as max iteration.
-> 📌 中文翻译：max steps 就是 max iteration。
+> 📌 1:1 翻译：所以 max steps 跟 max iteration 其实是一回事。
 
 **[00:18:36] [演示]** I guess it's fine. I mean, I'm sure it will still work. So, if it doesn't, we'll find out. And again, you know, you can just watch and see what my outcome is before you do this if you do not want to waste credits because I've made a poor decision. Um, you know, like I'm loading my thing up with like five dollars at a time. So, I'm I'm not that worried about, um, uh, small losses like that. So, we'll go ahead and go into here.
 > 📌 演示：应该没问题。不行的话会发现的。Andrew 每次充 5 美元，不怕小损失——你也可以先观望再动手。
@@ -358,46 +358,46 @@ timestamp: 2026-06-20
 > 📌 演示：运行代码。
 
 **[00:19:05] [内容]** And yeah, I'm not using my subscription.
-> 📌 中文翻译：没用订阅额度。
+> 📌 1:1 翻译：对，我没用订阅额度。
 
 **[00:19:12] [演示]** Now, we could probably port this over to agent SDK, um, and this would be greatly simplified. We might do that later to see what's happening here, but won't do it right away. So, here it says, um, coordinator routes to the spoke.
 > 📌 演示：可以移植到 agent SDK 简化代码，以后再说。现在看运行结果——coordinator 路由到 spoke。
 
 **[00:19:23] [内容]** Okay. So, it's found stuff. Something's missing. Coordinator routes to the run deep evaluator.
-> 📌 中文翻译：找到东西了，也有缺失。coordinator 路由到 run deep evaluator。
+> 📌 1:1 翻译：好。它找到了一些东西，也有一些缺失。Coordinator 路由到 run deep evaluator。
 
 **[00:19:30] [内容]** Uh, strong alignment with the senior level role with seven years of total experience. Cool. Strong fit.
-> 📌 中文翻译："与 senior 级别高度匹配，7 年总经验。"不错，强匹配。
+> 📌 1:1 翻译：「与 senior 级别职位高度匹配，7 年总工作经验。」不错，strong fit。
 
 **[00:19:36] [内容]** Uh, coordinator routes to the red flag detector.
-> 📌 中文翻译：coordinator 路由到 red flag detector。
+> 📌 1:1 翻译：Coordinator 路由到 red flag detector。
 
 **[00:19:41] [内容]** Imagine someone, uh, just coded this and this is what's keeping people out of their jobs. That that would be a bummer.
-> 📌 中文翻译：想想看，有人写了这段代码，然后它就决定了谁能拿到工作机会——那挺让人沮丧的。
+> 📌 1:1 翻译：想象一下，有人就写出了这么一段代码，然后它就决定了谁能拿到工作机会、谁会被刷掉——那会让人很沮丧。
 
 **[00:19:45] [内容]** And then we have step two of 10. So, match keywords.
-> 📌 中文翻译：第 2 步，共 10 步——匹配关键词。
+> 📌 1:1 翻译：然后是第 2 步，共 10 步——match keywords。
 
 **[00:19:49] [内容]** Uh, strong, no flags, decision higher.
-> 📌 中文翻译：强匹配，无红旗，决定录用。
+> 📌 1:1 翻译：强匹配，无红旗，决定录用。
 
 **[00:19:52] [内容]** Alex demonstrates strong alignment with senior level requirements. Coordinator for final recommendation for hire, so it's recommending it.
-> 📌 中文翻译：Alex 与 senior 级别要求高度匹配。coordinator 给出最终录用建议。
+> 📌 1:1 翻译：Alex 与 senior 级别要求高度匹配。Coordinator 给出最终的录用建议——它推荐录用。
 
 **[00:20:02] [内容]** Six out of the seven, strong, no red flags.
-> 📌 中文翻译：7 项中 6 项通过，强匹配，无红旗。
+> 📌 1:1 翻译：7 项中 6 项通过，强匹配，无红旗。
 
 **[00:20:06] [内容]** All core required skills present.
-> 📌 中文翻译：所有核心必备技能都具备。
+> 📌 1:1 翻译：所有核心必备技能都具备。
 
 **[00:20:07] [内容]** Seven years experience, whatever, whatever.
-> 📌 中文翻译：7 年经验，等等。
+> 📌 1:1 翻译：7 年经验，等等等等。
 
 **[00:20:11] [演示]** And so we just implemented our own coordinator. Again, the only thing that's really simple, like I'm still not the confident about the wild loop, but the only thing that is um very simple is the routing. But the routing obviously is being handled here.
 > 📌 演示：我们实现了一个 coordinator。routing 很简单，while loop 还是不太放心，但 routing 确实在这里处理了。
 
 **[00:20:23] [内容]** Um and so, you know, like in that diagram, it just seems like it's a separate step. Like you cut them up and then you do that.
-> 📌 中文翻译：diagram 里 decomposition 看起来是一个独立步骤——先拆分，再处理。
+> 📌 1:1 翻译：所以你看，在那张 diagram 里，decomposition 看起来是一个独立的步骤——先把任务切分，然后再做处理。
 
 **[00:20:32] [演示]** Um and so I'm not sure if that should be separated out, but the point is we did implement coordinator agent. Um and that's something we could decide later on if we wanted to have an individual step for more intelligent routing. So, that's the only thing that I might um consider. Like I I would probably ask it right now like if it should be ran twice, but I'm I don't know. I don't want to cuz I don't think it's going to just tell me. I think it's going to actually try to do it. And so I don't want to muck with it. And so I'd say that's fine, but just consider that that's an uncertainty that I have right now.
 > 📌 演示：decomposition 是否应该独立出来？不确定。coordinator agent 已经实现了，以后可以考虑给 routing 加一个独立步骤。但现在不想动它——怕模型不只是回答，而是直接去改代码。
@@ -406,10 +406,10 @@ timestamp: 2026-06-20
 > 📌 演示：git commit 提交 basic coordinator。
 
 **[00:21:10] [内容]** I thought that was kind of fun.
-> 📌 中文翻译：挺有意思的。
+> 📌 1:1 翻译：我觉得这过程挺有意思的。
 
 **[00:21:12] [内容]** I thought the results were pretty good.
-> 📌 中文翻译：结果相当不错。
+> 📌 1:1 翻译：我觉得结果相当不错。
 
 **[00:21:15] [演示]** Okay, and I will see you in the next one, okay? Ciao, ciao.
 > 📌 演示：本节结束，下个视频见。
@@ -418,10 +418,10 @@ timestamp: 2026-06-20
 > 📌 演示：narrow task decomposition 问题——coordinator 只能分解它想到的内容。EV 市场分析的例子中，初始分解漏掉了充电基础设施、政府政策、二手车市场、消费者情绪、供应链、电网容量等。解决方法：coordinator 在分解后先自问还缺什么，补全 subtask 再委派。
 
 **[00:22:42] [内容]** Now, what's interesting here is like we created um in our our job application thing, but this thing is talking about research.
-> 📌 中文翻译：有意思的是——我们之前做的是 job application screener，但这里讲的是 research 场景。
+> 📌 1:1 翻译：有意思的是——我们之前做的是 job application screener，但这里讲的是 research 场景。
 
 **[00:22:51] [内容]** So, they might they might have just a single subagent that just does research.
-> 📌 中文翻译：research 场景可能只有一个专门做 research 的 subagent。
+> 📌 1:1 翻译：Research 场景下，他们可能只有一个专门做 research 的 subagent。
 
 **[00:22:53] [演示]** And so the idea is that all these tasks are going to the same subagent as maybe separate um instances that are spawned, and they're being tasked with doing different things. And so this is where you have a little bit more complex routing, right?
 > 📌 演示：所有 task 发给同一个 subagent 的不同实例，各自做不同的事——这就是更复杂的 routing。
@@ -430,10 +430,10 @@ timestamp: 2026-06-20
 > 📌 演示：捕获弱 decomposition 的方法——如果 coordinator prompt 写得不够好，可以加一个 tool 来兜底。
 
 **[00:23:28] [内容]** And so the tool um can try to catch it.
-> 📌 中文翻译：tool 可以尝试捕获这个问题。
+> 📌 1:1 翻译：所以这个 tool 可以尝试捕获这个问题。
 
 **[00:23:31] [内容]** Because now when the court or when the agent goes and does a task, it's going to say, "Oh, did you submit a a subtask breakdown for review for delegating?"
-> 📌 中文翻译：agent 执行任务前会被问——"你提交了 subtask 分解方案供审核了吗？"
+> 📌 1:1 翻译：因为现在当 coordinator 或 agent 要去执行任务时，它会被问到：「你提交了 subtask breakdown 供审核了吗？」
 
 **[00:23:42] [演示]** Well, then trigger this tool and then make sure right here that you do this up. And this gives you a guarantee um you know, of this. Or maybe you want to be a little bit more flexible what the input is from the user. And uh so this thing being decoupled might do that. Um another way uh that you can fix this problem is at the aggregate level. So, after you're aggregating the results, it can check here and say, "Hey, um did you make sure before writing the answer that you uh met these things?" And so you now have basically two different safeguards for um improving over uh narrow task decomposition. So, I'm not sure if this will work in the one that we're building right now or we'll have to build a new little coordinator. Um but we'll go and try it out, okay?
 > 📌 演示：两道防线——（1）委派前用 tool 检查 decomposition 质量；（2）聚合结果时再检查是否覆盖了所有维度。不确定能不能加到当前的 coordinator 上，可能需要新建一个，先试试。
@@ -448,10 +448,10 @@ timestamp: 2026-06-20
 > 📌 演示：复制现有代码作为基础来改进。
 
 **[00:24:48] [内容]** And Claude's going to have an easier time working with tweaking that.
-> 📌 中文翻译：Claude 在现有代码上调整会更容易。
+> 📌 1:1 翻译：Claude 在现有代码基础上做调整会更容易。
 
 **[00:24:52] [内容]** I would have an easier time working off of this.
-> 📌 中文翻译：有代码基础改起来更快。
+> 📌 1:1 翻译：我在这个基础上改起来也会更快。
 
 **[00:24:57] [演示]** So, um let's go down to where the main coordinator prompt is. So, here it says, "Uh you're a job application screening coordinator. Your job is to orchestrate three independent screening agents and the aggregate their results. Run all three screening agents, keywords, deep evaluators, detectors.
 > 📌 演示：定位到 coordinator prompt——编排三个 screening agent 并聚合结果。
@@ -460,10 +460,10 @@ timestamp: 2026-06-20
 > 📌 演示：直接问模型。
 
 **[00:25:19] [内容]** Okay, so we'll go here. We'll say, um for our narrow task decomposition main for uh our coordinator prompt, is the uh decomposition um is our task decomposition too narrow?
-> 📌 中文翻译：问模型——我们的 task decomposition 是不是太窄了？
+> 📌 1:1 翻译：好，我们到这里。我会这样问：对于 narrow task decomposition，针对我们的 coordinator prompt，我们的 task decomposition 是不是太窄了？
 
 **[00:25:49] [内容]** And what do we need to ask for better decomposition?
-> 📌 中文翻译：需要怎么改才能获得更好的 decomposition？
+> 📌 1:1 翻译：需要怎么问才能获得更好的 decomposition？
 
 **[00:25:56] [演示]** Okay, because this one's pretty darn simple, right? It's just like there's these three things, feed it into those three things. Cuz it's not conducting research, right? Um it's not going out and looking at large bodies of text and trying to figure it out.
 > 📌 演示：当前用例很简单——三个检查项，数据直接喂进去，不是 research 场景。
@@ -475,7 +475,7 @@ timestamp: 2026-06-20
 > 📌 演示：等着看结果。
 
 **[00:26:33] [内容]** Also, I was just thinking about this.
-> 📌 中文翻译：顺便说一句，我刚想到一个问题。
+> 📌 1:1 翻译：对了，我刚想到一件事。
 
 **[00:26:36] [演示]** What we should have done is just taken the coordinator information and provided it uh to here with the basic information because I feel like it's consuming a lot more um tokens than it should require. I mean, it's not saying there's that many here, but it is taking uh some time here, and I again I'll just wait, but I should have really just extracted out that individual information.
 > 📌 演示：Andrew 反思——应该只提取 coordinator 相关信息传进来，现在 token 消耗太多了。
@@ -487,49 +487,49 @@ timestamp: 2026-06-20
 > 📌 演示：看模型的分析结果。
 
 **[00:27:05] [内容]** Spokes are narrowly scoped but appropriately interpretive. That's actually reasonable. But if you're designing new coordinators, well, I'm not designing new coordinators. But we'll we'll take a look here. Spokes answers what is X.
-> 📌 中文翻译：spoke 范围窄但解释合理。不过设计新 coordinator 时——spoke 只回答"X 是什么"这种表面问题。
+> 📌 1:1 翻译：Spoke 范围窄，但解读方式合理——这点其实讲得通。不过如果是在设计新 coordinator 时——我不是在设计新 coordinator——但我们还是看看。这里说，spoke 回答的是「X 是什么」这类问题。
 
 **[00:27:18] [内容]** Python found. But without access to the resume.
-> 📌 中文翻译：找到 Python，但看不到简历全貌。
+> 📌 1:1 翻译：Python 找到了。但看不到简历全貌。
 
 **[00:27:23] [内容]** Um spokes answers what does X mean for the higher?
-> 📌 中文翻译：更好的 spoke 应该回答"X 对录用意味着什么"。
+> 📌 1:1 翻译：Spoke 应该回答的是「X 对录用决策意味着什么」。
 
 **[00:27:32] [内容]** Receives pre-interpreted signals and can make the uh integrated judgment.
-> 📌 中文翻译：接收预处理的信号，做出综合判断。
+> 📌 1:1 翻译：Aggregator 接收预解读过的信号，做出综合判断。
 
 **[00:27:38] [演示]** So, I guess we're trying to determine like is it fine? So, what to ask? So, so is it narrow? So, is skill X listed?
 > 📌 演示：判断当前 decomposition 是否太窄——"技能 X 是否列在简历上？"这种问法太窄了。
 
 **[00:27:45] [内容]** Does experience demonstrate the skills X required? So, if it's narrow, saying like is it just listed or is it actually telling us? So, that would be better.
-> 📌 中文翻译：更好的问法是"经验是否展示了所需的技能 X？"——不只是看有没有列出，而是看实际能力。
+> 📌 1:1 翻译：「经验是否展示了所需的技能 X？」——如果太窄，就只会问「技能 X 是否列在简历上」，根本没告诉我们实际能力。这样会更好。
 
 **[00:27:56] [内容]** That's true. Uh narrow, resume only. And so this is what I was talking about where we would have more than one type of um uh information feed. But here it's saying in feed in the resume and the job posting for the fit.
-> 📌 中文翻译：当前只依赖简历这一种信息源。Andrew 之前说过应该有多个数据源——这里只用了 resume 和 job posting 做匹配。
+> 📌 1:1 翻译：说得对。太窄了，只看简历。这就是我之前说的，应该有多种类型的信息源。但这里只用了 resume 和 job posting 做匹配。
 
 **[00:28:08] [内容]** Context, what granu- granularity? So, one spoke per keyword, one spoke per uh decision dimension, whatever. So, this file runs both the coordinator of the same candidate.
-> 📌 中文翻译：粒度问题——一个 spoke 对应一个关键词，还是一个 spoke 对应一个决策维度？这个文件对同一个候选人运行 coordinator。
+> 📌 1:1 翻译：粒度问题——一个 spoke 对应一个关键词，还是一个 spoke 对应一个决策维度，随你定。这个文件对同一个候选人运行 coordinator。
 
 **[00:28:22] [内容]** So, you can see how the narrow decomposition loses the 50 million requests per day nuance.
-> 📌 中文翻译：narrow decomposition 会丢掉"每天 5000 万请求"这种关键细节。
+> 📌 1:1 翻译：所以你可以看到 narrow decomposition 是怎么把「每天 5000 万请求」这种关键细节漏掉的。
 
 **[00:28:29] [内容]** While the better one catches it.
-> 📌 中文翻译：而更好的 decomposition 能捕捉到。
+> 📌 1:1 翻译：而更好的 decomposition 能捕捉到这种细节。
 
 **[00:28:33] [演示]** Okay, so we'll go back up to here. I'm just trying to make clear the this thing that we're looking at. So, narrow antipattern.
 > 📌 演示：回到上面，明确当前看的是 narrow antipattern（反面模式）。
 
 **[00:28:40] [内容]** What is X? Python found. Six years, three, no gaps. That's probably like how actually recruitment people work. They aggregate receives new facts, it still has to do all the reasoning, but now without access to the resume.
-> 📌 中文翻译：narrow 模式——"X 是什么？找到 Python。6 年，3 个项目，无空档。"这可能就是现实中招聘人员的工作方式。聚合后收到新事实，但失去了简历原文，还得做所有推理。
+> 📌 1:1 翻译：Narrow 模式：「X 是什么？找到 Python。6 年，3 个项目，无空档。」这其实就是现实中招聘人员的工作方式——他们聚合时收到新事实，但还是得做所有推理，只是这时候已经看不到简历原文了。
 
 **[00:28:54] [内容]** So, it spokes answers what does X mean for the higher?
-> 📌 中文翻译：更好的模式——spoke 回答"X 对录用决策意味着什么"。
+> 📌 1:1 翻译：Better 模式——spoke 回答「X 对录用决策意味着什么」。
 
 **[00:28:57] [演示]** Strong trajectory risk. Okay, so one thing I I was thinking of is like you need to cross-coordinate this information, right?
 > 📌 演示：需要交叉协调信息——比如"职业轨迹风险"这种判断需要综合多个维度。
 
 **[00:29:05] [内容]** So, um I would say, you know, one thing one thing I noticed is, you know, can we validate the number of years based on based on the resume information?
-> 📌 中文翻译：一个想法——能不能基于简历信息验证工作年限？
+> 📌 1:1 翻译：我有一个发现——能不能基于简历信息去验证工作年限？
 
 **[00:29:21] [演示]** Can we mock other data sources that uh that we would feed in where uh if we didn't do better task decomposition with very specific things to check, we would run into an issue?
 > 📌 演示：能不能 mock 其他数据源？如果 decomposition 不够好、没有具体检查项，就会出问题。
@@ -550,19 +550,19 @@ timestamp: 2026-06-20
 > 📌 演示：模型没有重新运行，只是更新了 coordinator 信息。看看改了什么。
 
 **[00:30:46] [内容]** Your job is to coordinate uh three independent screening agents and then aggregate the results.
-> 📌 中文翻译：coordinator prompt——"你的任务是协调三个独立的 screening agent，然后聚合结果。"
+> 📌 1:1 翻译：Coordinator prompt——「你的任务是协调三个独立的 screening agent，然后聚合结果。」
 
 **[00:30:53] [演示]** I mean, this isn't this is showing steps, which is fine.
 > 📌 演示：模型展示了步骤，没问题。
 
 **[00:30:57] [内容]** But we're not seeing it doesn't seem to understand what I'm trying to tell it. Okay. So, No, I don't think it understands. So, what I'll do, just give me a second here.
-> 📌 中文翻译：但模型似乎没理解我的意图。给我一点时间。
+> 📌 1:1 翻译：但模型似乎没理解我的意图。我看它没理解，我得重新组织一下，给我点时间。
 
 **[00:31:10] [内容]** I need to give it an example and I just need to extract out of that.
-> 📌 中文翻译：需要给它一个示例，从中提取关键信息。
+> 📌 1:1 翻译：我需要给它一个示例，然后从里面把要点提取出来。
 
 **[00:31:13] [内容]** Give it a better example here and we're just going to plot I have my screenshot.
-> 📌 中文翻译：给一个更好的示例，用截图辅助。
+> 📌 1:1 翻译：给一个更好的示例，我手头有截图辅助。
 
 **[00:31:18] [演示]** I just don't have the raw data. And so, I'm just going to uh chat GPT or something here off screen be like, uh get me get me the text.
 > 📌 演示：没有原始文本数据，用 ChatGPT 在屏幕外提取文本。
@@ -571,34 +571,34 @@ timestamp: 2026-06-20
 > 📌 演示：等一下。
 
 **[00:31:30] [内容]** Just getting the text here off screen.
-> 📌 中文翻译：在屏幕外获取文本。
+> 📌 1:1 翻译：我在屏幕外获取文本。
 
 **[00:31:32] [演示]** See, so getting the text. And I'm going to feed it as an example of like more information.
 > 📌 演示：获取文本后，作为"更多信息"的示例喂给模型。
 
 **[00:31:41] [内容]** Okay, so like we'll go back here.
-> 📌 中文翻译：回到 Claude 对话。
+> 📌 1:1 翻译：好，回到 Claude 对话这里。
 
 **[00:31:51] [内容]** Uh so, you know, you know, you know, I don't think you understood.
-> 📌 中文翻译：我觉得你没理解我的意思。
+> 📌 1:1 翻译：我觉得你没理解我的意思。
 
 **[00:31:57] [内容]** Uh to improve narrow task decomposition, we should be giving it specific considerations.
-> 📌 中文翻译：要改善 narrow task decomposition，需要给模型具体的考量点。
+> 📌 1:1 翻译：要改善 narrow task decomposition，需要给模型具体的考量点（specific considerations）。
 
 **[00:32:14] [内容]** Okay. Oh, no, I didn't say it to do that yet.
-> 📌 中文翻译：还没让它做那一步。
+> 📌 1:1 翻译：哦不，我还没让它做那一步。
 
 **[00:32:21] [演示]** Okay, we'll paste that in as an example, right? So, I don't know if it knows that's an example, but I think it might know.
 > 📌 演示：把 EV 示例粘贴进去作为参考。不确定模型是否知道这只是示例，但应该会理解。
 
 **[00:32:28] [内容]** So, hopefully it understands cuz we're talking about this this area here.
-> 📌 中文翻译：希望它理解了，因为我们讨论的就是这个方向。
+> 📌 1:1 翻译：希望它能理解，因为我们讨论的就是这个方向。
 
 **[00:32:37] [内容]** Um and if this fails, then we could just again just make it it might even try to change to EV, but we will see what happens here.
-> 📌 中文翻译：如果失败了，模型可能会直接换成 EV 用例——看看会怎样。
+> 📌 1:1 翻译：如果这次还是失败，模型甚至可能直接换成 EV 用例——看它会怎么做。
 
 **[00:32:45] [内容]** Um and wait a moment and see what it comes back with.
-> 📌 中文翻译：等模型回复。
+> 📌 1:1 翻译：等一下看模型怎么回。
 
 **[00:32:48] [演示]** Okay, so some of your examples general through that Now, did it change it to EV stuff or is it actually changing it to uh a better part here. So, let's take a look here.
 > 📌 演示：模型回复了——看看它是换成了 EV 用例，还是真正改进了 decomposition。
@@ -616,13 +616,13 @@ timestamp: 2026-06-20
 > 📌 演示：当前用例假设数据已有，只做分析；而 broad research 需要主动搜集信息，narrow decomposition 问题更突出。让模型恢复原领域，把 self-reflection 结构加入 hiring coordinator。
 
 **[00:33:55] [内容]** Um And so, we'll take a look at what it has and maybe we still will do the EV example separately.
-> 📌 中文翻译：看看模型改了什么，也许还会单独做 EV 示例。
+> 📌 1:1 翻译：看看模型改了什么，也许之后还会单独做 EV 示例。
 
 **[00:34:02] [演示]** Um I mean, it still has these in here. So, I'm not sure what it was saying. I should don't save cuz I'm not trying to change that right now.
 > 📌 演示：模型还在改来改去，先不保存。
 
 **[00:34:10] [内容]** Yeah, so like you are a research coordinator.
-> 📌 中文翻译：模型把角色改成了 "research coordinator"——又跑偏了。
+> 📌 1:1 翻译：对，模型把角色改成了 「you are a research coordinator」——又跑偏了。
 
 **[00:34:16] [演示]** >> [laughter] >> And uh I don't know if this is the way that uh the topic makes money where uh you tell something and it doesn't do the right thing and uh it's making more stuff here. But we'll wait a little bit, okay?
 > 📌 演示：模型越改越乱，再等等看。
@@ -656,19 +656,19 @@ timestamp: 2026-06-20
 > [演示：唯一变量是 coordinator prompt，加入招聘专属检查清单后运行，预期效果更好]
 
 **[00:36:19] [内容]** We'll say, python main.py. I'll run it.
-> 📌 中文翻译：运行 `python main.py`。
+> 📌 1:1 翻译：我们输入 `python main.py`，运行它。
 
 **[00:36:24] [内容]** And so, here it's going through it. So, and we're seeing the numbered values of what it's checking for.
-> 📌 中文翻译：它正在处理中，可以看到它在逐项检查的编号列表。
+> 📌 1:1 翻译：可以看到它正在执行流程中，正在显示它要检查项的编号值列表。
 
 **[00:36:36] [内容]** Okay. Does the resume demonstrate all the required skills? Does the candidate experience depth? Are there there any red flags?
-> 📌 中文翻译：简历是否展示了所有必备技能？候选人是否有足够的经验深度？有没有危险信号？
+> 📌 1:1 翻译：好。简历是否展示了所有必备技能？候选人是否有足够的经验深度？有没有任何危险信号？
 
 **[00:36:47] [内容]** Has somebody else experience the limited?
-> 📌 中文翻译：候选人的经验是否有限？
+> 📌 1:1 翻译：候选人此前的经验是否有限？
 
 **[00:36:53] [内容]** Um uh in the 5-8 senior range. No employment gaps or job hopping detected. The career directory is logical etc.
-> 📌 中文翻译：在 5-8 年 senior 范围内。未检测到工作空窗期或频繁跳槽。职业发展路径合理，等等。
+> 📌 1:1 翻译：在 5-8 年 senior 范围内。未检测到工作空窗期或频繁跳槽。职业发展路径合乎逻辑，等等。
 
 **[00:37:03] [演示]** Um and so, we have that there. This is the narrow one, right? So, fixed checklist, no gap check. Okay, so let's go down to the more complex one.
 > [演示：这是 narrow 版本——固定检查清单，无空窗期检查，接下来看更复杂的版本]
@@ -683,13 +683,13 @@ timestamp: 2026-06-20
 > [演示：无法看到各个 agent 的独立输出，建议把所有中间结果和最终结果都保存下来以便对比]
 
 **[00:38:03] [内容]** So, core stack matches excellent. Okay.
-> 📌 中文翻译：核心技能匹配度——优秀。
+> 📌 1:1 翻译：核心技能栈匹配度——优秀。好的。
 
 **[00:38:05] [内容]** Risk and gaps. Questions for interviews. Final Final recommendation. Now, we have a maybe.
-> 📌 中文翻译：风险与缺口、面试问题、最终建议——这次给了一个"待定"。
+> 📌 1:1 翻译：风险与缺口、面试提问建议、最终建议——这次给了一个『待定』的结论。
 
 **[00:38:12] [内容]** Alex is qualified candidate, but has some gaps for a true senior role. Hire if your team values this passive whatever. Bottom line, Alex is a strong back-end engineer. And then we have coverage.
-> 📌 中文翻译：Alex 是合格候选人，但对于真正的 senior 岗位还有一些缺口。如果团队看重这种被动特质可以考虑录用。结论：Alex 是一个很强的后端工程师。然后是覆盖度评估。
+> 📌 1:1 翻译：Alex 是合格的候选人，但对于真正的 senior 岗位还有一些缺口。如果你的团队看重这种被动特质，可以考虑录用。一句话总结：Alex 是一名很强的后端工程师。然后是覆盖度评估。
 
 **[00:38:23] [演示]** So, it's way better in terms of its information. But really to test this, you'd actually have to um you know, create sample data, right? And test it and then and then adjust and say, hey look, uh this is not how I would have judged it, right? Based on that information. But this is the example that we wanted, but really that works when you know, there's a generic research agent and then these individualized things are going in and kind of helping to specialize that research agent for its task. Um but yeah, that was cool.
 > [演示：信息质量好了很多，但要真正验证需要造样本数据来测试和调优；这个例子展示了通用 research agent 如何被个性化 prompt 特化到具体任务]
@@ -704,10 +704,10 @@ timestamp: 2026-06-20
 > [演示：回到动态选择——目前的求职筛选是"什么都查"，但求职场景是否真的需要动态路由还不确定；提醒观众：我们只是在学概念，实际项目要自己动手设计，垃圾进垃圾出]
 
 **[00:40:59] [内容]** Um I'm not saying that this is the best.
-> 📌 中文翻译：我并不是说这是最好的方案。
+> 📌 1:1 翻译：我并不是说这是最好的方案。
 
 **[00:41:02] [内容]** But anyway, we'll go ahead here and make a new folder. This one will be called dynamic selection.
-> 📌 中文翻译：总之，创建一个新文件夹，叫 dynamic selection。
+> 📌 1:1 翻译：总之，我们继续操作，新建一个文件夹，就叫 dynamic selection。
 
 **[00:41:08] [演示]** Okay, and I'm going to go ahead and make a new main.py file.
 > [演示：创建新的 main.py 文件]
@@ -716,22 +716,22 @@ timestamp: 2026-06-20
 > [演示：选中当前代码]
 
 **[00:41:18] [内容]** And we're going to copy this. And we'll paste this into here. And so, I need to give it a concrete example of what we're talking about for dynamic selection.
-> 📌 中文翻译：复制粘贴到新文件里。然后需要给它一个 dynamic selection 的具体示例来引导生成。
+> 📌 1:1 翻译：我们要复制这段代码，粘贴到这个新文件里。然后我需要给它一个 dynamic selection 的具体示例，让它明白我们在讨论什么。
 
 **[00:41:30] [演示]** I do not have my text here. I put it in there. I'm going to get uh ChatGPT to extract it out just how we did with the narrow narrow one. So, just ask it to you know, extract out the text for me here. I'm just doing this off-screen here cuz I need to give it a practical example and try to describe what we're doing here. We're going to CD back a couple and we'll open that up.
 > [演示：文本不在手边，用 ChatGPT 从幻灯片截图提取文字，跟之前 narrow 版本的做法一样；在屏幕外操作完后回到项目目录]
 
 **[00:41:55] [内容]** And so, we'll go here and just say, you know, I want to implement dynamic dynamic selection for my uh uh coordinator.
-> 📌 中文翻译：告诉 Claude：我要为 coordinator 实现 dynamic selection。
+> 📌 1:1 翻译：我们就在这里告诉它：我想为自己的 coordinator 实现 dynamic selection。
 
 **[00:42:12] [内容]** Um so that it's not running the entire pipeline, but trying to choose the best uh things to run based on use case.
-> 📌 中文翻译：让它不再跑完整条 pipeline，而是根据具体场景选择最优的执行路径。
+> 📌 1:1 翻译：让它不再跑完整条 pipeline，而是根据具体使用场景去选择最优的执行内容。
 
 **[00:42:27] [内容]** Here is an example of good dynamic selection where we have different pipelines.
-> 📌 中文翻译：这里有一个好的 dynamic selection 示例，展示了不同的 pipeline 路径。
+> 📌 1:1 翻译：这里有一个做得好的 dynamic selection 示例，里面有不同的 pipeline 路径。
 
 **[00:42:38] [内容]** Okay. You can use to uh help you.
-> 📌 中文翻译：可以用这个来辅助你。
+> 📌 1:1 翻译：好。可以参考这个来帮你实现。
 
 **[00:42:42] [演示]** Okay? And the other thing is like, edit the dynamic selection main.py file. Okay. So, it's going to go off and do that and uh we'll see what it comes back with. Hopefully, something that is useful. But, you know, if we don't kind of guide and say like, these are the use cases, you know, I'm I'd be surprised if it doesn't come back with anything good, but we will try here um just for learning purposes, okay?
 > [演示：让 Claude 编辑 dynamic selection 的 main.py；如果不给足 use case 引导，结果可能不理想，但出于学习目的试试看]
@@ -740,28 +740,28 @@ timestamp: 2026-06-20
 > [演示：Claude 返回了结果，来看看生成了什么]
 
 **[00:43:14] [内容]** Um so, dynamic coordinator. Oh, we still have that narrow coordinator in there.
-> 📌 中文翻译：dynamic coordinator 出来了——但 narrow coordinator 的代码还留在里面。
+> 📌 1:1 翻译：dynamic coordinator 出来了——哦，但 narrow coordinator 的代码还留在里面。
 
 **[00:43:19] [内容]** We should really remove that out of there because it probably is confusing.
-> 📌 中文翻译：应该把它删掉，不然会造成混淆。
+> 📌 1:1 翻译：我们应该把它清掉，因为留着很可能会造成混淆。
 
 **[00:43:21] [内容]** We now have like three coordinators. Um I don't want to have three.
-> 📌 中文翻译：现在有三个 coordinator 了，我不需要三个。
+> 📌 1:1 翻译：现在相当于有三个 coordinator 了。我不想留三个。
 
 **[00:43:28] [演示]** So, [snorts] we'll go here. I'm just going to tell like, look, I I only need a single coordinator prompt. So, uh we'll I'm being lazy here. If we don't need the other ones, we can just delete them out, right? We have this narrow one.
 > [演示：直接告诉 Claude 只需要一个 coordinator prompt，多余的删掉就行]
 
 **[00:43:48] [内容]** So, we know this one is not something we want, so we'll take that out.
-> 📌 中文翻译：这个 narrow 版本不需要，删掉。
+> 📌 1:1 翻译：我们已经知道这个 narrow 版本不是我们想要的，所以直接把它拿掉。
 
 **[00:43:54] [内容]** Then audits the gaps if we're delegating specific domains.
-> 📌 中文翻译：如果我们在委派特定领域，还需要审计缺口。
+> 📌 1:1 翻译：如果我们在委派特定领域，还要审计其中的缺口。
 
 **[00:44:00] [内容]** And then here we have the dynamic one.
-> 📌 中文翻译：然后这是 dynamic 版本。
+> 📌 1:1 翻译：然后这里是我们要的 dynamic 版本。
 
 **[00:44:01] [内容]** So, we'll take this one out. Okay. Look at that. We wasted no tokens.
-> 📌 中文翻译：这个也删掉。看，没浪费什么 token。
+> 📌 1:1 翻译：所以这个也拿掉。好了，看吧，没有浪费任何 token。
 
 **[00:44:05] [演示]** There's no reason we can't do that. We don't have to prompt everything. Then we'll go down here and take a look. So, this coordinator reads the roles, then decides which dimensions actually matter. So, routing logic.
 > [演示：没必要把所有 prompt 都留着；这个 coordinator 会读取角色信息，然后决定哪些维度真正重要——这就是 routing logic]
@@ -770,7 +770,7 @@ timestamp: 2026-06-20
 > [演示：强技术匹配之类的条件，来看看具体效果]
 
 **[00:44:21] [内容]** So, routing guidance. Adapt to what you observe. Don't apply mechanically. So, simple factual match. Skip keyword scan.
-> 📌 中文翻译：routing 指导原则——根据实际观察灵活调整，不要机械套用。简单事实匹配的情况下，跳过关键词扫描。
+> 📌 1:1 翻译：routing 指导原则——根据实际观察灵活调整，不要机械套用。比如简单事实匹配的情况下，就跳过关键词扫描。
 
 **[00:44:28] [演示]** Go to straight to this. Non-traditional background. Transfer skills. Oh, this is cool. I like this. Never invoke a screening agent unless it's answers a real question. So, I think that actually um worked out perfectly.
 > [演示：非传统背景看转移技能，"除非能回答真实问题否则不要调用 screening agent"——这个设计很棒，效果相当好]
@@ -782,16 +782,16 @@ timestamp: 2026-06-20
 > [演示：挺有趣的，但是否实用取决于你在构建什么]
 
 **[00:44:59] [内容]** And oh yeah, we don't have the narrow coordinator. So, we'll go here and just make sure narrow coordinator.
-> 📌 中文翻译：对了，narrow coordinator 已经不在了，确认一下。
+> 📌 1:1 翻译：哦对了，narrow coordinator 已经不在了。我们去这里再确认一下 narrow coordinator 确实没了。
 
 **[00:45:04] [内容]** Um I want to get rid of these other ones. I don't want to waste all that here.
-> 📌 中文翻译：把其他多余的也清理掉，不想浪费 token。
+> 📌 1:1 翻译：我想把这里其他多余的也清掉，不想在这里浪费那么多 token。
 
 **[00:45:09] [演示]** And so, uh I'm just going to go back a step and just say, uh this should be fine. Let's just do that.
 > [演示：回退一步，告诉 Claude 这样就行了]
 
 **[00:45:19] [内容]** I didn't realize there's more to rip out.
-> 📌 中文翻译：没想到还有更多要删的。
+> 📌 1:1 翻译：我没想到还有更多要清理的内容。
 
 **[00:45:22] [演示]** I think it'll still work though.
 > [演示：不过应该还能跑]
@@ -803,10 +803,10 @@ timestamp: 2026-06-20
 > [演示：这里提示"描述最复杂的筛选角度并委派"]
 
 **[00:45:34] [内容]** Okay. And the only the only way to really know if this is different What happened here?
-> 📌 中文翻译：要真正知道这跟之前有没有区别……这里发生了什么？
+> 📌 1:1 翻译：好。真正知道这跟之前有没有区别的唯一办法……这里到底发生了什么？
 
 **[00:45:49] [内容]** Uh we have narrow QS. We still have some of that remaining remaining code there.
-> 📌 中文翻译：还有 narrow 查询的代码残留。
+> 📌 1:1 翻译：还有 narrow 相关的查询逻辑，仍然有一些残留代码在那里。
 
 **[00:45:54] [演示]** So, it's just some of this stuff.
 > [演示：就是这些残留代码的问题]
@@ -818,22 +818,22 @@ timestamp: 2026-06-20
 > [演示：不确定单个 item 能不能跑通，但希望能行]
 
 **[00:46:06] [内容]** Um but here, um you know, my best guess is that it's choosing exactly what it needs cuz if we go back up to here, that's what it looks like it's doing.
-> 📌 中文翻译：我猜它正在精确选择自己需要的内容，因为回看上面的输出，确实是这样做的。
+> 📌 1:1 翻译：但我最好的猜测是，它正在精确地挑选自己需要的内容——因为我们回到上面看输出，它确实在做这件事。
 
 **[00:46:15] [演示]** Oh my goodness. So, I'm going to go back a directory here um cuz this is very frustrating.
 > [演示：报错了，退回上一级目录，挺令人沮丧的]
 
 **[00:46:27] [内容]** Uh remove the better I only have a single coordinator.
-> 📌 中文翻译：清理代码，只保留单个 coordinator。
+> 📌 1:1 翻译：把这些都清理掉，我只保留一个 coordinator。
 
 **[00:46:37] [内容]** But, I remove some of the other code uh because I only really need a single coordinator here.
-> 📌 中文翻译：删掉其他多余代码，因为这里只需要一个 coordinator。
+> 📌 1:1 翻译：我删掉了其他多余代码，因为这里我确实只需要一个 coordinator。
 
 **[00:46:46] [演示]** Can you fix fix the code? You know what's funny is that sometimes like I will type things and every single letter will be wrong and it still knows what I'm saying because it like it does the offshift, which I think is really cool. As someone that's dyslexic, as long as it understands me, I I love that. Um Yeah, and so, I'm just asking it to clean it up. I just want to make sure that it's in a working state before we move on here.
 > [演示：让 Claude 修复代码；有趣的是即使拼写全错它也能理解，作为有阅读障碍的人很欣赏这一点；确保代码能跑再继续]
 
 **[00:47:12] [内容]** All right. So, it thinks it's cleaned it up. We'll go into here again.
-> 📌 中文翻译：它认为已经清理好了，再进去看看。
+> 📌 1:1 翻译：好。它认为已经把代码清理干净了，我们再进去看一下。
 
 **[00:47:15] [演示]** And we'll run this again. So, screening angles detected.
 > [演示：再跑一次，检测到筛选角度了]
@@ -842,7 +842,7 @@ timestamp: 2026-06-20
 > [演示：想搞清楚它是怎么选择的——比如问"你在 fintech 当前职位上负责的系统规模有多大"]
 
 **[00:47:33] [内容]** Your transmission from this. Have you designed or refactored it?
-> 📌 中文翻译：你对这个系统的架构做过设计或重构吗？
+> 📌 1:1 翻译：你对这套系统有传承下来的理解吗？你是否对它做过设计或重构？
 
 **[00:47:36] [演示]** So, what it looks like it's doing is it's actually uh generating out uh possible angles based on this information. And so, it's literally creating dynamic routing on the fly. So, it's not like, here is a list that we had before here, but literally like, here are things that you can check and then choose what you want to put in here. So, it's not always applying the same thing.
 > [演示：它在根据信息动态生成筛选角度——这是实时的 dynamic routing，不是从预定义列表中选，而是现场生成可检查项再选择，每次不再套用相同内容]
@@ -851,13 +851,13 @@ timestamp: 2026-06-20
 > [演示：回到上面看结果，结论还是"待定"，但看到系统这样运作确实很有意思]
 
 **[00:48:08] [内容]** Um again, you know, we don't know if it's actually useful, but it's fun to see the system working.
-> 📌 中文翻译：同样，不确定它是否真的实用，但看到系统跑起来很有趣。
+> 📌 1:1 翻译：同样，我们并不知道它是否真的实用，但看到系统跑起来这件事本身就很有趣。
 
 **[00:48:13] [演示]** Um and there you go, okay? Let's take a look at partitioning research. So, if you give three research agents the same brief, you get three overlapping answers and wasted tokens.
 > [演示：进入 partitioning research——如果给三个 research agent 同一个 brief，会得到三份重叠的回答，浪费 token]
 
 **[00:48:26] [内容]** So, if you're trying to paralyze things, right and say, "Research CV market.
-> 📌 中文翻译：如果你想并行处理，比如说"研究简历市场"——
+> 📌 1:1 翻译：所以如果你想并行处理这些事情，比如发指令说『研究简历市场』——
 
 **[00:48:31] [演示]** Research CV market." And they're all doing the same thing, that's going to be nonsense, right? So, carve up the scope so each agent owns a distinct slice. And so, here we are seeing partition information where um we are creating structured data and we're providing detailed information like topic, cover, excluded, things like that and providing that information there. And as per usual, we can create a tool that would check and make sure that we're dividing the research scope into non-overlapping assignments before delegation. What's really interesting here is that it's making a structure.
 > [演示：三个 agent 都做同样的事就是浪费——需要划分范围，每个 agent 负责一个独立切片；这里用结构化数据定义 topic、cover、excluded 等字段，还可以用 tool 在委派前检查是否做到了不重叠；有趣的是它在自动构建这个结构]
@@ -881,7 +881,7 @@ timestamp: 2026-06-20
 > [演示：再创建一个 main.py，从上一个工程复制代码过来]
 
 **[00:50:06] [内容]** Going to grab this here. Copy it.
-> 📌 中文翻译：复制这段代码。
+> 📌 1:1 翻译：把这段代码抓过来，复制。
 
 **[00:50:11] [演示]** And um go all the way down. And oh wait, no no no this one's empty.
 > [演示：往下翻——等等，这个文件是空的]
@@ -893,22 +893,22 @@ timestamp: 2026-06-20
 > [演示：现在告诉 Claude 我的需求——确保 research……叫什么来着？]
 
 **[00:50:41] [内容]** What did they call them here? My research agent agents aren't wasting credits uh tokens by having and time by having uh overlapping tasks.
-> 📌 中文翻译：确保我的 research agent 不会因为任务重叠而浪费 token 和时间。
+> 📌 1:1 翻译：它们叫什么来着？我的 research agent 不应该因为任务相互重叠而浪费 token 和时间。
 
 **[00:51:01] [内容]** And so I would like to have another step where we have uh partitions.
-> 📌 中文翻译：所以我希望加一个 partition 步骤。
+> 📌 1:1 翻译：所以我想再加一个步骤，引入 partition 的概念。
 
 **[00:51:09] [演示]** Um And I mean like the thing is like you could manually make this stuff, but I'd rather just generate it out so it makes it easier for us. So we have partitions uh uh have a step where we generate out partitions based on a JSON structure.
 > [演示：可以手动写 partition，但让 Claude 自动生成更方便——加一个基于 JSON 结构生成分区的步骤]
 
 **[00:51:30] [内容]** And then we can determine if there is if they are truly not doing the same task.
-> 📌 中文翻译：然后就能验证各 agent 是否真的在做不同的任务。
+> 📌 1:1 翻译：然后我们就可以判断这些 agent 是不是真的没有在做同样的任务。
 
 **[00:51:42] [内容]** Make sure to print out the structure so the human can uh see it on the run of the coordinator agent.
-> 📌 中文翻译：确保打印出 partition 结构，让人类在 coordinator 运行时能看到。
+> 📌 1:1 翻译：记得把 partition 结构打印出来，让人类在 coordinator agent 运行的时候能看到它。
 
 **[00:51:52] [内容]** Update the research partitioning main.py and here is an example of partitioning uh from a different use case.
-> 📌 中文翻译：更新 research partitioning 的 main.py，这里有一个来自其他场景的 partition 示例。
+> 📌 1:1 翻译：更新 research partitioning 的 main.py，这里有一个来自其他场景的 partition 示例供参考。
 
 **[00:52:13] [演示]** Okay. And so I'm going to copy this over.
 > [演示：把示例复制过来]
@@ -929,25 +929,25 @@ timestamp: 2026-06-20
 > [演示：确实应该清理，不然太复杂了；screening agent prompt 改成了"你是专业招聘分析师，针对候选人回答 2-3 句具体、聚焦的句子"——改动很大]
 
 **[00:53:41] [内容]** Um Oh no no, this is fine. This is still the same.
-> 📌 中文翻译：不不，这部分没问题，还是一样。
+> 📌 1:1 翻译：不不，这部分没问题，这块还是跟之前一样。
 
 **[00:53:46] [内容]** Runs a specialized agent, calls once per screening, etc. etc.
-> 📌 中文翻译：运行一个专业 agent，每次筛选调用一次，等等。
+> 📌 1:1 翻译：运行一个专业 agent，每次筛选调用一次，等等等等。
 
 **[00:53:49] [内容]** Um I don't want Oh, I do not want multiple agents. Look, I don't want more more than one coordinator.
-> 📌 中文翻译：我不想要多个 agent，也不想要多个 coordinator。
+> 📌 1:1 翻译：我不想……哦，我不要多个 agent。看，我也不要超过一个的 coordinator。
 
 **[00:54:00] [演示]** Uh we don't need the narrow coordinator, okay? And so it's just because we copied it and I had some of the code still lying around and that's what's Oh, no no no no no no no no no no no.
 > [演示：不需要 narrow coordinator，因为是从旧代码复制过来的，还残留了一些——等等不对……]
 
 **[00:54:16] [内容]** I just realized I was editing the wrong file.
-> 📌 中文翻译：我发现自己编辑错文件了。
+> 📌 1:1 翻译：我刚刚才意识到，自己编辑错文件了。
 
 **[00:54:19] [演示]** >> [laughter] >> Okay. So I went back there and I'm going to make sure I didn't muck that one up.
 > [演示：[笑] 回去确认没有把那个文件搞坏]
 
 **[00:54:23] [内容]** Uh yeah, I don't want to muck with this one.
-> 📌 中文翻译：对，那个文件不能动。
+> 📌 1:1 翻译：嗯，对，这个文件我不想去乱动。
 
 **[00:54:29] [演示]** Oh now I don't know. Did I break it good?
 > [演示：不确定，有没有把它搞坏？]
@@ -956,10 +956,10 @@ timestamp: 2026-06-20
 > [演示：直接 discard 那些改动，应该没问题]
 
 **[00:54:50] [内容]** Okay. And so we'll go over to here and this is the one we actually wanted.
-> 📌 中文翻译：切到正确的文件，这才是我们要改的那个。
+> 📌 1:1 翻译：好。我们切到这边，这才是我们真正要改的那个文件。
 
 **[00:54:53] [内容]** And so it still has that logic in here which is kind of a problem, but I will see if it actually is an issue.
-> 📌 中文翻译：里面还有旧的逻辑，可能是个问题，但先看看是否真的会出错。
+> 📌 1:1 翻译：所以里面还保留着那一段逻辑，这多少是个问题，但我先看看它是不是真的会引发错误。
 
 **[00:54:59] [演示]** Cuz we only have one, right? And I'm just going to remove it. I just don't want it to get confused.
 > [演示：反正只有一个 coordinator，把多余的引用删掉，免得混淆]
@@ -971,7 +971,7 @@ timestamp: 2026-06-20
 > [演示：这里还提到"两个 coordinator"和 spoke system prompts，全部删掉]
 
 **[00:55:21] [内容]** It keeps talking about like Okay.
-> 📌 中文翻译：它一直在提那些东西……算了。
+> 📌 1:1 翻译：它一直不停地在提那些东西……算了。
 
 **[00:55:26] [演示]** And now let's take a look here. So you are a partitioning uh a screen partitioning planner given a job posting resume. Output a JSON array of non overlapping screen partitions. Each partition object must have an agent, a scope.
 > [演示：现在看 partition planner 的 prompt——给定 JD 和简历，输出一个不重叠的 screening partition JSON 数组，每个 partition 对象包含 agent 和 scope]
@@ -1010,19 +1010,19 @@ timestamp: 2026-06-20
 > [演示：routing guidance 没了，可能是进了子文件夹；告诉 Claude 当前状态——有 dynamic selection 和 research partition，避免 research agent 做重复工作]
 
 **[00:57:58] [内容]** Did we lose uh selective routing based on task? Uh and do we need to bring that back in while preserving our partitioning?
-> 📌 中文翻译：我们是否丢失了基于任务的 selective routing？需要在保留 partitioning 的同时把它加回来吗？
+> 📌 1:1 翻译：我们是不是把基于任务的 selective routing 给弄丢了？要不要在保留 partitioning 的同时把它加回来？
 
 **[00:58:20] [演示]** Okay. And so I'm going to go point to dynamic selection has the original prompt that had routing.
 > [演示：指出 dynamic selection 里有原始的 routing prompt]
 
 **[00:58:33] [内容]** And then here we have research partitioning is our um new prompt with partitioning.
-> 📌 中文翻译：然后 research partitioning 是带 partitioning 的新 prompt。
+> 📌 1:1 翻译：然后这里是 research partitioning，是我们带 partitioning 的新 prompt。
 
 **[00:58:45] [内容]** But the routing was removed. And so how would it know to do routing?
-> 📌 中文翻译：但 routing 被移除了，那它怎么知道怎么做 routing？
+> 📌 1:1 翻译：但 routing 部分被拿掉了。那它要怎么知道该做 routing 呢？
 
 **[00:58:57] [内容]** Like do like how would it know to choose the appropriate dynamic selection?
-> 📌 中文翻译：它怎么知道该选择哪种 dynamic selection 路径？
+> 📌 1:1 翻译：它怎么知道该选择哪种合适的 dynamic selection 路径？
 
 **[00:59:06] [演示]** Okay. And so that's where I think there's a bit of an issue.
 > [演示：这就是问题所在]
@@ -1034,25 +1034,25 @@ timestamp: 2026-06-20
 > [演示：因为 prompt 里没有告诉它。]
 
 **[00:59:24] [内容]** And so dynamic both selects the angles, matters, and delegates. It has routing that skips the scan and strong matches.
-> 📌 中文翻译：之前的 dynamic selection 同时负责选择角度和委派，有 routing 逻辑可以跳过扫描和强匹配项。
+> 📌 1:1 翻译：之前 dynamic selection 同时负责挑选角度、判断哪些维度重要、并完成委派。它的 routing 逻辑可以跳过扫描，也能跳过强匹配的情况。
 
 **[00:59:31] [内容]** Now owns the selection step, but it has no routing rules. It just generates non-overlapping partitions without guidance which on which one will skip.
-> 📌 中文翻译：现在 partitioning 接管了选择步骤，但没有 routing 规则——它只是生成不重叠的 partition，没有指导说该跳过哪个。
+> 📌 1:1 翻译：现在 partitioning 接管了 selection 这一步，但没有 routing 规则——它只是生成不重叠的 partition，却没有指导哪些 partition 应该被跳过。
 
 **[00:59:40] [演示]** And so here Okay. I'm just going to hit tab here.
 > [演示：让 Claude 把 routing 逻辑加回来]
 
 **[00:59:55] [内容]** Okay, you are moving it back in, but are you thinking about how it will work or you're just dumping it back in?
-> 📌 中文翻译：你是在把 routing 逻辑搬回来，但你想过它该怎么工作吗，还是只是粗暴地塞回去？
+> 📌 1:1 翻译：好，你确实把它搬回来了，但你想过它该怎么工作吗？还是只是把它粗暴地塞了回去？
 
 **[01:00:06] [演示]** Okay? Because I could have done that.
 > [演示：因为这种粗暴操作我自己也能做]
 
 **[01:00:13] [内容]** That doesn't mean that's a smart approach.
-> 📌 中文翻译：能这样做不代表这是聪明的做法。
+> 📌 1:1 翻译：能做到这一点不代表这就是聪明的做法。
 
 **[01:00:17] [内容]** And maybe that's all we need to do.
-> 📌 中文翻译：不过也许这样就够了。
+> 📌 1:1 翻译：不过也许做到这一步就够了。
 
 **[01:00:19] [演示]** But let's take a look and see what it comes up with.
 > [演示：来看看 Claude 给出了什么方案]
@@ -1064,10 +1064,10 @@ timestamp: 2026-06-20
 > [演示：Claude 的分析——partitioning planner 看简历，dynamic coordinator 看 partition。routing 该放在哪？之前 coordinator 同时负责决定检查什么和调用 agent，现在 partitioning 把这两步拆开了。routing 规则应该属于 partition planner，但需要重新定义——原来写的是"不要调用"，现在应该改成"只在规则满足时才创建 partition"]
 
 **[01:00:59] [内容]** The coordinator in the new architecture should stay as is. It's correct to be dumb selection because the decision was already made upstream.
-> 📌 中文翻译：新架构中的 coordinator 应该保持原样。它做"无脑选择"是正确的，因为决策已经在上游完成了。
+> 📌 1:1 翻译：新架构里的 coordinator 应该保持原样。它做『傻瓜式选择』是对的，因为决策已经在上游完成了。
 
 **[01:01:07] [内容]** Uh giving it routing logic again would create a conflict of two places fighting over what gets evaluated. Um the partition planner currently says only include the partition genuinely needed.
-> 📌 中文翻译：如果再给 coordinator routing 逻辑，就会有两个地方争抢决策权。当前 partition planner 只说"只包含真正需要的 partition"。
+> 📌 1:1 翻译：如果再把 routing 逻辑塞回 coordinator，就会出现两个地方互相争抢评估对象的情况。目前 partition planner 只规定『只包含真正需要的 partition』。
 
 **[01:01:18] [演示]** That's vague. Adding a specific heuristic routing. I mean like I would have thought and you might agree with me is that in the dynamic coordinator we had that list.
 > [演示：这太模糊了，需要加具体的 heuristic routing；我觉得——你可能也同意——之前 dynamic coordinator 里的那个列表是关键]
@@ -1076,13 +1076,13 @@ timestamp: 2026-06-20
 > [演示：之前那个列表是"如果满足这个条件就做那个"，但问题在于研究 agent 的 pipeline 里，dynamic router 只是列出你可能想考虑的选项]
 
 **[01:01:45] [内容]** Okay, but it wouldn't run them all.
-> 📌 中文翻译：但它不会全部执行。
+> 📌 1:1 翻译：好，但它不会把它们全都跑一遍。
 
 **[01:01:48] [演示]** So here it says we receive a set of pre-planning partitions as JSON.
 > [演示：现在这里说"接收一组预规划的 JSON partition"]
 
 **[01:01:52] [内容]** Invoke exactly one screening agent.
-> 📌 中文翻译：恰好调用一个 screening agent。
+> 📌 1:1 翻译：每个 partition 恰好调用一个 screening agent。
 
 **[01:01:55] [演示]** Uh-huh. Okay, well let's just see what we get.
 > [演示：好吧，来看看实际效果]
@@ -1091,31 +1091,31 @@ timestamp: 2026-06-20
 > [演示：不确定满不满意，但在尝试嘛]
 
 **[01:02:11] [内容]** And we'll go main.py and we'll run it.
-> 📌 中文翻译：运行 main.py。
+> 📌 1:1 翻译：我们去 main.py，运行它。
 
 **[01:02:13] [内容]** And see what happens. So we have we have core stack proficiency.
-> 📌 中文翻译：看看结果——有核心技能熟练度评估。
+> 📌 1:1 翻译：看看会发生什么。我们得到了一个核心技能熟练度的评估。
 
 **[01:02:24] [演示]** Assess REST API capabilities. Okay, so we have here um core stack proficiency. Evaluate mastery of required technologies directly matching the job stack.
 > [演示：评估 REST API 能力——核心技能熟练度，评估对岗位技术栈的掌握程度]
 
 **[01:02:42] [内容]** Uh-huh. Access REST API design capabilities.
-> 📌 中文翻译：评估 REST API 设计能力。
+> 📌 1:1 翻译：嗯，评估 REST API 设计能力。
 
 **[01:02:49] [内容]** Evaluate exposure to scaling patterns and nice-to-have technologies. Confirm senior-level experience.
-> 📌 中文翻译：评估对扩展模式和加分技术的了解，确认 senior 级别经验。
+> 📌 1:1 翻译：评估候选人对扩展模式以及加分技术的接触程度，确认是否具备 senior 级别经验。
 
 **[01:02:56] [内容]** And then here we have screening angles delegated. Does the candidate demonstrate mastery of required stuff?
-> 📌 中文翻译：然后是委派的筛选角度——候选人是否展示了对必备技能的掌握？
+> 📌 1:1 翻译：然后这里是委派出去的筛选角度——候选人是否展示了对必备技能的精通？
 
 **[01:03:05] [内容]** Uh okay. And here we're getting partials. So we have a maybe recommendation. Alex is qualified to mid to senior.
-> 📌 中文翻译：这里得到了部分结果——一个"待定"的建议，Alex 符合 mid 到 senior 水平。
+> 📌 1:1 翻译：嗯好。这里我们得到了部分结果。一个『待定』的录用建议——Alex 符合 mid 到 senior 的水平。
 
 **[01:03:17] [演示]** And we have different coverage. So I still don't know this is better. I mean like we should be dumping all these logs out and then comparing them and then and doing stuff. So obviously we were just trying to meet the requirements of learning this stuff and kind of having a sense of it, but is it good? Is it is another question that will take more time and I'm going to keep repeating that because I just want you to know just cuz we're doing it doesn't mean it's great.
 > [演示：覆盖度不同了，但我仍然不知道这是否更好；应该把所有日志导出来做对比；我们只是在学概念，做出来不等于做好了，需要更多时间验证，我会反复强调这一点]
 
 **[01:03:42] [内容]** And you should be thinking about like okay, if I had these three four different ways um you know, determine usage, determine outcomes, have your examples. Don't have them for you here.
-> 📌 中文翻译：你应该自己想：如果有三四不同的方案，怎么评估使用效果和产出——示例需要你自己准备，这里不会帮你做。
+> 📌 1:1 翻译：你应该在脑子里这样想：好，如果我有这三四种不同的方案，怎么评估使用效果、怎么衡量产出结果、准备好你自己的示例。这些东西这里不会帮你准备。
 
 **[01:03:51] [演示]** That'd be a lot of work for me to set up for you. Um but uh yeah, it's interesting trying to try out these techniques and apply them, okay?
 > [演示：帮我设置这些对比实验工作量很大；不过尝试和应用这些技术确实很有趣]
@@ -1154,25 +1154,25 @@ timestamp: 2026-06-20
 > [演示：引入了 evaluate coverage 函数]
 
 **[01:06:53] [内容]** Uh submit final. So it's setting different states based on whether you know, higher maybe or pass. Only call this when the evaluation confirms uh sufficient coverage.
-> 📌 中文翻译：submit final 函数——根据结果设置不同状态（hire、maybe、pass）。只有在评估确认覆盖度足够时才调用。
+> 📌 1:1 翻译：submit final 函数。它会根据 hire、maybe 或 pass 设置不同的状态。只有在评估确认覆盖度足够时才调用这个函数。
 
 **[01:07:02] [内容]** And final recommendation. So we have that in our loop.
-> 📌 中文翻译：还有 final recommendation，loop 结构就位了。
+> 📌 1:1 翻译：还有 final recommendation，这些都已经在我们的 loop 里就位了。
 
 **[01:07:06] [演示]** Here it is adding the evaluation agent, okay?
 > [演示：添加了 evaluation agent]
 
 **[01:07:10] [内容]** And we have some tweaks here. So we have initial screening. Invoke exactly one screening agent call per partition.
-> 📌 中文翻译：一些调整——初始筛选阶段，每个 partition 调用一次 screening agent。
+> 📌 1:1 翻译：这里还有一些调整。初始筛选阶段——每个 partition 恰好调用一次 screening agent。
 
 **[01:07:15] [内容]** Formulate each question. That's fine.
-> 📌 中文翻译：为每个 partition 制定问题，没问题。
+> 📌 1:1 翻译：为每个 partition 制定问题，这部分没问题。
 
 **[01:07:20] [内容]** Phase two, evaluate coverage. After all initial partitions agents have reported call evaluation coverage with plain text.
-> 📌 中文翻译：第二阶段——evaluate coverage。所有初始 partition agent 报告后，用纯文本调用评估覆盖度。
+> 📌 1:1 翻译：第二阶段——evaluate coverage。等所有初始 partition agent 上报完结果后，用纯文本调用 evaluate coverage。
 
 **[01:07:27] [内容]** And here we have refinement max three iterations. If the evaluation coverage returns sufficient false invoke screening agents to fill only identified gaps.
-> 📌 中文翻译：refinement 阶段——最多 3 次迭代。如果覆盖度评估返回"不够"，则调用 screening agent 只填补已识别的缺口。
+> 📌 1:1 翻译：refinement 阶段——最多 3 轮迭代。如果 evaluate coverage 返回覆盖度不足，就调用 screening agent，只去填补识别出来的缺口。
 
 **[01:07:36] [演示]** Uh call submit final etc. etc. Do not call the submit final before evaluation uh if it's only once, okay? So here is obviously done a lot. I'm kind of curious to think like maybe it's just like you're brute forcing to make it either that you really want this person or you really don't want this person.
 > [演示：评估通过后才调用 submit final，不能只评估一次就提交；做了很多改动；有趣的是，refinement loop 可能会暴力收敛——要么拼命找理由录用，要么拼命找理由拒绝]
@@ -1187,19 +1187,19 @@ timestamp: 2026-06-20
 > [演示：随着迭代推进，更新 agent 越来越容易了；目前用的是 Anthropic SDK 而非 agent SDK，后续可能会转换试试；运行 python main.py，标题还是 dynamic coordinator]
 
 **[01:08:39] [内容]** Obviously it's the refinement one. We don't change those names. And so here reads candidates first, routes to the relevant checks only. So evaluate depth.
-> 📌 中文翻译：显然是 refinement 版本，名字没改。先读候选人信息，只路由到相关检查——评估深度。
+> 📌 1:1 翻译：显然这是 refinement 版本，名字我们没改。这里先读取候选人信息，只路由到相关的检查项——比如评估经验深度。
 
 **[01:08:46] [内容]** Access to database caching. Verify API.
-> 📌 中文翻译：数据库缓存访问、API 验证。
+> 📌 1:1 翻译：评估数据库缓存的使用、验证 API 相关经验。
 
 **[01:08:50] [内容]** Confirm senior-level experience.
-> 📌 中文翻译：确认 senior 级别经验。
+> 📌 1:1 翻译：确认是否具备 senior 级别经验。
 
 **[01:08:53] [内容]** And is the candidate senior level? Okay, great. So now we're going into iteration one.
-> 📌 中文翻译：候选人是否 senior 级别？好，进入第一轮迭代。
+> 📌 1:1 翻译：候选人是否达到 senior 级别？好，很好。现在进入第一轮迭代。
 
 **[01:09:00] [内容]** Okay. So we have coverage score, code quality practices, no evidence etc. etc. And so it is going again here.
-> 📌 中文翻译：覆盖度评分、代码质量实践——无证据，等等。它又在跑了。
+> 📌 1:1 翻译：好。我们得到了覆盖度评分、代码质量实践——暂无证据，等等等等。然后它又开始跑了。
 
 **[01:09:09] [演示]** Asking questions. They are I think they are different questions.
 > [演示：在提问了，应该是不同的问题]
@@ -1208,10 +1208,10 @@ timestamp: 2026-06-20
 > [演示：很难判断，因为上面有之前的输出——看，覆盖度评分在下降了，有意思]
 
 **[01:09:26] [内容]** And so we are done and over with.
-> 📌 中文翻译：运行完毕。
+> 📌 1:1 翻译：所以到这里就跑完了，整个流程结束。
 
 **[01:09:31] [内容]** We'll go and uh look up here. So did two iterations.
-> 📌 中文翻译：回上面看——做了 2 轮迭代。
+> 📌 1:1 翻译：我们往上翻看一下结果——总共跑了 2 轮迭代。
 
 **[01:09:37] [演示]** And their score went down. So yeah, that's iteration loop. Is that good? I don't know. It takes a lot of work to evaluate this stuff. We would spend hours hours upon hours tweaking this to figure out is this valuable information? Is our data set good? Etc.
 > [演示：分数反而下降了。这就是 iteration loop——好不好？不知道。评估这些需要大量工作，可能要花无数小时调优，看信息是否有价值、数据集是否合理]
@@ -1257,16 +1257,16 @@ timestamp: 2026-06-20
 > 📌 [演示：继续思考——coordinator agent 是否在真正管理信息流]
 
 **[01:12:49] [内容]** Here are the questions I have. Is my coordinator operating operating from uh uh operating with an observability layer?
-> 📌 中文翻译：我有以下问题：我的 coordinator 是否在可观测层之上运行？
+> 📌 1:1 翻译：我有以下几个问题。我的 coordinator 是否在可观测层之上运行？
 
 **[01:12:57] [内容]** So we can capture uh any errors.
-> 📌 中文翻译：这样我们就能捕获所有错误。
+> 📌 1:1 翻译：这样我们就能捕获所有错误。
 
 **[01:13:05] [内容]** All messages that that that are being uh sent to our spokes.
-> 📌 中文翻译：所有发送给 spoke 的消息。
+> 📌 1:1 翻译：所有发送给 spoke 的消息都能捕获到。
 
 **[01:13:09] [内容]** Sub agents. Is it controlling context in what is passed uh to my um uh spokes and only those sub agents can talk to the coordinator.
-> 📌 中文翻译：也就是子 agent。它是否在控制传递给 spoke 的上下文？是否只有这些 spoke 才能与 coordinator 通信？
+> 📌 1:1 翻译：也就是子 agent。它是否在控制传递给 spoke 的上下文？是否只有这些 spoke 才能与 coordinator 通信？
 
 **[01:13:34] [演示]** Right? Is there something I am missing to make my coordinator a good coordinate coordinator, right?
 > 📌 [演示：还有什么遗漏的，能让 coordinator 成为一个更好的 coordinator？]
@@ -1296,67 +1296,67 @@ timestamp: 2026-06-20
 > 📌 [演示：每个 spoke 都收到了完整的职位信息]
 
 **[01:15:37] [内容]** And so it's saying context control loose. Resume regardless of its partition.
-> 📌 中文翻译：Claude 指出上下文控制松散——简历信息不区分 partition 范围。
+> 📌 1:1 翻译：Claude 指出上下文控制是松散的——简历信息不会因为 partition 范围不同而区分。
 
 **[01:15:42] [演示]** I mean, it would need it anyway, right?
 > 📌 [演示：但每个 spoke 本来就需要简历信息]
 
 **[01:15:43] [内容]** Like all of them need it. So we're not really giving them separate data.
-> 📌 中文翻译：所有 spoke 都需要简历，所以我们并没有真正给它们不同的数据。
+> 📌 1:1 翻译：所有 spoke 都需要简历，所以我们并没有真正给它们各自不同的数据。
 
 **[01:15:46] [内容]** Uh regardless of its partition scope.
-> 📌 中文翻译：不受 partition 范围限制。
+> 📌 1:1 翻译：完全不care 自己的 partition 范围。
 
 **[01:15:48] [内容]** So cover exclude is only advisory passed by JSON to the coordinator prompt, but not enforced at the spoke level.
-> 📌 中文翻译：cover_exclude 只是通过 JSON 传给 coordinator prompt 的建议性规则，并没有在 spoke 层面强制执行。
+> 📌 1:1 翻译：cover_exclude 只是通过 JSON 传给 coordinator prompt 的建议性规则，并没在 spoke 层面强制执行。
 
 **[01:15:58] [内容]** Uh the coordinator uh could ask any question. No mechanism validates the question stays within the uh assigned partition.
-> 📌 中文翻译：coordinator 可以问任何问题，没有任何机制验证问题是否在其分配的 partition 范围内。
+> 📌 1:1 翻译：coordinator 可以问任何问题，没有机制验证问题是否停留在它被分配的 partition 范围内。
 
 **[01:16:07] [内容]** Fair enough. Spoke isolation one direction one directional enforce. So spokes are stateless functions called by the coordinator. No cross no cross spoke communication. So that's good. But spokes have no awareness of their assigned partitions. They can't reject out of scope questions. Oh, that's actually a good good point. No uh only these spokes can talk to coordinator mechanism is just a single plane one. So where are gaps? Can't debug or audit the run. Silent crashes on failures. Can't replay or inspect what's wrong. Coordinator doesn't know if all dimensions are covered mid run.
-> 📌 中文翻译：说得有道理。spoke 隔离是单向强制的——spoke 是无状态函数，由 coordinator 调用，spoke 之间不能互相通信，这很好。但 spoke 不知道自己被分配了哪个 partition，无法拒绝超出范围的问题。这是个好观点。只有 spoke 能跟 coordinator 通信，机制只是单平面的。差距在哪？无法调试或审计运行过程，故障时静默崩溃，无法回放检查问题。coordinator 在运行中途不知道是否所有维度都已覆盖。
+> 📌 1:1 翻译：说得有道理。spoke 隔离是单向强制的——spoke 是无状态函数，由 coordinator 调用，spoke 之间不能互相通信，这很好。但 spoke 不知道分配给自己的 partition 是哪个，无法拒绝超出范围的问题。哦，这点确实说到点子上了。只有这些 spoke 能跟 coordinator 通信，机制只是单平面的一个。差距在哪？无法调试或审计运行过程，故障时静默崩溃，无法回放或检视问题。coordinator 在运行中途不知道是否所有维度都已覆盖。
 
 **[01:16:40] [内容]** Recommendation may be issued before all uh angles are addressed. Spokes are all data even if relevant. All partitions even if some obviously irrelevant. A single pass cannot fill gaps during it.
-> 📌 中文翻译：可能在所有角度都覆盖之前就给出了建议。spoke 收到所有数据，即使有些明显无关。所有 partition 都会被查询，即使有些明显不相关。单次遍历无法在执行过程中填补空白。
+> 📌 1:1 翻译：可能在所有角度都还没覆盖完之前就给出建议。spoke 收到所有数据，即使有些明显不相关。所有 partition 都会被查询一遍，即使有些 partition 明显不相关。单次遍历无法在过程中填补空白。
 
 **[01:16:51] [演示]** And also our data like if I'm really if we maybe want to make this better, we would be sending like different payloads of different information to specific research agents. But right now everyone's getting the same job posting.
 > 📌 [演示：如果要做得更好，应该给不同的 research agent 发送不同的数据载荷，而不是所有人都收到同一份职位信息]
 
 **[01:17:02] [内容]** Um So here they have recommend fixes so structured logging with timestamp levels.
-> 📌 中文翻译：Claude 给出了修复建议——带时间戳和级别的结构化日志。
+> 📌 1:1 翻译：Claude 给出了修复建议——带时间戳和级别的结构化日志。
 
 **[01:17:08] [内容]** That seems good. Uh that's fine, sure.
-> 📌 中文翻译：这个建议不错，可以。
+> 📌 1:1 翻译：这个建议看起来不错，可以。
 
 **[01:17:09] [内容]** And it's going to log that out. Error handling. So wrap the JSON load.
-> 📌 中文翻译：它会输出日志。错误处理方面——包装 JSON load 操作。
+> 📌 1:1 翻译：它会把这些 log 出去。错误处理方面——把 JSON load 包起来。
 
 **[01:17:14] [内容]** Generate the partition. Uh persist spoke inputs outputs so extend beyond the tracking.
-> 📌 中文翻译：生成 partition。持久化 spoke 的输入输出，扩展追踪范围。
+> 📌 1:1 翻译：生成 partition。持久化 spoke 的输入输出，把追踪范围扩展开。
 
 **[01:17:20] [内容]** Add coverage evaluation tool at at explicit gates.
-> 📌 中文翻译：在关键节点添加覆盖率评估工具，设置显式门控。
+> 📌 1:1 翻译：在显式的门控节点上添加覆盖率评估工具。
 
 **[01:17:24] [内容]** Force the coordinator to call submit final.
-> 📌 中文翻译：强制 coordinator 调用 submit final 提交最终结果。
+> 📌 1:1 翻译：强制 coordinator 调用 submit final 提交最终结果。
 
 **[01:17:27] [演示]** And so these are fine. Um The only challenge here is I don't I feel like there's a lot of tasks here. So I'm just going to go here and say, "There is a lot of am concerned uh you will uh not be able to remember all the tasks.
 > 📌 [演示：这些建议都好，但任务太多了，担心 Claude 记不住所有任务]
 
 **[01:17:49] [内容]** Can you create this uh plan in a readme with a task checklist?
-> 📌 中文翻译：你能把这个计划写到一个 readme 里，带上任务清单吗？
+> 📌 1:1 翻译：你能把这个计划写到一个 readme 里，并带上任务清单吗？
 
 **[01:17:57] [内容]** And can you check off the tasks as you complete them?"
-> 📌 中文翻译：完成每个任务后能打勾标记吗？
+> 📌 1:1 翻译：完成一个任务后能打勾标记吗？
 
 **[01:18:04] [演示]** Okay. And so the goal there is to help it out a bit. Um that's not exactly spec-driven development, but the only thing is like if we really wanted this to drive and be really good, we would want something that would clear context each time. But we're not set up that way. I'm not here to roll a a small spec-driven development little thing for us here. So that's totally fine.
 > 📌 [演示：这样做是为了帮 Claude 记住进度。虽然不是严格的 spec-driven development，但如果要做到那种程度，需要每次清除上下文。我们目前的架构不支持，也没必要专门搞一套]
 
 **[01:18:26] [内容]** And um readme with tasks and checklist.
-> 📌 中文翻译：用 readme 列出任务和清单。
+> 📌 1:1 翻译：用 readme 列出任务和清单。
 
 **[01:18:31] [内容]** As long as it knows what it's doing that, that's fine. But where's it going to put that file?
-> 📌 中文翻译：只要它知道自己在做什么就行。但它会把文件放在哪？
+> 📌 1:1 翻译：只要它知道自己在做什么就行。但它会把文件放到哪里？
 
 **[01:18:36] [演示]** Yeah, I'm just going to trust that it can do it.
 > 📌 [演示：就信任它能搞定吧]
@@ -1368,13 +1368,13 @@ timestamp: 2026-06-20
 > 📌 [演示：目标是提升可观测性。如果要上生产环境，可能需要把子 agent 放进容器，再用 OpenTelemetry 作为另一层可观测性]
 
 **[01:19:01] [内容]** That's how I'm kind of thinking about it.
-> 📌 中文翻译：这就是我的思路。
+> 📌 1:1 翻译：我的思路大致就是这样。
 
 **[01:19:04] [演示]** But we're keeping it all monolith for now and we're not going to overly complicate it at this stage. Um and I'm going to let it go and burn away all my credits. Look at that. 6.2 thousand credits. Wow. Let's go over here. It's like the worst time to do this. People are like there's a on Twitter they're like, "Oh, it's down." And the usages are gone and stuff like that. It's me.
 > 📌 [演示：目前保持单体架构，不过度复杂化。让它跑着烧 credit——6200 credit 没了。Twitter 上有人在喊服务挂了，其实是我在消耗]
 
 **[01:19:24] [内容]** It's me. I'm the I'm the problem.
-> 📌 中文翻译：是我，我才是问题所在。
+> 📌 1:1 翻译：是我，我才是问题所在。
 
 **[01:19:26] [演示]** So go over here and right off the bat like we are Oh, resets in 9 minutes though, that's really good. But we're only 33% Well, let's burn, burn, burn, baby. Though my week is is is getting up to use very quickly there. Um but anyway, Oh, yeah, it's it's going up. So, yeah, we're going to consume tokens like it's nobody's business.
 > 📌 [演示：查看用量——9 分钟后重置，但只用了 33%。本周用量涨得很快，不过继续烧吧]
@@ -1386,13 +1386,13 @@ timestamp: 2026-06-20
 > 📌 [演示：完成得很快。6 项修复全部实现：之前没有可观测性只有 print 语句，现在加了错误处理、运行中 gap 检测、退出门控。虽然不是最优，但对我们快速搭建来说已经不错了。看看具体改了哪些代码]
 
 **[01:20:30] [内容]** I suppose that's the easiest way to check.
-> 📌 中文翻译：这应该是最简单的检查方式了。
+> 📌 1:1 翻译：我觉得这是最简单的检查方式。
 
 **[01:20:33] [演示]** And um I'm just going to go all the way up here. Let's take a look here. So, we've added logging, okay?
 > 📌 [演示：往上看代码变更——添加了日志]
 
 **[01:20:39] [内容]** And we are implementing the logger.
-> 📌 中文翻译：实现了 logger。
+> 📌 1:1 翻译：我们在实现 logger。
 
 **[01:20:43] [演示]** Here, it says scope to each partition.
 > 📌 [演示：这里标注了 scope to each partition——按 partition 划分范围]
@@ -1401,43 +1401,43 @@ timestamp: 2026-06-20
 > 📌 [演示：partition agent name 来自 partition JSON，确保问题归属正确。scope 控制做得很细致，不错。还有覆盖率评估]
 
 **[01:20:57] [内容]** So, mid-run gap detection tool. Evaluate whether the screening finds are efficient to make a confident recommendation.
-> 📌 中文翻译：运行中的 gap 检测工具——评估筛选结果是否充分，能否做出有把握的建议。
+> 📌 1:1 翻译：运行中的 gap 检测工具——评估筛选结果是否足够充分，能否做出有把握的最终建议。
 
 **[01:21:04] [内容]** Um confident that all partitions agents have reported. Return a coverage score, etc., etc.
-> 📌 中文翻译：确认所有 partition agent 都已汇报，返回覆盖率分数等。
+> 📌 1:1 翻译：确认所有 partition agent 都已汇报，返回一个覆盖率分数等等。
 
 **[01:21:11] [内容]** Okay, submit final explicit exit gate.
-> 📌 中文翻译：submit final——显式退出门控。
+> 📌 1:1 翻译：好，submit final——显式的退出门控。
 
 **[01:21:13] [内容]** Submit the final hiring recommendation only this Call this only after evaluate coverage.
-> 📌 中文翻译：只有在 evaluate coverage 之后才能调用 submit final 提交最终招聘建议。
+> 📌 1:1 翻译：只有先调用 evaluate coverage 之后，才能调用 submit final 提交最终的招聘建议。
 
 **[01:21:20] [内容]** Fair enough. So, go down below here.
-> 📌 中文翻译：很合理。往下看。
+> 📌 1:1 翻译：很合理。那往下看。
 
 **[01:21:24] [演示]** Mhm. Fix error handling. So, here we have uh Here's down the error handling down here below. Fair enough. That's very basic.
 > 📌 [演示：修复了错误处理，在下方可以看到。很基础的实现，但够用]
 
 **[01:21:37] [内容]** That's not really that important.
-> 📌 中文翻译：这部分不是特别关键。
+> 📌 1:1 翻译：这部分真没那么重要。
 
 **[01:21:39] [内容]** And then we have the screening agent.
-> 📌 中文翻译：然后是 screening agent。
+> 📌 1:1 翻译：然后我们看到 screening agent。
 
 **[01:21:42] [演示]** So, we are seeing Oh, to scope it in the boundary, right?
 > 📌 [演示：可以看到它把范围限定在了 boundary 内]
 
 **[01:21:50] [内容]** So, making sure that it's scoped.
-> 📌 中文翻译：确保 scope 控制到位。
+> 📌 1:1 翻译：确保它被正确地限定在 scope 内。
 
 **[01:21:52] [内容]** Fair enough. Here we have rule changes.
-> 📌 中文翻译：合理。这里还有规则变更。
+> 📌 1:1 翻译：行得通。这里有规则上的变更。
 
 **[01:21:57] [内容]** And so, it's about passing that information and it's talking about that evaluation coverage in the final recommendation.
-> 📌 中文翻译：关于信息传递，以及最终建议中的覆盖率评估。
+> 📌 1:1 翻译：这里讲的是信息传递，以及在最终建议中如何体现覆盖率评估。
 
 **[01:22:04] [内容]** Okay. And then we got logs, logs.
-> 📌 中文翻译：然后是各种日志。
+> 📌 1:1 翻译：好，接下来是各种日志。
 
 **[01:22:08] [演示]** And more logic. Now, this thing is pretty wild. I would probably want to take it farther and refactor it, but I don't really want to uh Like this is just this is a mess. Like this is not how you should have your code base. But I don't want to go overboard at this stage. I just want to make sure that this works.
 > 📌 [演示：代码逻辑变得很混乱，理想情况下应该重构。这不是代码库该有的样子，但现阶段不想过度处理，先确保能跑]
@@ -1446,7 +1446,7 @@ timestamp: 2026-06-20
 > 📌 [演示：接下来运行一下，期待看到日志输出]
 
 **[01:22:39] [内容]** Um And so, I would probably say like we could just run it.
-> 📌 中文翻译：直接运行看看。
+> 📌 1:1 翻译：我觉得我们可以直接运行一下。
 
 **[01:22:46] [演示]** But the other challenge would be like we need actual ways to test that the stuff works. So, probably what would have been better but it would have taken a lot like this would have took an hour or two and you folks don't want to wait around that long to test that. But what I would have done if we had the time and you wanted to go through it, what I would do is I would stage examples and and and I would want to see if like we could pollute um pollute the context between agents and make sure that it is only receiving proper questions and it rejects it and those would be things that we test for.
 > 📌 [演示：另一个挑战是需要实际的测试方法。理想情况下应该花一两小时构造测试用例——验证 agent 之间上下文是否被污染、是否只接收合法问题并拒绝越界的。但你们不想等那么久]
@@ -1458,31 +1458,31 @@ timestamp: 2026-06-20
 > 📌 [演示：实际工作量就是那么多，没法假装跳过。运行一下，看看有没有日志输出]
 
 **[01:23:46] [内容]** Where is our logging? I don't see it.
-> 📌 中文翻译：日志在哪？我没看到。
+> 📌 1:1 翻译：我们的日志在哪？我没看到。
 
 **[01:23:48] [演示]** Okay. I mean, it's just going to ST out. So, it's not logging to anywhere in particular.
 > 📌 [演示：日志只是输出到 stdout，没有写到特定地方]
 
 **[01:23:57] [内容]** Which is fine. Uh so, I you know, I'd probably just have it log to like into in a log directory and that's the only thing that might be missing here.
-> 📌 中文翻译：也行。不过我可能会让日志写到 log 目录里，这可能是唯一缺的东西。
+> 📌 1:1 翻译：那也没关系。我可能会让它把日志写到一个 log 目录里，这可能是这里唯一缺的东西。
 
 **[01:24:11] [演示]** Okay. And I'm just going to wait for it to run Oh, there we go. There it's done.
 > 📌 [演示：等待运行完成——好了，跑完了]
 
 **[01:24:24] [内容]** And so, we have our final information.
-> 📌 中文翻译：最终结果出来了。
+> 📌 1:1 翻译：所以我们拿到最终的结果信息了。
 
 **[01:24:26] [内容]** Did it call that final evaluation step?
-> 📌 中文翻译：它调用了最终评估步骤吗？
+> 📌 1:1 翻译：它有没有调用那个最终评估步骤？
 
 **[01:24:27] [演示]** Yeah, final recommendation. There it is.
 > 📌 [演示：是的，调用了 final recommendation，就在这里]
 
 **[01:24:32] [内容]** So, there you go. That's all it took to improve it.
-> 📌 中文翻译：就这样，改进就完成了。
+> 📌 1:1 翻译：你看，就这样就完成了改进。
 
 **[01:24:36] [内容]** Definitely better than what we had before.
-> 📌 中文翻译：肯定比之前好多了。
+> 📌 1:1 翻译：肯定比之前好太多了。
 
 **[01:24:39] [演示]** Um but yeah, I would probably want to refactor this so that's like you shouldn't have one big dumb file like this. Um and so, we might do that in a separate video. Especially if we want to convert it over to the agent SDK to compare. That might be something we might want to do, okay? Um but yeah, now we've added observability.
 > 📌 [演示：但这个大文件还是需要重构，不应该这么写。可能在另一个视频里做，特别是如果要迁移到 agent SDK 做对比的话。可观测性已经加上了]
@@ -1494,7 +1494,7 @@ timestamp: 2026-06-20
 > 📌 [演示：把代码拉过来]
 
 **[01:25:19] [内容]** And we are going to ask it to refactor.
-> 📌 中文翻译：让 Claude 来做重构。
+> 📌 1:1 翻译：我们要让 Claude 来做重构。
 
 **[01:25:23] [演示]** Um and let's just see if we can make this a little bit more maintainable, okay? If you are not a programmer, you might not know that this is not good code.
 > 📌 [演示：看看能不能让代码更可维护。如果你不是程序员，可能不知道这代码写得不好]
@@ -1509,10 +1509,10 @@ timestamp: 2026-06-20
 > 📌 [演示：创建 refactor.md，写上重构任务]
 
 **[01:26:13] [内容]** So, this is this document um is the tasks I want completed to refactor uh this uh our coordinator agent.
-> 📌 中文翻译：这个文档列出了重构 coordinator agent 需要完成的任务。
+> 📌 1:1 翻译：这个文档里列的是我想要完成的重构任务——重构我们的 coordinator agent。
 
 **[01:26:28] [内容]** Uh currently, all code sits in the main.py and we need to uh break it into multiple files.
-> 📌 中文翻译：目前所有代码都在 main.py 里，需要拆分成多个文件。
+> 📌 1:1 翻译：目前所有代码都堆在 main.py 里，我们需要把它拆成多个文件。
 
 **[01:26:39] [演示]** Okay? So, uh let's go ahead and start making some tasks. I'm just going to make my observations of what I don't like. So, the first thing is um the prompt. So, all prompts should be uh stored as um All prompts should be stored All prompts should be stored as markdown files in a prompts directory.
 > 📌 [演示：开始列任务。第一条——所有 prompt 应该存为 prompts 目录下的 markdown 文件]
@@ -1521,34 +1521,34 @@ timestamp: 2026-06-20
 > 📌 [演示：第一步完成。第二条——tools 太笨重了，每个 tool 应该单独定义为 tools 目录下的文件]
 
 **[01:27:32] [内容]** We should have .py files for each actual tool code.
-> 📌 中文翻译：每个 tool 应该有独立的 .py 文件。
+> 📌 1:1 翻译：每个实际的 tool 代码应该有独立的 .py 文件。
 
 **[01:27:39] [演示]** And the um tools. The tools I mean, like can we this is JSON, right?
 > 📌 [演示：还有 tools 的 JSON 定义部分]
 
 **[01:27:47] [内容]** Um can we? I don't think there's anything special about this and the um tools.json for the long tool.
-> 📌 中文翻译：tools.json 里没什么特殊的东西，就是给长 tool 用的定义。
+> 📌 1:1 翻译：这部分能不能？没有，这里没什么特别的，就是 tools.json 里给那个长 tool 用的定义。
 
 **[01:27:58] [演示]** Right? I I think it will understand what that is for the uh gets passed to create. So, that is definitely something I would like fixed.
 > 📌 [演示：Claude 应该能理解这是传给 create 的。这个 definitely 需要修复]
 
 **[01:28:12] [内容]** What else? What else? Um Do your partitions.
-> 📌 中文翻译：还有什么？partition 部分。
+> 📌 1:1 翻译：还有什么？还有 partition 部分。
 
 **[01:28:18] [内容]** We do have the partition system.
-> 📌 中文翻译：我们有 partition 系统。
+> 📌 1:1 翻译：我们有 partition 系统。
 
 **[01:28:22] [内容]** So, say partition uh generation should be in lib as its own file. That's something else I would do.
-> 📌 中文翻译：partition 生成逻辑应该放到 lib 目录下作为独立文件。
+> 📌 1:1 翻译：partition 的生成逻辑应该放在 lib 目录下作为独立文件。这也是我会做的改动。
 
 **[01:28:36] [内容]** Um that's a function that is that. Run coordinator.
-> 📌 中文翻译：那就是一个函数。run coordinator 部分。
+> 📌 1:1 翻译：那就是一个函数。run coordinator 这个。
 
 **[01:28:42] [内容]** Um The logging is inconsistent. I don't like how the logging is. So, um we should have a logger that um refactors all the logs to be consistent in a file in a file called logger in our logger.py in our uh lib directory.
-> 📌 中文翻译：日志不一致，我不喜欢现在的写法。应该有一个 logger.py 放在 lib 目录下，统一所有日志格式。
+> 📌 1:1 翻译：日志写得很不一致，我不喜欢现在的写法。我们应该有一个 logger——把所有的日志统一放在 lib 目录下叫 logger.py 的文件里。
 
 **[01:29:11] [内容]** That'd be another thing I would want.
-> 📌 中文翻译：这是另一个需要的改进。
+> 📌 1:1 翻译：这是另一个我想做的东西。
 
 **[01:29:13] [演示]** Um Yeah, so I think that's a start.
 > 📌 [演示：好，这些任务是个好的开始]
@@ -1563,10 +1563,10 @@ timestamp: 2026-06-20
 > 📌 [演示：非常不喜欢代码里的 constants，觉得这是坏代码。等下再处理，先看看用量]
 
 **[01:30:57] [内容]** And uh you doesn't matter, it just reset. I'm back at 2%. Look at that.
-> 📌 中文翻译：没关系，刚重置了，回到 2%。
+> 📌 1:1 翻译：没事，刚重置了。又回到 2% 了，你看。
 
 **[01:31:01] [内容]** Lucky me, eh? Okay. So we are just chilling out here waiting for this to generate.
-> 📌 中文翻译：运气不错。现在就等着 Claude 生成完。
+> 📌 1:1 翻译：运气不错对吧？好，那我们就躺平等 Claude 生成完。
 
 **[01:31:08] [演示]** I'm going to pause here and we will come back in a moment.
 > 📌 [演示：暂停一下，马上回来]
@@ -1581,7 +1581,7 @@ timestamp: 2026-06-20
 > 📌 [演示：应该让 Claude 自己打勾标记完成的任务]
 
 **[01:31:33] [内容]** Uh which is fine. So I'll just go here and just check them off myself.
-> 📌 中文翻译：没关系，我自己来打勾。
+> 📌 1:1 翻译：没关系，我自己过去把任务打勾。
 
 **[01:31:39] [演示]** I just didn't feel like telling it to do that. I don't know.
 > 📌 [演示：就是懒得跟它说了]
@@ -1590,10 +1590,10 @@ timestamp: 2026-06-20
 > 📌 [演示：以为它会自动处理。也可以问它还有什么能进一步重构让代码更可读]
 
 **[01:31:50] [内容]** But I don't feel like it would know cuz it's not a human.
-> 📌 中文翻译：但我觉得它不会知道，毕竟它不是人。
+> 📌 1:1 翻译：但我觉得它不会知道怎么做，毕竟它不是人。
 
 **[01:31:54] [内容]** And then it's trained on garbage repos.
-> 📌 中文翻译：而且它是用垃圾代码仓库训练出来的。
+> 📌 1:1 翻译：而且它是用一堆垃圾代码仓库训练出来的。
 
 **[01:31:58] [演示]** Okay, so let's go into our main, wherever that is. Hold on here, our main.
 > 📌 [演示：打开 main.py 看看]
@@ -1602,22 +1602,22 @@ timestamp: 2026-06-20
 > 📌 [演示：凭直觉判断代码是否可读——还是很糟糕，太长了]
 
 **[01:32:17] [内容]** So there's still some stuff in here that needs to be refactored. We'll go over to here.
-> 📌 中文翻译：还是有一些东西需要重构。看看这里。
+> 📌 1:1 翻译：这里还是有一些东西需要重构。我们看看这里。
 
 **[01:32:25] [内容]** Um So say coverage report. Coverage report should be its own file in lib called coverage report.
-> 📌 中文翻译：coverage report 应该是 lib 目录下的独立文件。
+> 📌 1:1 翻译：coverage report 这个东西。coverage report 应该是 lib 目录下叫 coverage report 的独立文件。
 
 **[01:32:43] [内容]** Okay. Um The other thing is like the data, so right now we have hard-coded data.
-> 📌 中文翻译：另一个问题是数据——目前数据是硬编码的。
+> 📌 1:1 翻译：好。另一个问题就是数据，目前我们用的是硬编码数据。
 
 **[01:32:58] [内容]** Make a data folder and store data artifacts and load them into the app.
-> 📌 中文翻译：创建 data 文件夹，存放数据文件，然后加载到应用中。
+> 📌 1:1 翻译：建一个 data 文件夹，把数据文件存进去，然后加载到应用里。
 
 **[01:33:12] [演示]** Okay. That's another thing. Um Mhm.
 > 📌 [演示：又一个需要改的地方]
 
 **[01:33:27] [内容]** I really dislike the logging. Yeah, and we have the trace append.
-> 📌 中文翻译：日志写得我很不满意。还有 trace append 的问题。
+> 📌 1:1 翻译：我对日志真的很不喜欢。还有 trace append 这里。
 
 **[01:33:40] [演示]** It's still very, very verbose. And there are still things that's like I'm noticing here like um There are There are templates for content for messages that should really be uh templated uh files that take variables.
 > 📌 [演示：代码还是很冗长。消息内容模板应该用变量化的模板文件来处理]
@@ -1626,19 +1626,19 @@ timestamp: 2026-06-20
 > 📌 [演示：然后加载进来。这些内容严格来说也是 prompt]
 
 **[01:34:27] [内容]** So technically technically they are prompts.
-> 📌 中文翻译：严格来说它们确实是 prompt。
+> 📌 1:1 翻译：严格来说严格来说它们就是 prompt。
 
 **[01:34:30] [内容]** Our prompts for content. And so uh prompts So move them.
-> 📌 中文翻译：我们的内容 prompt，应该把它们移走。
+> 📌 1:1 翻译：我们的内容 prompt。prompt，所以要把它们移走。
 
 **[01:34:40] [演示]** Them to prompts folders. Okay. So there's that. There's a lot of those.
 > 📌 [演示：移到 prompts 文件夹。这种东西还挺多的]
 
 **[01:34:49] [内容]** Okay, and so we'll go back here, we'll save the file.
-> 📌 中文翻译：回到 refactor.md，保存文件。
+> 📌 1:1 翻译：好，我们回到这里，保存文件。
 
 **[01:34:51] [内容]** Um all the way down to here. There are new tasks in the refactor.
-> 📌 中文翻译：添加新的重构任务。
+> 📌 1:1 翻译：一路滚到下面。重构任务里有新增的任务。
 
 **[01:34:57] [演示]** md, okay? And so we're going to have it go off and do those tasks.
 > 📌 [演示：让 Claude 去执行这些新任务]
@@ -1650,7 +1650,7 @@ timestamp: 2026-06-20
 > 📌 [演示：日志有重复行之类的问题，不需要那么细粒度的日志，但得跟 Claude 解释为什么这是个问题]
 
 **[01:35:37] [内容]** Yeah, it's still just making them md files. It's not marking them whether they're templates or not, but we'll just treat them as templates.
-> 📌 中文翻译：它只是把文件转成了 md，没有标记是否是模板，但我们就当模板来用。
+> 📌 1:1 翻译：它还是只把它们做成 md 文件，没有标出来哪些是模板哪些不是，那我们就都当模板用。
 
 **[01:35:44] [演示]** And here we're getting a lot more in here, so that's better.
 > 📌 [演示：这里改进了不少，好多了]
@@ -1659,13 +1659,13 @@ timestamp: 2026-06-20
 > 📌 [演示：但我知道好代码长什么样，这还不是]
 
 **[01:35:52] [内容]** Um but there's only so much you can do with Python.
-> 📌 中文翻译：不过 Python 能做到的也就这么多了。
+> 📌 1:1 翻译：不过 Python 能做的也就这些了。
 
 **[01:35:55] [演示]** Certain languages have um the ability to have better readability like Ruby's really, really good at that.
 > 📌 [演示：有些语言天然可读性更好，比如 Ruby 就非常擅长这个]
 
 **[01:36:00] [内容]** I'd love to port this over to Ruby. I just didn't check if the agent SDK is available. I don't think it is available in Ruby. I just think that the Anthropic one is and so if the agent SDK was in Ruby, I would absolutely be using it over uh the Python one as I really do not like Python code and um it do it just you just can't get it to be extremely human readable. Um unfortunately we are all kind of using it because of the way the industry is.
-> 📌 中文翻译：我很想把它移植到 Ruby。但 Anthropic 的 agent SDK 好像没有 Ruby 版本，如果有的话我绝对用 Ruby 而不是 Python。Python 代码就是没法做到非常可读，但行业都在用，没办法。
+> 📌 1:1 翻译：我很想把它移植到 Ruby，只是没去查 agent SDK 有没有 Ruby 版。我印象里 Anthropic 的那个 SDK 没有 Ruby 版。如果有 Ruby 版的 agent SDK，我绝对会选 Ruby 而不选 Python，因为我真的不喜欢 Python 代码——它就是做不到非常 human readable。无奈大家都因为行业现状在用它。
 
 **[01:36:22] [演示]** Um as they've adopted it, not because it's good, just because of mass adoption in the uh data data science and stuff like that.
 > 📌 [演示：大家都在用 Python 不是因为它好，而是数据科学等领域的大规模采用让它成了事实标准]
@@ -1680,22 +1680,22 @@ timestamp: 2026-06-20
 > 📌 [演示：日志重构得不好。比如有各种 log info partition 之类的调用，应该封装成 helper 函数]
 
 **[01:37:23] [内容]** Uh so these logs e.g. like log partition.
-> 📌 中文翻译：比如这些日志调用，像 log partition。
+> 📌 1:1 翻译：比如这些日志调用——log partition 这种。
 
 **[01:37:30] [演示]** Um or you know, like log right? Log warn and they will add uh the you know tags. The uh other thing is um you have superfluous logging that is great for human readability.
 > 📌 [演示：应该用 log warn 这样的统一接口，自动添加标签。现在有太多冗余日志，虽然对人类阅读友好但没必要]
 
 **[01:38:02] [内容]** But we want to focus on logging good for for uh logs. And uh we should be outputting logs to a log folder relative to the uh folder of this agent.
-> 📌 中文翻译：日志应该以日志本身为重，输出到这个 agent 目录下的 log 文件夹。
+> 📌 1:1 翻译：但我们的重点是让日志本身质量过关。日志应该输出到这个 agent 目录同级的 log 文件夹下。
 
 **[01:38:22] [内容]** Okay, and so that you know, that's one thing that's really bothering me.
-> 📌 中文翻译：这是让我很不舒服的一个问题。
+> 📌 1:1 翻译：好，这是真正困扰我的一个点。
 
 **[01:38:25] [演示]** I really hate constants, so that'll be another thing that we fix here in just a moment.
 > 📌 [演示：非常讨厌 constants，马上也要修掉]
 
 **[01:38:33] [内容]** But again, we're just trying to get this to be in shape. Um Did it also move this out of here? Like what's this big thing? Like why is the tool used so large here?
-> 📌 中文翻译：不过目前只是想让代码成型。它把这个移出来了吗？这个 tool 定义为什么还这么大？
+> 📌 1:1 翻译：但说回来，我们就是想把代码调整成可用的样子。它有没有把这部分移出去？这块大东西是什么？为什么 tool 定义还这么庞大？
 
 **[01:38:44] [演示]** Okay. Um And while that is thinking, let's go review our other parts of code.
 > 📌 [演示：趁它在思考，看看其他代码部分]
@@ -1704,19 +1704,19 @@ timestamp: 2026-06-20
 > 📌 [演示：这部分还行。JSON 对象很大，如果有更简洁的语法就好了。但现在不想动，因为 agent SDK 可能已经有简写方式，不想白做]
 
 **[01:39:22] [内容]** And we'll look at the partition here.
-> 📌 中文翻译：看看 partition 部分。
+> 📌 1:1 翻译：我们看一下这里的 partition。
 
 **[01:39:25] [内容]** Really hate those those constants.
-> 📌 中文翻译：真的很讨厌那些 constants。
+> 📌 1:1 翻译：真的非常讨厌那些 constants。
 
 **[01:39:27] [内容]** And also I I really dislike how it's loading in the prompt template. So there should be a way to uh manage that.
-> 📌 中文翻译：prompt template 的加载方式也很不喜欢，应该有更好的管理方式。
+> 📌 1:1 翻译：还有我非常不喜欢它加载 prompt template 的方式，应该有个办法把这块管起来。
 
 **[01:39:35] [内容]** Look look at all this logger logic. Oh, no, that's the logger file.
-> 📌 中文翻译：看看这些 logger 逻辑。哦不，这是 logger 文件本身。
+> 📌 1:1 翻译：看看看看这一堆 logger 逻辑。哦不，这就是 logger 文件本身。
 
 **[01:39:39] [内容]** Yeah, here now we're starting to get those things that I that I was asking for. That's good.
-> 📌 中文翻译：这里开始有我想要的那些东西了，不错。
+> 📌 1:1 翻译：对，到这里开始有我要的那些东西了。不错。
 
 **[01:39:43] [演示]** Um Okay. The other thing that that's And I mean we don't need to do this, but like technically, you know, we have all these subagents that are calling create. We could technically delegate them out to different models if we needed to.
 > 📌 [演示：另外一点——虽然不一定要做——我们有这些调用 create 的子 agent，技术上可以把它们分配给不同的模型]
@@ -1725,10 +1725,10 @@ timestamp: 2026-06-20
 > 📌 [演示：甚至可以让它自动选最优模型。不过下一个任务应该是修复这些。可以持续更新 refactor.md 来追踪进度，但我懒得弄了]
 
 **[01:40:16] [内容]** Um And so Yeah, I want to fix those constants.
-> 📌 中文翻译：我要修掉那些 constants。
+> 📌 1:1 翻译：嗯，所以对，我要修掉那些 constants。
 
 **[01:40:20] [内容]** And I want to get something that loads in the templates.
-> 📌 中文翻译：还要实现模板加载功能。
+> 📌 1:1 翻译：我还要加一个能加载模板的机制。
 
 **[01:40:24] [演示]** I'm just going to take a look here at our usage.
 > 📌 [演示：看看用量]
@@ -1737,22 +1737,22 @@ timestamp: 2026-06-20
 > 📌 [演示：9%，还行。这部分修好了]
 
 **[01:40:35] [内容]** We'll take a look here. Again, I'm looking at my main seeing if it's shorter.
-> 📌 中文翻译：再看看 main.py，看它是不是变短了。
+> 📌 1:1 翻译：我们再看一下这里。同样是在看 main.py 看它是不是变短了。
 
 **[01:40:41] [内容]** Yeah, it's looking Yeah, this is way less messier.
-> 📌 中文翻译：好多了，没那么乱了。
+> 📌 1:1 翻译：对，看起来好多了，比之前整洁多了。
 
 **[01:40:45] [内容]** Um I don't like using constants.
-> 📌 中文翻译：但 constants 我还是不喜欢。
+> 📌 1:1 翻译：但 constants 我还是不喜欢用。
 
 **[01:40:48] [内容]** EG like this is a var. Please don't use these in the folder for the coordinator refactor. Fix the code.
-> 📌 中文翻译：比如这些变量，不要在 coordinator refactor 目录里用这种写法。修掉。
+> 📌 1:1 翻译：比如这个 var 就是。请在 coordinator refactor 目录里不要再用这种写法。把代码修掉。
 
 **[01:41:05] [内容]** Okay, so that's something I really dislike.
-> 📌 中文翻译：这是我非常反感的东西。
+> 📌 1:1 翻译：好，这东西我真的不喜欢。
 
 **[01:41:09] [内容]** And so we will get that improvement there.
-> 📌 中文翻译：让 Claude 去改进。
+> 📌 1:1 翻译：让 Claude 去把这一块改进掉。
 
 **[01:41:14] [演示]** This This to me is like there's a big issue with the loop. So I feel that we need to give it a better instructions on like how to better refactor the loop. I mean it's using just a big if self block. There might be some kind of uh state flow machine or something that could improve that loop. Um as I'm not happy about it. Before we do that, I want you to fix the template reading and loading of files.
 > 📌 [演示：循环部分有很大问题，需要更好的重构指令。现在就是一个巨大的 if else 块，可能需要状态机之类的模式来改进。但在那之前，先修复模板读取和文件加载]
@@ -1761,25 +1761,25 @@ timestamp: 2026-06-20
 > 📌 [演示：它在做一些基本的命名修改]
 
 **[01:41:44] [内容]** Right there. So those are getting changed. Good.
-> 📌 中文翻译：就在改这些了，不错。
+> 📌 1:1 翻译：就在这。正在改这些，不错。
 
 **[01:41:47] [演示]** And it'll be done here in probably just a moment. Yeah, it's just updating the main.py and then we will have those fixed. Come on. Come on.
 > 📌 [演示：马上就好了，在更新 main.py。快点快点]
 
 **[01:41:56] [内容]** Hurry up. Hurry up. And also like loading these templates and populating them probably needs to be um its own thing. Yeah, great. Thanks.
-> 📌 中文翻译：快点快点。另外模板加载和变量填充也需要独立成一个模块。好，不错。
+> 📌 1:1 翻译：快点快点。还有模板加载和变量填充这块应该独立成自己的模块。嗯，很好，谢谢。
 
 **[01:42:13] [内容]** Okay. Another thing is uh loading loading files and templates where you uh inject variables.
-> 📌 中文翻译：还有一个问题——加载文件和模板并注入变量。
+> 📌 1:1 翻译：好。另一个问题是，加载文件和模板时需要注入变量。
 
 **[01:42:22] [内容]** Um you can make a new uh uh uh template template um template file in the uh lib directory.
-> 📌 中文翻译：可以在 lib 目录下创建一个 template 模块文件。
+> 📌 1:1 翻译：可以在 lib 目录下新建一个 template 模块文件。
 
 **[01:42:37] [内容]** And this should uh refactor having you know, large load code EG like this. Okay. And so that's another thing that's kind of bothering me. So we will get that cleaned up as well.
-> 📌 中文翻译：把这种大段的加载代码重构掉。这也是让我很不舒服的地方，一起清理掉。
+> 📌 1:1 翻译：这块要把这种大段的加载代码重构掉——就像这个例子。这也是让我有点不舒服的地方，一起清理掉。
 
 **[01:42:58] [内容]** Um There's other things like this. Like see how this is like something's happening here. So that should be refactored out into a function.
-> 📌 中文翻译：还有类似的问题——这里有一大块逻辑在运行，应该抽成函数。
+> 📌 1:1 翻译：还有类似这样的地方。你看这里这一大块逻辑，应该抽出来变成函数。
 
 **[01:43:08] [演示]** Uh like everything here. Like just the units of code is is just not explainable.
 > 📌 [演示：这里的代码单元根本无法用名字解释清楚]
@@ -1791,37 +1791,37 @@ timestamp: 2026-06-20
 > 📌 [演示：每个 if else 块都应该变成函数]
 
 **[01:43:21] [内容]** Um And I would probably prefer stateless classes. I really prefer stateless classes as that makes it really easy to track inputs and outputs of stuff. Um And Python's pretty good for that because of the way it defines uh these label tags. I can't remember what they're called. The prop named properties.
-> 📌 中文翻译：我倾向于用无状态类，因为这样很容易追踪输入输出。Python 在这方面做得不错，因为它定义 property 的方式很方便。
+> 📌 1:1 翻译：我更倾向于用无状态类。真的偏好无状态类，因为这样追踪输入输出特别容易。Python 在这方面还挺顺手的，因为它定义 property 这种标签的方式——名字我一下想不起来了——prop 叫 property。
 
 **[01:43:40] [演示]** And so that will be good. I'm making a lot of changes here. So there's a high chance this might not work, but that's fine.
 > 📌 [演示：这样会好很多。改了很多地方，很可能跑不通，但没关系]
 
 **[01:43:46] [内容]** Uh we can always work through that.
-> 📌 中文翻译：有问题再修就是了。
+> 📌 1:1 翻译：有问题我们再调就是了。
 
 **[01:43:47] [内容]** Uh it's fine. You're fine, Claude.
-> 📌 中文翻译：没事的，Claude 你没问题。
+> 📌 1:1 翻译：没事，Claude 你没事的。
 
 **[01:43:49] [内容]** You're fine. >> [laughter] >> Okay. And so now that that's loaded. I'm not sure if uh that actually changed.
-> 📌 中文翻译：你没问题。好，加载完了。不确定它是否真的改了。
+> 📌 1:1 翻译：你没事。好，加载完了。我不确定它到底改没改。
 
 **[01:43:55] [内容]** We'll go back over to here. And so with that, now when it needs it, I feel Yeah, like load prompt exactly like this.
-> 📌 中文翻译：回到这里。现在它需要加载 prompt 的时候，就像这样 load prompt。
+> 📌 1:1 翻译：我们回到这里。改完之后，当它需要加载 prompt 的时候，就直接像这样 load prompt。
 
 **[01:44:03] [内容]** Um So yeah, the big problem still is the run coordinator.
-> 📌 中文翻译：最大的问题还是 run coordinator。
+> 📌 1:1 翻译：嗯，对，最大的问题还是 run coordinator。
 
 **[01:44:07] [内容]** So the run coordinator file is giant.
-> 📌 中文翻译：run coordinator 文件太大了。
+> 📌 1:1 翻译：run coordinator 这个文件体积太庞大。
 
 **[01:44:14] [内容]** Uh we should refactor um into a stateless uh uh a stateless function.
-> 📌 中文翻译：应该重构为无状态函数。
+> 📌 1:1 翻译：我们应该把它重构为无状态函数。
 
 **[01:44:27] [内容]** And all the parts of code uh should be chunked into functions.
-> 📌 中文翻译：所有代码块都应该拆成函数。
+> 📌 1:1 翻译：所有代码片段都应该拆成函数。
 
 **[01:44:39] [内容]** So the functions basically act as documentation.
-> 📌 中文翻译：函数本身就充当文档。
+> 📌 1:1 翻译：所以函数本身就充当文档。
 
 **[01:44:44] [演示]** You know, for example, the contents of if if uh if blocks are really uh should be uh function calls, right?
 > 📌 [演示：比如 if 块里的内容应该变成函数调用]
@@ -1834,7 +1834,7 @@ timestamp: 2026-06-20
 > 共 152 段（内容 74 段 + 演示 78 段）
 
 **[01:45:01] [内容]** This would be a function. This would be a function. Um whatever this is.
-> 📌 中文翻译：这是一个函数，这也是一个函数。不管这个是什么。
+> 📌 1:1 翻译：这是一个函数，这也是一个函数。不管这个东西是什么。
 
 **[01:45:09] [演示]** Right? These if blocks. And we'll see if it understands what I'm talking about.
 > 📌 演示：看看这些 if 代码块，看它能不能理解我在说什么。
@@ -1843,7 +1843,7 @@ timestamp: 2026-06-20
 > 📌 演示：我觉得这是个非常重要的组件。实际上 run coordinator 也可以放在 lib 目录里，待会可能会建议它移过去。但现在我想先看它能不能处理我的请求。如果没有示例，它根本不知道我要什么。检查一下覆盖率，11% 的使用率。有人建议高峰时段和欧洲时间重叠时会卡，我不在欧洲，他们说等大家都睡了再试。
 
 **[01:45:52] [内容]** So uh you know, it would be maybe um off-peak usage time. But anyway, we'll just wait here and see what happens.
-> 📌 中文翻译：所以可能是非高峰使用时间。不管怎样，我们就在这等着看结果。
+> 📌 1:1 翻译：所以可能是在非高峰使用时段。不管怎样，我们就在这等着看结果。
 
 **[01:45:59] [演示]** Okay? It's back with functions. And again, we could call plan to ask it to do this before, but I I don't really care that much. So we have plan partitions, validate index partitions, run. I've seen something like with partition information. I'm almost wondering if that should be really part of the partitions.py.
 > 📌 演示：回来了，带了函数。我们可以提前用 plan 让它规划，但我不太在意。有 plan partitions、validate index partitions、run。看到 partition 相关的内容了，我在想这些是不是应该归到 partitions.py 里。
@@ -1858,22 +1858,22 @@ timestamp: 2026-06-20
 > 📌 演示：可以这样做，但不是我要的。我需要验证一下——Python 里的 stateless class 长什么样？能不能用 static methods 的 class？
 
 **[01:46:50] [内容]** Okay, cuz that's what I was asking for.
-> 📌 中文翻译：对，因为我要求的就是这个。
+> 📌 1:1 翻译：对，因为我要求的就是这个。
 
 **[01:46:54] [演示]** Yeah, okay. So look. I don't It did not do what I wanted. I mean close. So Okay. We'll go all the way down here.
 > 📌 演示：看，它没完全按我要求的做。接近了，但不完全对。我们往下看。
 
 **[01:47:06] [内容]** You know, I wanted a stateless class.
-> 📌 中文翻译：我想要的就是一个 stateless class。
+> 📌 1:1 翻译：我想要的就是一个 stateless class。
 
 **[01:47:13] [内容]** That is a class with static functions.
-> 📌 中文翻译：也就是一个包含 static functions 的 class。
+> 📌 1:1 翻译：也就是一个包含 static functions 的 class。
 
 **[01:47:21] [演示]** Okay? Right? So you didn't uh And I noticed some of the functions were handling partition logic.
 > 📌 演示：你没做到。而且我注意到有些函数在处理 partition 逻辑。
 
 **[01:47:35] [内容]** Is that something that should really be part of the partitions uh py?
-> 📌 中文翻译：这些逻辑是不是应该归到 partitions.py 里？
+> 📌 1:1 翻译：这些逻辑是不是真的应该归到 partitions.py 里？
 
 **[01:47:44] [演示]** Right? So that's something I'm noticing as we are shaping that code.
 > 📌 演示：这是我在整理代码过程中注意到的问题。
@@ -1888,10 +1888,10 @@ timestamp: 2026-06-20
 > 📌 演示：build initial messages。这也是 partition 相关的吗？它真的在思考这个问题吗？还是只是因为它在处理 partition 数据就顺手搬了？
 
 **[01:48:25] [内容]** Because it moved it and it didn't actually question whether it goes there or not.
-> 📌 中文翻译：因为它直接搬了，并没有真正质疑这个东西该不该放那。
+> 📌 1:1 翻译：因为它直接搬过去了，并没有真正质疑这个东西该不该放那。
 
 **[01:48:30] [内容]** Um But anyway, we'll go over to here and we'll take a look of what's changed.
-> 📌 中文翻译：不管怎样，切到这边看看改了什么。
+> 📌 1:1 翻译：不管怎样，切到这边来看看改了什么。
 
 **[01:48:38] [演示]** What's it still working? It's now this is looking a lot better.
 > 📌 演示：还能跑吗？看起来好多了。
@@ -1900,37 +1900,37 @@ timestamp: 2026-06-20
 > 📌 演示：因为现在可以看到输入是什么、输出是什么了。
 
 **[01:48:51] [内容]** Okay. And so we have all these steps.
-> 📌 中文翻译：好，现在有了所有这些步骤。
+> 📌 1:1 翻译：好，现在有了所有这些步骤。
 
 **[01:49:06] [内容]** So we have call. So create a message.
-> 📌 中文翻译：有 call，create a message。
+> 📌 1:1 翻译：有 call，create a message。
 
 **[01:49:11] [内容]** Log reasoning. Again, like it does this logging stuff belong with the logger?
-> 📌 中文翻译：log reasoning。这个 logging 的东西是不是应该归到 logger 里？
+> 📌 1:1 翻译：log reasoning。话说这些 logging 的东西是不是应该归到 logger 里？
 
 **[01:49:19] [内容]** Handle screening agent. Handle evaluation coverage. Handle files. Handle submit final.
-> 📌 中文翻译：handle screening agent、handle evaluation coverage、handle files、handle submit final。
+> 📌 1:1 翻译：handle screening agent、handle evaluation coverage、handle files、handle submit final。
 
 **[01:49:28] [内容]** Process tool calls. Run. Did they put these at the bottom?
-> 📌 中文翻译：process tool calls、run。它们把这些放底部了？
+> 📌 1:1 翻译：process tool calls、run。它们把这些放在底部了？
 
 **[01:49:34] [内容]** They did. Sometimes people put these at the top or sometimes they put at the bottom, but like the one that obviously is the big one is this one here. And so the idea is that we should be able to easily see what it's doing. So we have generate partitions, partitions.
-> 📌 中文翻译：确实放底部了。有人放顶部有人放底部，但关键是最大的那个函数在这。思路是让我们能一眼看清它在做什么。有 generate partitions、partitions。
+> 📌 1:1 翻译：确实放底部了。有人放顶部有人放底部，但显而易见最大的那个函数就在这里。设计思路是让我们一眼就能看清它在做什么。有 generate partitions、partitions。
 
 **[01:49:46] [演示]** Validate overlap. Index agents, right?
 > 📌 演示：validate overlap、index agents。
 
 **[01:49:48] [内容]** And so this should be self-documenting as you read it. We go down here. We call the coordinator. We do the log reasoning.
-> 📌 中文翻译：这段代码应该是自文档化的，读一遍就能看懂。往下走，调用 coordinator，执行 log reasoning。
+> 📌 1:1 翻译：这段代码应该是自文档化的，读一遍就能看懂。往下走，调用 coordinator，执行 log reasoning。
 
 **[01:49:57] [内容]** Why are these functions? Are these just loose functions?
-> 📌 中文翻译：这些为什么是散落的函数？就是没有归属的 loose functions？
+> 📌 1:1 翻译：这些为什么都是函数？是不是就只是一些 loose functions？
 
 **[01:50:01] [内容]** They are. Well, no, they're part of the partition. And so I would go over to here and I would say, you know, give the um give the partitions.py the partitions.py like all of our lib directory Now I'll say our partitions.py should be a stateless class.
-> 📌 中文翻译：确实是。不，它们是 partition 模块的一部分。我会到 partitions.py 那边，把 lib 目录里所有相关的东西整合进去，声明 partitions.py 应该是一个 stateless class。
+> 📌 1:1 翻译：确实是 loose functions。不，它们其实是 partition 模块的一部分。我会到 partitions.py 那边去，把我们 lib 目录里所有相关的内容整合进 partitions.py，然后声明 partitions.py 应该是一个 stateless class。
 
 **[01:50:26] [内容]** I So a class with static functions.
-> 📌 中文翻译：也就是一个包含 static functions 的 class。
+> 📌 1:1 翻译：也就是一个包含 static functions 的 class。
 
 **[01:50:31] [演示]** Please update. And that's just the way I prefer it, okay? I like to group them into domain. I don't like having loose functions where we don't know where they're coming from and who who respects them or owns them.
 > 📌 演示：请更新。这就是我的偏好。我喜欢按 domain 分组，不喜欢 loose functions 散在外面，不知道从哪来、谁维护、谁负责。
@@ -1942,13 +1942,13 @@ timestamp: 2026-06-20
 > 📌 演示：它们只是在调用这些东西，但我还是要把它们封装成函数。
 
 **[01:51:12] [内容]** If there's an if else statement in here, especially in our main loop, that's what it should be. We have a range of 1 to 31, so that's kind of defining how many steps it can take. Um I would rather that uplifted as a variable.
-> 📌 中文翻译：如果这里有 if else 语句，特别是在主循环里，就应该这样做。有一个 1 到 31 的范围，定义了多少步。我更倾向于把它提取成一个变量。
+> 📌 1:1 翻译：如果这里有 if else 语句，特别是在我们的主循环里，那就该封装成函数。这里有一个 1 到 31 的 range，定义了能走多少步。我更倾向于把它提取出来变成一个变量。
 
 **[01:51:23] [演示]** But we're not going to go too crazy on this. I just want to get it in enough shape here. And mostly just to show you like what good code looks like. Um and what you should be doing before you move on stuff. You might say, "Well, Andrew, why like this is more work to read?"
 > 📌 演示：但我们不会过度折腾。只想把它整理到差不多的状态，主要是给你展示好代码长什么样，以及在继续之前应该做什么。你可能会说："Andrew，这样读起来不是更费劲吗？"
 
 **[01:51:37] [内容]** Yeah, but if if you want to write test code for this then you have an input and an output and you know exactly what to mock going in there and out of there.
-> 📌 中文翻译：但如果你想写测试代码，这样就有明确的输入和输出，你知道该 mock 什么进去、什么出来。
+> 📌 1:1 翻译：但如果你想给这段代码写测试，那就有明确的输入和输出，进去什么、出来什么，你一清二楚，知道该 mock 哪些东西。
 
 **[01:51:44] [演示]** The only thing that I would also change is like if these are complex um objects I'd want them to be dumber and only pass in really dumb data so that we could mock it a lot easier. And this is pain points if you've spent a lot of time writing uh code. And you might say, "Well, you know, the AI can write the test code for us." But that doesn't make it good test reliable test and and you'll only know that by uh writing that stuff. But we'll go over here. We'll take a look at our partitions.
 > 📌 演示：我唯一还想改的是，如果这些是复杂对象，我希望把它们简化，只传简单的数据，这样 mock 起来容易得多。写过很多代码的人都知道这个痛点。你可能说"AI 可以帮我们写测试"，但那不代表测试是可靠的，只有你自己写过才知道。我们去看看 partitions。
@@ -1960,7 +1960,7 @@ timestamp: 2026-06-20
 > 📌 演示：好，把它移过去。这是我们在这做的最后一件事。
 
 **[01:52:40] [内容]** Um and then what we will do is we'll just run it, make sure it still works.
-> 📌 中文翻译：然后跑一下，确保还能正常工作。
+> 📌 1:1 翻译：然后跑一下，确认它还能正常工作。
 
 **[01:52:45] [演示]** And then we'll call this, you know done-ish, right? But again, you know, if this was something that I would want to put in production, I would take the time and fine-tune it. I would take the time and fine-tune it and and because that's about getting um uh the word I'm looking for is um uh technical ownership, right? That you have ownership of the code and and you know exactly what it's doing. When you shape it like that, then you have a better sense of it. So now the coordinator is over there. I want to just run it to make sure it works. So I'm going to CD into the coordinator refactor and we're going to go ahead and run python. or python.main.py.
 > 📌 演示：然后就可以说差不多了。但如果要上生产，我会花时间打磨。这关乎 technical ownership——你对代码有掌控力，清楚知道它在做什么。整理完之后你会对它有更好的感觉。现在 coordinator 已经在那了，跑一下确认能用。cd 到 coordinator refactor 目录，运行 python main.py。
@@ -1978,16 +1978,16 @@ timestamp: 2026-06-20
 > 📌 演示：对，这是我更偏好的方式。特别是数据驱动的场景下，用 JSONL 格式做日志非常有用。
 
 **[01:53:58] [内容]** Um so instead of having like coordinator and delegate um I would probably just have JSON objects and then I could parse it and ingest it into something else.
-> 📌 中文翻译：所以与其用 coordinator 和 delegate 这种结构，不如直接输出 JSON 对象，然后可以解析并导入到其他系统中。
+> 📌 1:1 翻译：所以与其用 coordinator 和 delegate 这种命名结构，我更愿意直接输出 JSON 对象，然后再解析、灌到别的系统里去。
 
 **[01:54:05] [演示]** But again, these are little tricks that you learn building applications of all kinds. Um but the point is that it is running. We just want to see it to completion and then we will call this done and then we will move on because the next section of stuff we are looking at is um stuff that I feel like agent SDK is going to be uh very useful for.
 > 📌 演示：这些都是构建各种应用积累的小技巧。重点是它跑起来了。想看它跑完然后收工继续前进，因为下一部分 agent SDK 的内容会非常有用。
 
 **[01:54:25] [内容]** Um they'll all have to decide on that.
-> 📌 中文翻译：这些到时候再决定。
+> 📌 1:1 翻译：这些细节到时候都要再定。
 
 **[01:54:29] [内容]** And so it did run. Worked great. The only thing that I'd probably ask it to do, which it's not doing right now is that I would have it dump the coverage report into its own file. So that'll be the last thing that we do here.
-> 📌 中文翻译：跑起来了，效果不错。唯一想让它做的是把 coverage report 输出到单独的文件里。这是我们在这要做的最后一件事。
+> 📌 1:1 翻译：跑起来了，效果不错。唯一一件我现在想让它做但它还没做的事，是把 coverage report 单独输出到一个文件里。这也是我们在这里要做的最后一件事。
 
 **[01:54:39] [演示]** Okay, and so I'm going to go here.
 > 📌 演示：好，到这边来操作。
@@ -2002,10 +2002,10 @@ timestamp: 2026-06-20
 > 📌 演示：我们还没看过数据，不过 job posting 那些数据都在。
 
 **[01:55:34] [内容]** And this is we could enrich these later, but they're fine.
-> 📌 中文翻译：这些数据以后可以丰富，但现在够用了。
+> 📌 1:1 翻译：这些数据以后可以再做 enrichment，但现在够用了。
 
 **[01:55:38] [内容]** There's really no new data here.
-> 📌 中文翻译：这没有什么新数据。
+> 📌 1:1 翻译：这里其实没有什么新数据。
 
 **[01:55:39] [演示]** Uh we could have made a research that would grab job postings and make it for us. Not that anyone really should care about job postings anymore because agents are just going at it, but we'll wait for this to finish. Okay? And then we might run this one more time.
 > 📌 演示：本来可以做一个 research agent 来抓取 job postings。不过现在没人在意 job postings 了，因为 agents 自己就在抢饭碗。等它跑完，可能再跑一次。
@@ -2014,7 +2014,7 @@ timestamp: 2026-06-20
 > 📌 演示：好，完成了。它说文件在那了。另外我觉得我们没有在记录 usage 信息。
 
 **[01:55:58] [内容]** So that would be nice to be able to log that information out. But again, these might be things we get for free when we use the agent SDK.
-> 📌 中文翻译：能把 usage 信息记录下来就好了。不过用了 agent SDK 之后这些可能是自带的。
+> 📌 1:1 翻译：能把 usage 信息记录下来就好了。不过这些用了 agent SDK 之后很可能就是自带的了，不用自己造轮子。
 
 **[01:56:08] [演示]** So I'm not exactly sure. Um and so now that is done, I'm going to go ahead and run this one more time. Clear.
 > 📌 演示：不太确定。好，这完成了，再跑一次。清屏。
@@ -2029,10 +2029,10 @@ timestamp: 2026-06-20
 > 📌 演示：coverage report 还在日志里输出，不太喜欢，但没关系，因为没告诉它别这么做。报告在这，可以这样查看。
 
 **[01:56:59] [内容]** And so there is our final coverage assessment.
-> 📌 中文翻译：这就是最终的 coverage assessment。
+> 📌 1:1 翻译：这就是我们最终的 coverage assessment。
 
 **[01:57:03] [内容]** Um I really don't like how long it's written this stuff. Like if you were human, would you want to read this much information? Probably not. Or you'd want it summarized in a different way, but we never gave it a coverage report template, so that's fine. We will consider this done. We'll say get add all, get commit refactor.
-> 📌 中文翻译：写得太长了。如果是你，愿意读这么多信息吗？大概率不愿意。你希望它换个方式总结，但我们没给 coverage report 模板，所以算了。这就算完成了。git add all，git commit refactor。
+> 📌 1:1 翻译：我真的不喜欢它写得太长。如果你是人，你愿意读这么长的信息吗？大概率不愿意。或者你希望它换个方式做总结。但我们没给它一个 coverage report 模板，所以凑合吧。这一步算做完了。我们 git add all，git commit refactor。
 
 **[01:57:21] [演示]** But that wasn't bad for a quick refactor. Still lots of work to be done there, right? Um I'll see you in the next one. Ciao ciao.
 > 📌 演示：对于一次快速重构来说还不错。但还有很多工作要做。下个视频见。Ciao ciao。
@@ -2044,13 +2044,13 @@ timestamp: 2026-06-20
 > 📌 演示：我要把这所有内容复制过去。不要 logs 和 reports，就复制这些代码文件。
 
 **[01:58:15] [内容]** Right click copy. We'll go down over to our port to agent SDK. We will paste this stuff in.
-> 📌 中文翻译：右键复制。到 port to agent SDK 目录，粘贴进去。
+> 📌 1:1 翻译：右键复制。切到我们的 port to agent SDK 目录，把这些内容粘贴进去。
 
 **[01:58:25] [内容]** And we're are going to let her rip and see if it will allow us to port it over in one go here.
-> 📌 中文翻译：直接开跑，看它能不能一次性帮我们移植过去。
+> 📌 1:1 翻译：我们直接放开来跑，看它能不能在这里一次性帮我们移植过去。
 
 **[01:58:32] [内容]** So I need to port the my code base uh of Anthropic SDK based on uh for my agent that uses directly the Anthropic SDK to use Claude agent SDK for this folder.
-> 📌 中文翻译：我需要把这个文件夹里直接使用 Anthropic SDK 的 agent 代码库移植到 Claude agent SDK。
+> 📌 1:1 翻译：我需要把这个文件夹里、原本直接调用 Anthropic SDK 的 agent 代码库，移植到使用 Claude agent SDK。
 
 **[01:58:56] [演示]** Port SDK. And so we're going to ask it to go ahead and do that. That's a big thing. Again, we probably should have put it in a plan mode and ask it what it can do.
 > 📌 演示：移植 SDK。让它来操作。这是个大动作。应该先用 plan mode 问问它能做什么。
@@ -2062,13 +2062,13 @@ timestamp: 2026-06-20
 > 📌 演示：好，来看看改了什么。
 
 **[01:59:21] [内容]** So we have the run updated. I'm not sure why it did that. It's not really that big of a deal.
-> 📌 中文翻译：run 文件被更新了。不知道为什么改了这个，不是什么大事。
+> 📌 1:1 翻译：run 文件被更新了。我也不知道为什么它改了这个，其实也不是什么大事。
 
 **[01:59:28] [内容]** We removed the async Anthropic and coordinator. These are now internal to the coordinator. Sure.
-> 📌 中文翻译：移除了 async Anthropic 和 coordinator，这些现在变成 coordinator 内部的了。
+> 📌 1:1 翻译：移除了 async Anthropic 和 coordinator，这些现在都内化到 coordinator 里了。行吧。
 
 **[01:59:35] [内容]** It has a complete rewrite. I was expecting that.
-> 📌 中文翻译：有一次完全重写。预料到了。
+> 📌 1:1 翻译：有一个文件被完全重写了。这个我早料到了。
 
 **[01:59:39] [演示]** That I assume that would be the largest rewrite for us.
 > 📌 演示：这应该是改动最大的部分。
@@ -2080,7 +2080,7 @@ timestamp: 2026-06-20
 > 📌 演示：有意思。然后需要更新 requirements.txt。能帮我生成一下吗？
 
 **[01:59:54] [内容]** Cuz that's what it should have done. But I we never copied it from a prior one.
-> 📌 中文翻译：它本来就该做的。但我们之前没从旧项目复制过来。
+> 📌 1:1 翻译：它本来就应该帮我生成这个的。但我们之前没从旧项目里把 requirements.txt 拷过来，所以它没东西可改。
 
 **[01:59:58] [演示]** That's probably why. Yeah, we didn't. So let's go take a look at the the major changes. So we'll look at the main.py. And here we can see async Anthropic. Oh, so there's where it's different. Default async client. That's why there was a change there. This is the new one, right?
 > 📌 演示：可能就是因为这个。来看看主要改动。看 main.py，这里能看到 async Anthropic 的改动——default async client，这就是不同的地方。这是新的写法。
@@ -2089,7 +2089,7 @@ timestamp: 2026-06-20
 > 📌 演示：好，这部分看起来差不多。
 
 **[02:00:21] [内容]** But we'll go into our coordinator directory here.
-> 📌 中文翻译：进到 coordinator 目录看看。
+> 📌 1:1 翻译：但我们先进到这边的 coordinator 目录看一下。
 
 **[02:00:27] [演示]** And let's see if we can make the difference here.
 > 📌 演示：看看能不能看出区别。
@@ -2101,19 +2101,19 @@ timestamp: 2026-06-20
 > 📌 演示：再建一个文件夹。
 
 **[02:01:03] [内容]** Port to Anthropic uh port to agent SDK small.
-> 📌 中文翻译：port to agent SDK small，做个小版本。
+> 📌 1:1 翻译：就叫 port to Anthropic 吧，不对，port to agent SDK small。做一个最小版本。
 
 **[02:01:09] [演示]** And the reason I want to do that again is to really clearly see the difference.
 > 📌 演示：这样做是为了更清楚地看到区别。
 
 **[02:01:20] [内容]** And so I'm trying to think of one that we were doing before, like narrow task decomposition.
-> 📌 中文翻译：想想之前做过的简单例子，比如 narrow task decomposition。
+> 📌 1:1 翻译：我在想之前我们做过哪些简单的例子，比如 narrow task decomposition（窄任务分解）。
 
 **[02:01:25] [演示]** Yeah, where we have this one. This one's a lot simpler, right?
 > 📌 演示：对，就这个。简单多了。
 
 **[02:01:29] [内容]** And we actually might want to go one step before that where we are using tool use.
-> 📌 中文翻译：其实应该再往前一步，用 tool use 的那个版本。
+> 📌 1:1 翻译：其实应该再往前一步，回到更早的那个、用了 tool use 的版本。
 
 **[02:01:34] [演示]** Um Could be decision-making, model-driven, right? So this one here is a very simple one with multiple tools. So what we're we'll do is we'll copy this over here. And then I go into this directory just so we can clearly see the difference. And then also maybe just have another one that we can work on.
 > 📌 演示：可能是 decision-making、model-driven 那个。这个用多个 tools 的例子很简单。复制过去，进到目录里就能清楚看到区别。再留一个可以操作的版本。
@@ -2122,7 +2122,7 @@ timestamp: 2026-06-20
 > 📌 演示：虽然不太喜欢这个 use case 本身。好，开始操作。
 
 **[02:02:01] [内容]** Can we Can we convert the code for port to agent uh SDK small?"
-> 📌 中文翻译：能不能把 port to agent SDK small 的代码转换过去？
+> 📌 1:1 翻译：能不能帮我把 port to agent SDK small 的代码转换过去？
 
 **[02:02:09] [演示]** over to agent SDK. Again, we haven't tested if these actually work. Hopefully it knows Claude agent SDK, not just some generic one. Um but anyway, I think it knows. I hope it knows. We'll wait here a moment, okay? All right, so we have the refactor already done for this one.
 > 📌 演示：转到 agent SDK。还没测试过能不能跑。希望它知道的是 Claude agent SDK，不是某个通用版本。等一会。好，refactor 完成了。
@@ -2131,13 +2131,13 @@ timestamp: 2026-06-20
 > 📌 演示：没花太久。看看改了什么。imports 不一样了。
 
 **[02:02:34] [内容]** Yeah, it is using Anthropic, the correct one.
-> 📌 中文翻译：对，用的是 Anthropic，正确的那个。
+> 📌 1:1 翻译：对，它用的就是 Anthropic，对的那个 SDK。
 
 **[02:02:39] [内容]** No, no, no, no, no. It Yeah, it is.
-> 📌 中文翻译：不不不……对，确实在用。
+> 📌 1:1 翻译：不不不不不……等下，对，确实是在用。
 
 **[02:02:40] [内容]** Okay, here it is. So here it is and here instead of handling tools here, we have a decorator.
-> 📌 中文翻译：好，在这。这里不再手动处理 tools 了，而是用了一个 decorator。
+> 📌 1:1 翻译：好，就在这。这里不再需要手动处理 tools，而是用了一个 decorator。
 
 **[02:02:48] [演示]** And then the functions are probably defined a particular way. See this whole big thing is probably gone. Yep. And so we have decorators on top of our functions making this code a lot smaller.
 > 📌 演示：函数也用特定方式定义了。这一大段代码应该都没了。对，decorator 放在函数上面，代码量小了很多。
@@ -2146,7 +2146,7 @@ timestamp: 2026-06-20
 > 📌 演示：调用方式有点不同。这是一个变化。
 
 **[02:03:06] [内容]** And we are creating the SDK MCP server to pass the tools over. So that is another thing that's changing.
-> 📌 中文翻译：在创建 SDK MCP server 来传递 tools。这是另一个变化。
+> 📌 1:1 翻译：我们在创建一个 SDK MCP server 把 tools 传进去。这是另一个发生变化的地方。
 
 **[02:03:16] [演示]** Okay. Um I mean, we have new modes and we're setting our MCP server with our tooling in it.
 > 📌 演示：有新的模式，在设置 MCP server 并把 tools 放进去。
@@ -2170,19 +2170,19 @@ timestamp: 2026-06-20
 > 📌 演示：现在知道了重构的内容。要问：还需要 tools.json 吗？是不是该用 decorator？
 
 **[02:04:10] [内容]** for port to agent SDK base for Claude agent SDK.
-> 📌 中文翻译：针对 port to agent SDK base，使用 Claude agent SDK。
+> 📌 1:1 翻译：针对 port to agent SDK base 项目，改成用 Claude agent SDK。
 
 **[02:04:32] [内容]** And I imagine that you can probably pass in that JSON tools cuz it's it's doing it. No, we don't we don't know if it actually works or not. Um Like we go here, tools.json.
-> 📌 中文翻译：我觉得可能可以传入 JSON tools 因为它在做这件事。不，不知道到底能不能跑。看这里，tools.json。
+> 📌 1:1 翻译：我猜你大概可以传入 JSON tools，因为它确实在引用这个文件。不，我们也不知道实际跑起来到底行不行。看这里，tools.json。
 
 **[02:04:44] [内容]** Like I don't see it loaded in here.
-> 📌 中文翻译：没看到它在这被加载。
+> 📌 1:1 翻译：我没看到它在这被加载进来。
 
 **[02:04:47] [内容]** Maybe it's getting loaded in the main.
-> 📌 中文翻译：可能在 main 里加载的。
+> 📌 1:1 翻译：也许是在 main 里加载的。
 
 **[02:04:48] [内容]** It is refactoring probably right now, so we wouldn't even know.
-> 📌 中文翻译：它可能正在重构，所以还看不出来。
+> 📌 1:1 翻译：它现在八成还在重构中，所以暂时还看不出来。
 
 **[02:04:51] [演示]** But we'll see what it says here.
 > 📌 演示：看看它怎么说。
@@ -2191,79 +2191,79 @@ timestamp: 2026-06-20
 > 📌 演示：因为我们确实有 tool 在这。
 
 **[02:04:57] [内容]** So it is. It's right here. So maybe it just has to delete it out.
-> 📌 中文翻译：确实在这。也许只需要把它删掉。
+> 📌 1:1 翻译：确实在这。所以也许只需要把那个文件删掉就行。
 
 **[02:05:01] [内容]** But if the tool is here, then why isn't that defined? Or does it have to sit in the same place?
-> 📌 中文翻译：但如果 tool 在这，为什么没被定义？还是说必须放在同一个位置？
+> 📌 1:1 翻译：但 tool 既然在这，为什么没被定义？还是说 decorator 必须和 tool 函数放在同一个文件里？
 
 **[02:05:08] [演示]** Right? So we have this one here. Is this just a repeat?
 > 📌 演示：我们有这个，这只是重复的吗？
 
 **[02:05:13] [内容]** Okay. And like look at all this inline stuff, eh?
-> 📌 中文翻译：看看所有这些 inline 的东西。
+> 📌 1:1 翻译：好，看看所有这些 inline 写死的东西。
 
 **[02:05:31] [内容]** Object maybe pass rationals key strings.
-> 📌 中文翻译：object，可能传 rationals、key strings。
+> 📌 1:1 翻译：object，可能要传 rationals、key strings 这些参数。
 
 **[02:05:39] [内容]** That's the structure that we actually wanted from before.
-> 📌 中文翻译：这就是之前一直想要的结构。
+> 📌 1:1 翻译：这正是我们之前一直想要的结构。
 
 **[02:05:43] [内容]** Um And so here all three tool decorators are now using the simple peram.
-> 📌 中文翻译：这里三个 tool decorator 都在用简单的 param。
+> 📌 1:1 翻译：这里三个 tool decorator 现在都在用简单的 param。
 
 **[02:05:49] [内容]** Okay, but like does the coordinator still have them in here?
-> 📌 中文翻译：但 coordinator 里还保留着它们吗？
+> 📌 1:1 翻译：好，但 coordinator 里还留着这些 tool 定义吗？
 
 **[02:05:53] [内容]** Do we have to have the tools in the coordinator .py or can they actually they live in the um tools directory as separate functions?
-> 📌 中文翻译：tools 必须放在 coordinator.py 里，还是可以放在 tools 目录作为独立的函数？
+> 📌 1:1 翻译：tools 是必须放在 coordinator.py 里，还是说它们其实可以放到 tools 目录里作为独立的函数？
 
 **[02:06:18] [内容]** Or it doesn't work because tight coupling of the decorator.
-> 📌 中文翻译：或者因为 decorator 的紧耦合，这样行不通。
+> 📌 1:1 翻译：或者说因为 decorator 是紧耦合的，所以这种拆分根本行不通。
 
 **[02:06:30] [演示]** Which is this part here. It might be the reason why they can't do that. And I mean, hopefully it knows what last directory we're in.
 > 📌 演示：就是这部分。可能是没法分离的原因。希望它知道我们在哪个目录。
 
 **[02:06:40] [内容]** Is it more than one? But we'll ask that question. And you know, this is what I'm trying to figure out.
-> 📌 中文翻译：不止一个吗？问一下吧。这正是我想搞清楚的。
+> 📌 1:1 翻译：真的不止一个吗？这个问题我们待会去问。这正是我想搞清楚的地方。
 
 **[02:06:46] [演示]** Let's see what it says here. So the key insight tools of decorator runs at call time, not import time. So you can apply it inside the factory function that captures state via normal closures.
 > 📌 演示：看看它怎么说。关键洞察：tool decorator 在调用时运行，不是导入时。所以可以在 factory function 内部应用它，通过普通闭包捕获状态。
 
 **[02:06:57] [内容]** Okay. Well, speak English to me here.
-> 📌 中文翻译：好，说人话。
+> 📌 1:1 翻译：好，这段用大白话给我讲一遍。
 
 **[02:07:06] [内容]** Can we move it or not? Coordinator class.
-> 📌 中文翻译：到底能不能移出去？coordinator class。
+> 📌 1:1 翻译：到底能不能移出去？coordinator class 这块。
 
 **[02:07:12] [内容]** Tools. Screening agent. Look look, I'm trying to keep my stuff lean here, folks.
-> 📌 中文翻译：tools。screening agent。我在尽量保持代码精简。
+> 📌 1:1 翻译：tools。screening agent。拜托拜托，大家看好了，我是在尽量保持代码精简的。
 
 **[02:07:20] [内容]** Did it move it out? Did it even tell me that it moved it out?
-> 📌 中文翻译：它移出去了吗？有没有告诉我它移了？
+> 📌 1:1 翻译：它到底移出去了没有？有没有跟我提过它把这些东西移出去了？
 
 **[02:07:27] [内容]** Okay. So here coordinator state, make coordinator. So it did move it out from tools.
-> 📌 中文翻译：好，coordinator state、make coordinator。它确实把 tools 移出去了。
+> 📌 1:1 翻译：好，这里看到 coordinator state、make coordinator。所以它确实把 tools 从那个文件里移出来了。
 
 **[02:07:35] [内容]** I don't like how they're make coordinator tools.
-> 📌 中文翻译：不太喜欢 make coordinator tools 这个命名。
+> 📌 1:1 翻译：我不喜欢他们把函数命名成 make coordinator tools 这种方式。
 
 **[02:07:39] [内容]** Okay. And then we have coordinator state.
-> 📌 中文翻译：然后有 coordinator state。
+> 📌 1:1 翻译：好，然后我们又有了一个 coordinator state。
 
 **[02:07:45] [演示]** All right. Okay, I see. So they they have a state file separately for the I mean, state wouldn't belong in tools, now would it?
 > 📌 演示：好，明白了。state 单独一个文件。state 本来就不该放在 tools 里。
 
 **[02:07:55] [内容]** So that doesn't make any sense.
-> 📌 中文翻译：放 tools 里说不通。
+> 📌 1:1 翻译：那这样的话根本就说不通。
 
 **[02:07:56] [内容]** Unless it's coming from that file. Maybe it it's part of it. That's why. Okay.
-> 📌 中文翻译：除非它从那个文件来的。可能是它的一部分。原来如此。
+> 📌 1:1 翻译：除非它是从那个文件来的。也许 state 文件本来就是 tools 的一部分，所以才会这样。原来如此。
 
 **[02:08:00] [内容]** And so we go over to here. And we have make coordinator tools. Oh, and they do have it in here. Okay, so they were able to move it out.
-> 📌 中文翻译：到这边看。make coordinator tools。它们确实把它移出去了。
+> 📌 1:1 翻译：于是我们跳到这里。看到 make coordinator tools。哦，它们确实把 tool 定义放在这个文件里了。好，这么说它们是有能力把它移出去的。
 
 **[02:08:07] [内容]** And so here we have our multiple tools. Okay. And so to me, that's what I would like it to be.
-> 📌 中文翻译：这里有多个 tools。这就是我想要的结构。
+> 📌 1:1 翻译：这里就是我们那批多个 tools。好，在我看来，这就该是我心目中想要的样子。
 
 **[02:08:15] [演示]** So I'm going to go ahead and we're going to stop this. And we're going to CD into the port to agent SDK. And I just want to make sure that this still works.
 > 📌 演示：好，停掉这个。cd 到 port to agent SDK 目录，确认还能正常工作。
@@ -2272,16 +2272,16 @@ timestamp: 2026-06-20
 > 📌 演示：运行 main.py。
 
 **[02:08:25] [内容]** dot We have main or main. Python. I got it backwards.
-> 📌 中文翻译：是 main.py 还是 python main。搞反了。
+> 📌 1:1 翻译：是 main.py 还是 python main.py。我把顺序说反了。
 
 **[02:08:31] [内容]** Python main. Whatever. Whoops. Okay.
-> 📌 中文翻译：python main，随便吧。搞错了，好。
+> 📌 1:1 翻译：python main.py，随便啦。哎，手滑了。行吧。
 
 **[02:08:40] [演示]** And I just want to make sure that it still runs. Because we've changed a lot of code or at least one large file to another framework.
 > 📌 演示：只是想确认还能跑。因为改了很多代码，至少一个大文件换到了另一个框架。
 
 **[02:08:50] [内容]** And um It's logging. We'll pause here and see the end result, but I'm pretty certain that it's going to work.
-> 📌 中文翻译：在打日志了。暂停看最终结果，但基本确定能跑通。
+> 📌 1:1 翻译：它在输出日志了。我们在这暂停一下，等看到最终结果，不过我基本确信它能跑通。
 
 **[02:09:02] [演示]** Okay, so it ran without issue and we are in good shape. Um Yeah, so we are set up and the question will be like, you know, do we use this to test out all the agency decay stuff or do we come back to this project? We will see, but at least we made it to this point and I think the key takeaway here is the fact that uh the tool use call got easier and it's setting up an MCP server. Okay, so literally it's an internal NPC server.
 > 📌 演示：跑通了，没问题。准备好了。问题是用这个来测试所有 agent 相关的东西，还是回到这个项目？到时候再看。至少到了这一步。关键收获是 tool use 调用变简单了，而且在搭建一个 MCP server——一个内部的 MCP server。
