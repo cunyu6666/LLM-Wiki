@@ -1,0 +1,23 @@
+wiki/speech/0620 计划与进展.md
+wiki/speech/Dan Koe 人生就四件事.md
+wiki/speech/Zynga 创始人先抄对再创新.md
+wiki/speech/idea-fragments.md
+wiki/speech/new-sources.md
+wiki/speech/outline-0620-catui.md
+wiki/speech/outline-v1.md
+wiki/speech/outline-v2.md
+wiki/speech/plan.md
+wiki/speech/sources.md
+wiki/speech/speech-0620-catui.md
+wiki/speech/yt-talks/CLAUDE.md
+wiki/speech/yt-talks/Claude-Architect多智能体编排_Claude-Architect-Multi-Agent-Orchestration_vRYBG_R8JAI_完整中文版.md
+wiki/speech/yt-talks/Cursor的Ryo-Lu谈设计活工具与编程未来_8ncYSGbfeyY.md
+wiki/speech/yt-talks/Framer发布会介绍Agents与分支_Framer-Event-Introducing-Agents-Branching-and-a-new-Community_j4WW4bwWhPk.md
+wiki/speech/yt-talks/Ryo-Lu谈AI将设计师变为开发者_Ryo-Lu-Cursor-AI-Turns-Designers-to-Developers_PQhcHrCyU8M.md
+wiki/speech/yt-talks/Uvl-tRga98g_Designing-with-Claude-from-Prompt-to-Production.md
+wiki/speech/yt-talks/把Claude-Code变成设计天才_Turn-Claude-Code-into-a-Design-GENIUS_fVPCbCH_c1c.md
+wiki/speech/yt-talks/姚顺宇在Anthropic和Gemini训练模型_Yao-Shunyu-Training-Models-at-Anthropic-Gemini_ttkd0t5qTD4.md
+wiki/speech/yt-talks/翁家翌谈OpenAI强化学习与后训练基础设施_Weng-Jiayi-OpenAI-RL-Post-Training-Infra_I0DrcsDf3Os.md
+wiki/speech/yt-talks/设计师如何使用Codex_How-to-Use-Codex-as-a-Designer_GOtHFZnagO0.md
+wiki/speech/yt-talks/软件基础比以往更重要_Software-Fundamentals-Matter-More-Than-Ever-Matt-Pocock_v4F1gFy-hqg.md
+wiki/speech/证据表.md
