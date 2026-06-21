@@ -15,10 +15,397 @@ timestamp: 2026-06-20
 
 ---
 
-## 信达雅中文翻译（1:1 连续版）
+## 信达雅中文翻译（易读连续版）
 
-> **本节导读**：按时间顺序把所有段（含演示/内容）的中文译文连续列出，**段标 `[mm:ss]` 与下方 4 Bucket 完全对应**。
-> 下方 `## 完整中文版` 区是原始 EN + ZH 标注对照，本节供纯中文快速阅读。
+> **风格**：去除时间戳 + 合并同主题短句，每段一句话。保留所有细节、专有名词、连贯关系。
+> **演讲节奏 9 大主题**：
+> - 一、Hub-and-Spoke 架构：协调者模式
+> - 二、基础协调者实现
+> - 三、窄分解问题（Narrow Task Decomposition）
+> - 四、动态选择（Dynamic Selection）
+> - 五、研究分区（Research Partitioning）
+> - 六、精化循环（Refinement Loop）
+> - 七、可观测性（Observability）
+> - 八、重构（Refactoring）
+> - 九、核心经验
+
+---
+
+### 一、Hub-and-Spoke 架构：协调者模式
+
+所以这很清楚。Coordinator 来负责 routing（路由）。
+
+然后这里写道：『你是 coordinator，用你的判断力。』
+
+Task status。它在讲如何通用地管理任务。
+
+创建一个任务，可选地附带一个 task ID 列表。
+
+获取指定任务的当前状态，标记为完成，列出所有已完成的任务。
+
+看起来相当简单。
+
+你的角色是管理和协调任务。
+
+我们会说：assess complexity、routing，再 aggregate results。这里的问题是用例太通用了。
+
+代码里确实写了 「set up a workflow」，从技术上来讲那部分就是 routing 的实现。
+
+所以也许它确实实现了 routing，再让它跑一下看看。现在我来重写一个具体的用例——技术尽职调查，分解复杂的软件评审。
+
+基本上它已经停了。
+
+Coordinator 把请求做 decomposition，按领域评估 complexity，做 routing，运行对应的 handler，把所有发现聚合成一份报告。听起来不错。
+
+我们有两个 tool：decompose request 和 assess complexity。
+
+但我不太喜欢这个用例——我想要一个容易验证和测试的场景，这个太复杂了。我不喜欢这个用例。
+
+
+### 二、基础协调者实现
+
+Event planning coordinator、bug triage、restaurant order customizer。
+
+嗯，好。那用 job application screener 的话，subtask 会怎么拆？
+
+我们翻到这里，看 request composer——接收 job posting 和 resume，提取关键信息。
+
+逐项检查 criteria，决定 routing。
+
+好。Execution phase（执行阶段）。
+
+实际的 routing 目标。
+
+Aggregation phase（聚合阶段）。这里它列出了两个不同的版本。
+
+这像样了。Coordinator 负责 decompose、assess complexity、decide routing、aggregate。
+
+Spoke 只负责执行。这里有一个关键问题需要厘清——哪些职责属于 coordinator，哪些属于 subagent？Spoke 需要看到全图（full picture）吗？
+
+Spoke 需要看到全图才能工作吗？Decomposer 总是要做 routing 的，所以它总是需要全图。
+
+对，每个 spoke 独立工作，只做一件事，彼此互不知情。对 job application screener 来说，spoke 包括：keyword scanner、deep evaluation、red flag detector、score aggregator。
+
+收集所有 spoke 的输出。
+
+Coordinator 负责：决定调哪个 spoke、给每个 spoke 传入正确的 input、收集并合并它们的输出。
+
+对，现在架构清晰了。
+
+我的额度超了。但应该没事。
+
+你会惊讶的——五美元在这能跑多远。
+
+
+### 三、窄分解问题（Narrow Task Decomposition）
+
+有意思的是——我们之前做的是 job application screener，但这里讲的是 research 场景。
+
+Research 场景下，他们可能只有一个专门做 research 的 subagent。
+
+所以这个 tool 可以尝试捕获这个问题。
+
+因为现在当 coordinator 或 agent 要去执行任务时，它会被问到：「你提交了 subtask breakdown 供审核了吗？」
+
+Claude 在现有代码基础上做调整会更容易。
+
+我在这个基础上改起来也会更快。
+
+
+### 四、动态选择（Dynamic Selection）
+
+Coordinator prompt——「你的任务是协调三个独立的 screening agent，然后聚合结果。」
+
+但模型似乎没理解我的意图。我看它没理解，我得重新组织一下，给我点时间。
+
+我需要给它一个示例，然后从里面把要点提取出来。
+
+给一个更好的示例，我手头有截图辅助。
+
+我在屏幕外获取文本。
+
+好，回到 Claude 对话这里。
+
+我觉得你没理解我的意思。
+
+要改善 narrow task decomposition，需要给模型具体的考量点（specific considerations）。
+
+哦不，我还没让它做那一步。
+
+希望它能理解，因为我们讨论的就是这个方向。
+
+如果这次还是失败，模型甚至可能直接换成 EV 用例——看它会怎么做。
+
+等一下看模型怎么回。
+
+看看模型改了什么，也许之后还会单独做 EV 示例。
+
+对，模型把角色改成了 「you are a research coordinator」——又跑偏了。
+
+我们输入 `python main.py`，运行它。
+
+可以看到它正在执行流程中，正在显示它要检查项的编号值列表。
+
+好。简历是否展示了所有必备技能？候选人是否有足够的经验深度？有没有任何危险信号？
+
+候选人此前的经验是否有限？
+
+在 5-8 年 senior 范围内。未检测到工作空窗期或频繁跳槽。职业发展路径合乎逻辑，等等。
+
+核心技能栈匹配度——优秀。好的。
+
+风险与缺口、面试提问建议、最终建议——这次给了一个『待定』的结论。
+
+Alex 是合格的候选人，但对于真正的 senior 岗位还有一些缺口。如果你的团队看重这种被动特质，可以考虑录用。一句话总结：Alex 是一名很强的后端工程师。然后是覆盖度评估。
+
+
+### 五、研究分区（Research Partitioning）
+
+但我最好的猜测是，它正在精确地挑选自己需要的内容——因为我们回到上面看输出，它确实在做这件事。
+
+把这些都清理掉，我只保留一个 coordinator。
+
+我删掉了其他多余代码，因为这里我确实只需要一个 coordinator。
+
+好。它认为已经把代码清理干净了，我们再进去看一下。
+
+你对这套系统有传承下来的理解吗？你是否对它做过设计或重构？
+
+同样，我们并不知道它是否真的实用，但看到系统跑起来这件事本身就很有趣。
+
+所以如果你想并行处理这些事情，比如发指令说『研究简历市场』——
+
+把这段代码抓过来，复制。
+
+它们叫什么来着？我的 research agent 不应该因为任务相互重叠而浪费 token 和时间。
+
+所以我想再加一个步骤，引入 partition 的概念。
+
+然后我们就可以判断这些 agent 是不是真的没有在做同样的任务。
+
+记得把 partition 结构打印出来，让人类在 coordinator agent 运行的时候能看到它。
+
+更新 research partitioning 的 main.py，这里有一个来自其他场景的 partition 示例供参考。
+
+不不，这部分没问题，这块还是跟之前一样。
+
+运行一个专业 agent，每次筛选调用一次，等等等等。
+
+我不想……哦，我不要多个 agent。看，我也不要超过一个的 coordinator。
+
+我刚刚才意识到，自己编辑错文件了。
+
+嗯，对，这个文件我不想去乱动。
+
+好。我们切到这边，这才是我们真正要改的那个文件。
+
+所以里面还保留着那一段逻辑，这多少是个问题，但我先看看它是不是真的会引发错误。
+
+它一直不停地在提那些东西……算了。
+
+
+### 六、精化循环（Refinement Loop）
+
+能做到这一点不代表这就是聪明的做法。
+
+不过也许做到这一步就够了。
+
+新架构里的 coordinator 应该保持原样。它做『傻瓜式选择』是对的，因为决策已经在上游完成了。
+
+如果再把 routing 逻辑塞回 coordinator，就会出现两个地方互相争抢评估对象的情况。目前 partition planner 只规定『只包含真正需要的 partition』。
+
+好，但它不会把它们全都跑一遍。
+
+每个 partition 恰好调用一个 screening agent。
+
+我们去 main.py，运行它。
+
+看看会发生什么。我们得到了一个核心技能熟练度的评估。
+
+嗯，评估 REST API 设计能力。
+
+评估候选人对扩展模式以及加分技术的接触程度，确认是否具备 senior 级别经验。
+
+然后这里是委派出去的筛选角度——候选人是否展示了对必备技能的精通？
+
+嗯好。这里我们得到了部分结果。一个『待定』的录用建议——Alex 符合 mid 到 senior 的水平。
+
+你应该在脑子里这样想：好，如果我有这三四种不同的方案，怎么评估使用效果、怎么衡量产出结果、准备好你自己的示例。这些东西这里不会帮你准备。
+
+submit final 函数。它会根据 hire、maybe 或 pass 设置不同的状态。只有在评估确认覆盖度足够时才调用这个函数。
+
+还有 final recommendation，这些都已经在我们的 loop 里就位了。
+
+这里还有一些调整。初始筛选阶段——每个 partition 恰好调用一次 screening agent。
+
+为每个 partition 制定问题，这部分没问题。
+
+第二阶段——evaluate coverage。等所有初始 partition agent 上报完结果后，用纯文本调用 evaluate coverage。
+
+refinement 阶段——最多 3 轮迭代。如果 evaluate coverage 返回覆盖度不足，就调用 screening agent，只去填补识别出来的缺口。
+
+显然这是 refinement 版本，名字我们没改。这里先读取候选人信息，只路由到相关的检查项——比如评估经验深度。
+
+评估数据库缓存的使用、验证 API 相关经验。
+
+确认是否具备 senior 级别经验。
+
+候选人是否达到 senior 级别？好，很好。现在进入第一轮迭代。
+
+好。我们得到了覆盖度评分、代码质量实践——暂无证据，等等等等。然后它又开始跑了。
+
+所以到这里就跑完了，整个流程结束。
+
+我们往上翻看一下结果——总共跑了 2 轮迭代。
+
+
+### 七、可观测性（Observability）
+
+Claude 指出上下文控制是松散的——简历信息不会因为 partition 范围不同而区分。
+
+所有 spoke 都需要简历，所以我们并没有真正给它们各自不同的数据。
+
+完全不care 自己的 partition 范围。
+
+cover_exclude 只是通过 JSON 传给 coordinator prompt 的建议性规则，并没在 spoke 层面强制执行。
+
+coordinator 可以问任何问题，没有机制验证问题是否停留在它被分配的 partition 范围内。
+
+说得有道理。spoke 隔离是单向强制的——spoke 是无状态函数，由 coordinator 调用，spoke 之间不能互相通信，这很好。但 spoke 不知道分配给自己的 partition 是哪个，无法拒绝超出范围的问题。哦，这点确实说到点子上了。只有这些 spoke 能跟 coordinator 通信，机制只是单平面的一个。差距在哪？无法调试或审计运行过程，故障时静默崩溃，无法回放或检视问题。coordinator 在运行中途不知道是否所有维度都已覆盖。
+
+可能在所有角度都还没覆盖完之前就给出建议。spoke 收到所有数据，即使有些明显不相关。所有 partition 都会被查询一遍，即使有些 partition 明显不相关。单次遍历无法在过程中填补空白。
+
+Claude 给出了修复建议——带时间戳和级别的结构化日志。
+
+这个建议看起来不错，可以。
+
+它会把这些 log 出去。错误处理方面——把 JSON load 包起来。
+
+生成 partition。持久化 spoke 的输入输出，把追踪范围扩展开。
+
+在显式的门控节点上添加覆盖率评估工具。
+
+强制 coordinator 调用 submit final 提交最终结果。
+
+你能把这个计划写到一个 readme 里，并带上任务清单吗？
+
+完成一个任务后能打勾标记吗？
+
+用 readme 列出任务和清单。
+
+只要它知道自己在做什么就行。但它会把文件放到哪里？
+
+我的思路大致就是这样。
+
+是我，我才是问题所在。
+
+
+### 八、重构（Refactoring）
+
+我们要让 Claude 来做重构。
+
+这个文档里列的是我想要完成的重构任务——重构我们的 coordinator agent。
+
+目前所有代码都堆在 main.py 里，我们需要把它拆成多个文件。
+
+每个实际的 tool 代码应该有独立的 .py 文件。
+
+这部分能不能？没有，这里没什么特别的，就是 tools.json 里给那个长 tool 用的定义。
+
+还有什么？还有 partition 部分。
+
+我们有 partition 系统。
+
+partition 的生成逻辑应该放在 lib 目录下作为独立文件。这也是我会做的改动。
+
+那就是一个函数。run coordinator 这个。
+
+日志写得很不一致，我不喜欢现在的写法。我们应该有一个 logger——把所有的日志统一放在 lib 目录下叫 logger.py 的文件里。
+
+这是另一个我想做的东西。
+
+
+### 九、核心经验
+
+它还是只把它们做成 md 文件，没有标出来哪些是模板哪些不是，那我们就都当模板用。
+
+不过 Python 能做的也就这些了。
+
+我很想把它移植到 Ruby，只是没去查 agent SDK 有没有 Ruby 版。我印象里 Anthropic 的那个 SDK 没有 Ruby 版。如果有 Ruby 版的 agent SDK，我绝对会选 Ruby 而不选 Python，因为我真的不喜欢 Python 代码——它就是做不到非常 human readable。无奈大家都因为行业现状在用它。
+
+比如这些日志调用——log partition 这种。
+
+但我们的重点是让日志本身质量过关。日志应该输出到这个 agent 目录同级的 log 文件夹下。
+
+好，这是真正困扰我的一个点。
+
+但说回来，我们就是想把代码调整成可用的样子。它有没有把这部分移出去？这块大东西是什么？为什么 tool 定义还这么庞大？
+
+我们看一下这里的 partition。
+
+真的非常讨厌那些 constants。
+
+还有我非常不喜欢它加载 prompt template 的方式，应该有个办法把这块管起来。
+
+看看看看这一堆 logger 逻辑。哦不，这就是 logger 文件本身。
+
+对，到这里开始有我要的那些东西了。不错。
+
+嗯，所以对，我要修掉那些 constants。
+
+我还要加一个能加载模板的机制。
+
+我们再看一下这里。同样是在看 main.py 看它是不是变短了。
+
+对，看起来好多了，比之前整洁多了。
+
+但 constants 我还是不喜欢用。
+
+比如这个 var 就是。请在 coordinator refactor 目录里不要再用这种写法。把代码修掉。
+
+好，这东西我真的不喜欢。
+
+让 Claude 去把这一块改进掉。
+
+就在这。正在改这些，不错。
+
+快点快点。还有模板加载和变量填充这块应该独立成自己的模块。嗯，很好，谢谢。
+
+好。另一个问题是，加载文件和模板时需要注入变量。
+
+可以在 lib 目录下新建一个 template 模块文件。
+
+这块要把这种大段的加载代码重构掉——就像这个例子。这也是让我有点不舒服的地方，一起清理掉。
+
+还有类似这样的地方。你看这里这一大块逻辑，应该抽出来变成函数。
+
+我更倾向于用无状态类。真的偏好无状态类，因为这样追踪输入输出特别容易。Python 在这方面还挺顺手的，因为它定义 property 这种标签的方式——名字我一下想不起来了——prop 叫 property。
+
+有问题我们再调就是了。
+
+没事，Claude 你没事的。
+
+你没事。好，加载完了。我不确定它到底改没改。
+
+我们回到这里。改完之后，当它需要加载 prompt 的时候，就直接像这样 load prompt。
+
+嗯，对，最大的问题还是 run coordinator。
+
+run coordinator 这个文件体积太庞大。
+
+我们应该把它重构为无状态函数。
+
+所有代码片段都应该拆成函数。
+
+所以函数本身就充当文档。
+
+这是一个函数，这也是一个函数。不管这个东西是什么。
+
+所以可能是在非高峰使用时段。不管怎样，我们就在这等着看结果。
+
+
+
+## 完整中文版` 区是原始 EN + ZH 标注对照，本节供纯中文快速阅读。
 >
 > **演讲节奏速览**（9 大主题）：
 > 1. Hub-and-Spoke 架构：协调者模式
