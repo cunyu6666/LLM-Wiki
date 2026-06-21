@@ -16,11 +16,7 @@ note: |
 
 # High-Performance Teams in the Age of AI: Learnings from Lovable
 
-> **作者**：Felix Haas
-> **来源**：[designplusai.com](https://designplusai.com/)
-> **归档日期**：2026-06-20
-> **归档方式**：用户在 IDE 内贴图 → IDE OCR → 人工归档
-> **关联公司**：Lovable（AI 应用生成平台）
+> **作者**：Felix Haas > **来源**：[designplusai.com](https://designplusai.com/) > **归档日期**：2026-06-20 > **归档方式**：用户在 IDE 内贴图 → IDE OCR → 人工归档 > **关联公司**：Lovable（AI 应用生成平台）
 
 ---
 
@@ -117,4 +113,3 @@ I've learned to trust users more than opinions. A week of internal debate rarely
 ---
 
 *By Felix Haas. Read more on designplusai.com*
-

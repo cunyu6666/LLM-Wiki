@@ -1,9 +1,11 @@
 ---
-id: "6a2a20c7000000000e031400"
+id: 6a2a20c7000000000e031400
 source: 小红书
-author_id: "61d67d89000000001000c76b"
+author_id: 61d67d89000000001000c76b
 url: https://www.xiaohongshu.com/explore/6a2a20c7000000000e031400?xsec_token=ABusxZOWM2_Ki3cid9xDlz_fnO7ZbFHO7Mv3tNxrTMgjA=&xsec_source=pc_collect
-tags: ["AI Agent 开发", "AI", "批量入库"]
+tags:
+  - AI
+  - 批量入库
 liked: 75
 collected: 70
 comments: 1
