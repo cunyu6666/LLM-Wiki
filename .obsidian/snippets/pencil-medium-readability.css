@@ -1,0 +1,477 @@
+/* ============================================================
+   Pencil × Anthropic Docs
+   对标 anthropic.com 文档站阅读体验
+   字体本地化(用系统衬线回退),其余全栈靠拢
+   ============================================================ */
+
+/* -------- 品牌 token -------- */
+:root {
+  --anthropic-accent: #D97757;       /* 棕橙:链接、强调、icon */
+  --anthropic-accent-hover: #B85F3F; /* hover 加深 */
+  --anthropic-accent-soft: #F2E5DD;  /* 浅棕:callout/hover 背景 */
+}
+
+/* ============================================================
+   1. 字体栈:衬线优先(中文走思源宋体/苹方)
+   ============================================================ */
+
+.theme-light,
+.theme-dark {
+  /* 编辑器(写)的字体 */
+  --font-editor: "Source Serif 4", "Source Serif Pro", Charter, "Charter Roman",
+                 "Songti SC", "STSongti-SC-Regular", "Noto Serif CJK SC",
+                 Georgia, serif;
+
+  /* 界面(UI)的字体,Anthropic 用 sans,但正文衬线 */
+  --font-interface: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+                    "PingFang SC", "Microsoft YaHei", sans-serif;
+}
+
+/* ============================================================
+   2. 排版基底:行高/字重/行宽
+   ============================================================ */
+
+.theme-light,
+.theme-dark {
+  /* Anthropic 文档行高 1.6-1.7,比 Medium 略紧 */
+  --line-height: 1.65;
+
+  /* 标题字号:Anthropic 文档级差明显 */
+  --h1-size: 2.4em;
+  --h2-size: 1.7em;
+  --h3-size: 1.35em;
+  --h4-size: 1.15em;
+  --h5-size: 1.05em;
+  --h6-size: 1em;
+
+  /* 标题字重:衬线体 600-700 即可,不用 800 显粗 */
+  --h1-weight: 600;
+  --h2-weight: 600;
+  --h3-weight: 600;
+  --h4-weight: 600;
+  --h5-weight: 600;
+  --h6-weight: 600;
+
+  /* 行宽:Anthropic 文档约 680-740px */
+  --max-width: 720px;
+
+  --file-margins-y: var(--size-4-5);
+}
+
+/* ============================================================
+   3. 背景色:暖白/暖黑(微调 Pencil 的纯白纯黑)
+   ============================================================ */
+
+.theme-light {
+  --background-primary: #FAF9F5;
+  --background-primary-alt: #F2EFE8;
+  --background-secondary: #F2EFE8;
+  --background-secondary-alt: #FAF9F5;
+}
+
+.theme-dark {
+  --background-primary: #191919;
+  --background-primary-alt: #1F1F1F;
+  --background-secondary: #1F1F1F;
+  --background-secondary-alt: #191919;
+}
+
+/* ============================================================
+   4. 文字色:分层(标题/加粗 亮,正文 略浅)
+   ============================================================ */
+
+/* 标题一律用 --text-bold,衬线字加色即大 */
+.markdown-rendered h1,
+.markdown-rendered h2,
+.markdown-rendered h3,
+.markdown-rendered h4,
+.markdown-rendered h5,
+.markdown-rendered h6,
+.markdown-source-view.mod-cm6 .HyperMD-header-1,
+.markdown-source-view.mod-cm6 .HyperMD-header-2,
+.markdown-source-view.mod-cm6 .HyperMD-header-3,
+.markdown-source-view.mod-cm6 .HyperMD-header-4,
+.markdown-source-view.mod-cm6 .HyperMD-header-5,
+.markdown-source-view.mod-cm6 .HyperMD-header-6 {
+  color: var(--text-bold) !important;
+  font-family: var(--font-editor);
+  letter-spacing: -0.01em;
+}
+
+/* h1 单独字距收紧、字重大 */
+.markdown-rendered h1,
+.markdown-source-view.mod-cm6 .HyperMD-header-1 {
+  letter-spacing: -0.025em;
+  line-height: 1.2;
+}
+
+/* 正文颜色分层(亮/暗分别) */
+.theme-light .markdown-rendered,
+.theme-light .markdown-source-view,
+.theme-light .markdown-rendered p,
+.theme-light .markdown-rendered li,
+.theme-light .markdown-rendered blockquote,
+.theme-light .markdown-rendered td,
+.theme-light .markdown-rendered th,
+.theme-light .markdown-source-view.mod-cm6 .cm-line {
+  /* 亮色:微微加黑(8% 黑混合) */
+  color: color-mix(in srgb, var(--text-normal) 92%, #000 8%) !important;
+}
+
+.theme-dark .markdown-rendered,
+.theme-dark .markdown-source-view,
+.theme-dark .markdown-rendered p,
+.theme-dark .markdown-rendered li,
+.theme-dark .markdown-rendered blockquote,
+.theme-dark .markdown-rendered td,
+.theme-dark .markdown-rendered th,
+.theme-dark .markdown-source-view.mod-cm6 .cm-line {
+  color: var(--text-faint) !important;
+}
+
+/* 正文衬线字体 */
+.markdown-rendered,
+.markdown-source-view {
+  font-family: var(--font-editor);
+  font-size: 16px;
+  font-feature-settings: "kern", "liga", "calt";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ============================================================
+   5. 标题上下间距
+   ============================================================ */
+
+.markdown-rendered h1,
+.markdown-source-view.mod-cm6 .HyperMD-header-1 {
+  margin-top: 2.2em;
+  margin-bottom: 0.7em;
+}
+
+.markdown-rendered h2,
+.markdown-source-view.mod-cm6 .HyperMD-header-2 {
+  margin-top: 1.9em;
+  margin-bottom: 0.5em;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid var(--background-modifier-border);
+}
+
+.markdown-rendered h3,
+.markdown-source-view.mod-cm6 .HyperMD-header-3 {
+  margin-top: 1.6em;
+  margin-bottom: 0.4em;
+}
+
+.markdown-rendered h4,
+.markdown-rendered h5,
+.markdown-rendered h6,
+.markdown-source-view.mod-cm6 .HyperMD-header-4,
+.markdown-source-view.mod-cm6 .HyperMD-header-5,
+.markdown-source-view.mod-cm6 .HyperMD-header-6 {
+  margin-top: 1.4em;
+  margin-bottom: 0.3em;
+}
+
+.markdown-rendered p,
+.markdown-source-view.mod-cm6 .cm-line:not(.HyperMD-header):not(.HyperMD-list-line) {
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
+/* ============================================================
+   6. 列表:紧致,Anthropic 风
+   ============================================================ */
+
+.markdown-rendered ul,
+.markdown-rendered ol,
+.markdown-source-view.mod-cm6 .HyperMD-list-line {
+  margin-bottom: 1em;
+  padding-left: 1.5em;
+}
+
+.markdown-rendered li,
+.markdown-source-view.mod-cm6 .HyperMD-list-line {
+  margin-bottom: 0.35em;     /* 列表项之间紧凑 */
+}
+
+.markdown-rendered li > p,
+.markdown-source-view.mod-cm6 .HyperMD-list-line p {
+  margin-bottom: 0.35em;
+}
+
+/* 嵌套列表缩进 */
+.markdown-rendered li > ul,
+.markdown-rendered li > ol,
+.markdown-source-view.mod-cm6 .HyperMD-list-line ul,
+.markdown-source-view.mod-cm6 .HyperMD-list-line ol {
+  margin-top: 0.35em;
+  margin-bottom: 0.35em;
+}
+
+/* ============================================================
+   7. 链接:棕橙,下划线 hover
+   ============================================================ */
+
+.markdown-rendered a,
+.markdown-source-view.mod-cm6 .cm-link {
+  color: var(--anthropic-accent);
+  text-decoration: none;
+  border-bottom: 1px solid color-mix(in srgb, var(--anthropic-accent) 35%, transparent);
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.markdown-rendered a:hover,
+.markdown-source-view.mod-cm6 .cm-link:hover {
+  color: var(--anthropic-accent-hover);
+  border-bottom-color: var(--anthropic-accent-hover);
+}
+
+/* ============================================================
+   8. 引用块:浅棕底 + 棕橙左竖线
+   ============================================================ */
+
+.markdown-rendered blockquote,
+.markdown-source-view.mod-cm6 .HyperMD-quote {
+  border-left: 3px solid var(--anthropic-accent);
+  background-color: var(--anthropic-accent-soft);
+  padding: 0.8em 1.2em;
+  margin-top: 1.2em;
+  margin-bottom: 1.2em;
+  border-radius: 0 4px 4px 0;
+}
+
+.theme-dark .markdown-rendered blockquote,
+.theme-dark .markdown-source-view.mod-cm6 .HyperMD-quote {
+  /* 暗色下用更深的棕 */
+  background-color: color-mix(in srgb, var(--anthropic-accent) 10%, transparent);
+  border-left-color: var(--anthropic-accent);
+}
+
+/* ============================================================
+   9. 代码:行内与块级
+   ============================================================ */
+
+.markdown-rendered code,
+.markdown-source-view.mod-cm6 .HyperMD-inline-code {
+  color: var(--anthropic-accent);
+  background-color: var(--background-secondary);
+  font-size: 0.9em;
+  padding: 0.1em 0.35em;
+  border-radius: 3px;
+  font-family: "SF Mono", Menlo, Consolas, "Source Code Pro", monospace;
+}
+
+.markdown-rendered pre,
+.markdown-source-view.mod-cm6 .HyperMD-codeblock {
+  background-color: var(--background-secondary);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 6px;
+  padding: 1em 1.2em;
+  margin-top: 1.2em;
+  margin-bottom: 1.2em;
+  line-height: 1.55;
+  font-size: 0.9em;
+}
+
+.markdown-rendered pre code,
+.markdown-source-view.mod-cm6 .HyperMD-codeblock code {
+  background: transparent;
+  padding: 0;
+  color: var(--text-normal);
+}
+
+/* ============================================================
+   10. 加粗/高亮:保持亮色
+   ============================================================ */
+
+.markdown-rendered strong,
+.markdown-rendered b,
+.markdown-source-view.mod-cm6 .cm-strong,
+.markdown-source-view.mod-cm6 .HyperMD-strong {
+  color: var(--text-bold) !important;
+  font-weight: 700;
+}
+
+.markdown-rendered em,
+.markdown-rendered i {
+  font-style: italic;
+}
+
+.markdown-rendered mark,
+.markdown-source-view.mod-cm6 .HyperMD-highlight {
+  color: var(--text-bold);
+  background-color: color-mix(in srgb, var(--anthropic-accent) 22%, transparent);
+  padding: 0.05em 0.2em;
+  border-radius: 2px;
+}
+
+/* ============================================================
+   11. 分隔线
+   ============================================================ */
+
+.markdown-rendered hr,
+.markdown-source-view.mod-cm6 .HyperMD-hr {
+  border: 0;
+  border-top: 1px solid var(--background-modifier-border);
+  margin-top: 2.2em;
+  margin-bottom: 2.2em;
+}
+
+/* ============================================================
+   12. 表格
+   ============================================================ */
+
+.markdown-rendered table {
+  border-collapse: collapse;
+  margin-top: 1.2em;
+  margin-bottom: 1.2em;
+  font-size: 0.95em;
+}
+
+.markdown-rendered th {
+  text-align: left;
+  border-bottom: 2px solid var(--background-modifier-border);
+  padding: 0.5em 0.8em;
+  font-weight: 600;
+  color: var(--text-bold);
+}
+
+.markdown-rendered td {
+  border-bottom: 1px solid var(--background-modifier-border);
+  padding: 0.5em 0.8em;
+}
+
+/* ============================================================
+   13. Callout(Anthropic 风:浅棕底 + 棕橙左边)
+   ============================================================ */
+
+.callout {
+  background-color: var(--anthropic-accent-soft);
+  border: 1px solid color-mix(in srgb, var(--anthropic-accent) 25%, transparent);
+  border-left: 4px solid var(--anthropic-accent);
+  border-radius: 4px;
+  padding: 0.8em 1.2em;
+  margin: 1em 0;
+}
+
+.theme-dark .callout {
+  background-color: color-mix(in srgb, var(--anthropic-accent) 8%, transparent);
+  border-color: color-mix(in srgb, var(--anthropic-accent) 20%, transparent);
+}
+
+.callout-title {
+  color: var(--anthropic-accent);
+  font-weight: 600;
+}
+
+/* ============================================================
+   14. 滚动条
+   ============================================================ */
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+  background: transparent;
+}
+
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-track-piece {
+  background: transparent;
+  border: none;
+}
+
+::-webkit-scrollbar-thumb {
+  background: color-mix(in srgb, var(--text-faint) 60%, transparent);
+  border-radius: 5px;
+  border: 2px solid transparent;
+  background-clip: padding-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: color-mix(in srgb, var(--text-faint) 90%, transparent);
+  background-clip: padding-box;
+}
+
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+/* ============================================================
+   15. UI 侧栏/文件列表/按钮
+   ============================================================ */
+
+/* 侧边栏背景 */
+.theme-light .workspace-sidedock,
+.theme-light .workspace-split.mod-left-split > .workspace-sidedock {
+  background-color: var(--background-secondary);
+}
+
+.theme-dark .workspace-sidedock,
+.theme-dark .workspace-split.mod-left-split > .workspace-sidedock {
+  background-color: var(--background-secondary);
+}
+
+/* 文件树项:hover 浅棕底 */
+.nav-file-title:hover,
+.nav-folder-title:hover {
+  background-color: color-mix(in srgb, var(--anthropic-accent) 8%, transparent);
+  border-radius: 4px;
+}
+
+/* 当前选中文件 */
+.nav-file-title.is-active {
+  background-color: color-mix(in srgb, var(--anthropic-accent) 12%, transparent);
+  color: var(--anthropic-accent);
+  font-weight: 600;
+  border-radius: 4px;
+}
+
+/* 按钮:Anthropic 风的克制感 */
+button.mod-cta,
+.mod-cta {
+  background-color: var(--anthropic-accent);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 0.4em 1em;
+  font-weight: 600;
+  transition: background-color 0.15s ease;
+}
+
+button.mod-cta:hover,
+.mod-cta:hover {
+  background-color: var(--anthropic-accent-hover);
+}
+
+/* 普通按钮:次要按钮 */
+button:not(.mod-cta):not(.mod-warning):not(.mod-destructive) {
+  border-radius: 4px;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+/* 标签页:active 用棕橙下划线 */
+.workspace-tab-header.is-active {
+  border-bottom-color: var(--anthropic-accent);
+  color: var(--anthropic-accent);
+}
+
+/* ============================================================
+   16. 编辑视图:focus 状态下减少抖动
+   ============================================================ */
+
+.markdown-source-view.mod-cm6.is-readable-line-width .cm-content {
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+/* YAML frontmatter 区域:Anthropic 文档不展示,这里让它更低调 */
+.frontmatter {
+  background-color: var(--background-secondary);
+  border-radius: 4px;
+  padding: 0.8em 1em;
+  margin-bottom: 1.5em;
+  font-family: "SF Mono", Menlo, Consolas, monospace;
+  font-size: 0.9em;
+  border-left: 2px solid var(--background-modifier-border);
+}

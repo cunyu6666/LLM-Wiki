@@ -1,6 +1,9 @@
 {
   "cssTheme": "Pencil",
-  "enabledCssSnippets": [],
+  "enabledCssSnippets": [
+    "pencil-medium-readability"
+  ],
   "nativeMenus": false,
-  "translucency": false
+  "translucency": false,
+  "theme": "system"
 }
