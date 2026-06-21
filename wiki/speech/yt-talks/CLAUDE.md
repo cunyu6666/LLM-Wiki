@@ -6,7 +6,7 @@ timestamp: 2026-06-20
 # yt-talks/CLAUDE.md
 
 > **L2 模块文档** — GEB 协议要求：模块级世界观，与代码同构
-> 上游：[/Users/cunyu666/Design/03_材料/LLM-Wiki/catui.md](../../../catui.md)
+> 上游：[catui.md](../../../catui.md)
 
 ## 模块定位
 
@@ -25,7 +25,7 @@ YouTube 演讲文字稿的 wiki 入口。**10 个 .md 均为真实文件副本**
 | [设计师如何使用Codex_How-to-Use-Codex-as-a-Designer_GOtHFZnagO0.md](设计师如何使用Codex_How-to-Use-Codex-as-a-Designer_GOtHFZnagO0.md) | Griffin Wooldridge | 设计师用 Codex 实操指南，Codex vs Claude Code 对比 | `raw/来自Youtube/...` |
 | [翁家翌谈OpenAI强化学习与后训练基础设施_Weng-Jiayi-OpenAI-RL-Post-Training-Infra_I0DrcsDf3Os.md](翁家翌谈OpenAI强化学习与后训练基础设施_Weng-Jiayi-OpenAI-RL-Post-Training-Infra_I0DrcsDf3Os.md) | 翁家翌 @ WhynotTV Podcast #4 | OpenAI 内部 RL infra 故事，post-training 工程师视角 | `raw/来自Youtube/...` |
 | [Uvl-tRga98g_Designing-with-Claude-from-Prompt-to-Production.md](Uvl-tRga98g_Designing-with-Claude-from-Prompt-to-Production.md) | Dan Carey @ Anthropic | Claude Design 官方产品介绍（STT 路线：Groq Whisper）| `raw/来自Youtube/...` |
-| [Claude-Architect多智能体编排_Claude-Architect-Multi-Agent-Orchestration_vRYBG_R8JAI.md](Claude-Architect多智能体编排_Claude-Architect-Multi-Agent-Orchestration_vRYBG_R8JAI.md) | — | （linter 自动入库）| `raw/来自Youtube/...` |
+| [Claude-Architect多智能体编排_Claude-Architect-Multi-Agent-Orchestration_vRYBG_R8JAI_完整中文版.md](Claude-Architect多智能体编排_Claude-Architect-Multi-Agent-Orchestration_vRYBG_R8JAI_完整中文版.md) | — | （linter 自动入库）| `raw/来自Youtube/...` |
 | [把Claude-Code变成设计天才_Turn-Claude-Code-into-a-Design-GENIUS_fVPCbCH_c1c.md](把Claude-Code变成设计天才_Turn-Claude-Code-into-a-Design-GENIUS_fVPCbCH_c1c.md) | — | （linter 自动入库）| `raw/来自Youtube/...` |
 | [Cursor的Ryo-Lu谈设计活工具与编程未来_8ncYSGbfeyY.md](Cursor的Ryo-Lu谈设计活工具与编程未来_8ncYSGbfeyY.md) | Ryo Lu @ Cursor | 设计师转开发者趋势 | `raw/来自Youtube/...` |
 | [Framer发布会介绍Agents与分支_Framer-Event-Introducing-Agents-Branching-and-a-new-Community_j4WW4bwWhPk.md](Framer发布会介绍Agents与分支_Framer-Event-Introducing-Agents-Branching-and-a-new-Community_j4WW4bwWhPk.md) | — | Framer 发布会 | `raw/来自Youtube/...` |

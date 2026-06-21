@@ -332,7 +332,7 @@ timestamp: 2026-06-20
     → 用法：定义"open"的真正含义——服务大众，而非服务竞品；与"工具普及化"论点共振
 
 68. **"Claude Design 的开发全程只有 3 个人。靠 Claude 是个不错的'队员'。"**
-    — Dan Carey（Anthropic Lab 产品经理），官方 YouTube（[yt-talks/Uvl-tRga98g](../yt-talks/Uvl-tRga98g_Designing-with-Claude-from-Prompt-to-Production.md)，STT 路线转写）
+    — Dan Carey（Anthropic Lab 产品经理），官方 YouTube（[yt-talks/Uvl-tRga98g](yt-talks/Uvl-tRga98g_Designing-with-Claude-from-Prompt-to-Production.md)，STT 路线转写）
     → 用法：直接对应第 4 条（"3 人 10 周做 Claude Design"）的官方版本，更详细的过程数据
 
 69. **"工程、PM、设计师——所有角色都在写代码、见用户、做数据分析。角色之间的界限在 Claude 时代几乎消失了。"**
