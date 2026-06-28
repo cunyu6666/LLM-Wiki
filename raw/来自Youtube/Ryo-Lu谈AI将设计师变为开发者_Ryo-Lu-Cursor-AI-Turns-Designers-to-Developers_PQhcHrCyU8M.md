@@ -1,7 +1,7 @@
 ---
 type: note
 description: "频道/作者：a16z Deep Dives"
-timestamp: 2026-06-20
+timestamp: 2026-06-28
 ---
 # Ryo Lu (Cursor): AI Turns Designers to Developers
 
@@ -9,9 +9,15 @@ timestamp: 2026-06-20
 > **链接**：[https://www.youtube.com/watch?v=PQhcHrCyU8M](https://www.youtube.com/watch?v=PQhcHrCyU8M)
 > **时长**：50:47
 > **发布日期**：2025-11-21
-> **字幕抓取日期**：2026-06-20
+> **字幕抓取日期**：2026-06-28
 > **字幕来源**：YouTube 自动生成字幕（en）
 > **段落数**：108
+>
+> **同级文件**：
+>
+> - 视频（YouTube 对谈原版）：`Ryo-Lu_Cursor-AI-Turns-Designers-to-Developers_PQhcHrCyU8M.mp4`（247 MB / 720p / h264+aac / 50:47）
+> - 字幕原文：`Ryo-Lu_Cursor-AI-Turns-Designers-to-Developers_PQhcHrCyU8M.en.vtt`
+> - 英文段落版：`Ryo-Lu_Cursor-AI-Turns-Designers-to-Developers_PQhcHrCyU8M.en.md`（122 段）
 
 ---
 
@@ -284,3 +290,11 @@ timestamp: 2026-06-20
 
 **[00:50:33.200] Ryo Lu**：棒。我们就到这。非常感谢 Rio 来。太棒了。
 
+---
+
+## 相关
+
+- 同演讲者的 **Compile 2026 主题演讲版**（小红书 20:37，单口）：
+  `Ryo-Lu-Cursor设计负责人最新演讲_6a3a0242000000001c026ac5.md`（位于 `raw/来自小红书/`）
+  - **不同场合、不同主题**——本条是 a16z Q&A 50:47（"AI Turns Designers to Developers"）；那条是 Compile 2026 单口 20:37（"Closer to the Material"，讲工具/循环/材料）。**两者无剪辑关系。**
+  - 本笔记的 108 段对应本视频（a16z 对谈 50:47）。
