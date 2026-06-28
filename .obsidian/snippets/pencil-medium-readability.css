@@ -262,8 +262,8 @@
   font-family: "SF Mono", Menlo, Consolas, "Source Code Pro", monospace;
 }
 
-.markdown-rendered pre,
-.markdown-source-view.mod-cm6 .HyperMD-codeblock {
+/* ---------- 阅读模式的 fenced code block ---------- */
+.markdown-rendered pre {
   background-color: var(--background-secondary);
   border: 1px solid var(--background-modifier-border);
   border-radius: 6px;
@@ -272,13 +272,31 @@
   margin-bottom: 1.2em;
   line-height: 1.55;
   font-size: 0.9em;
+  overflow-x: auto;
 }
 
-.markdown-rendered pre code,
-.markdown-source-view.mod-cm6 .HyperMD-codeblock code {
+/* 只补加折行属性,不动主题原本的 display/background/padding。
+   pre-wrap = 保留空白 + 自动折行 */
+.markdown-rendered pre,
+.markdown-rendered pre code {
+  white-space: pre-wrap !important;
+  word-break: break-word !important;
+  overflow-wrap: break-word !important;
+}
+
+.markdown-rendered pre code {
   background: transparent;
   padding: 0;
   color: var(--text-normal);
+}
+
+/* ---------- Live Preview(Source Mode)代码块 ---------- */
+.cm-s-obsidian .HyperMD-codeblock,
+.cm-s-obsidian .cm-hmd-codeblock,
+.markdown-source-view.mod-cm6 .HyperMD-codeblock {
+  white-space: pre-wrap !important;
+  word-break: break-word !important;
+  overflow-wrap: break-word !important;
 }
 
 /* ============================================================

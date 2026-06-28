@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "wiki/speech/⭐️ Key Sentense.md",
+                "file": "wiki/speech/notes/2026-06-设计到构建Agent时代-20分钟演讲稿.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "⭐️ Key Sentense 的大纲"
+              "title": "2026-06-设计到构建Agent时代-20分钟演讲稿 的大纲"
             }
           }
         ],
@@ -170,8 +170,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -187,14 +186,16 @@
   },
   "active": "78b6e5187d7479cc",
   "lastOpenFiles": [
-    "wiki/speech/notes/2026-06-20-Catui-演讲稿.md",
     "wiki/speech/2026-06-29-Vercel-用-Skill-与-Lint-教-Agent-做产品设计-整理稿.md",
-    "wiki/speech/2026-06-20-Zynga-创始人先抄对再创新-整理稿.md",
+    "raw/小红书/AI时代的高绩效团队_High-Performance-Teams-in-the-Age-of-AI_felix-haas-ai-teams.md",
+    "raw/小红书/大厂之外_有一批野生AI产品在这里成长……_6a29131e00000000060325c3.md",
     "wiki/speech/2026-06-20-Ryo-Lu-Closer-to-the-Material-Compile-2026-整理稿.md",
+    "wiki/speech/2026-06-20-Zynga-创始人先抄对再创新-整理稿.md",
+    "wiki/speech/notes/2026-06-设计到构建Agent时代-20分钟演讲稿.md",
+    "wiki/speech/notes/2026-06-20-Catui-演讲稿.md",
     "wiki/speech/2026-06-20-Dan-Carey-Claude-Design-整理稿.md",
     "wiki/speech/2026-06-20-Dan-Koe-人生就四件事-整理稿.md",
     "wiki/speech/design-to-build-agent-era-speech-20min.md",
-    "wiki/speech/notes/2026-06-设计到构建Agent时代-20分钟演讲稿.md",
     "wiki/speech/notes/演讲大纲-v2.md",
     "wiki/speech/notes/演讲大纲-v1.md",
     "wiki/speech/notes/2026-06-20-Catui-演讲大纲.md",
@@ -212,8 +213,6 @@
     "wiki/speech/Dan-Carey-Claude-Design-整理稿.md",
     "wiki/speech/Vercel-用-Skill-与-Lint-教-Agent-做产品设计-整理稿.md",
     "raw/design.md/design.md",
-    "wiki/design/用 Skill 与 Lint 教 Agent 做产品设计.md",
-    "raw/design.md",
     "wiki/speech/assets/Ryo-Lu-Compile-2026/19-before-after.jpg",
     "wiki/speech/assets/Ryo-Lu-Compile-2026/18-i-felt-this.jpg",
     "wiki/speech/assets/Ryo-Lu-Compile-2026/17-idea-reality.jpg",

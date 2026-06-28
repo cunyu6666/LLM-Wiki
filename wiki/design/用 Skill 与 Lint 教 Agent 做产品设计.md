@@ -168,23 +168,24 @@ Establishes a new standard or product policy → require a human decision
 > 最难的部分是挑选第一个 surface。每个团队都有值得编码的 decisions。问题是它们活在某人的脑子里,还是 agents 能找到的地方。
 
 对一个想要复用的团队,起手式是:
+
 1. **从一个 surface 开始**——destructive actions、error states、settings forms、empty states 或 navigation,选择同样的 review comments 反复出现的那一个
 2. **从 repeated decisions 出发**——避免 "clear / polished / intuitive" 这种 broad adjectives,agent 需要**可观察的决策**("Destructive actions use Verb + Noun" 可用,"Buttons should be clear" 不可用)
 3. **用决策记录模板**:
 
-   ```markdown
-   # Decision: {name}
-   Status: proposed | accepted | rejected
-   Scope:
-   Decision:
-   Rationale:
-   Evidence:
-   Exceptions:
-   Bad example:
-   Good example:
-   Assumptions:
-   Open decisions:
-   ```
+```markdown
+# Decision: {name}
+Status: proposed | accepted | rejected
+Scope:
+Decision:
+Rationale:
+Evidence:
+Exceptions:
+Bad example:
+Good example:
+Assumptions:
+Open decisions:
+```
 
 4. **添加 trigger 和严格边界**——`AGENTS.md` 里写明"何时加载"和"什么跳过"
 

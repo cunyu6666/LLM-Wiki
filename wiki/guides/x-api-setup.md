@@ -35,15 +35,17 @@ macOS 环境下使用 `twitter-cli` 搜索推文时遇到以下问题：
 3. 点击扩展图标 → 导出 cookies.txt → 保存到本地（如 `~/Downloads/x.com_cookies.txt`）
 
 4. 从文件中提取两个关键值：
-   ```bash
-   grep -E "auth_token|ct0" ~/Downloads/x.com_cookies.txt
-   ```
-   
-   输出类似：
-   ```
-   .x.com  TRUE  /  TRUE  1812980385  auth_token  25fd0f7a964251416e2573ab922720a50d73e1f1
-   .x.com  TRUE  /  TRUE  1816004386  ct0         61dfe1ddd8eb82258e189a643587b378...
-   ```
+
+```bash
+grep -E "auth_token|ct0" ~/Downloads/x.com_cookies.txt
+```
+
+输出类似：
+
+```
+.x.com  TRUE  /  TRUE  1812980385  auth_token  25fd0f7a964251416e2573ab922720a50d73e1f1
+.x.com  TRUE  /  TRUE  1816004386  ct0         61dfe1ddd8eb82258e189a643587b378...
+```
 
 5. 复制 `auth_token` 和 `ct0` 的值
 
