@@ -6,7 +6,7 @@ timestamp: 2026-06-20
 # Catui 系统提示词 — 完整中文版
 
 > catui-agent v1.1.14 · 2026-06-17（上一版 v1.1.10）
-> Raw：[raw/Agent/2026-06-17-catui-system-prompt-v1.1.14.md](../../raw/Agent/2026-06-17-catui-system-prompt-v1.1.14.md)
+> Raw：[raw/Agent/2026-06-17-catui-system-prompt-v1.1.14.md]
 
 ---
 

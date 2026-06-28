@@ -142,7 +142,7 @@ raw/ 小红书笔记的 frontmatter 已经是 OKF 兼容（`source / author_id /
 | **摘要可读** | ⚠️ 51/100 用 `summary`，49/100 用 `description`（合并后即 100%） |
 | **时间可索引** | ⚠️ 51/100 用 `created/updated`，49/100 用 `timestamp`（合并后即 100%） |
 | **可移植性** | ✅ 纯 Markdown，无锁 |
-| **Wikilink 互操作** | ⚠️ `[[...]]` 格式外部工具不识别（Obsidian 专属） |
+| **Wikilink 互操作** | ⚠️ `[...]` 格式外部工具不识别（Obsidian 专属） |
 
 ---
 
@@ -163,13 +163,13 @@ raw/ 小红书笔记的 frontmatter 已经是 OKF 兼容（`source / author_id /
 
 ## Wikilink 兼容性策略
 
-OKF 要求 portable，但 Obsidian `[[...]]` 格式外部工具不识别。**两种方案**：
+OKF 要求 portable，但 Obsidian `[...]` 格式外部工具不识别。**两种方案**：
 
 ### 方案 A：保留 wikilink + 自动生成 markdown 链接备份
 
 适合 wiki/ 内部链接。写一个 `tools/wikilink_to_md.py`：
 - 读所有 wiki/*.md
-- 把 `[[xxx|yyy]]` 转成 `[yyy](../path/xxx.md)`
+- 把 `[[xxx|yyy]]` 转成 `[yyy]`
 - 输出 `wiki_md/` 镜像目录供 agent 消费
 
 ### 方案 B：用 markdown 链接写 wiki（放弃 Obsidian 体验）
@@ -206,10 +206,10 @@ OKF 要求 portable，但 Obsidian `[[...]]` 格式外部工具不识别。**两
 ## 关联文件
 
 - [[OKF 与本 Wiki 对照分析]] — 概念层对照
-- [[小红书入库流程]] — OKF 实战样本（raw/小红书/*.md 已用 OKF 字段）
-- [[0620 计划与进展]] — 演讲素材
+- [小红书入库流程] — OKF 实战样本（raw/小红书/*.md 已用 OKF 字段）
+- [0620 计划与进展] — 演讲素材
 - [[AI Agent 开发]] — Multi-Agent 协作与 context 标准
-- [[Claude Code 系统提示词]] — Agent 消费本 wiki 的实际案例
+- [Claude Code 系统提示词] — Agent 消费本 wiki 的实际案例
 
 ---
 

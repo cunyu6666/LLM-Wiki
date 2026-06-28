@@ -43,7 +43,7 @@ Your's truly,
 >
 > Creator of [Mercury OS](http://mercuryos.com/)
 >
-> [Twitter](https://twitter.com/jasonyuandesign) \| [Instagram](https://www.instagram.com/jasonyuandesign/) \| [Website](http://www.jasonyuan.design/) \| [Email](mailto:me@jasonyuan.design)
+> [Twitter](https://twitter.com/jasonyuandesign) \| [Instagram](https://www.instagram.com/jasonyuandesign/) \| [Website](http://www.jasonyuan.design/) \| [Email]
 
 ## Acknowledgements
 

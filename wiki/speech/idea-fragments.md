@@ -50,7 +50,7 @@ timestamp: 2026-06-20
 ## 🟡 F-002 · 编码是设计师被低估的工具（2022 · UX Design Bootcamp）
 
 **来源**
-- Moonvy 设计素材周刊 #014（2022/05/22）：[[设计素材周刊-014]]
+- Moonvy 设计素材周刊 #014（2022/05/22）：[设计素材周刊-014]
 - 原文：https://bootcamp.uxdesign.cc/coding-is-an-underrated-tool-for-designers-bda15fee44eb
 - 案例应用：https://www.sinwaver.com/?ref=onepagelove （生成基于参数的曲线，GIF demo）
 

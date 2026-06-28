@@ -145,7 +145,7 @@ if negative_gaps > len(gaps) * 0.3:
 # "{原标题}" — {演讲者}
 
 > **频道**：{channel} ({uploader_id})
-> **链接**：[{url}]({url})
+> **链接**：[{url}]
 > **时长**：{H} 分 {M} 秒
 > **发布日期**：{YYYY-MM-DD}
 > **观看/点赞**：{N:,} / {M:,}
@@ -252,7 +252,7 @@ ln -sf "/abs/path/to/raw/来自Youtube/{filename}.md" \
 ## 文件清单
 | 文件 | 演讲者 | 主题 | 软链目标 |
 |------|--------|------|----------|
-| [{name}.md]({name}.md) | {speaker} | {topic} | `raw/来自Youtube/...` |
+| [{name}.md] | {speaker} | {topic} | `raw/来自Youtube/...` |
 
 ## 软链约定
 - 绝对路径，便于跨目录访问
@@ -274,7 +274,7 @@ ln -sf "/abs/path/to/raw/来自Youtube/{filename}.md" \
 
 ```markdown
 {N+1}. **"{金句原文}"**
-    — {演讲者}，{频道/场合}（[yt-talks/{filename}](../yt-talks/{filename}.md)）
+    — {演讲者}，{频道/场合}（[yt-talks/{filename}]）
     → 用法：{在 D20 演讲哪个段落使用，传递什么效果}
 ```
 
@@ -339,7 +339,7 @@ with open('/tmp/VIDEO_ID.groq.json','w') as f:
 
 **耗时**：28 分钟视频 → 抓音频 30s + STT 12s = **总 < 1 分钟**。
 
-**案例**：[Uvl-tRga98g_Designing-with-Claude-from-Prompt-to-Production.md](../../speech/yt-talks/Uvl-tRga98g_Designing-with-Claude-from-Prompt-to-Production.md) — Dan Carey @ Anthropic 官方产品介绍。
+**案例**：[Uvl-tRga98g_Designing-with-Claude-from-Prompt-to-Production.md] — Dan Carey @ Anthropic 官方产品介绍。
 
 ## 脚本清单
 

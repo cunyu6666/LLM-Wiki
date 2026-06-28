@@ -150,6 +150,6 @@ Nikita Zinevich
 > 来源: [Dribbble](https://dribbble.com/embacy) · [Instagram](https://www.instagram.com/embacy.io/) [Facebook](https://www.facebook.com/embacy.io/) [LinkedIn](https://www.linkedin.com/company/embacy/)
 
 If you want to work with us  
-write to [hello@embacy.io](mailto:hello@embacy.io)
+write to [hello@embacy.io]
 
 > 来源: [www.behance.net](https://www.behance.net/gallery/157702069/Cashew-Brand-Identity-Website?tracking_source=search_projects&l=271)

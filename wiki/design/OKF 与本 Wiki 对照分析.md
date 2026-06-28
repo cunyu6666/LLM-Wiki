@@ -77,7 +77,7 @@ OKF 的"哲学三原则"映射到我们 GEB 协议：
 | **agent-friendly**（agent 友好） | ✅ Claude Code / Codex / Catui 都能直接读 | 完全对齐 |
 | **human-friendly**（人类可读） | ✅ Markdown 原生渲染 | 完全对齐 |
 | **portable**（可移植） | ✅ Git 仓库，tarball 友好 | 完全对齐 |
-| **interoperable**（互操作） | ⚠️ Obsidian wikilink 格式 `[[...]]` 不是通用 Markdown，外部工具不识别 | **唯一短板** |
+| **interoperable**（互操作） | ⚠️ Obsidian wikilink 格式 `[...]` 不是通用 Markdown，外部工具不识别 | **唯一短板** |
 
 ---
 
@@ -94,7 +94,7 @@ OKF 规范 = "跨项目文档怎么互通"（水平：跨项目一致）
 
 1. 在所有 frontmatter 加 `type: index / raw / note / guide / log`
 2. wiki/ 索引版加 `description:` 字段（一句话摘要）
-3. wikilink `[[...]]` 保留（Obsidian 渲染 OK），但同时**维护一个 markdown 链接备份**用于 OKF 消费
+3. wikilink `[...]` 保留（Obsidian 渲染 OK），但同时**维护一个 markdown 链接备份**用于 OKF 消费
 
 ---
 
@@ -136,9 +136,9 @@ OKF 规范 = "跨项目文档怎么互通"（水平：跨项目一致）
 ## 与本 Wiki 的关联
 
 - [[谷歌发布的开放知识格式（OKF）]] — raw 笔记原文（1 张图，2,199 字 OCR）
-- [[小红书入库流程]] — 你已经在用的 LLM-wiki pattern（YAML frontmatter + wikilink）
-- [[Claude Code 系统提示词]] — 同样利用 LLM-wiki pattern 喂上下文
-- [[Codex 系统提示词]] — 另一类 harness 里的 OKF-style context
+- [小红书入库流程] — 你已经在用的 LLM-wiki pattern（YAML frontmatter + wikilink）
+- [Claude Code 系统提示词] — 同样利用 LLM-wiki pattern 喂上下文
+- [Codex 系统提示词] — 另一类 harness 里的 OKF-style context
 - [[AI Agent 开发]] — Multi-Agent 协作的 context 标准
 
 ---

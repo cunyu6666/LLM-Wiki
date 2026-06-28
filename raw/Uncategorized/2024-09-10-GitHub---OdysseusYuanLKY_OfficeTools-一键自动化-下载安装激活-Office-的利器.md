@@ -50,7 +50,7 @@ tags: []
 
 ## 关于
 
-* 如有建议、疑惑等，大家可以发邮件至 [OdysseusYuan@foxmail.com](mailto:OdysseusYuan@foxmail.com) 交流探讨。
+* 如有建议、疑惑等，大家可以发邮件至 [OdysseusYuan@foxmail.com] 交流探讨。
 * © 2022 - 2024 LiuKaiyuan (Odysseus.Yuan). All Rights Reserved.
 
 [github.com](https://github.com/OdysseusYuan/LKY_OfficeTools?tab=readme-ov-file)

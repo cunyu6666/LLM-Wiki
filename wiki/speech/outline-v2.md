@@ -376,15 +376,15 @@ timestamp: 2026-06-20
 
 > 听众可能问的问题 + 可调用的弹药源（v1 里所有引用 + 弹药库 50 条 + new-sources 14 条）。
 
-| 可能的问题 | 调用弹药 |
-|---|---|
-| 设计师怎么开始学写代码？ | Vibe Coding 8 款应用、Claude Design、v0 |
-| AI 会取代设计师吗？ | **乔哈里视窗 X 轴下移 + 第二象限护城河（李继刚）**、Maeda "品味壁垒"、Claude Design 系统提示词泄露 |
-| 设计系统怎么改造成 AI 可读？ | DESIGN.md、Design Tokens、rico-design-md skill |
-| 你们走查怎么做？ | Codex + iPhone 镜像自动走查（Cubox 案例） |
-| 怎么看 Cursor / Claude Code？ | Ryo Lu、Cursor Composer 2.5 拆解 |
-| 你怎么定义 Agent 行为？ | Karpathy "未来十年只有 Agent"、Anthropic Skill 方法论 |
-| 硬件那块怎么落地？ | ESP32 / 墨水屏 / Ambient AX 概念（不展开） |
+| 可能的问题                     | 调用弹药                                                              |
+| ------------------------- | ----------------------------------------------------------------- |
+| 设计师怎么开始学写代码？              | Vibe Coding 8 款应用、Claude Design、v0                                |
+| AI 会取代设计师吗？               | **乔哈里视窗 X 轴下移 + 第二象限护城河（李继刚）**、Maeda "品味壁垒"、Claude Design 系统提示词泄露 |
+| 设计系统怎么改造成 AI 可读？          | DESIGN.md、Design Tokens、rico-design-md skill                      |
+| 你们走查怎么做？                  | Codex + iPhone 镜像自动走查（Cubox 案例）                                   |
+| 怎么看 Cursor / Claude Code？ | Ryo Lu、Cursor Composer 2.5 拆解                                     |
+| 你怎么定义 Agent 行为？           | Karpathy "未来十年只有 Agent"、Anthropic Skill 方法论                       |
+| 硬件那块怎么落地？                 | ESP32 / 墨水屏 / Ambient AX 概念（不展开）                                  |
 
 ---
 

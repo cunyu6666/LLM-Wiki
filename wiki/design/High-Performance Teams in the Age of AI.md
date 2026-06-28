@@ -43,7 +43,7 @@ Lovable 创始人 Felix Haas 总结的 AI 时代高绩效团队 7 条原则：**
 
 - [[AI Agent 开发]] — 团队形态从"管理员工"转向"招募 owner"对应 Agent 协作模式
 - [[设计方法论]] — "Build in Public" + "Ship, then improve" 同源
-- [[Dan Koe 人生就四件事]] — "大声思考（表达）"+" Build in Public" 与"Stay genuinely curious"互为镜像
+- [Dan Koe 人生就四件事] — "大声思考（表达）"+" Build in Public" 与"Stay genuinely curious"互为镜像
 
 ---
 

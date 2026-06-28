@@ -9,14 +9,14 @@ type: index
 
 # 设计知识库索引
 
-> **⚠️ 本文件已并入 [`wiki/index.md`](../../index.md) 的 design 板块。**
+> **⚠️ 本文件已并入 [`wiki/index.md`] 的 design 板块。**
 > 保留本文件仅为兼容旧链接，不再单独维护。
 > 最后一次同步：2026-06-17
 
 ## 跳转
 
-- **总索引**：[wiki/index.md](../../index.md)
-- **本模块 40 篇文章**：[wiki/design/](../../design/)
+- **总索引**：[wiki/index.md]
+- **本模块 40 篇文章**：[wiki/design/]
 
 ## 历史快照（2026-06-06，37 篇时）
 

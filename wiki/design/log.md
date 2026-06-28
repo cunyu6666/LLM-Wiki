@@ -22,9 +22,9 @@ timestamp: 2026-06-20
 
 ## [2026-06-06] fix | GIF 嵌入到 raw .md 文件
 - Action: 559 个 raw .md 文件添加 GIF 预览嵌入
-- Format: `![[filename.gif]]` 放在 `## 文字稿` 之前
-- 修复: 视频嵌入从 `![](file.mp4)` 转为 `![[file.mp4]]`（Obsidian wikilink）
-- 修复: 链接从 `[text](file.mp4)` 转为 `[[file.mp4|text]]`
+- Format: `![filename.gif]` 放在 `## 文字稿` 之前
+- 修复: 视频嵌入从 `![](file.mp4)` 转为 `![file.mp4]`（Obsidian wikilink）
+- 修复: 链接从 `[text]` 转为 `[[file.mp4|text]]`
 
 ## [2026-06-06] fix | GIF 重复显示问题
 - Problem: wiki 中同时出现 2 个（后变 4 个）相同 GIF
@@ -67,7 +67,7 @@ timestamp: 2026-06-20
 - Tools: /tmp/add_frontmatter.py
 
 ## [2026-06-06] fix | 696 个链接转为双链接格式
-- Pattern: `[text](../../raw/path)` → `[[file.md|text]] ([text](../../raw/path))`
+- Pattern: `[text]` → `[[file.md|text]] ([text])`
 - 15 个文件，696 个链接
 - 符合 oh-my-mind 原则 4：Obsidian wikilink + Claude markdown link 同行
 - Tools: /tmp/convert_dual_links.py

@@ -264,7 +264,7 @@ version: 0620-catui-v5
 
 ### 2.4 Design Agent Loop · 设计师的新主场（90 秒）
 
-【**PPT：白板，画一个更大的循环图。中心是"设计意图"，周围是 4 个 Design Tool 卡片。**】
+【**PPT：循环图，中心是"设计意图"，周围是 4 个工具卡片。**】
 
 **"应该是我们。"**
 
@@ -278,13 +278,33 @@ version: 0620-catui-v5
 
 【**PPT：4 个卡片依次浮现。**】
 
-**"第一类，**Figma 操作工具**——读图层、改属性、查 token。"**
+**"第一类，**长期记忆**。"**
 
-**"第二类，**设计规范查询**——查 AGENTS.md、查 DESIGN.md、查组件库文档。"**
+**"我用 `qoderwork_awareness` 这个 MCP server，给设计 Agent 配了一个 memory 工具。"**
 
-**"第三类，**设计模式匹配**——拿到需求后选哪个布局、哪个色板、哪个动效。"**
+**"它能 add、能 replace、能 remove。target 分三类：memory、user、daily。"**
 
-**"第四类，**代码生成验证**——直接调 `@qoder/design` 组件库生成 UI，跑 build 验证。"**
+**"这是设计 Agent 的'长期记忆'。"**
+
+**"第二类，**Chat 组件直接调用**。"**
+
+**"我的 monorepo 里 `ChatInput` / `ChatModelSelector` / `StreamingMarkdownBlock` / `ThinkingIndicator` / `GenerationStatusBar` / `PermissionCard` / `UserQuestion` ——"**
+
+**"27 个 Chat 子组件，Agent 直接调。"**
+
+**"不是工程师写的，是设计师写的。"**
+
+**"第三类，**LegoKit 工作流装配**。"**
+
+**"我用 `legokitRegistry` + `loadLegokitPackageContents`，每个工作流自带 SYSTEM.md + agents/*.md。"**
+
+**"Agent 接到任务后，先查 LegoKit 拿到 SOP，再去执行。"**
+
+**"第四类，**Execution Policy 决策引擎**。"**
+
+**"我用 `resolveExecutionPolicy` 单一真相源，决定跳过 VM、屏蔽工具、激活哪个 LegoKit、视图怎么切。"**
+
+**"这是设计 Agent 的'决策中心'。"**
 
 【**停顿 2 秒。**】
 
@@ -478,9 +498,19 @@ version: 0620-catui-v5
 
 【**停顿 3 秒。**】
 
-**"这就是 Design Agent Loop 的信徒——"**
+**"还记得我刚才讲的那 4 类信徒吗？"**
 
-**"不是工程师写的工具，是设计师写的工具。"**
+**"长期记忆 MCP。"**
+
+**"Chat 组件直接调用。"**
+
+**"LegoKit 工作流。"**
+
+**"Execution Policy 决策引擎。"**
+
+**"这 4 类工具——"**
+
+**"不是工程师写的，是设计师写的。"**
 
 **"不是工程师的意志，是设计师的意志。"**
 
@@ -622,17 +652,13 @@ version: 0620-catui-v5
 
 **"这一年我做了什么？"**
 
-**"74 个组件。"**
-
-**"35,472 行代码。"**
-
-**"全仓 322 处消费。"**
+**"74 个组件。35,472 行代码。全仓 322 处消费。"**
 
 **"AGENTS.md 至高法则第一条规定只有我能改。"**
 
 **"我参与 Agent Loop 的设计决策。"**
 
-**"我给设计 Agent 造了 4 类信徒。"**
+**"我给设计 Agent 造了 4 类信徒——长期记忆、Chat 组件、LegoKit 工作流、Execution Policy。"**
 
 【**停顿 2 秒。**】
 

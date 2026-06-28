@@ -77,7 +77,7 @@ So with that, we're letting the market decide the value of this ebook. For every
 
 **PS:** If you have a business, remember this can likely be expensed!
 
-**PPS** : If this is for a learning resource, we offer a special discount to universities \& students! Reach out at [students@aiverse.design](mailto:students@aiverse.design)  
+**PPS** : If this is for a learning resource, we offer a special discount to universities \& students! Reach out at [students@aiverse.design]  
 
 *** ** * ** ***
 
@@ -89,7 +89,7 @@ Since the product is digital, there will be no refunds available.
 
 In case there are any updates in the ebook, we will send you an updated copy at no additional cost.
 
-For any complains / unsatisfactory feedback, we'd be happy to look into the matter. Reach out at [help@aiverse.design](mailto:help@aiverse.design)  
+For any complains / unsatisfactory feedback, we'd be happy to look into the matter. Reach out at [help@aiverse.design]  
 
 ### **When does it arrive?**
 

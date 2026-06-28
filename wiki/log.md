@@ -229,7 +229,7 @@ timestamp: 2026-06-20
 - 动作：
   - 30 条样机相关条目**原地不动**（保留在 4 个原文件中：UI模板与设计系统 25 / 3D模型 2 / 图标 1 / 背景与渐变 2）
   - 每条加内联标签 `> 标签：#样机`（双标签 2 条额外加 `#3D模型`）
-  - 新建 [样机.md](/Users/cunyu666/Projects/cunyu-llm-wiki/wiki/design/样机.md) 作为 MOC 索引页：30 条用 `[[file#heading]]` wikilink 串起
+  - 新建 [样机.md] 作为 MOC 索引页：30 条用 `[file#heading]` wikilink 串起
 - 优势：
   - 维护成本零（改 1 处即所有引用同步）
   - karpathy-llm-wiki skill 兼容（canonical 唯一，lint 不破）

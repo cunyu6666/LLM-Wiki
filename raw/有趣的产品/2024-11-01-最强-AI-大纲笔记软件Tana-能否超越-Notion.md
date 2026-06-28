@@ -117,7 +117,7 @@ tags: []
 ![](https://cubox.pro/c/filters:no_upscale()?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2FoiabfUBO7nd6nK5dF1xQLSiaPtDicbhT1jM8ibP8TCDFRYicgsuapqHgEXiaSH4VbRTQ9PrVYicShb0On5AtH3IbdnTCQ%2F640%3Fwx_fmt%3Djpeg%26from%3Dappmsg "null")
 这就是 Supertag 的第一个特性，也是最基本的特性，即可以**一键聚合任意位置带有相同标签的笔记节点**。但这和其他具备标签功能的笔记软件相比，似乎没有太大的特殊之处?
 
-幕布也可以对每个节点打标签，但点击标签后只能在当前文档范围内进行索引和过滤；Obsidian 具备标签索引用，但标签只能对文档层级进行过滤；Logseq 具备标签索引，但 #Tag 和[[Tag]] 是等价的，并且结构化管理的手段较弱，不如 Tana 易用。
+幕布也可以对每个节点打标签，但点击标签后只能在当前文档范围内进行索引和过滤；Obsidian 具备标签索引用，但标签只能对文档层级进行过滤；Logseq 具备标签索引，但 #Tag 和[Tag] 是等价的，并且结构化管理的手段较弱，不如 Tana 易用。
 
 Hetpabase 的标签用法某种程度上与 Tana 更加相似，只不过 Tana 聚合的是任意位置的「节点」，而 Heptabase 聚合的则是任意白板中的「卡片」。你可以阅读[这篇文章](http://mp.weixin.qq.com/s?__biz=MzI0ODIyNjU0OA==&mid=2247499166&idx=1&sn=fb287c99bcee7f720615f078625e47ab&chksm=e9a14a05ded6c313795eb6099c936380f38684661dc4114e6d581766e8719c8836c6adc0058e&scene=21#wechat_redirect)，了解关于 Heptabase 的更多介绍。
 

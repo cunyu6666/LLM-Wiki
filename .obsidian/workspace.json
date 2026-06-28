@@ -13,44 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/design/AI编程与Vibe Coding.md",
+                "file": "wiki/speech/Ryo-Lu-Closer-to-the-Material-Compile-2026-整理稿.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AI编程与Vibe Coding"
-            }
-          },
-          {
-            "id": "1c276a45883f42f8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wiki/Agent/Claude Code 系统提示词.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Claude Code 系统提示词"
-            }
-          },
-          {
-            "id": "4c452ea8fd2fb083",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wiki/Agent/Codex 系统提示词.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Codex 系统提示词"
+              "title": "Ryo-Lu-Closer-to-the-Material-Compile-2026-整理稿"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -107,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 292.50312423706055
   },
   "right": {
     "id": "4ceea56ac7f702e8",
@@ -185,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "wiki/Agent/Codex 系统提示词.md",
+                "file": "wiki/speech/⭐️ Key Sentense.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Codex 系统提示词 的大纲"
+              "title": "⭐️ Key Sentense 的大纲"
             }
           }
         ],
@@ -199,7 +170,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -213,53 +185,54 @@
       "cubox-sync:Cubox": false
     }
   },
-  "active": "b264edf6b447c59b",
+  "active": "78b6e5187d7479cc",
   "lastOpenFiles": [
-    "wiki/Agent/Open Design 系统提示词.md",
-    "wiki/Agent/Claude Design 系统提示词.md",
-    "wiki/Agent/Catui 提示词.md",
-    "wiki/Agent/Codex 系统提示词.md",
-    "wiki/Agent/Claude Code 系统提示词.md",
-    "wiki/speech/outline-v2.md",
-    "wiki/speech/idea-fragments.md",
-    "scripts/fix-moonvy-source-links.py",
-    "catui.md",
-    "wiki/design/AI编程与Vibe Coding.md",
-    "wiki/Agent",
-    "抖音视频入库流程.md",
-    "wiki/guides/抖音视频入库流程.md",
-    "wiki/guides/抖音视频下载指南.md",
-    "wiki/guides/x-api-setup.md",
-    "Cubox/啥？Fable 5一出，Skill和Prompt都白学了？-2026-06-14.md",
-    "Cubox/本周开源爆款盘点：shadcn新作、Apple端侧AI、AI PPT神器来了-2026-06-14.md",
-    "Cubox/设计系统从零搭太累？Better Design：29套开箱即用的shadcn-ui组件库，让产品一夜拥有大厂颜值-2026-06-14.md",
-    "Cubox/一文读懂什么是Loop，Claude Fable 5是Loop最严厉的父亲-2026-06-13.md",
-    "Cubox/终于有人跳出了 Codex 的魔咒。-2026-06-12.md",
-    "Cubox/什么样的代码仓库是 Agent-Friendly 的？-2026-06-12.md",
-    "raw/x-bookmarks/twitter-search-designer-build.md",
-    "抖音视频下载指南.md",
-    "wiki/design/设计师成长.md",
-    "wiki/design/教程与复刻.md",
-    "wiki/design/抖音设计短视频.md",
-    "wiki/design/动效与动画.md",
-    "wiki/design/灵感网站.md",
-    "raw/xiaohongshu_favorites.json",
-    "scripts/polish-transcripts.py",
-    "wiki/design/插画.md.tmp.19840.1780823386003",
-    "raw/来自抖音/gifs/黄色配什么颜色最好看品牌设计 包装设计 大东设计_6993265521110060329.gif",
-    "raw/来自抖音/gifs/黄仁勋通用机器人时代已来 英伟达官宣机器人大模型正式开源 机器人小蓝可爱互动展示科技 机器_7483339820933188927.gif",
-    "raw/来自抖音/gifs/高颜值又轻量的动效工具ui设计 设计师 视觉设计 设计分享 动效设计 动效 ae_7066315981236358408.gif",
-    "raw/来自抖音/gifs/高级Hulu动态片头已完全解析马上发教程hulu 动态设计 ae教程 科技感_7066104103558057229.gif",
-    "raw/来自抖音/gifs/高田唯为什么被称为日本设计界的耻辱设计 设计师 思维 创意 干货 人物 故事 平面_7005129088105041182.gif",
-    "raw/来自抖音/gifs/高斯模糊各种模糊谁看着不迷糊ae 教程 每一帧都是热爱 设计  DOU小助手_7000338461106392353.gif",
-    "raw/来自抖音/gifs/高中生 学生时代 抄作业 人工智能 朋友 我先笑了哈_7433630630983912704.gif",
-    "raw/来自抖音/gifs/飞书品牌全新升级宣传视频你觉得这个改版怎么样ui设计飞书 品牌设计 品牌 设计_7031498266135104776.gif",
-    "raw/来自抖音/gifs/颜值超高的rising chair变形椅 居然真被我做出来了内附图纸装修diy 动手能力 手_7198097363255250237.gif",
-    "raw/来自抖音/gifs/难以置信的效果OpenAI公布使用Sora生成的剧情片 OpenAI 玩儿个很新的东西 ai_7350404094617521417.gif",
-    "raw/来自抖音/gifs",
-    "raw/来自抖音/4小时场景速涂未来科幻题材概念设计 绘画步骤 板绘 场景原画 游戏原画_7014299362863992098.mp4",
-    "raw/来自抖音/3dmax 室内设计 3dmax建模 效果图 分享一款3d画笔插件_7008773290458123523.mp4",
-    "fix_douyin_links.py",
-    "scripts/__pycache__/optimize-wiki-design-p3.cpython-311.pyc"
+    "wiki/speech/Ryo-Lu-Closer-to-the-Material-Compile-2026-整理稿.md.tmp.20552.70bc57245a75",
+    "wiki/speech/yt-talks/Uvl-tRga98g_Designing-with-Claude-from-Prompt-to-Production.md",
+    "raw/小红书/Claude Code 首席设计师的 AI 工作流_6a2783e8000000002101bf49.md",
+    "Cubox/抱抱脸模型TOP榜，我现在只服yuxinlu1-2026-06-28.md",
+    "Cubox/微软开源FastContext-1.0：代码探索新模型-2026-06-27.md",
+    "Cubox/大神Karpathy用Claude的方式，原来是这样的？-2026-06-27.md",
+    "Cubox/Claude Code 工程负责人 Fiona Fung：如何打造全世界最 AI Native 的工程团队--2026-06-27.md",
+    "Cubox/设计师去哪里了？-2026-06-27.md",
+    "Cubox/Agent Loop 使用指南：普通人也能轻松让AI提升效率-2026-06-27.md",
+    "Cubox/不调 GPT、不用 Midjourney，这个开源 Skill 用代码搞定文章配图-2026-06-27.md",
+    "Cubox/像素的跃迁与画布的重构：从Figma Config 2026看全栈产品体验的未来-2026-06-27.md",
+    "Cubox/Cursor 设计负责人演讲-2026-06-27.md",
+    "Cubox/oh-my-pi深度解析：不换模型，AI编码能力大幅提升，程序员别再等啦～～～-2026-06-27.md",
+    "Cubox/UI设计正在被“模块化”彻底改写：Blocks出现了-2026-06-26.md",
+    "Cubox/做 AI 产品，最重要的是尊重常识-2026-06-26.md",
+    "raw/小红书/Claude Code 30万行代码的核心_6a2bed440000000006022a92.md",
+    "raw/小红书/Anthropic设计负责人_职位头衔真的已经完_6a294330000000003502dfc7.md",
+    "raw/小红书/AnySearch_专为AI agent设计的搜索基础设施_6a20039500000000070214af.md",
+    "raw/小红书/孙立超团队提出Agent自进化新范式 刷新SOTA_6a268a48000000001603edba.md",
+    "raw/小红书/我理解的 AI 设计工作台_三层就够了_6a2e8464000000000803e360.md",
+    "raw/小红书/一文读懂Agent与Harness与Loop等概念_6a2bf71e000000002100a7d2.md",
+    "raw/小红书/设计跟开发终于不用打架了_6a09241e0000000038020215.md",
+    "raw/小红书/设计师不干活了_Claude设计负责人最新播客_6a0e721e0000000036003542.md",
+    "raw/小红书/(无标题)_6a16bc570000000008026245.md",
+    "raw/小红书/ SkillOpt_实现Agent Skills自我进化_6a1476c60000000008026716.md",
+    "raw/小红书/ Continual Harness_实现Agent自进化_6a09e5da0000000036033adf.md",
+    "未命名.canvas",
+    "raw/小红书/imgs/6a294330000000003502dfc7/8.jpg",
+    "raw/小红书/imgs/6a294330000000003502dfc7/7.jpg",
+    "raw/小红书/imgs/6a294330000000003502dfc7/6.jpg",
+    "raw/小红书/imgs/6a294330000000003502dfc7/5.jpg",
+    "raw/小红书/imgs/6a294330000000003502dfc7/4.jpg",
+    "raw/小红书/imgs/6a294330000000003502dfc7/3.jpg",
+    "raw/小红书/imgs/6a294330000000003502dfc7/2.jpg",
+    "raw/小红书/imgs/6a294330000000003502dfc7/1.jpg",
+    "raw/小红书/imgs/6a294330000000003502dfc7",
+    "raw/小红书/imgs/6a29131e00000000060325c3/9.jpg",
+    "raw/小红书/imgs/6a29131e00000000060325c3/8.jpg",
+    "raw/小红书/imgs/6a29131e00000000060325c3",
+    "raw/小红书/imgs/6a282b8f00000000150253d5",
+    "raw/小红书/imgs/6a2783e8000000002101bf49",
+    "raw/小红书/imgs/6a268a48000000001603edba",
+    "raw/小红书/imgs/6a23ae570000000015024862",
+    "raw/小红书/imgs/6a238f8d00000000210177e1",
+    "raw/小红书/imgs/6a20039500000000070214af",
+    "raw/小红书/imgs/6a1bb61a0000000006034427",
+    "raw/小红书/imgs/6a18fd9f0000000035031faf"
   ]
 }

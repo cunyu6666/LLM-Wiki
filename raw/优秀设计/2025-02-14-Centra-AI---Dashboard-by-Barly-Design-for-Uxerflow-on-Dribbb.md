@@ -32,11 +32,11 @@ tags: []
 
 ## **Are you looking to refresh your design?**
 
-📮 Email at [**hello@uxerflow.com**](mailto:hello@uxerflow.com)
+📮 Email at [**hello@uxerflow.com**]
 
 💡 Check us out at [**www.uxerflow.com**](http://www.uxerflow.com/)
 
-[Let's Start a Project Together!](mailto:hello@uxerflow.com)
+[Let's Start a Project Together!]
 
 ## **About Centra**
 
@@ -48,11 +48,11 @@ Centra is an AI platform that enhances conversations with smart, real-time respo
 
 ## **Are you looking for a design partner?**
 
-📮 Email at [**hello@uxerflow.com**](mailto:hello@uxerflow.com)
+📮 Email at [**hello@uxerflow.com**]
 
 💡 Check us out at [**www.uxerflow.com**](http://www.uxerflow.com/)
 
-[Let's Start a Project Together!](mailto:hello@uxerflow.com)
+[Let's Start a Project Together!]
 
 ## **About Uxerflow**
 
