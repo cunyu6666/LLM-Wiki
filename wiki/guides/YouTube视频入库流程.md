@@ -262,7 +262,7 @@ ln -sf "/abs/path/to/raw/来自Youtube/{filename}.md" \
 
 ## 6. 收录金句到 sources.md
 
-**目标位置**：`wiki/speech/sources.md`（D20 演讲弹药库）
+**目标位置**：`wiki/speech/notes/来源清单.md`（D20 演讲弹药库）
 
 **金句选取标准**：
 - 强反直觉观点
@@ -373,7 +373,7 @@ with open('/tmp/VIDEO_ID.groq.json','w') as f:
 - [ ] 信达雅中文翻译：修复 ASR、技术名词保留英文、按章节切分
 - [ ] 软链到 `wiki/speech/yt-talks/`
 - [ ] 创建/更新 `wiki/speech/yt-talks/CLAUDE.md` 文件清单
-- [ ] 收录 3-5 条金句到 `wiki/speech/sources.md`
+- [ ] 收录 3-5 条金句到 `wiki/speech/notes/来源清单.md`
 - [ ] 验证软链可访问、wikilink 跳转正常
 
 ---

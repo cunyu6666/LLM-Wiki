@@ -305,3 +305,56 @@ timestamp: 2026-06-20
 - 3 条"待入库素材"的 raw 来源路径缺失，需要补
 - skills/ 与 .agents/skills/ 内容仍漂移（前者 392 行扩展版，后者 187 行上游版），建议下次 Lint 时统一
 - moonvy.com 3066 张外链未做存活率验证
+
+## [2026-06-29] ingest | Vercel product-design 三件套
+- Source: https://vercel.com/blog/teaching-agents-product-design-at-vercel (2026-06-25)
+- Raw: `raw/design/2026-06-29-Teaching-Agents-Product-Design-at-Vercel.md` (25KB, 含 SKILL.md 模板与 ESLint rule 代码块)
+- 新建: `wiki/design/用 Skill 与 Lint 教 Agent 做产品设计.md`
+  - 概念:把产品设计决策编码成 SKILL.md + Lint + Eval 三件套,让 coding agent 继承 reasoning 而非只复制模式
+  - 关键数据:Vercel 内部 Next.js evals 显示 56% 情况下 agent 未 invoke 可用 skill
+- Cascade:
+  - `wiki/design/AI Agent 开发.md`:在「Agent Skills 与工具构建」章节末插入 Vercel product-design 子节作为标杆范例
+  - `wiki/design/AI编程与Vibe Coding.md`:See Also 增加新文章链接
+- Index: `wiki/index.md` design 段新增条目,`Sources` 计数 1
+
+## [2026-06-29] compile | speech 整理稿副本
+- 在 `wiki/speech/Vercel-用-Skill-与-Lint-教-Agent-做产品设计-整理稿.md` 放了一份独立可传播的整理稿(7KB)
+- 与 `wiki/design/用 Skill 与 Lint 教 Agent 做产品设计.md` 互链,前者是完整中文编译版,后者是可独立分享的短稿
+
+## [2026-06-29] organize | wiki/speech 目录重整
+**A. 整理稿重命名(顶层,5 篇)**
+- 旧:`Dan Koe 人生就四件事.md` → 新:`2026-06-20-Dan-Koe-人生就四件事-整理稿.md`
+- 旧:`Dan-Carey-Claude-Design-整理稿.md` → 新:`2026-06-20-Dan-Carey-Claude-Design-整理稿.md`
+- 旧:`Ryo-Lu-Closer-to-the-Material-Compile-2026-整理稿.md` → 新:`2026-06-20-Ryo-Lu-Closer-to-the-Material-Compile-2026-整理稿.md`
+- 旧:`Zynga 创始人先抄对再创新.md` → 新:`2026-06-20-Zynga-创始人先抄对再创新-整理稿.md`
+- 旧:`Vercel-用-Skill-与-Lint-教-Agent-做产品设计-整理稿.md` → 新:`2026-06-29-Vercel-用-Skill-与-Lint-教-Agent-做产品设计-整理稿.md`
+
+**B. 过程笔记移入新建的 `notes/` 子目录(12 篇)**
+- 0620 计划与进展.md → notes/2026-06-20-计划与进展.md
+- idea-fragments.md → notes/想法碎片.md
+- new-sources.md → notes/新来源.md
+- sources.md → notes/来源清单.md
+- plan.md → notes/计划.md
+- 证据表.md → notes/证据表.md
+- ⭐️ Key Sentense.md → notes/关键句索引.md
+- outline-0620-catui.md → notes/2026-06-20-Catui-演讲大纲.md
+- outline-v1.md → notes/演讲大纲-v1.md
+- outline-v2.md → notes/演讲大纲-v2.md
+- speech-0620-catui.md → notes/2026-06-20-Catui-演讲稿.md
+- design-to-build-agent-era-speech-20min.md → notes/2026-06-设计到构建Agent时代-20分钟演讲稿.md
+
+**C. Cascade 引用更新**
+- wiki/index.md: 6 条 speech 子条目路径 + 标题改中文
+- wiki/speech/CLAUDE.md: 顶层 Ryo Lu 旧名 → 完整 5 篇整理稿清单
+- wiki/speech/yt-talks/CLAUDE.md: 2 条 cross-dir 引用(sources / outline-v1/v2 → notes/)
+- wiki/guides/YouTube视频入库流程.md: 2 条 sources.md 引用
+- wiki/design/OKF 兼容性报告.md: 1 条 [[0620 计划与进展]] wikilink
+- wiki/design/High-Performance Teams in the Age of AI.md: 1 条 [[Dan Koe 人生就四件事]] wikilink
+- wiki/design/设计素材周刊-014.md: 1 条 [[idea-fragments]] wikilink
+- wiki/speech/2026-06-20-Zynga-创始人先抄对再创新-整理稿.md: 2 条 wikilink
+- wiki/speech/2026-06-20-Dan-Koe-人生就四件事-整理稿.md: 2 条 wikilink
+- wiki/speech/notes/计划.md: 6 条 markdown 表格路径
+
+**D. 不动的部分**
+- wiki/log.md 历史条目保留旧文件名(append-only 日志不该改写历史)
+- yt-talks/ 子目录未触碰(10 个视频整理稿命名规范不动)

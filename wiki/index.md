@@ -1,11 +1,11 @@
 ---
 type: index
-description: "设计师 AI 时代知识库 · 2026-06-17 更新 · wiki 状态：[GitHubhttps://github.com/cunyu6666/LLM-Wiki)"
-timestamp: 2026-06-20
+description: "设计师 AI 时代知识库 · 2026-06-29 更新 · wiki 状态：[GitHubhttps://github.com/cunyu6666/LLM-Wiki)"
+timestamp: 2026-06-29
 ---
 # Knowledge Base Index
 
-> 设计师 AI 时代知识库 · 2026-06-20 更新 · wiki 状态：[GitHub](https://github.com/cunyu6666/LLM-Wiki)
+> 设计师 AI 时代知识库 · 2026-06-29 更新 · wiki 状态：[GitHub](https://github.com/cunyu6666/LLM-Wiki)
 
 ## design
 
@@ -21,6 +21,7 @@ timestamp: 2026-06-20
 | [AI设计工具](design/AI设计工具.md) | AI 原生设计工具：Claude Design、Claude Code 设计流、Framer Agents、Lovart、Figma AI 等 | 649 |
 | [AI编程与Vibe Coding](design/AI编程与Vibe Coding.md) | Cursor、Vibe Coding 与 AI 辅助开发范式 | 146 |
 | [AI Agent 开发](design/AI Agent 开发.md) | MCP/A2A、Agent Skills、Harness 托管式部署、Claude Architect 多智能体编排 | 58 |
+| [用 Skill 与 Lint 教 Agent 做产品设计](design/用%20Skill%20与%20Lint%20教%20Agent%20做产品设计.md) | Vercel 把产品设计决策编码成 SKILL.md + Lint + Eval 三件套,让 coding agent 不只复制模式还能继承 reasoning | 1 |
 | [LLM与大模型](design/LLM与大模型.md) | DeepSeek、Gemini、预训练终结、多模态扩展 | 50 |
 | [UX与交互研究](design/UX与交互研究.md) | 从 UX 到 AX（Agent Experience） | 65 |
 | [UI设计与组件](design/UI设计与组件.md) | Bento UI、B 端规范、抖音 UI 趋势补充 | 39 |
@@ -96,12 +97,12 @@ X (Twitter) 书签精选，按主题分类整理。
 
 | Article | Summary |
 |---------|---------|
-| [plan](speech/plan.md) | 演讲计划（听众画像、时长、方案选择） |
-| [outline-v1](speech/outline-v1.md) | 演讲大纲 v1 |
-| [outline-v2](speech/outline-v2.md) | 演讲大纲 v2（当前） |
-| [sources](speech/sources.md) | 演讲素材汇总（11.6KB） |
-| [new-sources](speech/new-sources.md) | 2026-06 演讲素材更新（13.8KB） |
-| [idea-fragments](speech/idea-fragments.md) | 想法碎片 |
+| [演讲计划](speech/notes/计划.md) | 演讲计划（听众画像、时长、方案选择） |
+| [演讲大纲 v1](speech/notes/演讲大纲-v1.md) | 演讲大纲 v1 |
+| [演讲大纲 v2](speech/notes/演讲大纲-v2.md) | 演讲大纲 v2（当前） |
+| [演讲素材汇总](speech/notes/来源清单.md) | 演讲素材汇总（11.6KB） |
+| [新素材](speech/notes/新来源.md) | 2026-06 演讲素材更新（13.8KB） |
+| [想法碎片](speech/notes/想法碎片.md) | 想法碎片 |
 
 ## Agent
 

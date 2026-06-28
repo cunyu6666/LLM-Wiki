@@ -41,6 +41,6 @@ YouTube 演讲文字稿的 wiki 入口。**10 个 .md 均为真实文件副本**
 
 ## 与其他模块的关系
 
-- **上游被引用**：[speech/sources.md](../sources.md) 收录本目录中的可引用金句
-- **关联模块**：[speech/outline-v1.md](../outline-v1.md)、[speech/outline-v2.md](../outline-v2.md) 引用 D20 演讲大纲
+- **上游被引用**：[speech/notes/来源清单.md](../notes/来源清单.md) 收录本目录中的可引用金句
+- **关联模块**：[speech/notes/演讲大纲-v1.md](../notes/演讲大纲-v1.md)、[speech/notes/演讲大纲-v2.md](../notes/演讲大纲-v2.md) 引用 D20 演讲大纲
 - **素材源**：[raw/来自Youtube/](../../../raw/来自Youtube/) 原始 YouTube 文字稿
